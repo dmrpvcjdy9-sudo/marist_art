@@ -1,0 +1,2928 @@
+{
+  "generatedAt": "2026-05-12T16:18:56.111Z",
+  "items": [
+    {
+      "id": "ilu-0001",
+      "titulo": "Marist-Art",
+      "descripcion": "Ilustraciones maristas",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0001"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          10
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": []
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0001 marist-art ilustraciones maristas otros texto original arturo_mp champagnat maristas violetas sin_fondo logo multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0002",
+      "titulo": "Firmado Champagnat",
+      "descripcion": "Firma de Champagnat",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0002"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          0,
+          4
+        ],
+        "usos": []
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "FMS"
+      },
+      "search": "ilu-0002 firmado champagnat firma de champagnat otros texto original fms champagnat maristas firma sin_fondo blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0003",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino - III",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0003"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0003 champagnat san marcelino - iii otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0004",
+      "titulo": "M. Champagnat",
+      "descripcion": "San Marcelino - IV",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0004"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "ilu-0004 m. champagnat san marcelino - iv otros retrato original jarts champagnat maristas minimalista postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0005",
+      "titulo": "San Marcelino Champagnat BN",
+      "descripcion": "San Marcelino - V",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0005"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0005 san marcelino champagnat bn san marcelino - v otros retrato original arturo_mp champagnat maristas postal escala_grises personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0006",
+      "titulo": "Con Champagnat",
+      "descripcion": "Marcelino con niños (BN)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0006"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          6
+        ],
+        "tags": [],
+        "usos": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0006 con champagnat marcelino con ninos (bn) otros escena adaptado c_towers champagnat maristas infantil colorear blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0007",
+      "titulo": "Champagnat ¿Vamos?",
+      "descripcion": "En Tríptico Vocacional",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0007"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          8
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_esp"
+      },
+      "search": "ilu-0007 champagnat ¿vamos? en triptico vocacional otros retrato adaptado maristas_esp champagnat maristas vocacional sin_fondo triptico multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0008",
+      "titulo": "Champagnat Beatif.",
+      "descripcion": "San Marcelino - VIII",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0008"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0008 champagnat beatif. san marcelino - viii otros retrato original arturo_mp champagnat maristas minimalista postal escala_grises personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0009",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino - IX",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0009"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0009 champagnat san marcelino - ix otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0010",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino - X",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0010"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          0,
+          3
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0010 champagnat san marcelino - x otros retrato original arturo_mp champagnat maristas firma minimalista postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0011",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino - XI",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0011"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0011 champagnat san marcelino - xi otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0012",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino - XII",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0012"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0012 champagnat san marcelino - xii otros retrato original arturo_mp champagnat maristas minimalista textil blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0013",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino - XIII",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0013"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          0
+        ],
+        "usos": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0013 champagnat san marcelino - xiii otros retrato original arturo_mp champagnat maristas firma colorear blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0014",
+      "titulo": "Champagnat y L´Hermitage",
+      "descripcion": "Marcelino Fundador (pastoral Chile)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0014"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          11,
+          5
+        ],
+        "tags": [
+          0
+        ],
+        "usos": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "PxM_maristas_chile"
+      },
+      "search": "ilu-0014 champagnat y l´hermitage marcelino fundador (pastoral chile) otros escena adaptado pxm_maristas_chile champagnat maristas vocacional hermitage firma cartel multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0015",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino - XV",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0015"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          0,
+          3
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0015 champagnat san marcelino - xv otros retrato original arturo_mp champagnat maristas firma minimalista postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0016",
+      "titulo": "Champagnat - Alegría",
+      "descripcion": "San Marcelino - XVI",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0016"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          6
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "RRSS"
+      },
+      "search": "ilu-0016 champagnat - alegria san marcelino - xvi otros figura adaptado rrss champagnat maristas infantil sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0017",
+      "titulo": "Champagnat ",
+      "descripcion": "Marcelino - Libro y Violetas",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0017"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          6,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "RRSS"
+      },
+      "search": "ilu-0017 champagnat marcelino - libro y violetas otros retrato adaptado rrss champagnat maristas infantil violetas sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0018",
+      "titulo": "Champagnat Iconográfico",
+      "descripcion": "De imagen San Marcelino - Brasil",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0018"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          0
+        ],
+        "usos": [
+          2
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_brasil"
+      },
+      "search": "ilu-0018 champagnat iconografico de imagen san marcelino - brasil otros figura adaptado maristas_brasil champagnat maristas firma mural multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0019",
+      "titulo": "Champagnat - GVX",
+      "descripcion": "San Marcelino (de figura Maristas Huelva)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0019"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          4,
+          6,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_huelva"
+      },
+      "search": "ilu-0019 champagnat - gvx san marcelino (de figura maristas huelva) otros escena adaptado maristas_huelva champagnat maristas gvx infantil violetas postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0020",
+      "titulo": "Champagnat - GVX BN",
+      "descripcion": "San Marcelino (de figura Maristas Huelva)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0020"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          4,
+          6,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_huelva"
+      },
+      "search": "ilu-0020 champagnat - gvx bn san marcelino (de figura maristas huelva) otros escena adaptado maristas_huelva champagnat maristas gvx infantil violetas colorear blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0021",
+      "titulo": "Click Champagnat",
+      "descripcion": "San Marcelino playmobil",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0021"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0021 click champagnat san marcelino playmobil otros figura original arturo_mp champagnat maristas sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0022",
+      "titulo": "Champagnat",
+      "descripcion": "San Marcelino XXII",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0022"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          6
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "A_Gil"
+      },
+      "search": "ilu-0022 champagnat san marcelino xxii otros retrato adaptado a_gil champagnat maristas infantil sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0023",
+      "titulo": "Champagnat Iconográfico",
+      "descripcion": "De imagen San Marcelino II - Brasil",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0023"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          2
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_brasil"
+      },
+      "search": "ilu-0023 champagnat iconografico de imagen san marcelino ii - brasil otros figura adaptado maristas_brasil champagnat maristas mural multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0024",
+      "titulo": "Nº Sª de Fourviere",
+      "descripcion": "Nuestra Señora de Fourviere",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0024"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_jarts"
+      },
+      "search": "ilu-0024 nº sª de fourviere nuestra senora de fourviere otros figura adaptado c_towers_jarts maria maristas violetas colorear blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0025",
+      "titulo": "María II",
+      "descripcion": "Maria Niña (I love Jesus)",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0025"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8,
+          9
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_jarts"
+      },
+      "search": "ilu-0025 maria ii maria nina (i love jesus) otros figura adaptado c_towers_jarts maria maristas paz postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0026",
+      "titulo": "María, Buena Madre I",
+      "descripcion": "Buena Madre B/N",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0026"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0026 maria, buena madre i buena madre b/n otros figura adaptado c_towers maria maristas colorear blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0027",
+      "titulo": "Nuestra Buena Madre",
+      "descripcion": "Buena Madre FR",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0027"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0027 nuestra buena madre buena madre fr otros figura original arturo_mp maria maristas sin_fondo sticker blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0028",
+      "titulo": "María III",
+      "descripcion": "A Jesús por María",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0028"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          7
+        ],
+        "tags": [],
+        "usos": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_esp"
+      },
+      "search": "ilu-0028 maria iii a jesus por maria otros escena adaptado maristas_esp champagnat maristas maria colorear blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0029",
+      "titulo": "María, Buena Madre II",
+      "descripcion": "Mi Buena Madre",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0029"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_C_Towers"
+      },
+      "search": "ilu-0029 maria, buena madre ii mi buena madre otros figura original arturo_mp_c_towers maria maristas postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0030",
+      "titulo": "María, Buena Madre III",
+      "descripcion": "María, Buena Madre",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0030"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_jarts"
+      },
+      "search": "ilu-0030 maria, buena madre iii maria, buena madre otros figura adaptado c_towers_jarts maria maristas postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0031",
+      "titulo": "Magnificat",
+      "descripcion": "María e Isabel",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0031"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0031 magnificat maria e isabel otros escena original arturo_mp maria maristas postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0032",
+      "titulo": "María, Buena Madre IV",
+      "descripcion": "María, Madre",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0032"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8,
+          10,
+          9
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0032 maria, buena madre iv maria, madre otros figura original arturo_mp maria maristas violetas paz postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0033",
+      "titulo": "3 Violetas",
+      "descripcion": "Humildad, Sencillez y Modestia",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0033"
+      },
+      "meta": {
+        "temas": [
+          8,
+          10
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_esp"
+      },
+      "search": "ilu-0033 3 violetas humildad, sencillez y modestia otros escena adaptado maristas_esp maristas violetas sin_fondo logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0034",
+      "titulo": "Champagnat",
+      "descripcion": "Marcelino joven con violetas",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "ilu-0034"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0034 champagnat marcelino joven con violetas otros retrato original arturo_mp champagnat maristas violetas postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0001",
+      "titulo": "Join the Revolution I",
+      "descripcion": "(R) Evolution",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0001"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          11
+        ],
+        "tags": [
+          0,
+          3
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0001 join the revolution i (r) evolution otros texto original arturo_mp champagnat maristas vocacional firma minimalista sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0002",
+      "titulo": "Donde ellos están ",
+      "descripcion": "Frase San Marcelino",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0002"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0002 donde ellos estan frase san marcelino otros texto original arturo_mp champagnat maristas frase postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0003",
+      "titulo": "Join the Revolution II",
+      "descripcion": "Champagnat Revolution",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0003"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          11
+        ],
+        "tags": [
+          0
+        ],
+        "usos": [
+          5,
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0003 join the revolution ii champagnat revolution otros texto original arturo_mp champagnat maristas vocacional firma sticker taza multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0004",
+      "titulo": "Funko Champagnat",
+      "descripcion": "Si hiciéramos uno…",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0004"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          6,
+          5
+        ],
+        "tags": [],
+        "usos": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0004 funko champagnat si hicieramos uno… otros escena original arturo_mp champagnat maristas infantil hermitage rrss escala_grises personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0005",
+      "titulo": "Constructor",
+      "descripcion": "Hizo Hermanos construyendo una casa",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0005"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          11,
+          5
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "dis-0005 constructor hizo hermanos construyendo una casa otros texto original jarts champagnat maristas vocacional hermitage frase rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0006",
+      "titulo": "Escuela Champagnat",
+      "descripcion": "Para Escuela de Tiempo Libre",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0006"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0006 escuela champagnat para escuela de tiempo libre otros texto original arturo_mp champagnat maristas sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0007",
+      "titulo": "Tus raíces",
+      "descripcion": "Camiseta viaje a L´Hermitage",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0007"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          5
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Goyo_D"
+      },
+      "search": "dis-0007 tus raices camiseta viaje a l´hermitage otros texto original arturo_mp_goyo_d champagnat maristas hermitage frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0008",
+      "titulo": "Centenario",
+      "descripcion": "Parte cartel 100 años ESP vectorizado",
+      "categoria": "otros",
+      "subcategoria": "retrato",
+      "imagenes": {
+        "id": "dis-0008"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          0
+        ],
+        "usos": [
+          0,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Goyo_D"
+      },
+      "search": "dis-0008 centenario parte cartel 100 anos esp vectorizado otros retrato adaptado goyo_d champagnat maristas firma cartel postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0009",
+      "titulo": "La casa de María",
+      "descripcion": "Vector de mural (Badajoz)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0009"
+      },
+      "meta": {
+        "temas": [
+          7
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          2,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_jarts"
+      },
+      "search": "dis-0009 la casa de maria vector de mural (badajoz) otros texto adaptado c_towers_jarts maria frase mural rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0010",
+      "titulo": "La casa de María B/N",
+      "descripcion": "Vector de mural B/N (Badajoz)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0010"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "dis-0010 la casa de maria b/n vector de mural b/n (badajoz) otros texto adaptado c_towers maria maristas frase colorear blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0011",
+      "titulo": "Moteros Maristas",
+      "descripcion": "Logo moteros maristas",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0011"
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0011 moteros maristas logo moteros maristas otros texto original arturo_mp maristas logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0012",
+      "titulo": "GVX Verano 2014",
+      "descripcion": "Camiseta Da Vida 2014",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0012"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0012 gvx verano 2014 camiseta da vida 2014 otros texto original arturo_mp_provmediterranea maristas gvx textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0013",
+      "titulo": "GVX Pascua 2015",
+      "descripcion": "Camiseta Pascua 2015",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0013"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0013 gvx pascua 2015 camiseta pascua 2015 otros texto original arturo_mp_provmediterranea maristas gvx frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0014",
+      "titulo": "GVX Verano 2015",
+      "descripcion": "Camiseta de grupos 2015",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0014"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0014 gvx verano 2015 camiseta de grupos 2015 otros texto original arturo_mp_provmediterranea maristas gvx textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0015",
+      "titulo": "GVX Pascua 2016",
+      "descripcion": "Camiseta Pascua 2016",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0015"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0015 gvx pascua 2016 camiseta pascua 2016 otros texto original arturo_mp_provmediterranea maristas gvx frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0016",
+      "titulo": "GVX Verano 2016",
+      "descripcion": "Camiseta a better World 2016",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0016"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Arturo_MR_ProvMediterranea"
+      },
+      "search": "dis-0016 gvx verano 2016 camiseta a better world 2016 otros texto original arturo_mp_arturo_mr_provmediterranea maristas gvx frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0017",
+      "titulo": "GVX Comunidad Verano 2018",
+      "descripcion": "Camiseta Da Vida 2018",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0017"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          10,
+          11
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0017 gvx comunidad verano 2018 camiseta da vida 2018 otros escena original arturo_mp_provmediterranea maristas gvx violetas vocacional textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0018",
+      "titulo": "GVX Pascua 2018",
+      "descripcion": "Camiseta Pascua 2018",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0018"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0018 gvx pascua 2018 camiseta pascua 2018 otros escena original arturo_mp_provmediterranea maristas gvx textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0019",
+      "titulo": "GVX Verano 2025",
+      "descripcion": "Camisetas Ojos que ven… 2025 (espalda)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0019"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0019 gvx verano 2025 camisetas ojos que ven… 2025 (espalda) otros texto original arturo_mp_provmediterranea maristas gvx frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0020",
+      "titulo": "GVX Verano 2023",
+      "descripcion": "Camiseta Ser la Chispa… 2023 (espalda + logo delantero)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0020"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0020 gvx verano 2023 camiseta ser la chispa… 2023 (espalda + logo delantero) otros escena original arturo_mp_provmediterranea maristas gvx frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0021",
+      "titulo": "BRO mode",
+      "descripcion": "Marist Brother",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0021"
+      },
+      "meta": {
+        "temas": [
+          8,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3,
+          4,
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0021 bro mode marist brother otros texto original arturo_mp maristas vocacional frase postal rrss sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0022",
+      "titulo": "Estoy a la puerta y llamo",
+      "descripcion": "Convivencia vocacional GVX 2025",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0022"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          11
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          0,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0022 estoy a la puerta y llamo convivencia vocacional gvx 2025 otros texto original arturo_mp_provmediterranea maristas gvx vocacional logo cartel rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0023",
+      "titulo": "Cree en ti ",
+      "descripcion": "Convivencia vocacional GVX 2024",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0023"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0023 cree en ti convivencia vocacional gvx 2024 otros escena original arturo_mp maristas gvx vocacional frase cartel rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0035",
+      "titulo": "Maristas",
+      "descripcion": "Desde 1817",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0035"
+      },
+      "meta": {
+        "temas": [
+          8,
+          10
+        ],
+        "tags": [
+          2,
+          4
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0035 maristas desde 1817 otros texto original arturo_mp maristas violetas logo sin_fondo textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0036",
+      "titulo": "La Oveja Encontrada",
+      "descripcion": "#Soy la 100",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0036"
+      },
+      "meta": {
+        "temas": [
+          3,
+          10
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_jarts"
+      },
+      "search": "ilu-0036 la oveja encontrada #soy la 100 otros texto original arturo_mp_jarts evangelio violetas frase sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0037",
+      "titulo": "Titulada",
+      "descripcion": "Graduación",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0037"
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          5,
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0037 titulada graduacion otros escena original arturo_mp educacion minimalista sticker cartel multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0038",
+      "titulo": "Atienden",
+      "descripcion": "En clase",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0038"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0038 atienden en clase otros escena original arturo_mp maristas educacion minimalista sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0039",
+      "titulo": "Con corazón",
+      "descripcion": "Saltando",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0039"
+      },
+      "meta": {
+        "temas": [
+          2,
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0039 con corazon saltando otros escena adaptado c_towers educacion evangelio sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0040",
+      "titulo": "Estudiando",
+      "descripcion": "En clase II",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0040"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          3,
+          4,
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0040 estudiando en clase ii otros escena original arturo_mp maristas educacion minimalista postal rrss sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0041",
+      "titulo": "3 Violetas II",
+      "descripcion": "Las tres violetas",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0041"
+      },
+      "meta": {
+        "temas": [
+          8,
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0041 3 violetas ii las tres violetas otros escena original arturo_mp maristas violetas sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0042",
+      "titulo": "3 Violetas III BN",
+      "descripcion": "Las 3 violetas ",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0042"
+      },
+      "meta": {
+        "temas": [
+          8,
+          10
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0042 3 violetas iii bn las 3 violetas otros escena original arturo_mp maristas violetas sin_fondo logo sticker escala_grises personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0043",
+      "titulo": "3 Violetas III color",
+      "descripcion": "Nuestras 3 violetas",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0043"
+      },
+      "meta": {
+        "temas": [
+          8,
+          10
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0043 3 violetas iii color nuestras 3 violetas otros escena original arturo_mp maristas violetas sin_fondo logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0044",
+      "titulo": "Violetas Marist",
+      "descripcion": "Dos combinaciones bordado",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0044"
+      },
+      "meta": {
+        "temas": [
+          8,
+          10
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0044 violetas marist dos combinaciones bordado otros escena original arturo_mp maristas violetas logo textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0024",
+      "titulo": "GVX Pascua 2022",
+      "descripcion": "Camiseta Sal a ser sal 2022 (frontal)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0024"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          3
+        ],
+        "tags": [
+          1,
+          2,
+          4
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0024 gvx pascua 2022 camiseta sal a ser sal 2022 (frontal) otros texto original arturo_mp_provmediterranea maristas gvx evangelio frase logo sin_fondo textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0025",
+      "titulo": "GVX Verano 2019",
+      "descripcion": "Camiseta Comunidad 2019 (espalda)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0025"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0025 gvx verano 2019 camiseta comunidad 2019 (espalda) otros escena original arturo_mp_provmediterranea maristas gvx textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0026",
+      "titulo": "GVX Pascua 2023",
+      "descripcion": "Camiseta Tanto va… 2023",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0026"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Fer_OR_ProvMediterranea"
+      },
+      "search": "dis-0026 gvx pascua 2023 camiseta tanto va… 2023 otros texto original arturo_mp_fer_or_provmediterranea maristas gvx frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0027",
+      "titulo": "GVX Verano 2021",
+      "descripcion": "Camiseta HERE WE ARE 2021 (frontal)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0027"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0027 gvx verano 2021 camiseta here we are 2021 (frontal) otros texto original arturo_mp_provmediterranea maristas gvx evangelio frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0028",
+      "titulo": "GVX Sticker Pascua 2025",
+      "descripcion": "Portavela Pascua 2025",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0028"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          5,
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0028 gvx sticker pascua 2025 portavela pascua 2025 otros escena original arturo_mp_provmediterranea maristas gvx sticker taza multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0029",
+      "titulo": "GVX Verano 2022",
+      "descripcion": "Camiseta Chispa Da Vida 2022",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0029"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Jorge_MR_ProvMediterranea"
+      },
+      "search": "dis-0029 gvx verano 2022 camiseta chispa da vida 2022 otros escena original arturo_mp_jorge_mr_provmediterranea maristas gvx textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0030",
+      "titulo": "GVX Sticker 2024",
+      "descripcion": "Sticker G de Grupos",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0030"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0030 gvx sticker 2024 sticker g de grupos otros escena original arturo_mp maristas gvx logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0031",
+      "titulo": "GVX Verano 2025",
+      "descripcion": "Camiseta Da Vida 2025 (espalda)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0031"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ Jorge_MR_ProvMediterranea"
+      },
+      "search": "dis-0031 gvx verano 2025 camiseta da vida 2025 (espalda) otros texto original arturo_mp_ jorge_mr_provmediterranea maristas gvx textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0032",
+      "titulo": "GVX Sevilla 2007",
+      "descripcion": "Camiseta GVX Sal",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0032"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          3
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0032 gvx sevilla 2007 camiseta gvx sal otros escena original arturo_mp_provmediterranea maristas gvx evangelio textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0045",
+      "titulo": "Un mismo agua",
+      "descripcion": "Para convivencia GVX",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0045"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0045 un mismo agua para convivencia gvx otros escena original arturo_mp maristas gvx sin_fondo logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0046",
+      "titulo": "Vayamos al Fondo",
+      "descripcion": "Para convivencia GVX II",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0046"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0046 vayamos al fondo para convivencia gvx ii otros escena original arturo_mp maristas gvx sin_fondo logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0047",
+      "titulo": "Busco estrella",
+      "descripcion": "Viaje a Belén Navidad",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0047"
+      },
+      "meta": {
+        "temas": [
+          2,
+          3
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          5,
+          6,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0047 busco estrella viaje a belen navidad otros escena original arturo_mp educacion evangelio minimalista sticker taza rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0048",
+      "titulo": "Vocacción",
+      "descripcion": "No haremos 3 tiendas",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0048"
+      },
+      "meta": {
+        "temas": [
+          11
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0048 vocaccion no haremos 3 tiendas otros texto original arturo_mp vocacional logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0049",
+      "titulo": "Cruz Espíritu I",
+      "descripcion": "Confirmación Sevilla",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0049"
+      },
+      "meta": {
+        "temas": [
+          4,
+          3
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_jarts"
+      },
+      "search": "ilu-0049 cruz espiritu i confirmacion sevilla otros escena original arturo_mp_jarts gvx evangelio logo postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0050",
+      "titulo": "Cruz Espíritu II",
+      "descripcion": "Confirmación Sevilla II",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0050"
+      },
+      "meta": {
+        "temas": [
+          4,
+          3
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_jarts"
+      },
+      "search": "ilu-0050 cruz espiritu ii confirmacion sevilla ii otros escena original arturo_mp_jarts gvx evangelio logo postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0051",
+      "titulo": "Change > Chance",
+      "descripcion": "Para Asamblea Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0051"
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5,
+          6,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0051 change > chance para asamblea mediterranea otros texto original arturo_mp_ provmediterranea maristas sin_fondo logo sticker taza rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0052",
+      "titulo": "Cada Navidad",
+      "descripcion": "Para felicitación Colegio Sevilla",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0052"
+      },
+      "meta": {
+        "temas": [
+          8,
+          3,
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0052 cada navidad para felicitacion colegio sevilla otros escena original arturo_mp maristas evangelio violetas sin_fondo postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0053",
+      "titulo": "Panes y peces",
+      "descripcion": "Ilustración documentos",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0053"
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_jarts"
+      },
+      "search": "ilu-0053 panes y peces ilustracion documentos otros escena original arturo_mp_jarts evangelio postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0054",
+      "titulo": "Sal y Luz I - Evangelío",
+      "descripcion": "Para Asamblea Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0054"
+      },
+      "meta": {
+        "temas": [
+          8,
+          3
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5,
+          0,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0054 sal y luz i - evangelio para asamblea mediterranea otros escena original arturo_mp_provmediterranea maristas evangelio logo sticker cartel postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0055",
+      "titulo": "Marist Runners",
+      "descripcion": "Camiseta carrera solidaria",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0055"
+      },
+      "meta": {
+        "temas": [
+          8,
+          7,
+          1
+        ],
+        "tags": [
+          1,
+          2
+        ],
+        "usos": [
+          5,
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0055 marist runners camiseta carrera solidaria otros texto original arturo_mp maristas maria deporte frase logo sticker textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0056",
+      "titulo": "Un corazón, una misión",
+      "descripcion": "Preparación Capítulo General",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0056"
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0056 un corazon, una mision preparacion capitulo general otros escena original arturo_mp maristas postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0033",
+      "titulo": "VI Jornadas Educadores Maristas",
+      "descripcion": "Cartel 2025 Jornadas Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0033"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [],
+        "usos": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0033 vi jornadas educadores maristas cartel 2025 jornadas mediterranea otros texto original arturo_mp_provmediterranea maristas educacion cartel multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0034",
+      "titulo": "Eucaristía",
+      "descripcion": "Para Primera Eucaristía Sevilla 2017",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0034"
+      },
+      "meta": {
+        "temas": [
+          3,
+          4
+        ],
+        "tags": [],
+        "usos": [
+          0,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_jarts"
+      },
+      "search": "dis-0034 eucaristia para primera eucaristia sevilla 2017 otros escena adaptado c_towers_jarts evangelio gvx cartel postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0035",
+      "titulo": "IV Jornadas Educadores Maristas",
+      "descripcion": "Cartel 2022 Jornadas Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0035"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [],
+        "usos": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0035 iv jornadas educadores maristas cartel 2022 jornadas mediterranea otros texto original arturo_mp_provmediterranea maristas educacion cartel multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0036",
+      "titulo": "El mundo, la mejor cocina",
+      "descripcion": "Para encuentro Delegados de Pastoral (delantal)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0036"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          2
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0036 el mundo, la mejor cocina para encuentro delegados de pastoral (delantal) otros texto original arturo_mp_provmediterranea maristas gvx educacion logo textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0037",
+      "titulo": "¿Qué tal tu amor?",
+      "descripcion": "Viñeta",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0037"
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0037 ¿que tal tu amor? vineta otros escena original arturo_mp evangelio postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0038",
+      "titulo": "Hagamos de la casa hogar",
+      "descripcion": "Para tiempo Cuaresma I Mediterránea (esp)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0038"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0038 hagamos de la casa hogar para tiempo cuaresma i mediterranea (esp) otros texto original arturo_mp_provmediterranea maristas educacion evangelio frase cartel rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0039",
+      "titulo": "Constancia",
+      "descripcion": "Para CB Maristas Sevilla",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0039"
+      },
+      "meta": {
+        "temas": [
+          8,
+          1
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Arturo_MR"
+      },
+      "search": "dis-0039 constancia para cb maristas sevilla otros texto original arturo_mp_arturo_mr maristas deporte frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0040",
+      "titulo": "La Valla",
+      "descripcion": "Cuadro mesa de La Valla",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0040"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          5
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "dis-0040 la valla cuadro mesa de la valla otros escena adaptado c_towers champagnat maristas hermitage postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0041",
+      "titulo": "Faros de Esperanza",
+      "descripcion": "Para Capítulo Prov Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0041"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4,
+          3
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0041 faros de esperanza para capitulo prov mediterranea otros texto original arturo_mp_provmediterranea maristas gvx evangelio postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0042",
+      "titulo": "…una casa acogliente",
+      "descripcion": "Para tiempo Cuaresma I Mediterránea (ita)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0042"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0042 …una casa acogliente para tiempo cuaresma i mediterranea (ita) otros texto original arturo_mp_provmediterranea maristas educacion evangelio frase cartel postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0043",
+      "titulo": "The Home of Mary",
+      "descripcion": "Camiseta campaña Sevilla 2015",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0043"
+      },
+      "meta": {
+        "temas": [
+          8,
+          7
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_maristas_USA"
+      },
+      "search": "dis-0043 the home of mary camiseta campana sevilla 2015 otros texto adaptado arturo_mp_maristas_usa maristas maria frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0044",
+      "titulo": "Se escucha un latido",
+      "descripcion": "Para tiempo Adviento I Mediterránea (esp)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0044"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea_Fer_OR"
+      },
+      "search": "dis-0044 se escucha un latido para tiempo adviento i mediterranea (esp) otros texto original arturo_mp_provmediterranea_fer_or maristas educacion evangelio frase cartel rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0045",
+      "titulo": "Somos las manos de Dios",
+      "descripcion": "Para tiempo Cuaresma II Mediterránea (esp)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0045"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0045 somos las manos de dios para tiempo cuaresma ii mediterranea (esp) otros texto original arturo_mp_provmediterranea maristas educacion evangelio frase cartel postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0046",
+      "titulo": "Siamo le mani di Dio",
+      "descripcion": "Para tiempo Cuaresma II Mediterránea (ita)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0046"
+      },
+      "meta": {
+        "temas": [
+          8,
+          2,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0046 siamo le mani di dio para tiempo cuaresma ii mediterranea (ita) otros texto original arturo_mp_provmediterranea maristas educacion evangelio frase cartel postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0047",
+      "titulo": "CB Maristas (anterior logo)",
+      "descripcion": "Para taza CB Maristas Sevilla",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0047"
+      },
+      "meta": {
+        "temas": [
+          8,
+          1
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0047 cb maristas (anterior logo) para taza cb maristas sevilla otros escena original arturo_mp maristas deporte logo taza multicolor personal final",
+      "destacado": true
+    }
+  ],
+  "dicts": {
+    "temas": [
+      "champagnat",
+      "deporte",
+      "educacion",
+      "evangelio",
+      "gvx",
+      "hermitage",
+      "infantil",
+      "maria",
+      "maristas",
+      "paz",
+      "violetas",
+      "vocacional"
+    ],
+    "tags": [
+      "firma",
+      "frase",
+      "logo",
+      "minimalista",
+      "sin_fondo"
+    ],
+    "usos": [
+      "cartel",
+      "colorear",
+      "mural",
+      "postal",
+      "rrss",
+      "sticker",
+      "taza",
+      "textil",
+      "triptico"
+    ]
+  }
+}

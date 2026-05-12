@@ -1,0 +1,32 @@
+/* =========================
+   RESET & GLOBAL
+========================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(11, 47, 55);
+  color: #e0e0e0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Accesibilidad focus */
+:focus-visible {
+  outline: 2px solid #7b5ea7;
+  outline-offset: 2px;
+}
+
+/* Animación placeholder */
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+}
