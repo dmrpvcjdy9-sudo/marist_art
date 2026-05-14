@@ -103,14 +103,6 @@ export default function Portfolio() {
   window.scrollBy(0, 1);
 }, []);
 
-useEffect(() => {
-  // Forzar que el navegador recalculé el layout
-  const timer = setTimeout(() => {
-    window.dispatchEvent(new Event("resize"));
-  }, 100);
-  return () => clearTimeout(timer);
-}, []);
-
   // Transición grid
   useEffect(() => {
     setGridTransition(false);

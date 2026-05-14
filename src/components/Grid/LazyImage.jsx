@@ -2,29 +2,38 @@ import React, { useRef, useState, useEffect } from "react";
 
 export default function LazyImage({ src, alt }) {
   const ref = useRef(null);
-  const [visible, setVisible] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
+    setLoaded(false);
+    setError(false);
+  }, [src]);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect();
+          const img = new Image();
+          img.src = src;
+          img.onload = () => setLoaded(true);
+          img.onerror = () => setError(true);
+          observer.unobserve(el);
         }
       },
       {
-        rootMargin: "300px 0px 300px 0px",
-        threshold: 0.01,
+        rootMargin: "400px 0px", // muy agresivo
+        threshold: 0,
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
+    observer.observe(el);
 
     return () => observer.disconnect();
-  }, []);
+  }, [src]);
 
   return (
     <div
@@ -33,12 +42,12 @@ export default function LazyImage({ src, alt }) {
         width: "100%",
         height: "100%",
         position: "relative",
-        background: "#f5f5f5",
+        background: "#f0f0f0",
         overflow: "hidden",
       }}
     >
-      {/* Placeholder animado */}
-      {!loaded && (
+      {/* Placeholder animado mientras carga */}
+      {!loaded && !error && (
         <div
           style={{
             position: "absolute",
@@ -49,23 +58,39 @@ export default function LazyImage({ src, alt }) {
         />
       )}
 
-      {/* Imagen real */}
-      {visible && (
+      {/* Imagen cargada */}
+      {loaded && (
         <img
           src={src}
           alt={alt}
-          onLoad={() => setLoaded(true)}
           style={{
             width: "100%",
             height: "100%",
             objectFit: "contain",
-            opacity: loaded ? 1 : 0,
+            opacity: 1,
             transition: "opacity 0.3s ease",
             position: "absolute",
             top: 0,
             left: 0,
           }}
         />
+      )}
+
+      {/* Error */}
+      {error && (
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            color: "#999",
+            fontSize: "11px",
+          }}
+        >
+          Sin imagen
+        </div>
       )}
     </div>
   );
