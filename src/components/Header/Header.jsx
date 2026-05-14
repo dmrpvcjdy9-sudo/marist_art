@@ -1,4 +1,14 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+
+function useClickOutside(ref, callback) {
+  useEffect(() => {
+    const handle = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) callback();
+    };
+    document.addEventListener("mousedown", handle);
+    return () => document.removeEventListener("mousedown", handle);
+  }, [ref, callback]);
+}
 
 export default function Header({
   query,
@@ -22,6 +32,9 @@ export default function Header({
     { key: "ilustracion", label: "Ilustraciones" },
     { key: "diseno", label: "Diseños" },
   ];
+
+  const searchRef = useRef(null);
+useClickOutside(searchRef, () => setSearchOpen(false));
 
   const handleNavClick = (catKey) => {
     setQuery("");
@@ -179,7 +192,8 @@ export default function Header({
         ) : (
           /* BUSCADOR ESCRITORIO */
           <div
-            style={{
+  ref={searchRef}
+  style={{
               display: "flex",
               alignItems: "center",
               gap: "8px",
@@ -187,7 +201,8 @@ export default function Header({
               borderRadius: "999px",
               padding: "6px 12px",
               background: "#ffffff",
-              width: searchOpen ? "200px" : "36px",
+              width: searchOpen ? "180px" : "36px",
+              maxWidth: "50vw",  // ← no más de la mitad de la pantalla
               transition: "width 0.25s ease",
               overflow: "hidden",
             }}
