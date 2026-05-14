@@ -67,30 +67,13 @@ export default function FilterDrawer({
           borderBottom: "1px solid #f0f0f0",
         }}
       >
-        <h3
-          style={{
-            margin: 0,
-            fontSize: "16px",
-            fontWeight: "600",
-            color: "#1a1a1a",
-          }}
-        >
-          Filtros
-          {activeCount > 0 && (
-            <span
-              style={{
-                marginLeft: "8px",
-                fontSize: "12px",
-                color: "#7b5ea7",
-                fontWeight: "500",
-              }}
-            >
-              ({activeCount})
-            </span>
-          )}
-        </h3>
-
-        <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+        <h3 style={{ margin: 0, fontSize: "16px", fontWeight: "600", color: "#1a1a1a", display: "flex", alignItems: "center", gap: "8px" }}>
+  Filtros
+  {activeCount > 0 && (
+    <span style={{ fontSize: "12px", color: "#7b5ea7", fontWeight: "500" }}>
+      ({activeCount})
+    </span>
+  )}
   {activeCount > 0 && (
     <button
       onClick={clearFilters}
@@ -99,12 +82,11 @@ export default function FilterDrawer({
         border: "none",
         background: "transparent",
         color: "#999999",
-        fontSize: "16px",
+        fontSize: "14px",
         cursor: "pointer",
-        padding: "4px 6px",
-        borderRadius: "6px",
+        padding: "2px 4px",
+        borderRadius: "4px",
         transition: "all 0.15s ease",
-        marginRight: "auto",
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.color = "#e74c3c";
@@ -118,20 +100,11 @@ export default function FilterDrawer({
       🗑
     </button>
   )}
-  <button
-    onClick={onClose}
-    style={{
-      border: "none",
-      background: "transparent",
-      fontSize: "20px",
-      cursor: "pointer",
-      color: "#999999",
-      padding: "4px",
-    }}
-  >
-    ✕
-  </button>
-</div>
+</h3>
+
+<button onClick={onClose} style={{ border: "none", background: "transparent", fontSize: "20px", cursor: "pointer", color: "#999999", padding: "4px" }}>
+  ✕
+</button>
       </div>
 
       {/* GRUPOS */}
