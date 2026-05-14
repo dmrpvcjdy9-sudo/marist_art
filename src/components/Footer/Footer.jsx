@@ -13,15 +13,20 @@ export default function Footer({ onLogoClick }) {
       }}
     >
       <div
-        style={{
-          color: "rgba(255,255,255,0.5)",
-          fontSize: "11px",
-          fontWeight: "300",
-          fontStyle: "italic",
-        }}
-      >
-        © AMP 2026
-      </div>
+  style={{
+    display: "flex",
+    alignItems: "center",
+    gap: "12px",
+    color: "rgba(255,255,255,0.5)",
+    fontSize: "11px",
+    fontWeight: "300",
+    fontStyle: "italic",
+  }}
+>
+  <span>© AMP 2026</span>
+  <span style={{ opacity: 0.4 }}>|</span>
+  <span>CC BY-NC 4.0</span>
+</div>
 
       <img
         src="/logo.png"
