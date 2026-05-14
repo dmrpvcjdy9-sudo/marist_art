@@ -1,6 +1,5 @@
 import React from "react";
 import { getImage } from "../../utils/getImage";
-import LazyImage from "./LazyImage";
 
 export default function Grid({
   items,
