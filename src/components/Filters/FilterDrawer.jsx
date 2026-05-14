@@ -91,46 +91,47 @@ export default function FilterDrawer({
         </h3>
 
         <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
-          {activeCount > 0 && (
-            <button
-  onClick={clearFilters}
-  title="Quitar todos los filtros"
-  style={{
-    border: "none",
-    background: "transparent",
-    color: "#999999",
-    fontSize: "16px",
-    cursor: "pointer",
-    padding: "4px 6px",
-    borderRadius: "6px",
-    transition: "all 0.15s ease",
-  }}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.color = "#e74c3c";
-    e.currentTarget.style.background = "#fef0f0";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.color = "#999999";
-    e.currentTarget.style.background = "transparent";
-  }}
->
-  🗑
-</button>
-          )}
-          <button
-            onClick={onClose}
-            style={{
-              border: "none",
-              background: "transparent",
-              fontSize: "20px",
-              cursor: "pointer",
-              color: "#999999",
-              padding: "4px",
-            }}
-          >
-            ✕
-          </button>
-        </div>
+  {activeCount > 0 && (
+    <button
+      onClick={clearFilters}
+      title="Quitar todos los filtros"
+      style={{
+        border: "none",
+        background: "transparent",
+        color: "#999999",
+        fontSize: "16px",
+        cursor: "pointer",
+        padding: "4px 6px",
+        borderRadius: "6px",
+        transition: "all 0.15s ease",
+        marginRight: "auto",
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.color = "#e74c3c";
+        e.currentTarget.style.background = "#fef0f0";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.color = "#999999";
+        e.currentTarget.style.background = "transparent";
+      }}
+    >
+      🗑
+    </button>
+  )}
+  <button
+    onClick={onClose}
+    style={{
+      border: "none",
+      background: "transparent",
+      fontSize: "20px",
+      cursor: "pointer",
+      color: "#999999",
+      padding: "4px",
+    }}
+  >
+    ✕
+  </button>
+</div>
       </div>
 
       {/* GRUPOS */}

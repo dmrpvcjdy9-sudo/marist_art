@@ -259,57 +259,58 @@ useClickOutside(searchRef, () => setSearchOpen(false));
       </div>
 
       {/* DESPLEGABLE BUSCADOR MÓVIL */}
-      {isMobile && searchOpen && (
-        <div
-          style={{
-            position: "absolute",
-            top: "100%",
-            left: 0,
-            right: 0,
-            background: "#ffffff",
-            padding: "12px 16px",
-            borderBottom: "1px solid #e5e5e5",
-            zIndex: 99,
-            boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-          }}
-        >
-          <input
-            autoFocus
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar ilustraciones..."
-            style={{
-              width: "100%",
-              border: "1px solid #e5e5e5",
-              borderRadius: "8px",
-              padding: "10px 40px 10px 12px",
-              fontSize: "14px",
-              outline: "none",
-              fontFamily: "'Montserrat', sans-serif",
-              color: "#1a1a1a",
-            }}
-          />
-          {query && (
-            <span
-              onClick={() => {
-                setQuery("");
-                setSearchOpen(false);
-              }}
-              style={{
-                position: "absolute",
-                right: "24px",
-                top: "50%",
-                transform: "translateY(-50%)",
-                cursor: "pointer",
-                color: "#999999",
-                fontSize: "14px",
-              }}
-            >
-              ✕
-            </span>
-          )}
-        </div>
-      )}
+{isMobile && searchOpen && (
+  <div
+    style={{
+      position: "absolute",
+      top: "100%",
+      left: 0,
+      right: 0,
+      background: "#ffffff",
+      padding: "12px 16px",
+      borderBottom: "1px solid #e5e5e5",
+      zIndex: 99,
+      boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+      display: "flex",
+      alignItems: "center",
+      gap: "8px",
+    }}
+  >
+    <input
+      autoFocus
+      value={query}
+      onChange={(e) => setQuery(e.target.value)}
+      placeholder="Buscar ilustraciones..."
+      style={{
+        flex: 1,
+        border: "1px solid #e5e5e5",
+        borderRadius: "8px",
+        padding: "10px 12px",
+        fontSize: "14px",
+        outline: "none",
+        fontFamily: "'Montserrat', sans-serif",
+        color: "#1a1a1a",
+        minWidth: 0,
+      }}
+    />
+    {query && (
+      <span
+        onClick={() => {
+          setQuery("");
+          setSearchOpen(false);
+        }}
+        style={{
+          cursor: "pointer",
+          color: "#999999",
+          fontSize: "14px",
+          flexShrink: 0,
+        }}
+      >
+        ✕
+      </span>
+    )}
+  </div>
+)}
 
       {/* MENÚ DESPLEGABLE MÓVIL */}
       {isMobile && openPanel === "menu" && (
