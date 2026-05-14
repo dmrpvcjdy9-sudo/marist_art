@@ -111,7 +111,7 @@ export default function FilterDrawer({
       <div
         style={{
           flex: 1,
-          overflowY: "auto",
+          overflowY: "visible",
           padding: "16px 20px",
         }}
       >
@@ -266,6 +266,7 @@ export default function FilterDrawer({
             maxHeight: "75vh",
             borderRadius: "16px 16px 0 0",
             overflow: "hidden",
+            overflowY: "auto",
             transform: isOpen ? "translateY(0)" : "translateY(100%)",
             transition: "transform 0.3s ease",
             boxShadow: "0 -8px 30px rgba(0,0,0,0.2)",

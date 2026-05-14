@@ -108,16 +108,24 @@ export default function Portfolio() {
 
   // Scroll lock lightbox
   useEffect(() => {
-    if (lightboxOpen) {
-      gridScrollRef.current = window.scrollY;
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-    return () => {
-      document.body.style.overflow = "auto";
-    };
-  }, [lightboxOpen]);
+  if (lightboxOpen) {
+    gridScrollRef.current = window.scrollY;
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${gridScrollRef.current}px`;
+    document.body.style.width = "100%";
+  } else {
+    const scrollY = document.body.style.top;
+    document.body.style.position = "";
+    document.body.style.top = "";
+    document.body.style.width = "";
+    window.scrollTo(0, parseInt(scrollY || "0") * -1);
+  }
+  return () => {
+    document.body.style.position = "";
+    document.body.style.top = "";
+    document.body.style.width = "";
+  };
+}, [lightboxOpen]);
 
   // URL hash
   useEffect(() => {
