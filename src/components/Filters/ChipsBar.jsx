@@ -6,7 +6,9 @@ const { temas } = data.dicts;
 export default function ChipsBar({
   activeFilters,
   toggleFilter,
-  clearFilters,        // ← nueva prop
+  clearFilters,
+  filteredCount,
+  isMobile,      // ← nueva
   onOpenDrawer,
 }) {
   const scrollRef = useRef(null);
@@ -150,8 +152,8 @@ export default function ChipsBar({
         e.currentTarget.style.color = "#7b5ea7";
       }}
     >
-      + Todos los filtros
-    </button>
+  {isMobile ? "+ Filtros" : "+ Todos los filtros"}
+</button>
   </div>
 );
 }

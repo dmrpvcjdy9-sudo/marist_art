@@ -46,7 +46,9 @@ export default function FilterPanel({
       <ChipsBar
   activeFilters={activeFilters}
   toggleFilter={toggleFilter}
-  clearFilters={clearFilters}    // ← pasamos clearFilters
+  clearFilters={clearFilters}
+  filteredCount={filteredCount}
+  isMobile={isMobile}
   onOpenDrawer={() => setDrawerOpen(true)}
 />
 

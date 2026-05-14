@@ -4,9 +4,9 @@ import data from "../../data/portfolio.json";
 const { temas, tags, usos } = data.dicts;
 
 const GROUPS = [
-  { label: "Temas", items: temas, icon: "🎨", color: "#1e3a5f" },
-  { label: "Tags", items: tags, icon: "🏷", color: "#7b5ea7" },
-  { label: "Usos", items: usos, icon: "💼", color: "#2c3e50" },
+  { label: "Temas", items: temas, color: "#1e3a5f" },
+  { label: "Tags", items: tags, color: "#7b5ea7" },
+  { label: "Usos", items: usos, color: "#2c3e50" },
 ];
 
 export default function FilterDrawer({
@@ -93,18 +93,29 @@ export default function FilterDrawer({
         <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
           {activeCount > 0 && (
             <button
-              onClick={clearFilters}
-              style={{
-                border: "none",
-                background: "transparent",
-                color: "#999999",
-                fontSize: "12px",
-                cursor: "pointer",
-                fontFamily: "'Montserrat', sans-serif",
-              }}
-            >
-              Limpiar
-            </button>
+  onClick={clearFilters}
+  title="Quitar todos los filtros"
+  style={{
+    border: "none",
+    background: "transparent",
+    color: "#999999",
+    fontSize: "16px",
+    cursor: "pointer",
+    padding: "4px 6px",
+    borderRadius: "6px",
+    transition: "all 0.15s ease",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.color = "#e74c3c";
+    e.currentTarget.style.background = "#fef0f0";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.color = "#999999";
+    e.currentTarget.style.background = "transparent";
+  }}
+>
+  🗑
+</button>
           )}
           <button
             onClick={onClose}
@@ -162,7 +173,6 @@ export default function FilterDrawer({
                   fontFamily: "'Montserrat', sans-serif",
                 }}
               >
-                <span>{group.icon}</span>
                 <span>{group.label}</span>
                 {activeInGroup > 0 && (
                   <span

@@ -78,66 +78,87 @@ export default function Header({
         )}
       </div>
 
-      {/* CENTRO: menú escritorio o hamburguesa móvil */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: isMobile ? "12px" : "18px",
-          flex: 1,
-          justifyContent: isMobile ? "flex-end" : "center",
-        }}
-      >
-        {!isMobile ? (
-          <>
-            {navItems.map((cat, i) => {
-              const active = category === cat.key;
-              return (
-                <React.Fragment key={cat.key}>
+      {/* CENTRO: menú escritorio */}
+      {!isMobile && (
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "18px",
+            flex: 1,
+            justifyContent: "center",
+          }}
+        >
+          {navItems.map((cat, i) => {
+            const active = category === cat.key;
+            return (
+              <React.Fragment key={cat.key}>
+                <span
+                  onClick={() => handleNavClick(cat.key)}
+                  style={{
+                    cursor: "pointer",
+                    fontStyle: "italic",
+                    color: active ? "#1a1a1a" : "#999999",
+                    fontWeight: active ? "600" : "400",
+                    fontSize: "13px",
+                    transition: "color 0.2s ease",
+                  }}
+                >
+                  {cat.label}
+                </span>
+                {i === navItems.length - 1 && (
                   <span
-                    onClick={() => handleNavClick(cat.key)}
                     style={{
-                      cursor: "pointer",
-                      fontStyle: "italic",
-                      color: active ? "#1a1a1a" : "#999999",
-                      fontWeight: active ? "600" : "400",
-                      fontSize: "13px",
-                      transition: "color 0.2s ease",
+                      width: "3px",
+                      height: "3px",
+                      borderRadius: "50%",
+                      background: "#ccc",
+                      margin: "0 2px",
                     }}
-                  >
-                    {cat.label}
-                  </span>
-                  {i === navItems.length - 1 && (
-                    <span
-                      style={{
-                        width: "3px",
-                        height: "3px",
-                        borderRadius: "50%",
-                        background: "#ccc",
-                        margin: "0 2px",
-                      }}
-                    />
-                  )}
-                </React.Fragment>
-              );
-            })}
+                  />
+                )}
+              </React.Fragment>
+            );
+          })}
 
-            <span
-              onClick={onContactClick}
+          <span
+            onClick={onContactClick}
+            style={{
+              cursor: "pointer",
+              fontStyle: "italic",
+              color: "#999999",
+              fontWeight: "400",
+              fontSize: "13px",
+              transition: "color 0.2s ease",
+            }}
+          >
+            Contacto
+          </span>
+        </div>
+      )}
+
+      {/* DERECHA: iconos móvil o buscador escritorio */}
+      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+        {isMobile ? (
+          <>
+            {/* LUPA */}
+            <button
+              onClick={() => {
+                setSearchOpen(!searchOpen);
+                setOpenPanel(null);
+              }}
               style={{
+                border: "none",
+                background: "transparent",
+                fontSize: "18px",
                 cursor: "pointer",
-                fontStyle: "italic",
-                color: "#999999",
-                fontWeight: "400",
-                fontSize: "13px",
-                transition: "color 0.2s ease",
+                color: searchOpen ? "#1a1a1a" : "#999999",
+                padding: "4px",
               }}
             >
-              Contacto
-            </span>
-          </>
-        ) : (
-          <>
+              🔍
+            </button>
+
             {/* HAMBURGUESA */}
             <button
               onClick={() =>
@@ -146,146 +167,17 @@ export default function Header({
               style={{
                 border: "none",
                 background: "transparent",
-                fontSize: "22px",
+                fontSize: "20px",
                 cursor: "pointer",
-                color: "#1a1a1a",
+                color: openPanel === "menu" ? "#1a1a1a" : "#999999",
                 padding: "4px",
               }}
             >
               ☰
             </button>
-
-            {/* LUPA MÓVIL */}
-            <button
-              onClick={() => setSearchOpen(!searchOpen)}
-              style={{
-                border: "none",
-                background: "transparent",
-                fontSize: "18px",
-                cursor: "pointer",
-                color: "#999999",
-                padding: "4px",
-              }}
-            >
-              🔍
-            </button>
-
-            {/* MENÚ DESPLEGABLE MÓVIL */}
-            {openPanel === "menu" && (
-              <div
-                style={{
-                  position: "absolute",
-                  top: "100%",
-                  left: 0,
-                  right: 0,
-                  background: "#ffffff",
-                  borderBottom: "1px solid #e5e5e5",
-                  padding: "16px 24px",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "12px",
-                  zIndex: 99,
-                  boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
-                }}
-              >
-                {navItems.map((cat) => {
-                  const active = category === cat.key;
-                  return (
-                    <span
-                      key={cat.key}
-                      onClick={() => handleNavClick(cat.key)}
-                      style={{
-                        cursor: "pointer",
-                        color: active ? "#1a1a1a" : "#5c5c5c",
-                        fontWeight: active ? "600" : "400",
-                        fontSize: "16px",
-                        fontStyle: "italic",
-                        padding: "8px 0",
-                        borderBottom: "1px solid #f5f5f5",
-                      }}
-                    >
-                      {cat.label}
-                    </span>
-                  );
-                })}
-
-                <span
-                  onClick={() => {
-                    onContactClick();
-                    setOpenPanel(null);
-                  }}
-                  style={{
-                    cursor: "pointer",
-                    color: "#5c5c5c",
-                    fontSize: "16px",
-                    fontStyle: "italic",
-                    padding: "8px 0",
-                  }}
-                >
-                  Contacto
-                </span>
-              </div>
-            )}
-
-            {/* BUSCADOR DESPLEGABLE MÓVIL */}
-            {searchOpen && (
-              <div
-                style={{
-                  position: "absolute",
-                  top: "100%",
-                  left: 0,
-                  right: 0,
-                  background: "#ffffff",
-                  padding: "12px 16px",
-                  borderBottom: "1px solid #e5e5e5",
-                  zIndex: 99,
-                  boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
-                }}
-              >
-                <input
-                  autoFocus
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Buscar ilustraciones..."
-                  style={{
-                    width: "100%",
-                    border: "1px solid #e5e5e5",
-                    borderRadius: "8px",
-                    padding: "10px 12px",
-                    fontSize: "14px",
-                    outline: "none",
-                    fontFamily: "'Montserrat', sans-serif",
-                    color: "#1a1a1a",
-                  }}
-                />
-                {query && (
-                  <span
-                    onClick={() => {
-                      setQuery("");
-                      setSearchOpen(false);
-                    }}
-                    style={{
-                      position: "absolute",
-                      right: "24px",
-                      top: "50%",
-                      transform: "translateY(-50%)",
-                      cursor: "pointer",
-                      color: "#999999",
-                      fontSize: "14px",
-                    }}
-                  >
-                    ✕
-                  </span>
-                )}
-              </div>
-            )}
           </>
-        )}
-      </div>
-
-      {/* DERECHA: buscador (solo escritorio) */}
-      {!isMobile && (
-        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+        ) : (
+          /* BUSCADOR ESCRITORIO */
           <div
             style={{
               display: "flex",
@@ -348,6 +240,115 @@ export default function Header({
               </span>
             )}
           </div>
+        )}
+      </div>
+
+      {/* DESPLEGABLE BUSCADOR MÓVIL */}
+      {isMobile && searchOpen && (
+        <div
+          style={{
+            position: "absolute",
+            top: "100%",
+            left: 0,
+            right: 0,
+            background: "#ffffff",
+            padding: "12px 16px",
+            borderBottom: "1px solid #e5e5e5",
+            zIndex: 99,
+            boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+          }}
+        >
+          <input
+            autoFocus
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Buscar ilustraciones..."
+            style={{
+              width: "100%",
+              border: "1px solid #e5e5e5",
+              borderRadius: "8px",
+              padding: "10px 40px 10px 12px",
+              fontSize: "14px",
+              outline: "none",
+              fontFamily: "'Montserrat', sans-serif",
+              color: "#1a1a1a",
+            }}
+          />
+          {query && (
+            <span
+              onClick={() => {
+                setQuery("");
+                setSearchOpen(false);
+              }}
+              style={{
+                position: "absolute",
+                right: "24px",
+                top: "50%",
+                transform: "translateY(-50%)",
+                cursor: "pointer",
+                color: "#999999",
+                fontSize: "14px",
+              }}
+            >
+              ✕
+            </span>
+          )}
+        </div>
+      )}
+
+      {/* MENÚ DESPLEGABLE MÓVIL */}
+      {isMobile && openPanel === "menu" && (
+        <div
+          style={{
+            position: "absolute",
+            top: "100%",
+            left: 0,
+            right: 0,
+            background: "#ffffff",
+            padding: "12px 20px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "4px",
+            zIndex: 99,
+            boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+            borderBottom: "1px solid #e5e5e5",
+          }}
+        >
+          {navItems.map((cat) => {
+            const active = category === cat.key;
+            return (
+              <span
+                key={cat.key}
+                onClick={() => handleNavClick(cat.key)}
+                style={{
+                  cursor: "pointer",
+                  color: active ? "#1a1a1a" : "#5c5c5c",
+                  fontWeight: active ? "600" : "400",
+                  fontSize: "14px",
+                  fontStyle: "italic",
+                  padding: "6px 0",
+                }}
+              >
+                {cat.label}
+              </span>
+            );
+          })}
+
+          <span
+            onClick={() => {
+              onContactClick();
+              setOpenPanel(null);
+            }}
+            style={{
+              cursor: "pointer",
+              color: "#5c5c5c",
+              fontSize: "14px",
+              fontStyle: "italic",
+              padding: "6px 0",
+            }}
+          >
+            Contacto
+          </span>
         </div>
       )}
     </div>

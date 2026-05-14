@@ -98,11 +98,6 @@ export default function Portfolio() {
     if (prev) new Image().src = getImage(prev, "full");
   }, [selected, filtered]);
 
-  useEffect(() => {
-  // Pequeño scroll para activar el Intersection Observer
-  window.scrollBy(0, 1);
-}, []);
-
   // Transición grid
   useEffect(() => {
     setGridTransition(false);
