@@ -14,7 +14,7 @@ export default function LazyImage({ src, alt }) {
         }
       },
       {
-        rootMargin: "200px",
+        rootMargin: "300px 0px 300px 0px",
         threshold: 0.01,
       }
     );
