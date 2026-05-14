@@ -23,6 +23,14 @@ export default function Header({
     { key: "diseno", label: "Diseños" },
   ];
 
+  const handleNavClick = (catKey) => {
+    setQuery("");
+    setFilters([]);
+    setCategory(catKey);
+    if (catKey === "todas") setRandomMode(false);
+    setOpenPanel(null);
+  };
+
   return (
     <div
       style={{
@@ -36,7 +44,7 @@ export default function Header({
         borderBottom: "1px solid #e5e5e5",
       }}
     >
-      {/* IZQUIERDA: LOGO + LEMA */}
+      {/* IZQUIERDA: LOGO + LEMA (solo escritorio) */}
       <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
         <img
           src="/logo.png"
@@ -53,7 +61,6 @@ export default function Header({
           onClick={onLogoClick}
         />
 
-        {/* LEMA - solo escritorio */}
         {!isMobile && (
           <span
             style={{
@@ -71,14 +78,14 @@ export default function Header({
         )}
       </div>
 
-      {/* CENTRO: menú escritorio o hamburguesa */}
+      {/* CENTRO: menú escritorio o hamburguesa móvil */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
-          gap: "18px",
+          gap: isMobile ? "12px" : "18px",
           flex: 1,
-          justifyContent: "center",
+          justifyContent: isMobile ? "flex-end" : "center",
         }}
       >
         {!isMobile ? (
@@ -88,12 +95,7 @@ export default function Header({
               return (
                 <React.Fragment key={cat.key}>
                   <span
-                    onClick={() => {
-                      setQuery("");
-                      setFilters([]);
-                      setCategory(cat.key);
-                      if (cat.key === "todas") setRandomMode(false);
-                    }}
+                    onClick={() => handleNavClick(cat.key)}
                     style={{
                       cursor: "pointer",
                       fontStyle: "italic",
@@ -105,7 +107,6 @@ export default function Header({
                   >
                     {cat.label}
                   </span>
-                  {/* Separador entre Diseños y Contacto */}
                   {i === navItems.length - 1 && (
                     <span
                       style={{
@@ -137,6 +138,7 @@ export default function Header({
           </>
         ) : (
           <>
+            {/* HAMBURGUESA */}
             <button
               onClick={() =>
                 setOpenPanel(openPanel === "menu" ? null : "menu")
@@ -147,12 +149,28 @@ export default function Header({
                 fontSize: "22px",
                 cursor: "pointer",
                 color: "#1a1a1a",
+                padding: "4px",
               }}
             >
               ☰
             </button>
 
-            {/* DESPLEGABLE MÓVIL */}
+            {/* LUPA MÓVIL */}
+            <button
+              onClick={() => setSearchOpen(!searchOpen)}
+              style={{
+                border: "none",
+                background: "transparent",
+                fontSize: "18px",
+                cursor: "pointer",
+                color: "#999999",
+                padding: "4px",
+              }}
+            >
+              🔍
+            </button>
+
+            {/* MENÚ DESPLEGABLE MÓVIL */}
             {openPanel === "menu" && (
               <div
                 style={{
@@ -175,13 +193,7 @@ export default function Header({
                   return (
                     <span
                       key={cat.key}
-                      onClick={() => {
-                        setQuery("");
-                        setFilters([]);
-                        setCategory(cat.key);
-                        if (cat.key === "todas") setRandomMode(false);
-                        setOpenPanel(null);
-                      }}
+                      onClick={() => handleNavClick(cat.key)}
                       style={{
                         cursor: "pointer",
                         color: active ? "#1a1a1a" : "#5c5c5c",
@@ -214,78 +226,130 @@ export default function Header({
                 </span>
               </div>
             )}
+
+            {/* BUSCADOR DESPLEGABLE MÓVIL */}
+            {searchOpen && (
+              <div
+                style={{
+                  position: "absolute",
+                  top: "100%",
+                  left: 0,
+                  right: 0,
+                  background: "#ffffff",
+                  padding: "12px 16px",
+                  borderBottom: "1px solid #e5e5e5",
+                  zIndex: 99,
+                  boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                }}
+              >
+                <input
+                  autoFocus
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder="Buscar ilustraciones..."
+                  style={{
+                    width: "100%",
+                    border: "1px solid #e5e5e5",
+                    borderRadius: "8px",
+                    padding: "10px 12px",
+                    fontSize: "14px",
+                    outline: "none",
+                    fontFamily: "'Montserrat', sans-serif",
+                    color: "#1a1a1a",
+                  }}
+                />
+                {query && (
+                  <span
+                    onClick={() => {
+                      setQuery("");
+                      setSearchOpen(false);
+                    }}
+                    style={{
+                      position: "absolute",
+                      right: "24px",
+                      top: "50%",
+                      transform: "translateY(-50%)",
+                      cursor: "pointer",
+                      color: "#999999",
+                      fontSize: "14px",
+                    }}
+                  >
+                    ✕
+                  </span>
+                )}
+              </div>
+            )}
           </>
         )}
       </div>
 
-      {/* DERECHA: buscador */}
-      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "8px",
-            border: "1px solid #e5e5e5",
-            borderRadius: "999px",
-            padding: "6px 12px",
-            background: "#ffffff",
-            width: searchOpen ? "200px" : "36px",
-            transition: "width 0.25s ease",
-            overflow: "hidden",
-          }}
-        >
-          <span
-            onClick={() => setSearchOpen(!searchOpen)}
+      {/* DERECHA: buscador (solo escritorio) */}
+      {!isMobile && (
+        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+          <div
             style={{
-              color: "#999999",
-              cursor: "pointer",
-              flexShrink: 0,
-              fontSize: "14px",
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              border: "1px solid #e5e5e5",
+              borderRadius: "999px",
+              padding: "6px 12px",
+              background: "#ffffff",
+              width: searchOpen ? "200px" : "36px",
+              transition: "width 0.25s ease",
+              overflow: "hidden",
             }}
           >
-            🔍
-          </span>
-
-          <input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            onFocus={() => setSearchOpen(true)}
-            placeholder=""
-            aria-label="Buscar ilustraciones"
-            style={{
-              border: "none",
-              outline: "none",
-              fontSize: "13px",
-              width: "100%",
-              background: "transparent",
-              color: "#1a1a1a",
-              fontFamily: "'Montserrat', sans-serif",
-            }}
-          />
-
-          {query && (
             <span
-              onClick={(e) => {
-                e.preventDefault();
-                setQuery("");
-              }}
-              onMouseDown={(e) => e.preventDefault()}
-              role="button"
-              aria-label="Borrar búsqueda"
+              onClick={() => setSearchOpen(!searchOpen)}
               style={{
-                cursor: "pointer",
                 color: "#999999",
-                fontSize: "13px",
-                padding: "0 4px",
-                userSelect: "none",
+                cursor: "pointer",
                 flexShrink: 0,
+                fontSize: "14px",
               }}
             >
-              ✕
+              🔍
             </span>
-          )}
+
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onFocus={() => setSearchOpen(true)}
+              placeholder=""
+              aria-label="Buscar ilustraciones"
+              style={{
+                border: "none",
+                outline: "none",
+                fontSize: "13px",
+                width: "100%",
+                background: "transparent",
+                color: "#1a1a1a",
+                fontFamily: "'Montserrat', sans-serif",
+              }}
+            />
+
+            {query && (
+              <span
+                onClick={(e) => {
+                  e.preventDefault();
+                  setQuery("");
+                }}
+                style={{
+                  cursor: "pointer",
+                  color: "#999999",
+                  fontSize: "13px",
+                  padding: "0 4px",
+                  userSelect: "none",
+                  flexShrink: 0,
+                }}
+              >
+                ✕
+              </span>
+            )}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

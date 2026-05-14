@@ -60,7 +60,7 @@ export default function usePortfolio() {
 
       if (
         normalizedFilters.length &&
-        !normalizedFilters.every((f) =>
+        !normalizedFilters.some((f) =>
           item.allFiltersLower.includes(f)
         )
       )
