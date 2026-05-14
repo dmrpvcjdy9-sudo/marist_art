@@ -63,9 +63,9 @@ export default function Grid({
               <div
                 style={{
                   width: "100%",
-                  aspectRatio: "3 / 4",
+                  aspectRatio: "4 / 3",
                   overflow: "hidden",
-                  background: "#f5f5f5",
+                  background: "#ffffff",
                   flexShrink: 0,
                 }}
               >
