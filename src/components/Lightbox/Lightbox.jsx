@@ -71,61 +71,105 @@ export default function Lightbox({
       }}
     >
       {/* CONTENEDOR IMAGEN */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "100%",
-          flex: 1,
-          position: "relative",
-          padding: isMobile ? "12px" : "20px",
-          minHeight: 0,
-        }}
-      >
-        {/* FLECHA IZQUIERDA */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onPrev();
-          }}
-          style={arrowStyle("left", isMobile)}
-          aria-label="Anterior"
-        >
-          ‹
-        </button>
+<div
+  style={{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    flex: 1,
+    position: "relative",
+    padding: isMobile ? "12px" : "20px",
+    minHeight: 0,
+  }}
+>
+  {/* Zona de clic izquierda (móvil) */}
+  {isMobile && (
+    <div
+      onClick={(e) => {
+        e.stopPropagation();
+        onPrev();
+      }}
+      style={{
+        position: "absolute",
+        left: 0,
+        top: 0,
+        bottom: 0,
+        width: "25%",
+        zIndex: 5,
+        cursor: "pointer",
+      }}
+    />
+  )}
 
-        {/* IMAGEN */}
-        <img
-          src={getImage(selected, "full")}
-          alt={selected.titulo}
-          onClick={(e) => e.stopPropagation()}
-          draggable={false}
-          style={{
-            maxWidth: isMobile ? "90%" : "70%",
-            maxHeight: "65vh",
-            borderRadius: "8px",
-            cursor: "default",
-            userSelect: "none",
-            pointerEvents: "auto",
-            boxShadow: "0 20px 60px rgba(0,0,0,0.4)",
-            display: "block",
-            objectFit: "contain",
-          }}
-        />
+  {/* Zona de clic derecha (móvil) */}
+  {isMobile && (
+    <div
+      onClick={(e) => {
+        e.stopPropagation();
+        onNext();
+      }}
+      style={{
+        position: "absolute",
+        right: 0,
+        top: 0,
+        bottom: 0,
+        width: "25%",
+        zIndex: 5,
+        cursor: "pointer",
+      }}
+    />
+  )}
 
-        {/* FLECHA DERECHA */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onNext();
-          }}
-          style={arrowStyle("right", isMobile)}
-          aria-label="Siguiente"
-        >
-          ›
-        </button>
-      </div>
+  {/* FLECHA IZQUIERDA (escritorio o móvil) */}
+  {!isMobile && (
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        onPrev();
+      }}
+      style={arrowStyle("left", isMobile)}
+      aria-label="Anterior"
+    >
+      ‹
+    </button>
+  )}
+
+  {/* IMAGEN */}
+  <img
+    src={getImage(selected, "full")}
+    alt={selected.titulo}
+    onClick={(e) => e.stopPropagation()}
+    draggable={false}
+    style={{
+      maxWidth: isMobile ? "90%" : "70%",
+      maxHeight: "65vh",
+      borderRadius: "8px",
+      cursor: "default",
+      userSelect: "none",
+      pointerEvents: "auto",
+      boxShadow: "0 20px 60px rgba(0,0,0,0.4)",
+      display: "block",
+      objectFit: "contain",
+      zIndex: 1,
+      position: "relative",
+    }}
+  />
+
+  {/* FLECHA DERECHA (escritorio) */}
+  {!isMobile && (
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        onNext();
+      }}
+      style={arrowStyle("right", isMobile)}
+      aria-label="Siguiente"
+    >
+      ›
+    </button>
+  )}
+</div>
 
       {/* FOOTER CON TÍTULO + DESCARGA */}
       <div
