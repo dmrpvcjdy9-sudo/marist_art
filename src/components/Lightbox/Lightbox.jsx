@@ -191,35 +191,41 @@ export default function Lightbox({
         )}
 
         {/* BOTÓN DESCARGAR */}
-        <a
-          href={getImage(selected, "full")}
-          download={`${selected.titulo}.png`}
-          onClick={(e) => e.stopPropagation()}
-          style={{
-            display: "inline-block",
-            padding: "6px 16px",
-            borderRadius: "6px",
-            border: "1px solid rgba(255,255,255,0.3)",
-            background: "transparent",
-            color: "#ffffff",
-            fontSize: "11px",
-            fontWeight: "500",
-            textDecoration: "none",
-            cursor: "pointer",
-            transition: "all 0.2s ease",
-            lineHeight: 1,
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = "rgba(255,255,255,0.12)";
-            e.currentTarget.style.borderColor = "rgba(255,255,255,0.5)";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = "transparent";
-            e.currentTarget.style.borderColor = "rgba(255,255,255,0.3)";
-          }}
-        >
-          Descargar
-        </a>
+<button
+  onClick={(e) => {
+    e.stopPropagation();
+    const link = document.createElement("a");
+    link.href = getImage(selected, "full");
+    link.download = `${selected.titulo}.png`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
+  style={{
+    display: "inline-block",
+    padding: "6px 16px",
+    borderRadius: "6px",
+    border: "1px solid rgba(255,255,255,0.3)",
+    background: "transparent",
+    color: "#ffffff",
+    fontSize: "11px",
+    fontWeight: "500",
+    cursor: "pointer",
+    transition: "all 0.2s ease",
+    lineHeight: 1,
+    fontFamily: "'Montserrat', sans-serif",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.background = "rgba(255,255,255,0.12)";
+    e.currentTarget.style.borderColor = "rgba(255,255,255,0.5)";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.background = "transparent";
+    e.currentTarget.style.borderColor = "rgba(255,255,255,0.3)";
+  }}
+>
+  Descargar
+</button>
       </div>
     </div>
   );
