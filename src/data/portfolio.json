@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T06:50:33.097Z",
+  "generatedAt": "2026-05-15T23:38:39.815Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -660,7 +660,6 @@
       "meta": {
         "temas": [
           7,
-          8,
           10
         ],
         "tags": [],
@@ -672,7 +671,7 @@
         "origen": "adaptado",
         "basado_en": "C_Towers_jarts"
       },
-      "search": "ilu-0024 nº sª de fourviere nuestra senora de fourviere otros figura adaptado c_towers_jarts maria maristas violetas colorear blanco_negro personal final",
+      "search": "ilu-0024 nº sª de fourviere nuestra senora de fourviere otros figura adaptado c_towers_jarts maria violetas colorear blanco_negro personal final",
       "destacado": true
     },
     {
@@ -687,7 +686,6 @@
       "meta": {
         "temas": [
           7,
-          8,
           9
         ],
         "tags": [],
@@ -699,7 +697,7 @@
         "origen": "adaptado",
         "basado_en": "C_Towers_jarts"
       },
-      "search": "ilu-0025 maria ii maria nina (i love jesus) otros figura adaptado c_towers_jarts maria maristas paz postal multicolor personal final",
+      "search": "ilu-0025 maria ii maria nina (i love jesus) otros figura adaptado c_towers_jarts maria paz postal multicolor personal final",
       "destacado": true
     },
     {
@@ -1767,7 +1765,7 @@
     {
       "id": "ilu-0041",
       "titulo": "3 Violetas II",
-      "descripcion": "Las tres violetas",
+      "descripcion": "Humildad, Sencillez y Modestia",
       "categoria": "otros",
       "subcategoria": "escena",
       "imagenes": {
@@ -1789,13 +1787,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0041 3 violetas ii las tres violetas otros escena original arturo_mp maristas violetas sin_fondo sticker multicolor personal final",
+      "search": "ilu-0041 3 violetas ii humildad, sencillez y modestia otros escena original arturo_mp maristas violetas sin_fondo sticker multicolor personal final",
       "destacado": true
     },
     {
       "id": "ilu-0042",
       "titulo": "3 Violetas III BN",
-      "descripcion": "Las 3 violetas ",
+      "descripcion": "Nuestras 3 violetas ",
       "categoria": "otros",
       "subcategoria": "escena",
       "imagenes": {
@@ -1818,7 +1816,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0042 3 violetas iii bn las 3 violetas otros escena original arturo_mp maristas violetas sin_fondo logo sticker escala_grises personal final",
+      "search": "ilu-0042 3 violetas iii bn nuestras 3 violetas otros escena original arturo_mp maristas violetas sin_fondo logo sticker escala_grises personal final",
       "destacado": true
     },
     {
@@ -2129,7 +2127,7 @@
     {
       "id": "ilu-0045",
       "titulo": "Un mismo agua",
-      "descripcion": "Para convivencia GVX",
+      "descripcion": "Para convivencia Marcha GVX",
       "categoria": "otros",
       "subcategoria": "escena",
       "imagenes": {
@@ -2151,13 +2149,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0045 un mismo agua para convivencia gvx otros escena original arturo_mp gvx sin_fondo logo sticker multicolor personal final",
+      "search": "ilu-0045 un mismo agua para convivencia marcha gvx otros escena original arturo_mp gvx sin_fondo logo sticker multicolor personal final",
       "destacado": true
     },
     {
       "id": "ilu-0046",
       "titulo": "Vayamos al Fondo",
-      "descripcion": "Para convivencia GVX II",
+      "descripcion": "Para convivencia Marcha GVX II",
       "categoria": "otros",
       "subcategoria": "escena",
       "imagenes": {
@@ -2179,7 +2177,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0046 vayamos al fondo para convivencia gvx ii otros escena original arturo_mp gvx sin_fondo logo sticker multicolor personal final",
+      "search": "ilu-0046 vayamos al fondo para convivencia marcha gvx ii otros escena original arturo_mp gvx sin_fondo logo sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -2297,7 +2295,7 @@
     },
     {
       "id": "ilu-0051",
-      "titulo": "Change > Chance",
+      "titulo": "Change < > Chance",
       "descripcion": "Para Asamblea Mediterránea",
       "categoria": "otros",
       "subcategoria": "texto",
@@ -2322,7 +2320,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ ProvMediterranea"
       },
-      "search": "ilu-0051 change > chance para asamblea mediterranea otros texto original arturo_mp_ provmediterranea maristas sin_fondo logo sticker taza rrss multicolor personal final",
+      "search": "ilu-0051 change < > chance para asamblea mediterranea otros texto original arturo_mp_ provmediterranea maristas sin_fondo logo sticker taza rrss multicolor personal final",
       "destacado": true
     },
     {
@@ -2468,7 +2466,7 @@
     {
       "id": "dis-0033",
       "titulo": "VI Jornadas Educadores Maristas",
-      "descripcion": "Cartel 2025 Jornadas Mediterránea",
+      "descripcion": "Cartel 2025 Mediterránea",
       "categoria": "otros",
       "subcategoria": "texto",
       "imagenes": {
@@ -2488,7 +2486,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0033 vi jornadas educadores maristas cartel 2025 jornadas mediterranea otros texto original arturo_mp_provmediterranea maristas educacion cartel multicolor personal final",
+      "search": "dis-0033 vi jornadas educadores maristas cartel 2025 mediterranea otros texto original arturo_mp_provmediterranea maristas educacion cartel multicolor personal final",
       "destacado": true
     },
     {
@@ -2521,7 +2519,7 @@
     {
       "id": "dis-0035",
       "titulo": "IV Jornadas Educadores Maristas",
-      "descripcion": "Cartel 2022 Jornadas Mediterránea",
+      "descripcion": "Cartel 2022 Mediterránea",
       "categoria": "otros",
       "subcategoria": "texto",
       "imagenes": {
@@ -2541,7 +2539,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0035 iv jornadas educadores maristas cartel 2022 jornadas mediterranea otros texto original arturo_mp_provmediterranea maristas educacion cartel multicolor personal final",
+      "search": "dis-0035 iv jornadas educadores maristas cartel 2022 mediterranea otros texto original arturo_mp_provmediterranea maristas educacion cartel multicolor personal final",
       "destacado": true
     },
     {
@@ -2595,7 +2593,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0037 ¿que tal tu amor? vineta otros escena original arturo_mp evangelio postal multicolor personal final",
+      "search": "dis-0037 ¿que tal tu amor? vineta otros escena original arturo_mp evangelio postal blanco_negro personal final",
       "destacado": true
     },
     {
@@ -3465,6 +3463,202 @@
         "basado_en": "Arturo_MP_jarts"
       },
       "search": "ilu-0071 y salio a buscarla #soy la 100 ii otros escena original arturo_mp_jarts evangelio sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0072",
+      "titulo": "Atardece II",
+      "descripcion": "#accesoeducativo Todos con cole",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0072"
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0072 atardece ii #accesoeducativo todos con cole otros escena original arturo_mp educacion sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0073",
+      "titulo": "Buena Madre II",
+      "descripcion": "Silueta María, Buena Madre",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0073"
+      },
+      "meta": {
+        "temas": [
+          7,
+          8
+        ],
+        "tags": [
+          4,
+          3
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0073 buena madre ii silueta maria, buena madre otros figura adaptado arturo_mp maria maristas sin_fondo minimalista sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0074",
+      "titulo": "Anagrama María",
+      "descripcion": "Basado en antiguo anagrama edificio",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0074"
+      },
+      "meta": {
+        "temas": [
+          7
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0074 anagrama maria basado en antiguo anagrama edificio otros texto adaptado arturo_mp maria sin_fondo logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0075",
+      "titulo": "Quien no ama…",
+      "descripcion": "Para educar es preciso amar",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0075"
+      },
+      "meta": {
+        "temas": [
+          8,
+          0,
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_jarts"
+      },
+      "search": "ilu-0075 quien no ama… para educar es preciso amar otros texto original arturo_mp_jarts maristas champagnat educacion sin_fondo sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0076",
+      "titulo": "Escuchas?",
+      "descripcion": "Hasta en la brisa",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0076"
+      },
+      "meta": {
+        "temas": [
+          3,
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0076 escuchas? hasta en la brisa otros figura original arturo_mp evangelio vocacional sin_fondo sticker blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0054",
+      "titulo": "Excusas yo?",
+      "descripcion": "Recordando al Hno Boni FQ",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0054"
+      },
+      "meta": {
+        "temas": [
+          8,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0054 excusas yo? recordando al hno boni fq otros texto original arturo_mp maristas vocacional frase postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0055",
+      "titulo": "Ceda el paso y sígalos",
+      "descripcion": "Para Viaje a Belén Maristas Jaén",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0055"
+      },
+      "meta": {
+        "temas": [
+          8,
+          3,
+          2
+        ],
+        "tags": [],
+        "usos": [
+          0,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0055 ceda el paso y sigalos para viaje a belen maristas jaen otros escena original arturo_mp maristas evangelio educacion cartel rrss multicolor personal final",
       "destacado": true
     }
   ],
