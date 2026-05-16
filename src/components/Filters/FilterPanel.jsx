@@ -7,9 +7,15 @@ export default function FilterPanel({
   activeFilters,
   setActiveFilters,
   filteredCount,
+  lightboxOpen={lightboxOpen}
+  favoritesCount={favorites.length} 
 }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const isMobile = useIsMobile();
+
+  useEffect(() => {
+  if (lightboxOpen) setDrawerOpen(false);
+}, [lightboxOpen]);
 
   const toggleFilter = (filter) => {
     setActiveFilters((prev) =>
