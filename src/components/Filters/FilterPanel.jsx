@@ -7,8 +7,8 @@ export default function FilterPanel({
   activeFilters,
   setActiveFilters,
   filteredCount,
-  lightboxOpen={lightboxOpen}
-  favoritesCount={favorites.length} 
+  lightboxOpen,
+  favoritesCount,
 }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const isMobile = useIsMobile();
