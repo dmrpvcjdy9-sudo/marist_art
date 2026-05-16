@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import { getImage } from "./utils/getImage";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import usePortfolio from "./hooks/usePortfolio";
+import useFavorites from "./hooks/useFavorites";
 import useIsMobile from "./hooks/useIsMobile";
 import data from "./data/portfolio.json";
 
@@ -56,7 +57,7 @@ export default function Portfolio() {
   const [openPanel, setOpenPanel] = useState(null);
   const [hovered, setHovered] = useState(null);
   const [gridTransition, setGridTransition] = useState(true);
-
+  const { favorites, toggleFavorite, isFavorite } = useFavorites();
   const gridScrollRef = useRef(0);
 
   /* PORTFOLIO STATE */
@@ -70,7 +71,7 @@ export default function Portfolio() {
   pageSize,
   randomMode,        // ← nuevo
   setRandomMode,     // ← nuevo
-} = usePortfolio();
+} = usePortfolio(favorites);
 
   /* DERIVED */
   const options = useMemo(() => {
@@ -258,6 +259,7 @@ const goPrev = () => {
   activeFilters={filters}
   setActiveFilters={setFilters}
   filteredCount={filtered.length}
+  favoritesCount={favorites.length}
 />
 
         <div
@@ -296,6 +298,8 @@ const goPrev = () => {
             hoveredId={hovered}
             setHovered={setHovered}
             isSingle={isSingle}
+            toggleFavorite={toggleFavorite}
+            isFavorite={isFavorite}
           />
 
           <Pagination

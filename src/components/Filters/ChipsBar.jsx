@@ -8,7 +8,8 @@ export default function ChipsBar({
   toggleFilter,
   clearFilters,
   filteredCount,
-  isMobile,      // ← nueva
+  isMobile,
+  favoritesCount,
   onOpenDrawer,
 }) {
   const scrollRef = useRef(null);
@@ -57,6 +58,32 @@ export default function ChipsBar({
         div::-webkit-scrollbar { display: none; }
       `}</style>
 
+      {/* CHIP FAVORITOS */}
+<span
+  onClick={() => toggleFilter("__favoritos__")}
+  style={{
+    padding: "5px 10px",
+    borderRadius: "999px",
+    border: activeFilters.includes("__favoritos__")
+      ? "1px solid #e2a800"
+      : "1px solid #e5e5e5",
+    background: activeFilters.includes("__favoritos__")
+      ? "#fff8e1"
+      : "#ffffff",
+    color: activeFilters.includes("__favoritos__")
+      ? "#b8860b"
+      : "#5c5c5c",
+    fontSize: "11px",
+    fontWeight: "600",
+    cursor: "pointer",
+    whiteSpace: "nowrap",
+    transition: "all 0.15s ease",
+    fontFamily: "'Montserrat', sans-serif",
+  }}
+>
+  ⭐ {favoritesCount || 0}
+
+</span>
       {temas.map((tema) => {
         const active = activeFilters.includes(tema);
         return (

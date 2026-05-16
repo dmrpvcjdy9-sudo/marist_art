@@ -8,6 +8,8 @@ export default function Grid({
   hoveredId,
   setHovered,
   isSingle,
+  toggleFavorite,   // ← nueva
+  isFavorite,
 }) {
   return (
     <div
@@ -66,8 +68,45 @@ export default function Grid({
                   overflow: "hidden",
                   background: "#ffffff",
                   flexShrink: 0,
+                  position: "relative",
                 }}
               >
+              {/* ESTRELLA FAVORITO */}
+<button
+  onClick={(e) => {
+    e.stopPropagation();
+    toggleFavorite(item.id);
+  }}
+  style={{
+    position: "absolute",
+    top: "6px",
+    right: "6px",
+    zIndex: 5,
+    border: "none",
+    background: "rgba(255,255,255,0.85)",
+    borderRadius: "50%",
+    width: "28px",
+    height: "28px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    cursor: "pointer",
+    fontSize: "16px",
+    padding: 0,
+    lineHeight: 1,
+    boxShadow: "0 1px 4px rgba(0,0,0,0.1)",
+    transition: "transform 0.15s ease",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.transform = "scale(1.15)";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.transform = "scale(1)";
+  }}
+  title={isFavorite(item.id) ? "Quitar de favoritos" : "Añadir a favoritos"}
+>
+  {isFavorite(item.id) ? "★" : "☆"}
+</button>
                 <img
   src={getImage(item, "thumb")}
   alt={item.titulo}

@@ -49,6 +49,7 @@ export default function FilterPanel({
   clearFilters={clearFilters}
   filteredCount={filteredCount}
   isMobile={isMobile}
+  favoritesCount={favoritesCount}
   onOpenDrawer={() => setDrawerOpen(true)}
 />
 

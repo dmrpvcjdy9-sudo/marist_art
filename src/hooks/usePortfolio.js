@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import data from "../data/portfolio.json";
 
-export default function usePortfolio() {
+export default function usePortfolio(favorites = []) {
   const { items: rawItems, dicts } = data;
   const { temas, tags, usos } = dicts;
 
@@ -40,42 +40,50 @@ export default function usePortfolio() {
   }, [rawItems, temas, tags, usos]);
 
   // 🔍 FILTROS
-  const normalizedFilters = useMemo(
-    () => filters.map((f) => f.toLowerCase()),
-    [filters]
-  );
+const normalizedFilters = useMemo(
+  () => filters.map((f) => f.toLowerCase()),
+  [filters]
+);
 
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+// ⭐ Detectar si el filtro de favoritos está activo
+const favoritesFilterActive = normalizedFilters.includes("__favoritos__");
+// Quitar __favoritos__ de los filtros normales para que no interfiera
+const cleanFilters = normalizedFilters.filter((f) => f !== "__favoritos__");
 
-    let result = items.filter((item) => {
-      if (category !== "todas" && item.categoria !== category) return false;
+const filtered = useMemo(() => {
+  const q = query.trim().toLowerCase();
 
-      if (
-        q &&
-        !item.titulo.toLowerCase().includes(q) &&
-        !item.allFiltersLower.some((f) => f.includes(q))
+  let result = items.filter((item) => {
+    if (category !== "todas" && item.categoria !== category) return false;
+
+    if (
+      q &&
+      !item.titulo.toLowerCase().includes(q) &&
+      !item.allFiltersLower.some((f) => f.includes(q))
+    )
+      return false;
+
+    if (
+      cleanFilters.length &&
+      !cleanFilters.some((f) =>
+        item.allFiltersLower.includes(f)
       )
-        return false;
+    )
+      return false;
 
-      if (
-        normalizedFilters.length &&
-        !normalizedFilters.some((f) =>
-          item.allFiltersLower.includes(f)
-        )
-      )
-        return false;
+    // ⭐ Filtro favoritos
+    if (favoritesFilterActive && !favorites.includes(item.id)) return false;
 
-      return true;
-    });
+    return true;
+  });
 
-    // 🎲 MODO ALEATORIO (solo al inicio o logo, sin filtros activos)
-    if (randomMode && category === "todas" && !q && !normalizedFilters.length) {
-      result = [...result].sort(() => Math.random() - 0.5);
-    }
+  // 🎲 MODO ALEATORIO...
+  if (randomMode && category === "todas" && !q && !normalizedFilters.length) {
+    result = [...result].sort(() => Math.random() - 0.5);
+  }
 
-    return result;
-  }, [items, query, category, normalizedFilters, randomMode]);
+  return result;
+}, [items, query, category, normalizedFilters, randomMode, favorites]);
 
   // 📄 PAGINACIÓN
   const paginated = useMemo(() => {
