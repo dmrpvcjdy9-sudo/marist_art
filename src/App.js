@@ -10,8 +10,9 @@ import Footer from "./components/Footer/Footer";
 import { getImage } from "./utils/getImage";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import usePortfolio from "./hooks/usePortfolio";
-import useFavorites from "./hooks/useFavorites";
 import useIsMobile from "./hooks/useIsMobile";
+import WelcomeScreen from "./components/WelcomeScreen/WelcomeScreen";
+import useFavorites from "./hooks/useFavorites";
 import data from "./data/portfolio.json";
 
 /* =========================
@@ -49,7 +50,6 @@ const items = rawItems.map((item) => {
    COMPONENTE
 ========================= */
 export default function Portfolio() {
-  const isMobile = useIsMobile();
 
   /* UI STATE */
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -57,10 +57,10 @@ export default function Portfolio() {
   const [openPanel, setOpenPanel] = useState(null);
   const [hovered, setHovered] = useState(null);
   const [gridTransition, setGridTransition] = useState(true);
-  const { favorites, toggleFavorite, isFavorite } = useFavorites();
+  const [showGrid, setShowGrid] = useState(false);
   const gridScrollRef = useRef(0);
-
-  /* PORTFOLIO STATE */
+  const isMobile = useIsMobile();
+  const { favorites, toggleFavorite, isFavorite, clearFavorites } = useFavorites();
   const {
   query, setQuery,
   category, setCategory,
@@ -69,8 +69,7 @@ export default function Portfolio() {
   page, setPage,
   selected, setSelected,
   pageSize,
-  randomMode,        // ← nuevo
-  setRandomMode,     // ← nuevo
+  hasActiveSearch,        // ← nuevo
 } = usePortfolio(favorites);
 
   /* DERIVED */
@@ -84,6 +83,7 @@ export default function Portfolio() {
 
   const pageSelected = paginated.find((item) => item.id === selected?.id) || null;
   const isSingle = filtered.length <= 2;
+  const effectiveHasActiveSearch = hasActiveSearch || showGrid;
 
   /* =========================
      EFFECTS
@@ -199,8 +199,8 @@ const goPrev = () => {
   setQuery("");
   setCategory("todas");
   setFilters([]);
-  setRandomMode(true);    // ← activa random
   setSelected(null);
+  setShowGrid(true);
 };
 
   const handleContactClick = () => {
@@ -252,63 +252,83 @@ const goPrev = () => {
           setOpenPanel={setOpenPanel}
           onLogoClick={handleLogoClick}
           onContactClick={handleContactClick}
-          setRandomMode={setRandomMode}
+          onShowGrid={() => setShowGrid(true)}
         />
 
+        {effectiveHasActiveSearch && (
         <FilterPanel
   activeFilters={filters}
   setActiveFilters={setFilters}
   filteredCount={filtered.length}
+  lightboxOpen={lightboxOpen}
   favoritesCount={favorites.length}
+  clearFavorites={clearFavorites}
 />
+        )}
 
-        <div
-          style={{
-            padding: "12px 20px",
-            opacity: gridTransition ? 1 : 0,
-            transition: "opacity 0.2s ease",
-          }}
-        >
-          {filtered.length === 0 && (
-            <div
-              style={{
-                textAlign: "center",
-                color: "rgba(255,255,255,0.7)",
-                fontSize: "16px",
-                fontStyle: "italic",
-                padding: "40px 0",
-                fontFamily: "'Montserrat', sans-serif",
-              }}
-            >
-              Sin resultados. Prueba a modificar filtros o búsqueda.
-            </div>
-          )}
-
-          <Pagination
-            page={page}
-            setPage={setPage}
-            filteredLength={filtered.length}
-            pageSize={pageSize}
+{/* WELCOME SCREEN */}
+        {!effectiveHasActiveSearch && (
+          <WelcomeScreen
+            isMobile={isMobile}
+            onVerTodas={() => {
+  setCategory("todas");
+  setQuery("");
+  setFilters([]);
+  setShowGrid(true);
+}}
           />
+        )}
 
-          <Grid
-            items={paginated}
-            selectedId={pageSelected?.id}
-            onSelect={changeSelected}
-            hoveredId={hovered}
-            setHovered={setHovered}
-            isSingle={isSingle}
-            toggleFavorite={toggleFavorite}
-            isFavorite={isFavorite}
-          />
+        {/* GRID (solo si hay búsqueda o filtros activos) */}
+        {effectiveHasActiveSearch && (
+          <div
+            style={{
+              padding: "12px 20px",
+              opacity: gridTransition ? 1 : 0,
+              transition: "opacity 0.2s ease",
+            }}
+          >
+            {filtered.length === 0 && (
+              <div
+                style={{
+                  textAlign: "center",
+                  color: "rgba(255,255,255,0.7)",
+                  fontSize: "16px",
+                  fontStyle: "italic",
+                  padding: "40px 0",
+                  fontFamily: "'Montserrat', sans-serif",
+                }}
+              >
+                Sin resultados. Prueba a modificar filtros o búsqueda.
+              </div>
+            )}
 
-          <Pagination
-            page={page}
-            setPage={setPage}
-            filteredLength={filtered.length}
-            pageSize={pageSize}
-          />
-        </div>
+            <Pagination
+              page={page}
+              setPage={setPage}
+              filteredLength={filtered.length}
+              pageSize={pageSize}
+            />
+
+            <Grid
+              items={paginated}
+              selectedId={pageSelected?.id}
+              onSelect={changeSelected}
+              hoveredId={hovered}
+              setHovered={setHovered}
+              isSingle={isSingle}
+              toggleFavorite={toggleFavorite}
+              isFavorite={isFavorite}
+            />
+
+            <Pagination
+              page={page}
+              setPage={setPage}
+              filteredLength={filtered.length}
+              pageSize={pageSize}
+            />
+          </div>
+        )}
 
         <Lightbox
   selected={selected}
@@ -330,11 +350,12 @@ const goPrev = () => {
         {/* FOOTER */}
         <Footer
           onLogoClick={() => {
-            setQuery("");
-            setCategory("todas");
-            setFilters([]);
-            setSelected(null);
-          }}
+  setQuery("");
+  setCategory("todas");
+  setFilters([]);
+  setSelected(null);
+  setShowGrid(true);
+}}
         />
       </div>
     </HelmetProvider>

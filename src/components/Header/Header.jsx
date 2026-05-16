@@ -25,7 +25,6 @@ export default function Header({
   setOpenPanel,
   onLogoClick,
   onContactClick,
-  setRandomMode,
 }) {
   const navItems = [
     { key: "todas", label: "Todo" },
@@ -38,10 +37,10 @@ useClickOutside(searchRef, () => setSearchOpen(false));
 
   const handleNavClick = (catKey) => {
     setQuery("");
-    setFilters([]);
-    setCategory(catKey);
-    if (catKey === "todas") setRandomMode(false);
-    setOpenPanel(null);
+  setFilters([]);
+  setCategory(catKey);
+  setOpenPanel(null);
+  if (onShowGrid) onShowGrid();
   };
 
   return (

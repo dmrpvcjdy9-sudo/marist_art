@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ChipsBar from "./ChipsBar";
 import FilterDrawer from "./FilterDrawer";
 import useIsMobile from "../../hooks/useIsMobile";
@@ -9,13 +9,14 @@ export default function FilterPanel({
   filteredCount,
   lightboxOpen,
   favoritesCount,
+  clearFavorites,
 }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const isMobile = useIsMobile();
 
   useEffect(() => {
-  if (lightboxOpen) setDrawerOpen(false);
-}, [lightboxOpen]);
+    if (lightboxOpen) setDrawerOpen(false);
+  }, [lightboxOpen]);
 
   const toggleFilter = (filter) => {
     setActiveFilters((prev) =>
@@ -36,28 +37,18 @@ export default function FilterPanel({
         borderBottom: "1px solid #e5e5e5",
       }}
     >
-      {/* Contador */}
-      <div
-        style={{
-          padding: "10px 20px 4px",
-          fontSize: "13px",
-          color: "#5c5c5c",
-          fontFamily: "'Montserrat', sans-serif",
-        }}
-      >
-        {filteredCount} resultado{filteredCount === 1 ? "" : "s"}
-      </div>
-
-      {/* Chips de Temas */}
+      
+      {/* Chips (solo Favoritos) */}
       <ChipsBar
-  activeFilters={activeFilters}
-  toggleFilter={toggleFilter}
-  clearFilters={clearFilters}
-  filteredCount={filteredCount}
-  isMobile={isMobile}
-  favoritesCount={favoritesCount}
-  onOpenDrawer={() => setDrawerOpen(true)}
-/>
+        activeFilters={activeFilters}
+        toggleFilter={toggleFilter}
+        clearFilters={clearFilters}
+        clearFavorites={clearFavorites}
+        isMobile={isMobile}
+        favoritesCount={favoritesCount}
+        filteredCount={filteredCount}
+        onOpenDrawer={() => setDrawerOpen(true)}
+      />
 
       {/* Drawer con todos los filtros */}
       <FilterDrawer

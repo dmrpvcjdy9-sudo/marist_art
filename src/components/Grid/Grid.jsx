@@ -83,7 +83,8 @@ export default function Grid({
     right: "6px",
     zIndex: 5,
     border: "none",
-    background: "rgba(255,255,255,0.85)",
+    background: "rgba(255,255,255,0.3)",
+    backdropFilter: "blur(4px)",
     borderRadius: "50%",
     width: "28px",
     height: "28px",
@@ -94,14 +95,9 @@ export default function Grid({
     fontSize: "16px",
     padding: 0,
     lineHeight: 1,
+    color: isFavorite(item.id) ? "#4caf50" : "#999999",   // ← añade esta línea
     boxShadow: "0 1px 4px rgba(0,0,0,0.1)",
-    transition: "transform 0.15s ease",
-  }}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.transform = "scale(1.15)";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.transform = "scale(1)";
+    transition: "transform 0.15s ease, color 0.15s ease",
   }}
   title={isFavorite(item.id) ? "Quitar de favoritos" : "Añadir a favoritos"}
 >
