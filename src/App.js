@@ -200,7 +200,7 @@ const goPrev = () => {
   setCategory("todas");
   setFilters([]);
   setSelected(null);
-  setShowGrid(true);
+  setShowGrid(false);   // ← vuelve a Welcome
 };
 
   const handleContactClick = () => {
@@ -349,14 +349,14 @@ const goPrev = () => {
 
         {/* FOOTER */}
         <Footer
-          onLogoClick={() => {
-  setQuery("");
-  setCategory("todas");
-  setFilters([]);
-  setSelected(null);
-  setShowGrid(true);
-}}
-        />
+  onLogoClick={() => {
+    setQuery("");
+    setCategory("todas");
+    setFilters([]);
+    setSelected(null);
+    setShowGrid(false);   // ← vuelve a Welcome
+  }}
+/>
       </div>
     </HelmetProvider>
   );

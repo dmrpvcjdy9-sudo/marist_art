@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T23:38:39.815Z",
+  "generatedAt": "2026-05-17T17:59:09.916Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -58,7 +58,7 @@
     },
     {
       "id": "ilu-0003",
-      "titulo": "Champagnat",
+      "titulo": "M Champagnat",
       "descripcion": "San Marcelino - III",
       "categoria": "otros",
       "subcategoria": "retrato",
@@ -81,7 +81,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0003 champagnat san marcelino - iii otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
+      "search": "ilu-0003 m champagnat san marcelino - iii otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
       "destacado": true
     },
     {
@@ -224,7 +224,7 @@
     },
     {
       "id": "ilu-0009",
-      "titulo": "Champagnat",
+      "titulo": "Marcelino Champagnat",
       "descripcion": "San Marcelino - IX",
       "categoria": "otros",
       "subcategoria": "retrato",
@@ -247,12 +247,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0009 champagnat san marcelino - ix otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
+      "search": "ilu-0009 marcelino champagnat san marcelino - ix otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
       "destacado": true
     },
     {
       "id": "ilu-0010",
-      "titulo": "Champagnat",
+      "titulo": "M Champagnat",
       "descripcion": "San Marcelino - X",
       "categoria": "otros",
       "subcategoria": "retrato",
@@ -276,12 +276,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0010 champagnat san marcelino - x otros retrato original arturo_mp champagnat maristas firma minimalista postal multicolor personal final",
+      "search": "ilu-0010 m champagnat san marcelino - x otros retrato original arturo_mp champagnat maristas firma minimalista postal multicolor personal final",
       "destacado": true
     },
     {
       "id": "ilu-0011",
-      "titulo": "Champagnat",
+      "titulo": "M Champagnat",
       "descripcion": "San Marcelino - XI",
       "categoria": "otros",
       "subcategoria": "retrato",
@@ -304,12 +304,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0011 champagnat san marcelino - xi otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
+      "search": "ilu-0011 m champagnat san marcelino - xi otros retrato original arturo_mp champagnat maristas minimalista postal multicolor personal final",
       "destacado": true
     },
     {
       "id": "ilu-0012",
-      "titulo": "Champagnat",
+      "titulo": "M Champagnat",
       "descripcion": "San Marcelino - XII",
       "categoria": "otros",
       "subcategoria": "retrato",
@@ -332,12 +332,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0012 champagnat san marcelino - xii otros retrato original arturo_mp champagnat maristas minimalista textil blanco_negro personal final",
+      "search": "ilu-0012 m champagnat san marcelino - xii otros retrato original arturo_mp champagnat maristas minimalista textil blanco_negro personal final",
       "destacado": true
     },
     {
       "id": "ilu-0013",
-      "titulo": "Champagnat",
+      "titulo": "M Champagnat",
       "descripcion": "San Marcelino - XIII",
       "categoria": "otros",
       "subcategoria": "retrato",
@@ -360,7 +360,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0013 champagnat san marcelino - xiii otros retrato original arturo_mp champagnat maristas firma colorear blanco_negro personal final",
+      "search": "ilu-0013 m champagnat san marcelino - xiii otros retrato original arturo_mp champagnat maristas firma colorear blanco_negro personal final",
       "destacado": true
     },
     {
@@ -3659,6 +3659,567 @@
         "basado_en": "Arturo_MP"
       },
       "search": "dis-0055 ceda el paso y sigalos para viaje a belen maristas jaen otros escena original arturo_mp maristas evangelio educacion cartel rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0077",
+      "titulo": "Tras sus pasos",
+      "descripcion": "Seguimiento",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0077"
+      },
+      "meta": {
+        "temas": [
+          3,
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0077 tras sus pasos seguimiento otros escena original arturo_mp evangelio vocacional sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0078",
+      "titulo": "Mi primera Eucaristía",
+      "descripcion": "Recordatorio",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0078"
+      },
+      "meta": {
+        "temas": [
+          3,
+          9,
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_Jose_MR_C_Towers"
+      },
+      "search": "ilu-0078 mi primera eucaristia recordatorio otros escena adaptado arturo_mp_jose_mr_c_towers evangelio paz violetas sin_fondo sticker postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0079",
+      "titulo": "R-Evolution",
+      "descripcion": "La revolución de la Sencillez",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0079"
+      },
+      "meta": {
+        "temas": [
+          8,
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0079 r-evolution la revolucion de la sencillez otros texto original arturo_mp maristas violetas sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0080",
+      "titulo": "Orienta 2",
+      "descripcion": "Orientación profesional y vocacional",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0080"
+      },
+      "meta": {
+        "temas": [
+          2,
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0080 orienta 2 orientacion profesional y vocacional otros escena original arturo_mp educacion vocacional sin_fondo sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0081",
+      "titulo": "Barco de papel",
+      "descripcion": "Parte cartel 'Cambia' (MRE)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0081"
+      },
+      "meta": {
+        "temas": [
+          2,
+          7
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0081 barco de papel parte cartel 'cambia' (mre) otros escena original arturo_mp educacion maria sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0082",
+      "titulo": "Estrella de papel",
+      "descripcion": "Parte cartel 'Cambia' (MRE)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0082"
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_jarts"
+      },
+      "search": "ilu-0082 estrella de papel parte cartel 'cambia' (mre) otros escena original arturo_mp_jarts educacion sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0083",
+      "titulo": "L´Hermitage",
+      "descripcion": "Silueta edificio actual NS L´Hermitage",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0083"
+      },
+      "meta": {
+        "temas": [
+          8,
+          0,
+          5
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0083 l´hermitage silueta edificio actual ns l´hermitage otros escena original arturo_mp maristas champagnat hermitage sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0084",
+      "titulo": "Elegir y compartir",
+      "descripcion": "Para orientación profesional y vocacional",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0084"
+      },
+      "meta": {
+        "temas": [
+          2,
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0084 elegir y compartir para orientacion profesional y vocacional otros figura adaptado arturo_mp_rrss educacion vocacional sin_fondo sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0085",
+      "titulo": "Diálogo",
+      "descripcion": "No-Violencia",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0085"
+      },
+      "meta": {
+        "temas": [
+          9,
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0085 dialogo no-violencia otros texto adaptado arturo_mp_rrss paz educacion sin_fondo sticker blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0086",
+      "titulo": "Como María",
+      "descripcion": "Anagrama humano",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0086"
+      },
+      "meta": {
+        "temas": [
+          7,
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0086 como maria anagrama humano otros figura original arturo_mp maria evangelio sin_fondo sticker escala_grises personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0087",
+      "titulo": "Piratilla",
+      "descripcion": "Para actividad complementaria",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0087"
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0087 piratilla para actividad complementaria otros figura adaptado c_towers educacion sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0088",
+      "titulo": "Paz",
+      "descripcion": "Paloma y rama de olivo",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0088"
+      },
+      "meta": {
+        "temas": [
+          2,
+          9
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0088 paz paloma y rama de olivo otros escena adaptado c_towers educacion paz sin_fondo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0089",
+      "titulo": "Pajarita de papel",
+      "descripcion": "Parte cartel 'Cambia' (MRE)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0089"
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0089 pajarita de papel parte cartel 'cambia' (mre) otros escena original arturo_mp educacion sin_fondo sticker escala_grises personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0056",
+      "titulo": "Posible logo",
+      "descripcion": "MarCha Maristas Toledo",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0056"
+      },
+      "meta": {
+        "temas": [
+          8,
+          4
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          3,
+          4,
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0056 posible logo marcha maristas toledo otros texto original arturo_mp maristas gvx logo postal rrss sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0057",
+      "titulo": "Hey Bro (por)",
+      "descripcion": "Para bemaristbrother.com",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0057"
+      },
+      "meta": {
+        "temas": [
+          8,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0057 hey bro (por) para bemaristbrother.com otros texto original arturo_mp maristas vocacional frase sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0058",
+      "titulo": "Camina, Reza, Ama",
+      "descripcion": "Para formación Comunidad GVX",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0058"
+      },
+      "meta": {
+        "temas": [
+          8,
+          3,
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3,
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0058 camina, reza, ama para formacion comunidad gvx otros texto original arturo_mp_provmediterranea maristas evangelio gvx frase postal sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0059",
+      "titulo": "Hey Bro (esp)",
+      "descripcion": "Para bemaristbrother.com",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0059"
+      },
+      "meta": {
+        "temas": [
+          8,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0059 hey bro (esp) para bemaristbrother.com otros texto original arturo_mp maristas vocacional frase sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0060",
+      "titulo": "Feliz Navidad I",
+      "descripcion": "Felicitación",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0060"
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          3,
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0060 feliz navidad i felicitacion otros escena original arturo_mp evangelio postal sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0061",
+      "titulo": "GVX Verano 1988",
+      "descripcion": "Camiseta Tensar los vientos (frontal)",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0061"
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_A_Arroyo"
+      },
+      "search": "dis-0061 gvx verano 1988 camiseta tensar los vientos (frontal) otros escena adaptado arturo_mp_a_arroyo gvx textil blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0062",
+      "titulo": "Diversos y Complementarios",
+      "descripcion": "Soy marista",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0062"
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [],
+        "usos": [
+          5,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0062 diversos y complementarios soy marista otros texto original arturo_mp maristas sticker postal multicolor personal final",
       "destacado": true
     }
   ],

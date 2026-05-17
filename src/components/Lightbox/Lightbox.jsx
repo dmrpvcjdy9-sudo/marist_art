@@ -83,8 +83,9 @@ export default function Lightbox({
     minHeight: 0,
   }}
 >
-  {/* Zona de clic izquierda (móvil) */}
   {isMobile && (
+  <>
+    {/* Zona izquierda */}
     <div
       onClick={(e) => {
         e.stopPropagation();
@@ -94,16 +95,13 @@ export default function Lightbox({
         position: "absolute",
         left: 0,
         top: 0,
-        bottom: 0,
+        bottom: "30%",
         width: "25%",
         zIndex: 5,
         cursor: "pointer",
       }}
     />
-  )}
-
-  {/* Zona de clic derecha (móvil) */}
-  {isMobile && (
+    {/* Zona derecha */}
     <div
       onClick={(e) => {
         e.stopPropagation();
@@ -113,13 +111,14 @@ export default function Lightbox({
         position: "absolute",
         right: 0,
         top: 0,
-        bottom: 0,
+        bottom: "30%",
         width: "25%",
         zIndex: 5,
         cursor: "pointer",
       }}
     />
-  )}
+  </>
+)}
 
   {/* FLECHA IZQUIERDA (escritorio o móvil) */}
   {!isMobile && (
