@@ -196,6 +196,16 @@ const goPrev = () => {
   if (filtered[index - 1]) setSelected(filtered[index - 1]);
 };
 
+const handleVerTodo = () => {
+  setQuery("");
+  setFilters([]);
+  setCategory("");
+  setTimeout(() => {
+    setCategory("todas");
+    setShowGrid(true);
+  }, 0);
+};
+
   const handleLogoClick = () => {
   setQuery("");
   setCategory("todas");
@@ -255,6 +265,7 @@ const goPrev = () => {
           onContactClick={handleContactClick}
           onShowGrid={() => setShowGrid(true)}
           onShowGrid={forceShowGrid}
+          onVerTodo={handleVerTodo}
         />
 
         {effectiveHasActiveSearch && (
@@ -272,6 +283,7 @@ const goPrev = () => {
         {!effectiveHasActiveSearch && (
           <WelcomeScreen
             isMobile={isMobile}
+            onVerTodas={handleVerTodo}
             onVerTodas={() => {
   setCategory("todas");
   setQuery("");

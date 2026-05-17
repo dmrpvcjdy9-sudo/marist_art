@@ -25,7 +25,7 @@ export default function Header({
   setOpenPanel,
   onLogoClick,
   onContactClick,
-  onShowGrid,
+  onVerTodo,
 }) {
   const navItems = [
     { key: "todas", label: "Todo" },
@@ -37,20 +37,16 @@ export default function Header({
 useClickOutside(searchRef, () => setSearchOpen(false));
 
   const handleNavClick = (catKey) => {
-  setQuery("");
-  setFilters([]);
-  setOpenPanel(null);
-  
-  if (catKey === "todas") {
-    // Para "Todo", forzar mostrar grid aunque category ya sea "todas"
-    setCategory("");
-    setTimeout(() => setCategory("todas"), 0);
-  } else {
-    setCategory(catKey);
-  }
-  
-  if (onShowGrid) onShowGrid();
-};
+    setQuery("");
+    setFilters([]);
+    setOpenPanel(null);
+    
+    if (catKey === "todas") {
+      onVerTodo();    // ← usa la función unificada
+    } else {
+      setCategory(catKey);
+    }
+  };
 
   return (
     <div
