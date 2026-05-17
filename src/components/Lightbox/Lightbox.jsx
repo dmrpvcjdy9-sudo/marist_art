@@ -22,8 +22,10 @@ export default function Lightbox({
 
   // Swipe handlers
   const handleTouchStart = (e) => {
-    touchStartX.current = e.touches[0].clientX;
-  };
+  // Ignorar si el toque empieza en el footer
+  if (e.target.closest('[data-footer]')) return;
+  touchStartX.current = e.touches[0].clientX;
+};
 
   const handleTouchMove = (e) => {
     touchEndX.current = e.touches[0].clientX;
@@ -61,7 +63,7 @@ export default function Lightbox({
       style={{
         position: "fixed",
         inset: 0,
-        background: "rgba(0,0,0,0.96)",
+        background: "rgba(11, 47, 55, 0.85)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -172,6 +174,7 @@ export default function Lightbox({
 
       {/* FOOTER CON TÍTULO + DESCARGA */}
       <div
+        data-footer
         onClick={(e) => e.stopPropagation()}
         style={{
           width: "100%",

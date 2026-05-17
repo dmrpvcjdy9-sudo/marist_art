@@ -84,6 +84,7 @@ export default function Portfolio() {
   const pageSelected = paginated.find((item) => item.id === selected?.id) || null;
   const isSingle = filtered.length <= 2;
   const effectiveHasActiveSearch = hasActiveSearch || showGrid;
+  const forceShowGrid = () => setShowGrid(true);
 
   /* =========================
      EFFECTS
@@ -253,6 +254,7 @@ const goPrev = () => {
           onLogoClick={handleLogoClick}
           onContactClick={handleContactClick}
           onShowGrid={() => setShowGrid(true)}
+          onShowGrid={forceShowGrid}
         />
 
         {effectiveHasActiveSearch && (
