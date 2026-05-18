@@ -32,12 +32,12 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
         }}
       >
         <img
-          src="/logof.png"
+          src="/AMP.png"
           alt="Marist-Art"
           style={{
-            width: "80%",
-            height: "80%",
-            objectFit: "contain",
+            width: "90%",
+            height: "90%",
+            objectFit: "cover",
             opacity: 0.8,
           }}
         />
@@ -74,9 +74,16 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
             fontWeight: "300",
           }}
         >
+          Esto es Marist-Art. Nada complicado, espero.
           Un repositorio abierto de ilustraciones y diseños para la pastoral,
-          la educación y la comunidad. Todo gratuito, descargable y libre de
-          usar (CC BY-NC 4.0).
+          la educación y la comunidad marista, y para quién le venga bien. 
+          Proceden de archivos vectoriales propios, o en los que haya intervenido
+          directamente. Todo gratuito, descargable y libre para uso no comercial
+          (Licencia CC BY-NC 4.0). No hay cookies de terceros.
+          Tienes filtros arriba, y búsqueda por palabras clave. Puedes marcar
+          los que te parezca para verlos o descargarlos después (Favoritos).
+          Si quieres colaborar o tienes alguna sugerencia, no dudes en contactar.
+          (gracias J_Medina por tu ilustración, ahora en portada)
         </p>
 
         <div
