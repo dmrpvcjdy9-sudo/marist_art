@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 
 export default function ChipsBar({
   activeFilters,
@@ -11,6 +11,8 @@ export default function ChipsBar({
   onOpenDrawer,
 }) {
   const isFavoritesActive = activeFilters.includes("__favoritos__");
+
+  const [showConfirm, setShowConfirm] = useState(false);
 
   return (
     <div
@@ -45,37 +47,84 @@ export default function ChipsBar({
 
       {/* PAPELERA DE FAVORITOS */}
       {favoritesCount > 0 && (
-  <button
-    onClick={() => {
-      if (window.confirm("¿Borrar todos los favoritos?")) {
-        clearFavorites();
-        clearFilters();
-      }
-    }}
-    title="Borrar todos los favoritos"
+  <>
+    <button
+      onClick={() => setShowConfirm(true)}
+      title="Borrar todos los favoritos"
+      style={{ ... }}
+    >
+      🗑
+    </button>
+
+    {showConfirm && (
+      <div
+        style={{
+          position: "fixed",
+          inset: 0,
+          background: "rgba(0,0,0,0.5)",
+          zIndex: 300,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        onClick={() => setShowConfirm(false)}
+      >
+        <div
+          onClick={(e) => e.stopPropagation()}
           style={{
-            border: "none",
-            background: "transparent",
-            color: "#999999",
-            fontSize: "15px",
-            cursor: "pointer",
-            padding: "4px 8px",
-            borderRadius: "6px",
-            flexShrink: 0,
-            transition: "all 0.15s ease",
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.color = "#e74c3c";
-            e.currentTarget.style.background = "#fef0f0";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.color = "#999999";
-            e.currentTarget.style.background = "transparent";
+            background: "#fff",
+            borderRadius: "12px",
+            padding: "24px",
+            maxWidth: "320px",
+            textAlign: "center",
+            boxShadow: "0 8px 30px rgba(0,0,0,0.2)",
+            fontFamily: "'Montserrat', sans-serif",
           }}
         >
-          🗑
-        </button>
-      )}
+          <p style={{ margin: "0 0 16px", color: "#333", fontSize: "14px" }}>
+            ¿Borrar todos los favoritos?
+          </p>
+          <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
+            <button
+              onClick={() => setShowConfirm(false)}
+              style={{
+                padding: "8px 16px",
+                borderRadius: "6px",
+                border: "1px solid #e5e5e5",
+                background: "#fff",
+                color: "#666",
+                fontSize: "12px",
+                cursor: "pointer",
+                fontFamily: "'Montserrat', sans-serif",
+              }}
+            >
+              Cancelar
+            </button>
+            <button
+              onClick={() => {
+                clearFavorites();
+                clearFilters();
+                setShowConfirm(false);
+              }}
+              style={{
+                padding: "8px 16px",
+                borderRadius: "6px",
+                border: "none",
+                background: "#e74c3c",
+                color: "#fff",
+                fontSize: "12px",
+                cursor: "pointer",
+                fontFamily: "'Montserrat', sans-serif",
+              }}
+            >
+              Borrar
+            </button>
+          </div>
+        </div>
+      </div>
+    )}
+  </>
+)}
 
       {/* Espaciador */}
       <div style={{ flex: 1 }} />

@@ -106,7 +106,6 @@ export default function Grid({
                 <img
   src={getImage(item, "thumb")}
   alt={item.titulo}
-  loading="eager"    // ← cambia de "lazy" a "eager"
   style={{
     width: "100%",
     height: "100%",

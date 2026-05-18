@@ -175,6 +175,16 @@ useEffect(() => {
   });
 }, [page, filtered, pageSize]);
 
+useEffect(() => {
+  if (effectiveHasActiveSearch) {
+    const timer = setTimeout(() => {
+      window.scrollBy(0, 1);
+      window.scrollBy(0, -1);
+    }, 300);
+    return () => clearTimeout(timer);
+  }
+}, [effectiveHasActiveSearch]);
+
   /* =========================
      HANDLERS (mínimos)
   ========================= */
