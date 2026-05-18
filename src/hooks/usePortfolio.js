@@ -1,7 +1,7 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import data from "../data/portfolio.json";
 
-export default function usePortfolio(favorites = []) {
+export default function usePortfolio(favoritesRef = { current: [] }) {
   const { items: rawItems, dicts } = data;
   const { temas, tags, usos } = dicts;
 
@@ -51,7 +51,7 @@ export default function usePortfolio(favorites = []) {
     const q = query.trim().toLowerCase();
 
     const result = items.filter((item) => {
-      if (!favoritesFilterActive && category !== "todas" && item.categoria !== category) return false;
+      if (favoritesFilterActive && !favoritesRef.current.includes(item.id)) return false;
 
       if (
         q &&
@@ -66,13 +66,13 @@ export default function usePortfolio(favorites = []) {
       )
         return false;
 
-      if (favoritesFilterActive && !favorites.includes(item.id)) return false;
+     if (favoritesFilterActive && !favoritesRef.current.includes(item.id)) return false;
 
       return true;
     });
 
     return result;
-  }, [items, query, category, normalizedFilters, favorites]);
+  }, [items, query, category, normalizedFilters]);
 
   // 📄 PAGINACIÓN
   const paginated = useMemo(() => {
@@ -80,16 +80,31 @@ export default function usePortfolio(favorites = []) {
     return filtered.slice(start, start + pageSize);
   }, [filtered, page]);
 
-  // 🔁 RESET PAGE cuando cambian filtros
-  useEffect(() => {
-    setPage(1);
-  }, [query, category, filters]);
+  // 🔁 Control de página unificado
+const prevKeyRef = useRef("");
 
-  // 🔁 AJUSTAR página si se queda fuera
-  useEffect(() => {
+useEffect(() => {
+  // Crear una "clave" que ignore favoritos
+  const filtersKey = filters
+    .filter(f => f !== "__favoritos__")
+    .sort()
+    .join(",");
+  const currentKey = `${query}|${category}|${filtersKey}`;
+  const prevKey = prevKeyRef.current;
+
+  if (prevKey && currentKey !== prevKey) {
+    // Cambiaron los filtros reales: reset a página 1
+    setPage(1);
+  } else if (!prevKey) {
+    // Primera ejecución: no hacer nada
+  } else {
+    // Mismos filtros: ajustar página si es necesario
     const maxPage = Math.max(1, Math.ceil(filtered.length / pageSize));
     if (page > maxPage) setPage(maxPage);
-  }, [filtered, page]);
+  }
+
+  prevKeyRef.current = currentKey;
+}, [query, category, filters, filtered.length, page, pageSize]);
 
   // 🎯 SELECTED seguro
   useEffect(() => {

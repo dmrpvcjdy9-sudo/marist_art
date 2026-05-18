@@ -28,21 +28,27 @@ export default function Grid({
         const isHovered = hoveredId === item.id;
 
         return (
-          <button
-            key={item.id}
-            onClick={() => onSelect(item)}
-            onMouseEnter={() => setHovered(item.id)}
-            onMouseLeave={() => setHovered(null)}
-            style={{
-              all: "unset",
-              cursor: "pointer",
-              display: "flex",
-              flexDirection: "column",
-              height: "100%",
-              maxWidth: isSingle ? "400px" : "100%",
-              width: "100%",
-            }}
-          >
+          <div
+  key={item.id}
+  role="button"
+  tabIndex={0}
+  onClick={() => onSelect(item)}
+  onKeyDown={(e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onSelect(item);
+    }
+  }}
+  style={{
+    cursor: "pointer",
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    maxWidth: isSingle ? "400px" : "100%",
+    width: "100%",
+    outline: "none",
+  }}
+>
             {/* TARJETA */}
             <div
               style={{
@@ -74,9 +80,9 @@ export default function Grid({
               {/* ESTRELLA FAVORITO */}
 <button
   onClick={(e) => {
-    e.stopPropagation();
-    toggleFavorite(item.id);
-  }}
+  e.stopPropagation();
+  toggleFavorite(item.id);
+}}
   style={{
     position: "absolute",
     top: "6px",
@@ -158,7 +164,7 @@ export default function Grid({
                 )}
               </div>
             </div>
-          </button>
+          </div>
         );
       })}
     </div>

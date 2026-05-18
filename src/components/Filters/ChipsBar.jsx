@@ -51,7 +51,17 @@ export default function ChipsBar({
     <button
       onClick={() => setShowConfirm(true)}
       title="Borrar todos los favoritos"
-      style={{ ... }}
+      style={{
+  border: "none",
+  background: "transparent",
+  color: "#999999",
+  fontSize: "15px",
+  cursor: "pointer",
+  padding: "4px 8px",
+  borderRadius: "6px",
+  flexShrink: 0,
+  transition: "all 0.15s ease",
+}}
     >
       🗑
     </button>
@@ -144,33 +154,48 @@ export default function ChipsBar({
 </span>
 
       {/* Botón "+ Filtros" */}
-      <button
-        onClick={onOpenDrawer}
-        style={{
-          padding: "6px 14px",
-          borderRadius: "999px",
-          border: "1px solid #7b5ea7",
-          background: "#ffffff",
-          color: "#7b5ea7",
-          fontSize: "11px",
-          fontWeight: "600",
-          cursor: "pointer",
-          whiteSpace: "nowrap",
-          transition: "all 0.15s ease",
-          fontFamily: "'Montserrat', sans-serif",
-          flexShrink: 0,
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.background = "#7b5ea7";
-          e.currentTarget.style.color = "#ffffff";
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.background = "#ffffff";
-          e.currentTarget.style.color = "#7b5ea7";
-        }}
-      >
-        {isMobile ? "+ Filtros" : "+ Todos los filtros"}
-      </button>
+<button
+  onClick={onOpenDrawer}
+  style={{
+    padding: "6px 14px",
+    borderRadius: "999px",
+    border: activeFilters.filter(f => f !== "__favoritos__").length > 0
+      ? "1px solid #7b5ea7"
+      : "1px solid #7b5ea7",
+    background: activeFilters.filter(f => f !== "__favoritos__").length > 0
+      ? "#7b5ea7"
+      : "#ffffff",
+    color: activeFilters.filter(f => f !== "__favoritos__").length > 0
+      ? "#ffffff"
+      : "#7b5ea7",
+    fontSize: "11px",
+    fontWeight: "600",
+    cursor: "pointer",
+    whiteSpace: "nowrap",
+    transition: "all 0.15s ease",
+    fontFamily: "'Montserrat', sans-serif",
+    flexShrink: 0,
+  }}
+  onMouseEnter={(e) => {
+    if (activeFilters.filter(f => f !== "__favoritos__").length === 0) {
+      e.currentTarget.style.background = "#7b5ea7";
+      e.currentTarget.style.color = "#ffffff";
+    }
+  }}
+  onMouseLeave={(e) => {
+    if (activeFilters.filter(f => f !== "__favoritos__").length === 0) {
+      e.currentTarget.style.background = "#ffffff";
+      e.currentTarget.style.color = "#7b5ea7";
+    }
+  }}
+>
+  {isMobile ? "+ Filtros" : "+ Todos los filtros"}
+  {activeFilters.filter(f => f !== "__favoritos__").length > 0 && (
+    <span style={{ marginLeft: "4px", fontSize: "10px" }}>
+      ({activeFilters.filter(f => f !== "__favoritos__").length})
+    </span>
+  )}
+</button>
     </div>
   );
 }

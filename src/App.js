@@ -61,6 +61,10 @@ export default function Portfolio() {
   const gridScrollRef = useRef(0);
   const isMobile = useIsMobile();
   const { favorites, toggleFavorite, isFavorite, clearFavorites } = useFavorites();
+  const favoritesRef = useRef(favorites);
+useEffect(() => {
+  favoritesRef.current = favorites;
+}, [favorites]);
   const {
   query, setQuery,
   category, setCategory,
@@ -70,7 +74,7 @@ export default function Portfolio() {
   selected, setSelected,
   pageSize,
   hasActiveSearch,        // ← nuevo
-} = usePortfolio(favorites);
+} = usePortfolio(favoritesRef);
 
   /* DERIVED */
   const options = useMemo(() => {
