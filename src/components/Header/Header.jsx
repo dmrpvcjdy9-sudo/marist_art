@@ -160,21 +160,29 @@ useClickOutside(searchRef, () => setSearchOpen(false));
           <>
             {/* LUPA */}
             <button
-              onClick={() => {
-                setSearchOpen(!searchOpen);
-                setOpenPanel(null);
-              }}
-              style={{
-                border: "none",
-                background: "transparent",
-                fontSize: "18px",
-                cursor: "pointer",
-                color: searchOpen ? "#1a1a1a" : "#999999",
-                padding: "4px",
-              }}
-            >
-              🔍
-            </button>
+  onClick={() => {
+    if (query) {
+      // Si hay búsqueda activa, limpiar y cerrar
+      setQuery("");
+      setSearchOpen(false);
+    } else {
+      // Si no, abrir/cerrar buscador
+      setSearchOpen(!searchOpen);
+      setOpenPanel(null);
+    }
+  }}
+  style={{
+    border: "none",
+    background: "transparent",
+    fontSize: "18px",
+    cursor: "pointer",
+    color: searchOpen || query ? "#7b5ea7" : "#999999",
+    padding: "4px",
+  }}
+  title={query ? "Limpiar búsqueda" : "Buscar"}
+>
+  {query ? "✕" : "🔍"}
+</button>
 
             {/* HAMBURGUESA */}
             <button
@@ -198,122 +206,147 @@ useClickOutside(searchRef, () => setSearchOpen(false));
           <div
   ref={searchRef}
   style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "8px",
-              border: "1px solid #e5e5e5",
-              borderRadius: "999px",
-              padding: "6px 12px",
-              background: "#ffffff",
-              width: searchOpen ? "180px" : "36px",
-              maxWidth: "50vw",  // ← no más de la mitad de la pantalla
-              transition: "width 0.25s ease",
-              overflow: "hidden",
-            }}
-          >
-            <span
-              onClick={() => setSearchOpen(!searchOpen)}
-              style={{
-                color: "#999999",
-                cursor: "pointer",
-                flexShrink: 0,
-                fontSize: "14px",
-              }}
-            >
-              🔍
-            </span>
+    display: "flex",
+    alignItems: "center",
+    gap: "6px",
+    border: "1px solid #e5e5e5",
+    borderRadius: "999px",
+    padding: "6px 10px",
+    background: "#ffffff",
+    width: searchOpen ? "180px" : "auto",
+    maxWidth: "50vw",
+    transition: "width 0.25s ease",
+    overflow: "hidden",
+  }}
+>
+  {/* X para limpiar (siempre visible si hay query) */}
+  {query && (
+    <span
+      onClick={(e) => {
+        e.preventDefault();
+        setQuery("");
+      }}
+      style={{
+        cursor: "pointer",
+        color: "#999999",
+        fontSize: "13px",
+        flexShrink: 0,
+        order: 1,
+      }}
+    >
+      ✕
+    </span>
+  )}
 
-            <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onFocus={() => setSearchOpen(true)}
-              placeholder=""
-              aria-label="Buscar ilustraciones"
-              style={{
-                border: "none",
-                outline: "none",
-                fontSize: "13px",
-                width: "100%",
-                background: "transparent",
-                color: "#1a1a1a",
-                fontFamily: "'Montserrat', sans-serif",
-              }}
-            />
+  {/* LUPA */}
+  <span
+    onClick={() => setSearchOpen(!searchOpen)}
+    style={{
+      color: "#999999",
+      cursor: "pointer",
+      flexShrink: 0,
+      fontSize: "14px",
+      order: 2,
+    }}
+  >
+    🔍
+  </span>
 
-            {query && (
-              <span
-                onClick={(e) => {
-                  e.preventDefault();
-                  setQuery("");
-                }}
-                style={{
-                  cursor: "pointer",
-                  color: "#999999",
-                  fontSize: "13px",
-                  padding: "0 4px",
-                  userSelect: "none",
-                  flexShrink: 0,
-                }}
-              >
-                ✕
-              </span>
-            )}
-          </div>
+  {/* INPUT (solo si expandido) */}
+  {searchOpen && (
+    <input
+      value={query}
+      onChange={(e) => setQuery(e.target.value)}
+      onFocus={() => setSearchOpen(true)}
+      placeholder=""
+      aria-label="Buscar ilustraciones"
+      style={{
+        border: "none",
+        outline: "none",
+        fontSize: "13px",
+        width: "100%",
+        background: "transparent",
+        color: "#1a1a1a",
+        fontFamily: "'Montserrat', sans-serif",
+        order: 3,
+      }}
+    />
+  )}
+</div>
         )}
       </div>
 
-      {/* DESPLEGABLE BUSCADOR MÓVIL */}
+      {/* BUSCADOR MÓVIL CON OVERLAY */}
 {isMobile && searchOpen && (
-  <div
-    style={{
-      position: "absolute",
-      top: "100%",
-      left: 0,
-      right: 0,
-      background: "#ffffff",
-      padding: "12px 16px",
-      borderBottom: "1px solid #e5e5e5",
-      zIndex: 99,
-      boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-      display: "flex",
-      alignItems: "center",
-      gap: "8px",
-    }}
-  >
-    <input
-      autoFocus
-      value={query}
-      onChange={(e) => setQuery(e.target.value)}
-      placeholder="Buscar ilustraciones..."
+  <>
+    {/* Overlay que cierra al pulsar fuera */}
+    <div
+      onClick={() => setSearchOpen(false)}
       style={{
-        flex: 1,
-        border: "1px solid #e5e5e5",
-        borderRadius: "8px",
-        padding: "10px 12px",
-        fontSize: "14px",
-        outline: "none",
-        fontFamily: "'Montserrat', sans-serif",
-        color: "#1a1a1a",
-        minWidth: 0,
+        position: "fixed",
+        inset: 0,
+        background: "rgba(0,0,0,0.3)",
+        zIndex: 98,
       }}
     />
-    {query && (
-      <span
-        onClick={() => {
-          setQuery("");
-          setSearchOpen(false);
-        }}
+
+    {/* Barra de búsqueda */}
+    <div
+      style={{
+        position: "absolute",
+        top: "100%",
+        left: 0,
+        right: 0,
+        background: "#ffffff",
+        padding: "12px 16px",
+        borderBottom: "1px solid #e5e5e5",
+        zIndex: 99,
+        boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+        display: "flex",
+        alignItems: "center",
+        gap: "8px",
+      }}
+    >
+      {/* LUPA pequeña a la izquierda */}
+      <span style={{ color: "#999999", fontSize: "14px", flexShrink: 0 }}>🔍</span>
+
+      <input
+        autoFocus
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Buscar ilustraciones..."
         style={{
-          cursor: "pointer",
-          color: "#999999",
+          flex: 1,
+          border: "1px solid #e5e5e5",
+          borderRadius: "8px",
+          padding: "10px 12px",
           fontSize: "14px",
-          flexShrink: 0,
+          outline: "none",
+          fontFamily: "'Montserrat', sans-serif",
+          color: "#1a1a1a",
+          minWidth: 0,
         }}
-      >
-        ✕
-      </span>
-    )}
-  </div>
+      />
+
+      {/* X para limpiar y cerrar */}
+      {query && (
+        <span
+          onClick={() => {
+            setQuery("");
+            setSearchOpen(false);
+          }}
+          style={{
+            cursor: "pointer",
+            color: "#999999",
+            fontSize: "14px",
+            flexShrink: 0,
+          }}
+        >
+          ✕
+        </span>
+      )}
+    </div>
+  </>
 )}
 
       {/* MENÚ DESPLEGABLE MÓVIL */}
