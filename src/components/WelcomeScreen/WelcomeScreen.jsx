@@ -80,9 +80,8 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
           Son de archivos vectoriales propios, o en los que haya intervenido
           directamente. Todo gratuito, descargable y libre para uso no comercial
           (Licencia CC BY-NC 4.0).
-          Tienes filtros y búsqueda arriba. Y la posibilidad de marcar Favoritos.
+          Tienes filtros y búsqueda, así como poder marcar favoritos.
           Si quieres colaborar o tienes alguna sugerencia, no dudes en escribir.
-
            (Gracias a J_Medina por su ilustración, ahora en portada)
         </p>
 
