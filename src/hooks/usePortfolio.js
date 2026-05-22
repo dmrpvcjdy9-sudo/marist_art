@@ -10,8 +10,25 @@ export default function usePortfolio(favoritesRef = { current: [] }) {
   const [filters, setFilters] = useState([]);
   const [selected, setSelected] = useState(null);
   const [page, setPage] = useState(1);
-
   const pageSize = 18;
+
+  // Recuperar filtros guardados al iniciar
+useEffect(() => {
+  try {
+    const saved = localStorage.getItem("marist-art-filters");
+    if (saved) {
+      const { query: q, category: c, filters: f } = JSON.parse(saved);
+      if (q) setQuery(q);
+      if (c) setCategory(c);
+      if (f) setFilters(f);
+    }
+  } catch {}
+}, []); // eslint-disable-line
+
+// Guardar filtros al cambiar
+useEffect(() => {
+  localStorage.setItem("marist-art-filters", JSON.stringify({ query, category, filters }));
+}, [query, category, filters]);
 
   // 🔧 NORMALIZACIÓN
   const items = useMemo(() => {
@@ -60,11 +77,36 @@ export default function usePortfolio(favoritesRef = { current: [] }) {
       )
         return false;
 
-      if (
-        cleanFilters.length &&
-        !cleanFilters.some((f) => item.allFiltersLower.includes(f))
-      )
-        return false;
+      if (cleanFilters.length > 0) {
+  // Agrupar filtros por categoría (Temas, Tags, Usos)
+  const filterCategories = {
+    temas: cleanFilters.filter((f) => temas.map(t => t.toLowerCase()).includes(f)),
+    tags: cleanFilters.filter((f) => tags.map(t => t.toLowerCase()).includes(f)),
+    usos: cleanFilters.filter((f) => usos.map(t => t.toLowerCase()).includes(f)),
+  };
+
+  // Cada categoría con filtros activos debe cumplirse (AND entre categorías)
+  if (filterCategories.temas.length > 0) {
+    const matchesTemas = filterCategories.temas.some((f) =>
+      item.allFiltersLower.includes(f)
+    );
+    if (!matchesTemas) return false;
+  }
+
+  if (filterCategories.tags.length > 0) {
+    const matchesTags = filterCategories.tags.some((f) =>
+      item.allFiltersLower.includes(f)
+    );
+    if (!matchesTags) return false;
+  }
+
+  if (filterCategories.usos.length > 0) {
+    const matchesUsos = filterCategories.usos.some((f) =>
+      item.allFiltersLower.includes(f)
+    );
+    if (!matchesUsos) return false;
+  }
+}
 
      if (favoritesFilterActive && !favoritesRef.current.includes(item.id)) return false;
 
