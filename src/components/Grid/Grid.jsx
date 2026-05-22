@@ -112,6 +112,7 @@ export default function Grid({
                 <img
   src={getImage(item, "thumb")}
   alt={item.titulo}
+  loading="eager"
   style={{
     width: "100%",
     height: "100%",
@@ -119,8 +120,15 @@ export default function Grid({
     display: "block",
   }}
   onError={(e) => {
-    e.target.style.display = "none";
-    e.target.parentElement.style.background = "#f0f0f0";
+    // Primer fallo: reintentar una vez
+    if (!e.target.dataset.retried) {
+      e.target.dataset.retried = "1";
+      e.target.src = getImage(item, "thumb") + "?retry=" + Date.now();
+    } else {
+      // Segundo fallo: mostrar placeholder
+      e.target.style.display = "none";
+      e.target.parentElement.style.background = "#f0f0f0";
+    }
   }}
 />
               </div>

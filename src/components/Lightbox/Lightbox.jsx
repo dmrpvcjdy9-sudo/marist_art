@@ -85,6 +85,39 @@ export default function Lightbox({
         touchAction: "pan-y",
       }}
     >
+        {/* BOTÓN CERRAR (siempre visible) */}
+  <button
+    onClick={onClose}
+    style={{
+      position: "absolute",
+      top: isMobile ? "10px" : "16px",
+      right: isMobile ? "10px" : "16px",
+      zIndex: 20,
+      border: "none",
+      background: "rgba(255,255,255,0.15)",
+      color: "rgba(255,255,255,0.8)",
+      fontSize: isMobile ? "16px" : "20px",
+      width: isMobile ? "32px" : "40px",
+      height: isMobile ? "32px" : "40px",
+      borderRadius: "50%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      cursor: "pointer",
+      fontFamily: "'Montserrat', sans-serif",
+      transition: "background 0.2s ease",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.background = "rgba(255,255,255,0.3)";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.background = "rgba(255,255,255,0.15)";
+    }}
+    aria-label="Cerrar"
+  >
+    ✕
+  </button>
+  
       {/* CONTENEDOR IMAGEN */}
       <div
         style={{

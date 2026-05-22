@@ -160,6 +160,21 @@ useEffect(() => {
   return () => window.removeEventListener("keydown", handleKey);
 }, [lightboxOpen, selected, filtered]);
 
+// Persistir showGrid al recargar
+useEffect(() => {
+  const saved = localStorage.getItem("marist-art-state");
+  if (saved) {
+    try {
+      const { showGrid: savedShowGrid } = JSON.parse(saved);
+      if (savedShowGrid) setShowGrid(true);
+    } catch {}
+  }
+}, []);
+
+useEffect(() => {
+  localStorage.setItem("marist-art-state", JSON.stringify({ showGrid }));
+}, [showGrid]);
+
   useEffect(() => {
     const hash = window.location.hash.replace("#", "");
     if (hash) {
@@ -169,11 +184,22 @@ useEffect(() => {
   }, [setSelected]);
 
   useEffect(() => {
-  const start = page * pageSize;
-  const end = start + pageSize;
-  const nextPageItems = filtered.slice(start, end);
+  // Precargar página actual
+  const currentStart = (page - 1) * pageSize;
+  const currentEnd = currentStart + pageSize;
+  const currentItems = filtered.slice(currentStart, currentEnd);
   
-  nextPageItems.forEach((item) => {
+  currentItems.forEach((item) => {
+    const img = new Image();
+    img.src = getImage(item, "thumb");
+  });
+
+  // Precargar página siguiente
+  const nextStart = page * pageSize;
+  const nextEnd = nextStart + pageSize;
+  const nextItems = filtered.slice(nextStart, nextEnd);
+  
+  nextItems.forEach((item) => {
     const img = new Image();
     img.src = getImage(item, "thumb");
   });

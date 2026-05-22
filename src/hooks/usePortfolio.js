@@ -11,7 +11,7 @@ export default function usePortfolio(favoritesRef = { current: [] }) {
   const [selected, setSelected] = useState(null);
   const [page, setPage] = useState(1);
 
-  const pageSize = 24;
+  const pageSize = 18;
 
   // 🔧 NORMALIZACIÓN
   const items = useMemo(() => {
@@ -105,6 +105,24 @@ useEffect(() => {
 
   prevKeyRef.current = currentKey;
 }, [query, category, filters, filtered.length, page, pageSize]);
+
+// Al iniciar, recuperar estado guardado
+useEffect(() => {
+  const saved = localStorage.getItem("marist-art-filters");
+  if (saved) {
+    try {
+      const { query: q, category: c, filters: f } = JSON.parse(saved);
+      if (q) setQuery(q);
+      if (c) setCategory(c);
+      if (f) setFilters(f);
+    } catch {}
+  }
+}, []);
+
+// Guardar cambios
+useEffect(() => {
+  localStorage.setItem("marist-art-filters", JSON.stringify({ query, category, filters }));
+}, [query, category, filters]);
 
   // 🎯 SELECTED seguro
   useEffect(() => {
