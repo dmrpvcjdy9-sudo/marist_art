@@ -191,12 +191,6 @@ const handleVerTodo = () => {
           <WelcomeScreen
             isMobile={isMobile}
             onVerTodas={handleVerTodo}
-            onVerTodas={() => {
-  setCategory("todas");
-  setQuery("");
-  setFilters([]);
-  setShowGrid(true);
-}}
           />
         )}
 

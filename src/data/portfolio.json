@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T11:11:54.313Z",
+  "generatedAt": "2026-05-23T23:13:46.469Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -101,9 +101,7 @@
           0,
           8
         ],
-        "tags": [
-          3
-        ],
+        "tags": [],
         "usos": [
           3
         ]
@@ -112,7 +110,7 @@
         "origen": "original",
         "basado_en": "jarts"
       },
-      "search": "ilu-0004 m. champagnat san marcelino - iv otros retrato original jarts champagnat maristas minimalista postal multicolor personal final",
+      "search": "ilu-0004 m. champagnat san marcelino - iv otros retrato original jarts champagnat maristas postal multicolor personal final",
       "destacado": true
     },
     {
@@ -269,8 +267,7 @@
           8
         ],
         "tags": [
-          0,
-          3
+          0
         ],
         "usos": [
           3
@@ -280,7 +277,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0010 m champagnat san marcelino - x otros retrato original arturo_mp champagnat maristas firma minimalista postal multicolor personal final",
+      "search": "ilu-0010 m champagnat san marcelino - x otros retrato original arturo_mp champagnat maristas firma postal multicolor personal final",
       "destacado": true
     },
     {
@@ -411,8 +408,7 @@
           8
         ],
         "tags": [
-          0,
-          3
+          0
         ],
         "usos": [
           3
@@ -420,9 +416,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "ilu-0015 champagnat san marcelino - xv otros retrato original arturo_mp champagnat maristas firma minimalista postal multicolor personal final",
+      "search": "ilu-0015 champagnat san marcelino - xv otros retrato original arturo_mp_rrss champagnat maristas firma postal multicolor personal final",
       "destacado": true
     },
     {
@@ -449,9 +445,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "RRSS"
+        "basado_en": "RRSSmaristas"
       },
-      "search": "ilu-0016 champagnat - alegria san marcelino - xvi otros figura adaptado rrss champagnat maristas infantil sin_fondo sticker multicolor personal final",
+      "search": "ilu-0016 champagnat - alegria san marcelino - xvi otros figura adaptado rrssmaristas champagnat maristas infantil sin_fondo sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -476,9 +472,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "RRSS"
+        "basado_en": "RRSSmaristas"
       },
-      "search": "ilu-0017 champagnat marcelino - libro y violetas otros retrato adaptado rrss champagnat infantil violetas sticker multicolor personal final",
+      "search": "ilu-0017 champagnat marcelino - libro y violetas otros retrato adaptado rrssmaristas champagnat infantil violetas sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -669,9 +665,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "C_Towers_jarts"
+        "basado_en": "C_Towers"
       },
-      "search": "ilu-0024 nº sª de fourviere nuestra senora de fourviere otros figura adaptado c_towers_jarts maria violetas colorear blanco_negro personal final",
+      "search": "ilu-0024 nº sª de fourviere nuestra senora de fourviere otros figura adaptado c_towers maria violetas colorear blanco_negro personal final",
       "destacado": true
     },
     {
@@ -695,9 +691,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "C_Towers_jarts"
+        "basado_en": "C_Towers"
       },
-      "search": "ilu-0025 maria ii maria nina (i love jesus) otros figura adaptado c_towers_jarts maria paz postal multicolor personal final",
+      "search": "ilu-0025 maria ii maria nina (i love jesus) otros figura adaptado c_towers maria paz postal multicolor personal final",
       "destacado": true
     },
     {
@@ -743,14 +739,14 @@
         ],
         "usos": [
           5,
-          3
+          1
         ]
       },
       "creditos": {
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0027 nuestra buena madre buena madre fr otros figura original arturo_mp maria sin_fondo sticker postal blanco_negro personal final",
+      "search": "ilu-0027 nuestra buena madre buena madre fr otros figura original arturo_mp maria sin_fondo sticker colorear blanco_negro personal final",
       "destacado": true
     },
     {
@@ -767,7 +763,9 @@
           8,
           7
         ],
-        "tags": [],
+        "tags": [
+          1
+        ],
         "usos": [
           1
         ]
@@ -776,7 +774,7 @@
         "origen": "adaptado",
         "basado_en": "maristas_esp"
       },
-      "search": "ilu-0028 maria iii a jesus por maria otros escena adaptado maristas_esp maristas maria colorear blanco_negro personal final",
+      "search": "ilu-0028 maria iii a jesus por maria otros escena adaptado maristas_esp maristas maria frase colorear blanco_negro personal final",
       "destacado": true
     },
     {
@@ -824,9 +822,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "C_Towers_jarts"
+        "basado_en": "C_Towers"
       },
-      "search": "ilu-0030 maria, buena madre iii maria, buena madre otros figura adaptado c_towers_jarts maria postal multicolor personal final",
+      "search": "ilu-0030 maria, buena madre iii maria, buena madre otros figura adaptado c_towers maria postal multicolor personal final",
       "destacado": true
     },
     {
@@ -992,9 +990,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0036 la oveja encontrada #soy la 100 otros texto original arturo_mp_jarts evangelio violetas frase sticker rrss multicolor personal final",
+      "search": "ilu-0036 la oveja encontrada #soy la 100 otros texto original arturo_mp evangelio violetas frase sticker rrss multicolor personal final",
       "destacado": true
     },
     {
@@ -1019,10 +1017,10 @@
         ]
       },
       "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP"
+        "origen": "adaptado",
+        "basado_en": "RRSS"
       },
-      "search": "ilu-0037 titulada graduacion otros escena original arturo_mp educacion minimalista sticker cartel multicolor personal final",
+      "search": "ilu-0037 titulada graduacion otros escena adaptado rrss educacion minimalista sticker cartel multicolor personal final",
       "destacado": true
     },
     {
@@ -1354,9 +1352,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "jarts"
       },
-      "search": "ilu-0049 cruz espiritu i confirmacion sevilla otros escena original arturo_mp_jarts evangelio logo postal multicolor personal final",
+      "search": "ilu-0049 cruz espiritu i confirmacion sevilla otros escena original jarts evangelio logo postal multicolor personal final",
       "destacado": true
     },
     {
@@ -1381,9 +1379,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "jarts"
       },
-      "search": "ilu-0050 cruz espiritu ii confirmacion sevilla ii otros escena original arturo_mp_jarts evangelio logo postal multicolor personal final",
+      "search": "ilu-0050 cruz espiritu ii confirmacion sevilla ii otros escena original jarts evangelio logo postal multicolor personal final",
       "destacado": true
     },
     {
@@ -1464,9 +1462,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0053 panes y peces ilustracion documentos otros escena original arturo_mp_jarts evangelio postal multicolor personal final",
+      "search": "ilu-0053 panes y peces ilustracion documentos otros escena original arturo_mp evangelio postal multicolor personal final",
       "destacado": true
     },
     {
@@ -1911,9 +1909,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "jarts"
       },
-      "search": "ilu-0069 como dios para vivir como dios,ama, perdona y… otros texto original arturo_mp_jarts evangelio postal rrss sticker multicolor personal final",
+      "search": "ilu-0069 como dios para vivir como dios,ama, perdona y… otros texto original jarts evangelio postal rrss sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -1938,9 +1936,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "C_Towers_jarts"
+        "basado_en": "C_Towers"
       },
-      "search": "ilu-0070 chicacora ama (os, te, les) otros figura adaptado c_towers_jarts evangelio sin_fondo sticker multicolor personal final",
+      "search": "ilu-0070 chicacora ama (os, te, les) otros figura adaptado c_towers evangelio sin_fondo sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -1964,9 +1962,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0071 y salio a buscarla #soy la 100 ii otros escena original arturo_mp_jarts evangelio sticker rrss multicolor personal final",
+      "search": "ilu-0071 y salio a buscarla #soy la 100 ii otros escena original arturo_mp evangelio sticker rrss multicolor personal final",
       "destacado": true
     },
     {
@@ -2046,9 +2044,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "Arturo_MP"
+        "basado_en": "RRSS"
       },
-      "search": "ilu-0074 anagrama maria basado en antiguo anagrama edificio otros texto adaptado arturo_mp maria sin_fondo logo sticker multicolor personal final",
+      "search": "ilu-0074 anagrama maria basado en antiguo anagrama edificio otros texto adaptado rrss maria sin_fondo logo sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -2075,9 +2073,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0075 quien no ama… para educar es preciso amar otros texto original arturo_mp_jarts champagnat educacion sin_fondo sticker rrss multicolor personal final",
+      "search": "ilu-0075 quien no ama… para educar es preciso amar otros texto original arturo_mp champagnat educacion sin_fondo sticker rrss multicolor personal final",
       "destacado": true
     },
     {
@@ -2246,9 +2244,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "jarts"
       },
-      "search": "ilu-0081 barco de papel parte cartel 'cambia' (mre) otros escena original arturo_mp educacion maria sin_fondo sticker multicolor personal final",
+      "search": "ilu-0081 barco de papel parte cartel 'cambia' (mre) otros escena original jarts educacion maria sin_fondo sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -2273,9 +2271,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_jarts"
+        "basado_en": "jarts"
       },
-      "search": "ilu-0082 estrella de papel parte cartel 'cambia' (mre) otros escena original arturo_mp_jarts educacion sin_fondo sticker multicolor personal final",
+      "search": "ilu-0082 estrella de papel parte cartel 'cambia' (mre) otros escena original jarts educacion sin_fondo sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -2358,9 +2356,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "Arturo_MP_RRSS"
+        "basado_en": "RRSS"
       },
-      "search": "ilu-0085 dialogo no-violencia otros texto adaptado arturo_mp_rrss paz educacion social sin_fondo sticker blanco_negro personal final",
+      "search": "ilu-0085 dialogo no-violencia otros texto adaptado rrss paz educacion social sin_fondo sticker blanco_negro personal final",
       "destacado": true
     },
     {
@@ -2470,9 +2468,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "jarts"
       },
-      "search": "ilu-0089 pajarita de papel parte cartel 'cambia' (mre) otros escena original arturo_mp educacion sin_fondo sticker escala_grises personal final",
+      "search": "ilu-0089 pajarita de papel parte cartel 'cambia' (mre) otros escena original jarts educacion sin_fondo sticker escala_grises personal final",
       "destacado": true
     },
     {
@@ -2561,7 +2559,7 @@
     {
       "id": "ilu-0093",
       "titulo": "Chispa",
-      "descripcion": "Para frontal camiseta GVX 2023",
+      "descripcion": "Logo frontal camiseta GVX 2023",
       "categoria": "otros",
       "subcategoria": "escena",
       "imagenes": {
@@ -2583,7 +2581,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0093 chispa para frontal camiseta gvx 2023 otros escena original arturo_mp gvx sin_fondo sticker textil multicolor personal final",
+      "search": "ilu-0093 chispa logo frontal camiseta gvx 2023 otros escena original arturo_mp gvx sin_fondo sticker textil multicolor personal final",
       "destacado": true
     },
     {
@@ -2607,10 +2605,10 @@
         ]
       },
       "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP_C_Towers"
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
       },
-      "search": "ilu-0094 en el pesebre navidad otros escena original arturo_mp_c_towers evangelio sin_fondo sticker multicolor personal final",
+      "search": "ilu-0094 en el pesebre navidad otros escena adaptado c_towers evangelio sin_fondo sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -2948,9 +2946,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "C_Towers"
+        "basado_en": "C_Towers_jarts"
       },
-      "search": "dis-0010 la casa de maria b/n vector de mural b/n (badajoz) otros texto adaptado c_towers maria frase colorear blanco_negro personal final",
+      "search": "dis-0010 la casa de maria b/n vector de mural b/n (badajoz) otros texto adaptado c_towers_jarts maria frase colorear blanco_negro personal final",
       "destacado": true
     },
     {
@@ -3000,9 +2998,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "Arturo_MP_A_Arroyo"
+        "basado_en": "A_Arroyo"
       },
-      "search": "dis-0061 gvx verano 1988 camiseta tensar los vientos (frontal) otros escena adaptado arturo_mp_a_arroyo gvx textil blanco_negro personal final",
+      "search": "dis-0061 gvx verano 1988 camiseta tensar los vientos (frontal) otros escena adaptado a_arroyo gvx textil blanco_negro personal final",
       "destacado": true
     },
     {
@@ -3181,9 +3179,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0064 gvx pascua 2017 camiseta pascua 2017 (frontal) otros escena original arturo_mp gvx textil multicolor personal final",
+      "search": "dis-0064 gvx pascua 2017 camiseta pascua 2017 (frontal) otros escena original arturo_mp_provmediterranea gvx textil multicolor personal final",
       "destacado": true
     },
     {
@@ -3313,9 +3311,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0063 gvx verano 2019 (ga-marcha) camiseta gvx 2019 (ita) otros texto original arturo_mp gvx frase textil multicolor personal final",
+      "search": "dis-0063 gvx verano 2019 (ga-marcha) camiseta gvx 2019 (ita) otros texto original arturo_mp_provmediterranea gvx frase textil multicolor personal final",
       "destacado": true
     },
     {
@@ -3374,7 +3372,7 @@
     {
       "id": "dis-0024",
       "titulo": "GVX Pascua 2022",
-      "descripcion": "Camiseta Sal a ser sal 2022 (frontal)",
+      "descripcion": "Camiseta Sal a ser sal 2022 (logo frontal)",
       "categoria": "otros",
       "subcategoria": "texto",
       "imagenes": {
@@ -3398,7 +3396,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0024 gvx pascua 2022 camiseta sal a ser sal 2022 (frontal) otros texto original arturo_mp_provmediterranea gvx evangelio frase logo sin_fondo textil multicolor personal final",
+      "search": "dis-0024 gvx pascua 2022 camiseta sal a ser sal 2022 (logo frontal) otros texto original arturo_mp_provmediterranea gvx evangelio frase logo sin_fondo textil multicolor personal final",
       "destacado": true
     },
     {
@@ -3429,7 +3427,7 @@
     {
       "id": "dis-0026",
       "titulo": "GVX Pascua 2023",
-      "descripcion": "Camiseta Tanto va… 2023 (frontal)",
+      "descripcion": "Camiseta Tanto va… 2023 (espalda)",
       "categoria": "otros",
       "subcategoria": "texto",
       "imagenes": {
@@ -3450,7 +3448,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_Fer_OR_ProvMediterranea"
       },
-      "search": "dis-0026 gvx pascua 2023 camiseta tanto va… 2023 (frontal) otros texto original arturo_mp_fer_or_provmediterranea gvx frase textil multicolor personal final",
+      "search": "dis-0026 gvx pascua 2023 camiseta tanto va… 2023 (espalda) otros texto original arturo_mp_fer_or_provmediterranea gvx frase textil multicolor personal final",
       "destacado": true
     },
     {
@@ -3503,9 +3501,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0067 gvx verano 2023 (bordado) polo gvx 2023 otros escena original arturo_mp gvx violetas sin_fondo textil multicolor personal final",
+      "search": "dis-0067 gvx verano 2023 (bordado) polo gvx 2023 otros escena original arturo_mp_provmediterranea gvx violetas sin_fondo textil multicolor personal final",
       "destacado": true
     },
     {
@@ -3615,7 +3613,7 @@
     {
       "id": "dis-0021",
       "titulo": "BRO mode",
-      "descripcion": "Marist Brother",
+      "descripcion": "Be Marist Brother punto com",
       "categoria": "otros",
       "subcategoria": "texto",
       "imagenes": {
@@ -3639,7 +3637,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0021 bro mode marist brother otros texto original arturo_mp maristas vocacional frase postal rrss sticker multicolor personal final",
+      "search": "dis-0021 bro mode be marist brother punto com otros texto original arturo_mp maristas vocacional frase postal rrss sticker multicolor personal final",
       "destacado": true
     },
     {
@@ -3695,9 +3693,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0023 cree en ti convivencia vocacional gvx 2024 otros escena original arturo_mp gvx vocacional frase cartel rrss multicolor personal final",
+      "search": "dis-0023 cree en ti convivencia vocacional gvx 2024 otros escena original arturo_mp_provmediterranea gvx vocacional frase cartel rrss multicolor personal final",
       "destacado": true
     },
     {
@@ -3748,9 +3746,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_ProvMediterranea"
+        "basado_en": "Arturo_MP"
       },
-      "search": "dis-0032 gvx sevilla 2007 camiseta gvx sal otros escena original arturo_mp_provmediterranea gvx evangelio textil multicolor personal final",
+      "search": "dis-0032 gvx sevilla 2007 camiseta gvx sal otros escena original arturo_mp gvx evangelio textil multicolor personal final",
       "destacado": true
     },
     {
@@ -3799,9 +3797,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "C_Towers_jarts"
+        "basado_en": "C_Towers"
       },
-      "search": "dis-0034 eucaristia para primera eucaristia sevilla 2017 otros escena adaptado c_towers_jarts evangelio cartel multicolor personal final",
+      "search": "dis-0034 eucaristia para primera eucaristia sevilla 2017 otros escena adaptado c_towers evangelio cartel multicolor personal final",
       "destacado": true
     },
     {
@@ -4241,9 +4239,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "jarts"
       },
-      "search": "dis-0053 que te han contado los ninos? (ita) posibles camisetas #escuchaaunnino otros texto original arturo_mp educacion social frase textil multicolor personal final",
+      "search": "dis-0053 que te han contado los ninos? (ita) posibles camisetas #escuchaaunnino otros texto original jarts educacion social frase textil multicolor personal final",
       "destacado": true
     },
     {
@@ -4485,10 +4483,10 @@
         ]
       },
       "creditos": {
-        "origen": "original",
+        "origen": "adaptado",
         "basado_en": "Arturo_MP_Luis_G"
       },
-      "search": "dis-0065 donde vives? para convivencia vocacional marcha gvx otros escena original arturo_mp_luis_g gvx vocacional frase cartel multicolor personal final",
+      "search": "dis-0065 donde vives? para convivencia vocacional marcha gvx otros escena adaptado arturo_mp_luis_g gvx vocacional frase cartel multicolor personal final",
       "destacado": true
     },
     {
@@ -4514,9 +4512,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP"
+        "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0068 maristas en la jmj 2023 (esp-ita) camiseta gmg-jmj lisboa (espalda) otros texto original arturo_mp gvx maristas logo textil multicolor personal final",
+      "search": "dis-0068 maristas en la jmj 2023 (esp-ita) camiseta gmg-jmj lisboa (espalda) otros texto original arturo_mp_provmediterranea gvx maristas logo textil multicolor personal final",
       "destacado": true
     },
     {
@@ -4539,9 +4537,257 @@
       },
       "creditos": {
         "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0069 gvx pascua 2024 (ita) scegliere. vivere. andare otros texto original arturo_mp_provmediterranea gvx textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0070",
+      "titulo": "Choose Marist Brothers",
+      "descripcion": "Para sudadera Prov_Mediterranea",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0070"
+      },
+      "meta": {
+        "temas": [
+          2,
+          12,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0069 gvx pascua 2024 (ita) scegliere. vivere. andare otros texto original arturo_mp gvx textil multicolor personal final",
+      "search": "dis-0070 choose marist brothers para sudadera prov_mediterranea otros texto original arturo_mp educacion vocacional violetas frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0071",
+      "titulo": "Hoy puede ser…",
+      "descripcion": "Wonderfulismo realista",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0071"
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "dis-0071 hoy puede ser… wonderfulismo realista otros texto original jarts frase sticker rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0072",
+      "titulo": "Runners Maristas",
+      "descripcion": "Para camiseta deportiva Sevilla",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0072"
+      },
+      "meta": {
+        "temas": [
+          1
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          7,
+          5,
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0072 runners maristas para camiseta deportiva sevilla otros texto original arturo_mp deporte sin_fondo textil sticker taza multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0073",
+      "titulo": "20 años de Nuevo Horizonte, 1994",
+      "descripcion": "Fundación Marcelino Champagnat Huelva",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0073"
+      },
+      "meta": {
+        "temas": [
+          10,
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0073 20 anos de nuevo horizonte, 1994 fundacion marcelino champagnat huelva otros texto original arturo_mp social educacion frase textil postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0097",
+      "titulo": "Marcelino Champagnat",
+      "descripcion": "De dibujos Goyo D",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0097"
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Goyo_D"
+      },
+      "search": "ilu-0097 marcelino champagnat de dibujos goyo d otros figura adaptado goyo_d champagnat maristas postal blanco_negro personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0098",
+      "titulo": "Nuevos educadores",
+      "descripcion": "Para formación RRHH Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0098"
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [],
+        "usos": [
+          5,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0098 nuevos educadores para formacion rrhh mediterranea otros escena original arturo_mp_provmediterranea educacion sticker postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0099",
+      "titulo": "Aprendizaje y Servicio",
+      "descripcion": "Para formación RRHH Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0099"
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          5,
+          3,
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0099 aprendizaje y servicio para formacion rrhh mediterranea otros escena original arturo_mp_provmediterranea educacion social sticker postal taza multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0100",
+      "titulo": "GoOD People",
+      "descripcion": "Nueva versión de camiseta GVX Sevilla 1993",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0100"
+      },
+      "meta": {
+        "temas": [
+          4,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0100 good people nueva version de camiseta gvx sevilla 1993 otros texto original arturo_mp gvx evangelio frase textil postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0101",
+      "titulo": "Mi Buena Madre (esp)",
+      "descripcion": "Nuestro recurso ordinario",
+      "categoria": "otros",
+      "subcategoria": "figura",
+      "imagenes": {
+        "id": "ilu-0101"
+      },
+      "meta": {
+        "temas": [
+          7
+        ],
+        "tags": [],
+        "usos": [
+          5,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "ilu-0101 mi buena madre (esp) nuestro recurso ordinario otros figura original jarts maria sticker postal multicolor personal final",
       "destacado": true
     }
   ],
