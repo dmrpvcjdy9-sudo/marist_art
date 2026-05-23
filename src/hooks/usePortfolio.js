@@ -11,19 +11,21 @@ export default function usePortfolio(favoritesRef = { current: [] }) {
   const [selected, setSelected] = useState(null);
   const [page, setPage] = useState(1);
   const pageSize = 18;
+  const restoredRef = useRef(false);
 
-  // Recuperar filtros guardados al iniciar
 useEffect(() => {
+  if (restoredRef.current) return;
   try {
     const saved = localStorage.getItem("marist-art-filters");
     if (saved) {
       const { query: q, category: c, filters: f } = JSON.parse(saved);
       if (q) setQuery(q);
-      if (c) setCategory(c);
-      if (f) setFilters(f);
+      if (c && c !== "todas") setCategory(c);
+      if (f && f.length) setFilters(f);
     }
   } catch {}
-}, []); // eslint-disable-line
+  restoredRef.current = true;
+}, []);
 
 // Guardar filtros al cambiar
 useEffect(() => {
@@ -69,6 +71,7 @@ useEffect(() => {
 
     const result = items.filter((item) => {
       if (favoritesFilterActive && !favoritesRef.current.includes(item.id)) return false;
+      if (!favoritesFilterActive && category !== "todas" && item.categoria !== category) return false;
 
       if (
         q &&
@@ -107,9 +110,6 @@ useEffect(() => {
     if (!matchesUsos) return false;
   }
 }
-
-     if (favoritesFilterActive && !favoritesRef.current.includes(item.id)) return false;
-
       return true;
     });
 
@@ -147,24 +147,6 @@ useEffect(() => {
 
   prevKeyRef.current = currentKey;
 }, [query, category, filters, filtered.length, page, pageSize]);
-
-// Al iniciar, recuperar estado guardado
-useEffect(() => {
-  const saved = localStorage.getItem("marist-art-filters");
-  if (saved) {
-    try {
-      const { query: q, category: c, filters: f } = JSON.parse(saved);
-      if (q) setQuery(q);
-      if (c) setCategory(c);
-      if (f) setFilters(f);
-    } catch {}
-  }
-}, []);
-
-// Guardar cambios
-useEffect(() => {
-  localStorage.setItem("marist-art-filters", JSON.stringify({ query, category, filters }));
-}, [query, category, filters]);
 
   // 🎯 SELECTED seguro
   useEffect(() => {
