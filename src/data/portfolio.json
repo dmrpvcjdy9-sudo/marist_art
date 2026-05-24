@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T23:13:46.469Z",
+  "generatedAt": "2026-05-24T13:57:31.171Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -4574,7 +4574,7 @@
     {
       "id": "dis-0071",
       "titulo": "Hoy puede ser…",
-      "descripcion": "Wonderfulismo realista",
+      "descripcion": "Wonderfulismo realista en lunes",
       "categoria": "otros",
       "subcategoria": "texto",
       "imagenes": {
@@ -4594,7 +4594,7 @@
         "origen": "original",
         "basado_en": "jarts"
       },
-      "search": "dis-0071 hoy puede ser… wonderfulismo realista otros texto original jarts frase sticker rrss multicolor personal final",
+      "search": "dis-0071 hoy puede ser… wonderfulismo realista en lunes otros texto original jarts frase sticker rrss multicolor personal final",
       "destacado": true
     },
     {
@@ -4628,7 +4628,7 @@
     },
     {
       "id": "dis-0073",
-      "titulo": "20 años de Nuevo Horizonte, 1994",
+      "titulo": "20 años de Nuevo Horizonte, (1994)",
       "descripcion": "Fundación Marcelino Champagnat Huelva",
       "categoria": "otros",
       "subcategoria": "texto",
@@ -4652,7 +4652,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0073 20 anos de nuevo horizonte, 1994 fundacion marcelino champagnat huelva otros texto original arturo_mp social educacion frase textil postal multicolor personal final",
+      "search": "dis-0073 20 anos de nuevo horizonte, (1994) fundacion marcelino champagnat huelva otros texto original arturo_mp social educacion frase textil postal multicolor personal final",
       "destacado": true
     },
     {
@@ -4788,6 +4788,232 @@
         "basado_en": "jarts"
       },
       "search": "ilu-0101 mi buena madre (esp) nuestro recurso ordinario otros figura original jarts maria sticker postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0102",
+      "titulo": "Cine Marista",
+      "descripcion": "Para equipo comunicación Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0102"
+      },
+      "meta": {
+        "temas": [
+          10,
+          2
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0102 cine marista para equipo comunicacion mediterranea otros escena original arturo_mp social educacion sin_fondo logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0103",
+      "titulo": "Dando color, Dando Calor (Badajoz)",
+      "descripcion": "Posible Logo",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "ilu-0103"
+      },
+      "meta": {
+        "temas": [
+          10
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0103 dando color, dando calor (badajoz) posible logo otros texto original arturo_mp social logo sticker multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0104",
+      "titulo": "Haced vosotros lo mismo",
+      "descripcion": "Parte cuadro lavatorio Jueves Santo",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0104"
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Claretianos"
+      },
+      "search": "ilu-0104 haced vosotros lo mismo parte cuadro lavatorio jueves santo otros escena adaptado claretianos evangelio frase textil postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0105",
+      "titulo": "Brindamos",
+      "descripcion": "El vino nuevo",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "ilu-0105"
+      },
+      "meta": {
+        "temas": [
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0105 brindamos el vino nuevo otros escena original arturo_mp violetas sin_fondo sticker taza multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0074",
+      "titulo": "Navidad en el Mediterráneo",
+      "descripcion": "Felicitación EPP Mediterránea",
+      "categoria": "otros",
+      "subcategoria": "escena",
+      "imagenes": {
+        "id": "dis-0074"
+      },
+      "meta": {
+        "temas": [
+          10,
+          2,
+          3
+        ],
+        "tags": [
+          3
+        ],
+        "usos": [
+          3,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0074 navidad en el mediterraneo felicitacion epp mediterranea otros escena original arturo_mp_provmediterranea social educacion evangelio minimalista postal rrss multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0075",
+      "titulo": "No hay Amor más grande",
+      "descripcion": "Para tiempo Cuaresma III Mediterránea (esp)",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0075"
+      },
+      "meta": {
+        "temas": [
+          3,
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0075 no hay amor mas grande para tiempo cuaresma iii mediterranea (esp) otros texto original arturo_mp_provmediterranea evangelio educacion frase cartel postal multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0076",
+      "titulo": "Por favor, Paz",
+      "descripcion": "Camiseta (1993) con necesidad actual",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0076"
+      },
+      "meta": {
+        "temas": [
+          10,
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0076 por favor, paz camiseta (1993) con necesidad actual otros texto original arturo_mp social educacion frase textil multicolor personal final",
+      "destacado": true
+    },
+    {
+      "id": "dis-0077",
+      "titulo": "En lo secreto",
+      "descripcion": "Viñeta 'Al fin, luz'",
+      "categoria": "otros",
+      "subcategoria": "texto",
+      "imagenes": {
+        "id": "dis-0077"
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0077 en lo secreto vineta 'al fin, luz' otros texto original arturo_mp evangelio frase postal blanco_negro personal final",
       "destacado": true
     }
   ],
