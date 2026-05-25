@@ -40,7 +40,7 @@ export default function useLightbox(filtered, setSelected) {
     if (filtered[index - 1]) {
       const prev = filtered[index - 1];
       setSelectedLocal(prev);
-      setSelected(next);
+      setSelected(prev);
     }
   }, [selected, filtered, setSelected]);
 

@@ -4,7 +4,6 @@ import data from "../data/portfolio.json";
 export default function usePortfolio(favoritesRef = { current: [] }) {
   const { items: rawItems, dicts } = data;
   const { temas, tags, usos } = dicts;
-
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("todas");
   const [filters, setFilters] = useState([]);
@@ -76,7 +75,8 @@ useEffect(() => {
       if (
         q &&
         !item.titulo.toLowerCase().includes(q) &&
-        !item.allFiltersLower.some((f) => f.includes(q))
+        !item.allFiltersLower.some((f) => f.includes(q)) &&
+        !item.search.includes(q)
       )
         return false;
 

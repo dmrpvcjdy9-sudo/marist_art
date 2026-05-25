@@ -95,6 +95,14 @@ const {
 
 const { gridTransition } = useGrid(filtered, setPage, page, pageSize, effectiveHasActiveSearch);
 
+const gridRef = useRef(null);
+
+useEffect(() => {
+  if (gridRef.current) {
+    gridRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}, [page]);
+
   /* DERIVED */
   const options = useMemo(() => {
     const set = new Set();
@@ -197,6 +205,7 @@ const handleVerTodo = () => {
         {/* GRID (solo si hay búsqueda o filtros activos) */}
         {effectiveHasActiveSearch && (
           <div
+            ref={gridRef}
             style={{
               padding: "12px 20px",
               opacity: gridTransition ? 1 : 0,
