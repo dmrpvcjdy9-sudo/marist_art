@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T19:15:06.020Z",
+  "generatedAt": "2026-05-27T12:21:36.758Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -6532,15 +6532,526 @@
         ],
         "tags": [],
         "usos": [
-          5,
-          3
+          5
         ]
       },
       "creditos": {
         "origen": "adaptado",
         "basado_en": "Marist_NewZealand"
       },
-      "search": "ilu-0116 maori marist pillars v espiritu de familia (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker postal",
+      "search": "ilu-0116 maori marist pillars v espiritu de familia (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0117",
+      "titulo": "San Marcelino Champagnat",
+      "descripcion": "Marcelino con niños (Color)",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0117",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          0,
+          5
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0117 san marcelino champagnat marcelino con ninos (color) ilustracion figura adaptado c_towers multicolor champagnat hermitage sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0118",
+      "titulo": "Marist Coin",
+      "descripcion": "Para encuentro EJEM",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0118",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          0
+        ],
+        "tags": [
+          4,
+          3
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0118 marist coin para encuentro ejem ilustracion escena original arturo_mp multicolor champagnat sin_fondo minimalista sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0119",
+      "titulo": "Champagnat",
+      "descripcion": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0119",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          0
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Goyo_D"
+      },
+      "search": "ilu-0119 champagnat ilustracion figura adaptado goyo_d multicolor champagnat sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0120",
+      "titulo": "Actualización ERE",
+      "descripcion": "Para profes de Religión",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0120",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0120 actualizacion ere para profes de religion ilustracion texto original arturo_mp multicolor educacion logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0121",
+      "titulo": "Sal fuera y brilla",
+      "descripcion": "No se enciende una lámpara para…",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0121",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "ilu-0121 sal fuera y brilla no se enciende una lampara para… ilustracion texto original jarts multicolor evangelio frase sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0122",
+      "titulo": "Dar Vida",
+      "descripcion": "Pascua",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0122",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          7,
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0122 dar vida pascua ilustracion escena original arturo_mp multicolor evangelio textil sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0123",
+      "titulo": "Coffee Break (Badajoz)",
+      "descripcion": "Logo actividad con familias",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0123",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0123 coffee break (badajoz) logo actividad con familias ilustracion escena original arturo_mp_rrss multicolor educacion logo sticker postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0124",
+      "titulo": "Adviento",
+      "descripcion": "Te espero",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0124",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "ilu-0124 adviento te espero ilustracion texto original jarts multicolor evangelio frase sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0125",
+      "titulo": "Reinz: Marist Moustard",
+      "descripcion": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0125",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0125 reinz: marist moustard ilustracion escena original arturo_mp multicolor evangelio sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0126",
+      "titulo": "Bienvenido a la familia",
+      "descripcion": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0126",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          8,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5,
+          3,
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0126 bienvenido a la familia ilustracion escena original arturo_mp multicolor maristas violetas frase sticker postal textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0127",
+      "titulo": "Coffee Break (Badajoz) sin fondo",
+      "descripcion": "Logo actividad con familias",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0127",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          2,
+          4
+        ],
+        "usos": [
+          5,
+          3,
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0127 coffee break (badajoz) sin fondo logo actividad con familias ilustracion escena original arturo_mp_rrss multicolor educacion logo sin_fondo sticker postal taza",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0128",
+      "titulo": "En Belén",
+      "descripcion": "Navidad en el portal",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0128",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4,
+          3
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "RRSS"
+      },
+      "search": "ilu-0128 en belen navidad en el portal ilustracion escena adaptado rrss multicolor evangelio sin_fondo minimalista sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0129",
+      "titulo": "El taburete",
+      "descripcion": "GVX",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "ilu-0129",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0129 el taburete gvx ilustracion escena original arturo_mp blanco_negro gvx sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0130",
+      "titulo": "La Chispa III",
+      "descripcion": "Comedor de Fuenteheridos III",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0130",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          2
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0130 la chispa iii comedor de fuenteheridos iii ilustracion escena adaptado c_towers multicolor gvx mural",
+      "destacado": true
+    },
+    {
+      "id": "dis-0087",
+      "titulo": "Partido a partido",
+      "descripcion": "Camiseta para jornadas SED Sevilla",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0087",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          1,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0087 partido a partido camiseta para jornadas sed sevilla diseno texto original arturo_mp multicolor deporte social textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0088",
+      "titulo": "Diploma Escolar Dibujo",
+      "descripcion": "",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0088",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "dis-0088 diploma escolar dibujo diseno texto adaptado c_towers multicolor educacion frase postal",
       "destacado": true
     }
   ],
