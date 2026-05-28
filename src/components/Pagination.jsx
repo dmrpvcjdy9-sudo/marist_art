@@ -8,7 +8,7 @@ export default function Pagination({ page, setPage, filteredLength, pageSize }) 
   const btnStyle = (disabled) => ({
     background: "transparent",
     border: "1px solid rgba(255,255,255,0.2)",
-    color: disabled ? "rgba(255,255,255,0.2)" : "rgba(255,255,255,0.7)",
+    color: disabled ? "rgba(255,255,255,0.2)" : "var(--text-light-muted)",
     borderRadius: "8px",
     padding: "6px 14px",
     cursor: disabled ? "default" : "pointer",

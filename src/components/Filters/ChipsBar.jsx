@@ -20,7 +20,7 @@ export default function ChipsBar({
         display: "flex",
         alignItems: "center",
         gap: "8px",
-        background: "#ffffff",
+        background: "var(--bg-surface)",
         padding: "8px 20px",
         borderBottom: "1px solid #f0f0f0",
       }}
@@ -31,15 +31,15 @@ export default function ChipsBar({
         style={{
           padding: "6px 12px",
           borderRadius: "999px",
-          border: isFavoritesActive ? "1px solid #4caf50" : "1px solid #e5e5e5",
-          background: isFavoritesActive ? "#e8f5e9" : "#ffffff",
-          color: isFavoritesActive ? "#2e7d32" : "#5c5c5c",
+          border: isFavoritesActive ? "1px solid var(--favorite)" : "1px solid var(--border)",
+          background: isFavoritesActive ? "var(--favorite-bg)" : "var(--bg-surface)",
+          color: isFavoritesActive ? "var(--favorite-dark)" : "var(--text-secondary)",
           fontSize: "11px",
           fontWeight: "600",
           cursor: "pointer",
           whiteSpace: "nowrap",
           transition: "all 0.15s ease",
-          fontFamily: "'Montserrat', sans-serif",
+          fontFamily: "var(--font-primary)",
         }}
       >
         ⭐ {favoritesCount || 0}
@@ -54,7 +54,7 @@ export default function ChipsBar({
       style={{
   border: "none",
   background: "transparent",
-  color: "#999999",
+  color: "var(--text-muted)",
   fontSize: "15px",
   cursor: "pointer",
   padding: "4px 8px",
@@ -88,7 +88,7 @@ export default function ChipsBar({
             maxWidth: "320px",
             textAlign: "center",
             boxShadow: "0 8px 30px rgba(0,0,0,0.2)",
-            fontFamily: "'Montserrat', sans-serif",
+            fontFamily: "var(--font-primary)",
           }}
         >
           <p style={{ margin: "0 0 16px", color: "#333", fontSize: "14px" }}>
@@ -105,7 +105,7 @@ export default function ChipsBar({
                 color: "#666",
                 fontSize: "12px",
                 cursor: "pointer",
-                fontFamily: "'Montserrat', sans-serif",
+                fontFamily: "var(--font-primary)",
               }}
             >
               Cancelar
@@ -124,7 +124,7 @@ export default function ChipsBar({
                 color: "#fff",
                 fontSize: "12px",
                 cursor: "pointer",
-                fontFamily: "'Montserrat', sans-serif",
+                fontFamily: "var(--font-primary)",
               }}
             >
               Borrar
@@ -143,9 +143,9 @@ export default function ChipsBar({
 <span
   style={{
     fontSize: "12px",
-    color: "#999999",
+    color: "var(--text-muted)",
     fontStyle: "italic",
-    fontFamily: "'Montserrat', sans-serif",
+    fontFamily: "var(--font-primary)",
     whiteSpace: "nowrap",
     marginRight: "8px",
   }}
@@ -163,29 +163,29 @@ export default function ChipsBar({
       ? "1px solid #7b5ea7"
       : "1px solid #7b5ea7",
     background: activeFilters.filter(f => f !== "__favoritos__").length > 0
-      ? "#7b5ea7"
-      : "#ffffff",
+      ? "var(--accent)"
+      : "var(--bg-surface)",
     color: activeFilters.filter(f => f !== "__favoritos__").length > 0
-      ? "#ffffff"
-      : "#7b5ea7",
+      ? "var(--bg-surface)"
+      : "var(--accent)",
     fontSize: "11px",
     fontWeight: "600",
     cursor: "pointer",
     whiteSpace: "nowrap",
     transition: "all 0.15s ease",
-    fontFamily: "'Montserrat', sans-serif",
+    fontFamily: "var(--font-primary)",
     flexShrink: 0,
   }}
   onMouseEnter={(e) => {
     if (activeFilters.filter(f => f !== "__favoritos__").length === 0) {
-      e.currentTarget.style.background = "#7b5ea7";
-      e.currentTarget.style.color = "#ffffff";
+      e.currentTarget.style.background = "var(--accent)";
+      e.currentTarget.style.color = "var(--bg-surface)";
     }
   }}
   onMouseLeave={(e) => {
     if (activeFilters.filter(f => f !== "__favoritos__").length === 0) {
-      e.currentTarget.style.background = "#ffffff";
-      e.currentTarget.style.color = "#7b5ea7";
+      e.currentTarget.style.background = "var(--bg-surface)";
+      e.currentTarget.style.color = "var(--text-primary)";
     }
   }}
 >

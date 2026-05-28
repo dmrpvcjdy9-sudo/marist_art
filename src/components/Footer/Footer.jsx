@@ -4,7 +4,7 @@ export default function Footer({ onLogoClick }) {
   return (
     <div
       style={{
-        background: "rgb(11, 47, 55)",
+        background: "var(--bg-footer)",
         padding: "20px 24px",
         display: "flex",
         alignItems: "center",
@@ -17,7 +17,7 @@ export default function Footer({ onLogoClick }) {
     display: "flex",
     alignItems: "center",
     gap: "12px",
-    color: "rgba(255,255,255,0.5)",
+    color: "var(--text-light-muted)",
     fontSize: "11px",
     fontWeight: "300",
     fontStyle: "italic",

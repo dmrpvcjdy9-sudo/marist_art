@@ -5,8 +5,8 @@ const { temas, tags, usos } = data.dicts;
 
 const GROUPS = [
   { label: "Temas", items: temas, color: "#1e3a5f" },
-  { label: "Tags", items: tags, color: "#7b5ea7" },
-  { label: "Usos", items: usos, color: "#2c3e50" },
+  { label: "Tags", items: tags, color: "var(--accent)" },
+  { label: "Usos", items: usos, color: "var(--bg-primary)" },
 ];
 
 export default function FilterDrawer({
@@ -50,11 +50,11 @@ export default function FilterDrawer({
     <div
       ref={drawerRef}
       style={{
-        background: "#ffffff",
+        background: "var(--bg-surface)",
         display: "flex",
         flexDirection: "column",
         height: "100%",
-        fontFamily: "'Montserrat', sans-serif",
+        fontFamily: "var(--font-primary)",
       }}
     >
       {/* HEADER */}
@@ -67,10 +67,10 @@ export default function FilterDrawer({
           borderBottom: "1px solid #f0f0f0",
         }}
       >
-        <h3 style={{ margin: 0, fontSize: "16px", fontWeight: "600", color: "#1a1a1a", display: "flex", alignItems: "center", gap: "8px" }}>
+        <h3 style={{ margin: 0, fontSize: "16px", fontWeight: "600", color: "var(--text-primary)", display: "flex", alignItems: "center", gap: "8px" }}>
   Filtros
   {activeCount > 0 && (
-    <span style={{ fontSize: "12px", color: "#7b5ea7", fontWeight: "500" }}>
+    <span style={{ fontSize: "12px", color: "var(--accent)", fontWeight: "500" }}>
       ({activeCount})
     </span>
   )}
@@ -81,7 +81,7 @@ export default function FilterDrawer({
       style={{
         border: "none",
         background: "transparent",
-        color: "#999999",
+        color: "var(--text-muted)",
         fontSize: "14px",
         cursor: "pointer",
         padding: "2px 4px",
@@ -93,7 +93,7 @@ export default function FilterDrawer({
         e.currentTarget.style.background = "#fef0f0";
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.color = "#999999";
+        e.currentTarget.style.color = "var(--text-secondary)";
         e.currentTarget.style.background = "transparent";
       }}
     >
@@ -102,7 +102,7 @@ export default function FilterDrawer({
   )}
 </h3>
 
-<button onClick={onClose} style={{ border: "none", background: "transparent", fontSize: "20px", cursor: "pointer", color: "#999999", padding: "4px" }}>
+<button onClick={onClose} style={{ border: "none", background: "transparent", fontSize: "20px", cursor: "pointer", color: "var(--text-secondary)", padding: "4px" }}>
   ✕
 </button>
       </div>
@@ -144,7 +144,7 @@ export default function FilterDrawer({
                   fontSize: "15px",
                   fontWeight: "600",
                   color: group.color,
-                  fontFamily: "'Montserrat', sans-serif",
+                  fontFamily: "var(--font-primary)",
                 }}
               >
                 <span>{group.label}</span>
@@ -152,8 +152,8 @@ export default function FilterDrawer({
                   <span
                     style={{
                       fontSize: "11px",
-                      background: "#7b5ea7",
-                      color: "#ffffff",
+                      background: "var(--accent)",
+                      color: "var(--text-light)",
                       borderRadius: "999px",
                       padding: "1px 7px",
                       fontWeight: "500",
@@ -168,7 +168,7 @@ export default function FilterDrawer({
                     transform: isGroupOpen ? "rotate(90deg)" : "rotate(0deg)",
                     transition: "transform 0.2s ease",
                     fontSize: "12px",
-                    color: "#999999",
+                    color: "var(--text-muted)",
                   }}
                 >
                   ›
@@ -202,10 +202,10 @@ export default function FilterDrawer({
                           padding: "5px 10px",
                           borderRadius: "999px",
                           border: active
-                            ? "1px solid #7b5ea7"
-                            : "1px solid #e5e5e5",
-                          background: active ? "#7b5ea7" : "#ffffff",
-                          color: active ? "#ffffff" : "#5c5c5c",
+                            ? "1px solid var(--accent)"
+                            : "1px solid var(--border)",
+                          background: active ? "var(--accent)" : "var(--bg-surface)",
+                          color: active ? "var(--bg-surface)" : "var(--text-secondary)",
                           fontSize: "11px",
                           fontWeight: "500",
                           cursor: "pointer",
@@ -213,14 +213,14 @@ export default function FilterDrawer({
                         }}
                         onMouseEnter={(e) => {
                           if (!active) {
-                            e.currentTarget.style.borderColor = "#7b5ea7";
-                            e.currentTarget.style.color = "#7b5ea7";
+                            e.currentTarget.style.borderColor = "var(--accent)";
+                            e.currentTarget.style.color = "var(--accent)";
                           }
                         }}
                         onMouseLeave={(e) => {
                           if (!active) {
-                            e.currentTarget.style.borderColor = "#e5e5e5";
-                            e.currentTarget.style.color = "#5c5c5c";
+                            e.currentTarget.style.borderColor = "var(--border)";
+                            e.currentTarget.style.color = "var(--text-secondary)";
                           }
                         }}
                       >

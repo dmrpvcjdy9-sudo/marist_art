@@ -24,7 +24,7 @@ export default function Infopanels() {
       id="info-panels"
       ref={panelsRef}
       style={{
-        background: "rgb(11, 47, 55)",
+        background: "var(--bg-footer)",
         padding: "40px 20px",
         marginTop: "40px",
       }}

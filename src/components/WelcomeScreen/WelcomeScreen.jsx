@@ -12,7 +12,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
         padding: isMobile ? "40px 20px" : "60px 40px",
         maxWidth: "800px",
         margin: "0 auto",
-        fontFamily: "'Montserrat', sans-serif",
+        fontFamily: "var(--font-primary)",
         color: "rgba(255,255,255,0.9)",
       }}
     >
@@ -59,7 +59,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
             fontStyle: "italic",
             margin: 0,
             lineHeight: 1.3,
-            color: "#ffffff",
+            color: "var(--text-light)",
           }}
         >
           Recursos gráficos con identidad marista
@@ -103,11 +103,11 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
               borderRadius: "8px",
               border: "1px solid rgba(255,255,255,0.4)",
               background: "rgba(255,255,255,0.1)",
-              color: "#ffffff",
+              color: "var(--text-light)",
               fontSize: "13px",
               fontWeight: "500",
               cursor: "pointer",
-              fontFamily: "'Montserrat', sans-serif",
+              fontFamily: "var(--font-primary)",
               transition: "all 0.2s ease",
             }}
             onMouseEnter={(e) => {

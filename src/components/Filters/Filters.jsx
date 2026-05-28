@@ -30,7 +30,7 @@ export default function Filters({ filters, setFilters, options }) {
             color: "#fff",
             fontSize: "12px",
             cursor: "pointer",
-            fontFamily: "'Montserrat', sans-serif",
+            fontFamily: "var(--font-primary)",
           }}
         >
           {filter}

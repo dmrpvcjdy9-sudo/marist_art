@@ -27,7 +27,7 @@ Encantado de veros por aquí.
       style={{
         flex: "1 1 360px",
         minWidth: "280px",
-        background: "#ffffff",
+        background: "var(--bg-surface)",
         borderRadius: "14px",
         overflow: "hidden",
         cursor: "pointer",
@@ -60,7 +60,7 @@ Encantado de veros por aquí.
       <div
         style={{
           padding: "0 20px 20px",
-          color: "#5c5c5c",
+          color: "var(--text-secondary)",
           fontSize: "13px",
           lineHeight: 1.5,
           overflow: "hidden",
@@ -94,9 +94,9 @@ Encantado de veros por aquí.
                 style={{
                   padding: "8px 18px",
                   borderRadius: "6px",
-                  border: "1px solid #7b5ea7",
-                  background: "#ffffff",
-                  color: "#7b5ea7",
+                  border: "1px solid var(--accent)",
+                  background: "var(--bg-surface)",
+                  color: "var(--accent)",
                   fontSize: "12px",
                   fontWeight: "500",
                   textDecoration: "none",
@@ -104,12 +104,12 @@ Encantado de veros por aquí.
                   transition: "all 0.2s ease",
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "#7b5ea7";
-                  e.currentTarget.style.color = "#ffffff";
+                  e.currentTarget.style.background = "var(--accent)";
+                  e.currentTarget.style.color = "var(--bg-surface)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.background = "#ffffff";
-                  e.currentTarget.style.color = "#7b5ea7";
+                  e.currentTarget.style.background = "var(--bg-surface)";
+                  e.currentTarget.style.color = "var(--accent)";
                 }}
               >
                 Aviso Legal

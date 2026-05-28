@@ -53,7 +53,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
   return (
     <div
       style={{
-        background: "#ffffff",
+        background: "var(--bg-surface)",
         padding: isMobile ? "10px 16px" : "12px 24px",
         display: "flex",
         justifyContent: "space-between",
@@ -86,7 +86,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
               fontSize: "12px",
               fontWeight: "300",
               fontStyle: "italic",
-              color: "#7b5ea7",
+              color: "var(--accent)",
               lineHeight: 1.3,
               whiteSpace: "nowrap",
               paddingTop: "2px",
@@ -117,7 +117,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
                   style={{
                     cursor: "pointer",
                     fontStyle: "italic",
-                    color: active ? "#1a1a1a" : "#999999",
+                    color: active ? "var(--text-primary)" : "var(--text-muted)",
                     fontWeight: active ? "600" : "400",
                     fontSize: "13px",
                     transition: "color 0.2s ease",
@@ -131,7 +131,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
                       width: "3px",
                       height: "3px",
                       borderRadius: "50%",
-                      background: "#ccc",
+                      background: "var(--text-muted)",
                       margin: "0 2px",
                     }}
                   />
@@ -145,7 +145,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
             style={{
               cursor: "pointer",
               fontStyle: "italic",
-              color: "#999999",
+              color: "var(--text-muted)",
               fontWeight: "400",
               fontSize: "13px",
               transition: "color 0.2s ease",
@@ -178,7 +178,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
     background: "transparent",
     fontSize: "18px",
     cursor: "pointer",
-    color: searchOpen || query ? "#7b5ea7" : "#999999",
+    color: searchOpen || query ? "var(--accent)" : "var(--text-muted)",
     padding: "4px",
   }}
   title={query ? "Limpiar búsqueda" : "Buscar"}
@@ -196,7 +196,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
                 background: "transparent",
                 fontSize: "20px",
                 cursor: "pointer",
-                color: openPanel === "menu" ? "#1a1a1a" : "#999999",
+                color: openPanel === "menu" ? "var(--text-primary)" : "var(--text-muted)",
                 padding: "4px",
               }}
             >
@@ -214,7 +214,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
     border: "1px solid #e5e5e5",
     borderRadius: "999px",
     padding: "6px 10px",
-    background: "#ffffff",
+    background: "var(--bg-surface)",
     width: searchOpen ? "180px" : "auto",
     maxWidth: "50vw",
     transition: "width 0.25s ease",
@@ -230,7 +230,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
       }}
       style={{
         cursor: "pointer",
-        color: "#999999",
+        color: "var(--text-muted)",
         fontSize: "13px",
         flexShrink: 0,
         order: 1,
@@ -244,7 +244,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
   <span
     onClick={() => setSearchOpen(!searchOpen)}
     style={{
-      color: "#999999",
+      color: "var(--text-muted)",
       cursor: "pointer",
       flexShrink: 0,
       fontSize: "14px",
@@ -268,8 +268,8 @@ useClickOutside(searchRef, () => setSearchOpen(false));
         fontSize: "13px",
         width: "100%",
         background: "transparent",
-        color: "#1a1a1a",
-        fontFamily: "'Montserrat', sans-serif",
+        color: "var(--text-primary)",
+        fontFamily: "var(--font-primary)",
         order: 3,
       }}
     />
@@ -299,7 +299,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
         top: "100%",
         left: 0,
         right: 0,
-        background: "#ffffff",
+        background: "var(--bg-surface)",
         padding: "12px 16px",
         borderBottom: "1px solid #e5e5e5",
         zIndex: 99,
@@ -310,7 +310,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
       }}
     >
       {/* LUPA pequeña a la izquierda */}
-      <span style={{ color: "#999999", fontSize: "14px", flexShrink: 0 }}>🔍</span>
+      <span style={{ color: "var(--text-muted)", fontSize: "14px", flexShrink: 0 }}>🔍</span>
 
       <input
         autoFocus
@@ -324,8 +324,8 @@ useClickOutside(searchRef, () => setSearchOpen(false));
           padding: "10px 12px",
           fontSize: "14px",
           outline: "none",
-          fontFamily: "'Montserrat', sans-serif",
-          color: "#1a1a1a",
+          fontFamily: "var(--font-primary)",
+          color: "var(--text-primary)",
           minWidth: 0,
         }}
       />
@@ -339,7 +339,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
           }}
           style={{
             cursor: "pointer",
-            color: "#999999",
+            color: "var(--text-muted)",
             fontSize: "14px",
             flexShrink: 0,
           }}
@@ -359,7 +359,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
             top: "100%",
             left: 0,
             right: 0,
-            background: "#ffffff",
+            background: "var(--bg-surface)",
             padding: "12px 20px",
             display: "flex",
             flexDirection: "column",
@@ -377,7 +377,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
                 onClick={() => handleNavClick(cat.key)}
                 style={{
                   cursor: "pointer",
-                  color: active ? "#1a1a1a" : "#5c5c5c",
+                  color: active ? "var(--text-primary)" : "var(--text-secondary)",
                   fontWeight: active ? "600" : "400",
                   fontSize: "14px",
                   fontStyle: "italic",
@@ -396,7 +396,7 @@ useClickOutside(searchRef, () => setSearchOpen(false));
             }}
             style={{
               cursor: "pointer",
-              color: "#5c5c5c",
+              color: "var(--text-secondary)",
               fontSize: "14px",
               fontStyle: "italic",
               padding: "6px 0",

@@ -54,10 +54,8 @@ export default function Grid({
               style={{
                 borderRadius: "12px",
                 overflow: "hidden",
-                background: "#ffffff",
-                boxShadow: isHovered
-                  ? "0 8px 24px rgba(0,0,0,0.12)"
-                  : "0 2px 8px rgba(0,0,0,0.06)",
+                background: "var(--bg-surface)",
+                boxShadow: isHovered ? "var(--shadow-card-hover)" : "var(--shadow-card)",
                 transition: "transform 0.2s ease, box-shadow 0.2s ease",
                 transform: isHovered ? "translateY(-4px)" : "translateY(0)",
                 display: "flex",
@@ -72,7 +70,7 @@ export default function Grid({
                   width: "100%",
                   aspectRatio: "3 / 4",
                   overflow: "hidden",
-                  background: "#ffffff",
+                  background: "var(--bg-surface)",
                   flexShrink: 0,
                   position: "relative",
                 }}
@@ -89,7 +87,7 @@ export default function Grid({
     right: "6px",
     zIndex: 5,
     border: "none",
-    background: "rgba(255,255,255,0.3)",
+    background: "var(--border)",
     backdropFilter: "blur(4px)",
     borderRadius: "50%",
     width: "28px",
@@ -101,7 +99,7 @@ export default function Grid({
     fontSize: "16px",
     padding: 0,
     lineHeight: 1,
-    color: isFavorite(item.id) ? "#4caf50" : "#999999",   // ← añade esta línea
+    color: isFavorite(item.id) ? "var(--favorite)" : "var(--text-muted)",   // ← añade esta línea
     boxShadow: "0 1px 4px rgba(0,0,0,0.1)",
     transition: "transform 0.15s ease, color 0.15s ease",
   }}
@@ -127,7 +125,7 @@ export default function Grid({
     } else {
       // Segundo fallo: mostrar placeholder
       e.target.style.display = "none";
-      e.target.parentElement.style.background = "#f0f0f0";
+      e.target.parentElement.style.background = "var(--border-light)";
     }
   }}
 />
@@ -147,7 +145,7 @@ export default function Grid({
                   style={{
                     fontSize: "13px",
                     fontWeight: "600",
-                    color: "#1a1a1a",
+                    color: "var(--text-primary)",
                     lineHeight: 1.2,
                     marginBottom: "4px",
                   }}
@@ -159,7 +157,7 @@ export default function Grid({
                   <div
                     style={{
                       fontSize: "11px",
-                      color: "#5c5c5c",
+                      color: "var(--text-secondary)",
                       lineHeight: 1.3,
                       overflow: "hidden",
                       display: "-webkit-box",

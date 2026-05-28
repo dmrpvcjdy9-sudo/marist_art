@@ -1,4 +1,5 @@
 import React, { useMemo, useEffect, useRef, useState } from "react";
+import "./styles.css";
 import Grid from "./components/Grid/Grid";
 import Lightbox from "./components/Lightbox/Lightbox";
 import Header from "./components/Header/Header";
@@ -147,9 +148,9 @@ const handleVerTodo = () => {
     <HelmetProvider>
       <div
         style={{
-      fontFamily: "'Montserrat', sans-serif",
+      fontFamily: "var(--font-primary)",
       minHeight: "100vh",
-      background: "#2c3e50",
+      background: "var(--bg-primary)",
   color: "#e0e0e0",
     }}
       >
@@ -216,11 +217,11 @@ const handleVerTodo = () => {
               <div
                 style={{
                   textAlign: "center",
-                  color: "rgba(255,255,255,0.7)",
+                  color: "var(--text-light-muted)",
                   fontSize: "16px",
                   fontStyle: "italic",
                   padding: "40px 0",
-                  fontFamily: "'Montserrat', sans-serif",
+                  fontFamily: "var(--font-primary)",
                 }}
               >
                 Sin resultados. Prueba a modificar filtros o búsqueda.

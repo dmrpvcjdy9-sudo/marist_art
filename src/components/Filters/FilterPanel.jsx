@@ -33,7 +33,7 @@ export default function FilterPanel({
   return (
     <div
       style={{
-        background: "#ffffff",
+        background: "var(--bg-surface)",
         borderBottom: "1px solid #e5e5e5",
       }}
     >

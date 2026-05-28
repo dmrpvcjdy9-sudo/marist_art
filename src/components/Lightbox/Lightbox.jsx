@@ -76,7 +76,7 @@ export default function Lightbox({
       style={{
         position: "fixed",
         inset: 0,
-        background: "rgba(11, 47, 55, 0.92)",
+        background: "var(--bg-footer)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -104,11 +104,11 @@ export default function Lightbox({
       alignItems: "center",
       justifyContent: "center",
       cursor: "pointer",
-      fontFamily: "'Montserrat', sans-serif",
+      fontFamily: "var(--font-primary)",
       transition: "background 0.2s ease",
     }}
     onMouseEnter={(e) => {
-      e.currentTarget.style.background = "rgba(255,255,255,0.3)";
+      e.currentTarget.style.background = "var(--border)";
     }}
     onMouseLeave={(e) => {
       e.currentTarget.style.background = "rgba(255,255,255,0.15)";
@@ -170,7 +170,7 @@ export default function Lightbox({
             cursor: "default",
             userSelect: "none",
             pointerEvents: "auto",
-            boxShadow: "0 20px 60px rgba(0,0,0,0.4)",
+            boxShadow: "var(--shadow-lightbox)",
             display: "block",
             objectFit: "contain",
           }}
@@ -185,10 +185,10 @@ export default function Lightbox({
           maxHeight: "30vh",
           overflowY: "auto",
           padding: isMobile ? "12px 14px" : "14px 20px",
-          background: "rgba(0,0,0,0.5)",
-          color: "#ffffff",
+          background: "var(--bg-footer)",
+          color: "var(--text-light)",
           textAlign: "center",
-          borderTop: "1px solid rgba(255,255,255,0.08)",
+          borderTop: "1px solid var(--border)",
           flexShrink: 0,
         }}
       >
@@ -224,23 +224,23 @@ export default function Lightbox({
             display: "inline-block",
             padding: "6px 16px",
             borderRadius: "6px",
-            border: "1px solid rgba(255,255,255,0.3)",
+            border: "1px solid var(--border)",
             background: "transparent",
-            color: "#ffffff",
+            color: "var(--text-light)",
             fontSize: "11px",
             fontWeight: "500",
             cursor: "pointer",
             transition: "all 0.2s ease",
             lineHeight: 1,
-            fontFamily: "'Montserrat', sans-serif",
+            fontFamily: "var(--font-primary)",
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.background = "rgba(255,255,255,0.12)";
-            e.currentTarget.style.borderColor = "rgba(255,255,255,0.5)";
+            e.currentTarget.style.background = "var(--bg-overlay)";
+            e.currentTarget.style.borderColor = "var(--text-light-muted)";
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.background = "transparent";
-            e.currentTarget.style.borderColor = "rgba(255,255,255,0.3)";
+            e.currentTarget.style.borderColor = "var(--border)";
           }}
         >
           Descargar
@@ -262,7 +262,7 @@ function arrowStyle(side) {
     alignItems: "center",
     justifyContent: "center",
     fontSize: "32px",
-    color: "rgba(255,255,255,0.7)",
+    color: "var(--text-light-muted)",
     background: "rgba(0,0,0,0.3)",
     border: "none",
     borderRadius: "50%",

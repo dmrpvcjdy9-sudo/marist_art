@@ -47,7 +47,7 @@ export default function ContactPanel({
       style={{
         flex: "1 1 360px",
         minWidth: "280px",
-        background: "#ffffff",
+        background: "var(--bg-surface)",
         borderRadius: "14px",
         overflow: "hidden",
         cursor: "pointer",
@@ -80,7 +80,7 @@ export default function ContactPanel({
       <div
         style={{
           padding: "0 20px 20px",
-          color: "#5c5c5c",
+          color: "var(--text-secondary)",
           fontSize: "13px",
           lineHeight: 1.5,
           overflow: "hidden",
@@ -110,8 +110,8 @@ export default function ContactPanel({
                 placeholder="Tu email"
                 required
                 style={inputStyle}
-                onFocus={(e) => (e.target.style.borderColor = "#7b5ea7")}
-                onBlur={(e) => (e.target.style.borderColor = "#e5e5e5")}
+                onFocus={(e) => (e.target.style.borderColor = "var(--accent)")}
+                onBlur={(e) => (e.target.style.borderColor = "var(--border)")}
               />
               <textarea
                 name="message"
@@ -119,8 +119,8 @@ export default function ContactPanel({
                 required
                 rows={4}
                 style={{ ...inputStyle, resize: "vertical", minHeight: "80px" }}
-                onFocus={(e) => (e.target.style.borderColor = "#7b5ea7")}
-                onBlur={(e) => (e.target.style.borderColor = "#e5e5e5")}
+                onFocus={(e) => (e.target.style.borderColor = "var(--accent)")}
+                onBlur={(e) => (e.target.style.borderColor = "var(--border)")}
               />
               <button
                 type="submit"
@@ -128,21 +128,21 @@ export default function ContactPanel({
                 style={{
                   padding: "10px 16px",
                   borderRadius: "6px",
-                  border: "1px solid #7b5ea7",
-                  background: "#ffffff",
-                  color: "#7b5ea7",
+                  border: "1px solid var(--accent)",
+                  background: "var(--bg-surface)",
+                  color: "var(--accent)",
                   fontSize: "13px",
                   fontWeight: "500",
                   cursor: "pointer",
                   transition: "all 0.2s ease",
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "#7b5ea7";
-                  e.currentTarget.style.color = "#ffffff";
+                  e.currentTarget.style.background = "var(--accent)";
+                  e.currentTarget.style.color = "var(--bg-surface)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.background = "#ffffff";
-                  e.currentTarget.style.color = "#7b5ea7";
+                  e.currentTarget.style.background = "var(--bg-surface)";
+                  e.currentTarget.style.color = "var(--accent)";
                 }}
               >
                 {loading ? "Enviando..." : "Enviar"}
@@ -154,7 +154,7 @@ export default function ContactPanel({
                   style={{
                     marginTop: "8px",
                     fontSize: "12px",
-                    color: "#7b5ea7",
+                    color: "var(--accent)",
                     fontStyle: "italic",
                   }}
                 >
@@ -192,9 +192,9 @@ const inputStyle = {
   borderRadius: "6px",
   border: "1px solid #e5e5e5",
   fontSize: "13px",
-  fontFamily: "'Montserrat', sans-serif",
+  fontFamily: "var(--font-primary)",
   outline: "none",
-  color: "#1a1a1a",
-  background: "#ffffff",
+  color: "var(--text-primary)",
+  background: "var(--bg-surface)",
   transition: "border-color 0.2s ease",
 };
