@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:57:35.396Z",
+  "generatedAt": "2026-05-28T10:32:30.803Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -6796,7 +6796,7 @@
     {
       "id": "ilu-0125",
       "titulo": "Reinz: Marist Moustard",
-      "descripcion": "",
+      "descripcion": "Como grano de mostaza",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -6820,7 +6820,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0125 reinz: marist moustard ilustracion escena original arturo_mp multicolor evangelio sticker",
+      "search": "ilu-0125 reinz: marist moustard como grano de mostaza ilustracion escena original arturo_mp multicolor evangelio sticker",
       "destacado": true
     },
     {
@@ -6988,7 +6988,7 @@
     {
       "id": "dis-0087",
       "titulo": "Partido a partido",
-      "descripcion": "Camiseta para jornadas SED Sevilla",
+      "descripcion": "Camiseta para jornadas SED Sevilla (2013)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -7013,13 +7013,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0087 partido a partido camiseta para jornadas sed sevilla diseno texto original arturo_mp multicolor deporte social textil",
+      "search": "dis-0087 partido a partido camiseta para jornadas sed sevilla (2013) diseno texto original arturo_mp multicolor deporte social textil",
       "destacado": true
     },
     {
       "id": "dis-0088",
       "titulo": "Diploma Escolar Dibujo",
-      "descripcion": "",
+      "descripcion": "Para felicitación Infantil-Primaria",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -7045,7 +7045,7 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "dis-0088 diploma escolar dibujo diseno texto adaptado c_towers multicolor educacion frase postal",
+      "search": "dis-0088 diploma escolar dibujo para felicitacion infantil-primaria diseno texto adaptado c_towers multicolor educacion frase postal",
       "destacado": true
     }
   ],

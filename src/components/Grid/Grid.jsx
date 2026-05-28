@@ -87,7 +87,7 @@ export default function Grid({
     right: "6px",
     zIndex: 5,
     border: "none",
-    background: "var(--border)",
+    background: "rgba(255, 255, 255, 0.15)",
     backdropFilter: "blur(4px)",
     borderRadius: "50%",
     width: "28px",
