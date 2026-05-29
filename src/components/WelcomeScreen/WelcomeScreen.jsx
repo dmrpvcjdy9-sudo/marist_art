@@ -77,15 +77,13 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
         >
           Esto es Marist-Art. Nada complicado (espero): 
           un repositorio abierto de ilustraciones y diseños para la pastoral,
-          la educación y la comunidad marista en especial.
-          Proceden de archivos vectoriales propios, o en los que haya intervenido
-          directamente. Todo gratuito, descargable y libre para uso no comercial 
-          <i> (Licencia CC BY-NC 4.0)</i>.
+          la educación y la comunidad. Tienes filtros, búsqueda, y la opción 
+          de marcar favoritos.
           {"\n"}
-          Tienes filtros, búsqueda, y la opción de marcar favoritos.
-          Si quieres comentar algo, o tienes sugerencias, no dudes en escribir.
+          Todo gratuito, descargable y libre para uso no comercial
+          <i> (Licencia CC BY-NC 4.0)</i>. Además, algunos enlaces interesantes abajo.
           {"\n"}
-          <i>(Gracias a J_Medina por su ilustración, ahora en portada)</i>
+          Si quieres comentar algo, o tienes sugerencias, no dudes en escribir. Bienvenidos todos.
         </p>
 
         <div

@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import FilterPanel from "./components/Filters/FilterPanel";
 import Filters from "./components/Filters/Filters";
 import Pagination from "./components/Pagination";
+import LinksPanel from "./components/LinksPanel/LinksPanel";
 import Infopanels from "./components/Infopanels/Infopanels";
 import Footer from "./components/Footer/Footer";
 import useLightbox from "./hooks/useLightbox";
@@ -263,6 +264,8 @@ const handleVerTodo = () => {
 />
       {/* INFOPANELS */}
         <Infopanels />
+      {/* LINKS */}
+        <LinksPanel />
         {/* FOOTER */}
         <Footer
   onLogoClick={() => {

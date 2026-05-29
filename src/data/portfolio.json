@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T10:32:30.803Z",
+  "generatedAt": "2026-05-29T07:58:55.606Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -6795,8 +6795,8 @@
     },
     {
       "id": "ilu-0125",
-      "titulo": "Reinz: Marist Moustard",
-      "descripcion": "Como grano de mostaza",
+      "titulo": "Reinz: Marist Mustard",
+      "descripcion": "Como granos de mostaza",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -6820,7 +6820,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0125 reinz: marist moustard como grano de mostaza ilustracion escena original arturo_mp multicolor evangelio sticker",
+      "search": "ilu-0125 reinz: marist mustard como granos de mostaza ilustracion escena original arturo_mp multicolor evangelio sticker",
       "destacado": true
     },
     {
@@ -7046,6 +7046,635 @@
         "basado_en": "C_Towers"
       },
       "search": "dis-0088 diploma escolar dibujo para felicitacion infantil-primaria diseno texto adaptado c_towers multicolor educacion frase postal",
+      "destacado": true
+    },
+    {
+      "id": "dis-0089",
+      "titulo": "Piensa y Actúa",
+      "descripcion": "Camiseta SED",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "dis-0089",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          7,
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0089 piensa y actua camiseta sed diseno escena original arturo_mp blanco_negro educacion social textil sticker",
+      "destacado": true
+    },
+    {
+      "id": "dis-0090",
+      "titulo": "Campamento Urbano Huelva 2016",
+      "descripcion": "Camiseta Nuevo Horizonte 2026 (FMCH)",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "dis-0090",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          10
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0090 campamento urbano huelva 2016 camiseta nuevo horizonte 2026 (fmch) diseno escena original arturo_mp blanco_negro social textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0091",
+      "titulo": "Conectados por María",
+      "descripcion": "",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0091",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          8,
+          7
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "dis-0091 conectados por maria diseno texto original jarts multicolor maristas maria frase postal",
+      "destacado": true
+    },
+    {
+      "id": "dis-0092",
+      "titulo": "Un gran día para Dar Vida",
+      "descripcion": "Para taza GVX Sevilla",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0092",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          6
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0092 un gran dia para dar vida para taza gvx sevilla diseno texto original arturo_mp multicolor gvx frase taza",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0131",
+      "titulo": "Hojas de Olivo",
+      "descripcion": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0131",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0131 hojas de olivo ilustracion escena original arturo_mp multicolor sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0132",
+      "titulo": "Hojas de Olivo II",
+      "descripcion": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0132",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0132 hojas de olivo ii ilustracion escena original arturo_mp multicolor sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0133",
+      "titulo": "Ceda",
+      "descripcion": "Dando paso a la Navidad",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0133",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_C_Towers"
+      },
+      "search": "ilu-0133 ceda dando paso a la navidad ilustracion escena adaptado arturo_mp_c_towers multicolor sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0134",
+      "titulo": "Fuertes de Corazón",
+      "descripcion": "Para lema Cuaresma Mediterránea",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0134",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          3
+        ],
+        "tags": [
+          2,
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0134 fuertes de corazon para lema cuaresma mediterranea ilustracion texto original arturo_mp_provmediterranea multicolor educacion evangelio logo sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0135",
+      "titulo": "Ayuno",
+      "descripcion": "Cuaresma",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0135",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0135 ayuno cuaresma ilustracion escena original arturo_mp_provmediterranea multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0136",
+      "titulo": "Oración",
+      "descripcion": "Cuaresma",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0136",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0136 oracion cuaresma ilustracion escena original arturo_mp_provmediterranea multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0137",
+      "titulo": "Limosna",
+      "descripcion": "Cuaresma",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0137",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0137 limosna cuaresma ilustracion escena original arturo_mp_provmediterranea multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0138",
+      "titulo": "Conversión",
+      "descripcion": "Cuaresma",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0138",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0138 conversion cuaresma ilustracion escena original arturo_mp_provmediterranea multicolor evangelio sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0139",
+      "titulo": "Consumo Justo",
+      "descripcion": "Para campaña SED local",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0139",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          10,
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5,
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0139 consumo justo para campana sed local ilustracion texto original arturo_mp multicolor social educacion frase sticker rrss",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0140",
+      "titulo": "Para Marcha Toledo",
+      "descripcion": "Posible Logo",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0140",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0140 para marcha toledo posible logo ilustracion texto original arturo_mp multicolor sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0141",
+      "titulo": "Con un solo corazón",
+      "descripcion": "Literal",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0141",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0141 con un solo corazon literal ilustracion escena original arturo_mp multicolor maristas sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0142",
+      "titulo": "Nº Sª de Fourvière II",
+      "descripcion": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0142",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          7,
+          0
+        ],
+        "tags": [],
+        "usos": [
+          5,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0142 nº sª de fourviere ii ilustracion figura adaptado c_towers multicolor maria champagnat sticker postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0143",
+      "titulo": "María Niña",
+      "descripcion": "Acoger",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0143",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          7
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0143 maria nina acoger ilustracion figura adaptado arturo_mp_rrss multicolor maria sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0144",
+      "titulo": "La Chispa IV",
+      "descripcion": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0144",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0144 la chispa iv ilustracion escena original arturo_mp multicolor gvx sin_fondo sticker postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0145",
+      "titulo": "Muévete (Jaén)",
+      "descripcion": "Logo Asociación",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0145",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0145 muevete (jaen) logo asociacion ilustracion texto adaptado c_towers multicolor educacion social sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0146",
+      "titulo": "Caridad",
+      "descripcion": "Cuaresma",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0146",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0146 caridad cuaresma ilustracion escena original arturo_mp_provmediterranea multicolor evangelio sin_fondo sticker",
       "destacado": true
     }
   ],

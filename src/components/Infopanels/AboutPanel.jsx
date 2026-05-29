@@ -10,11 +10,11 @@ export default function AboutPanel({
   const leftText = `
 Me llamo Arturo Morales Pérez, soy laico marista de Champagnat, y formo parte de la Provincia Marista Mediterránea.
 
-Además de mi tarea habitual (educador y catequista) a menudo suelo crear diseños e ilustraciones, o adaptarlos a formato digital, para lo propio de nuestras acciones pastorales, educativas, vocacionales, sociales y comunitarias.
+Además de mi tarea habitual (educador y catequista) a menudo suelo crear diseños e ilustraciones, o adaptarlos a formato digital, para lo propio de nuestras acciones pastorales, educativas, vocacionales, sociales y comunitarias. Trabajo con archivos vectoriales por su versatilidad.
 
-Esta web/app tiene una finalidad sencilla: servir de repositorio de imágenes que he podido ir creando o vectorizando, relacionadas con esos fines. Se incluyen adaptaciones de dibujos o ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá "adaptada" en el título y, siempre que lo haya encontrado, citando el autor de la imagen o fragmento adaptado.
+Este espacio tiene una finalidad sencilla: servir de repositorio de imágenes que he podido ir creando o vectorizando, relacionadas con esas acciones. Son copias de los originales y se incluyen adaptaciones de ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá "adaptada" en el título y, si lo he localizado, citando el origen de la imagen o fragmento adaptado. Una mención especial merece C_Towers, amigo y artista nato de brocha y ceras.
 
-No es por tanto un estudio de diseño online ni una web de compras o marketing, ni siquiera una página personal como artista. Todo es abierto (licencia Creative Commons, ver Nota Legal), y descargable, esperando que sirva para inspirar o ayudar en vuestras tareas.
+Todo es abierto (licencia CC BY-NC 4.0, ver Nota Legal), y descargable, esperando que sirva para inspirar o ayudar en vuestras tareas.
 
 Encantado de veros por aquí.
 `;

@@ -66,15 +66,17 @@ export default function Grid({
             >
               {/* IMAGEN */}
               <div
-                style={{
-                  width: "100%",
-                  aspectRatio: "3 / 4",
-                  overflow: "hidden",
-                  background: "var(--bg-surface)",
-                  flexShrink: 0,
-                  position: "relative",
-                }}
-              >
+  style={{
+    width: "100%",
+    aspectRatio: "3 / 4",
+    overflow: "hidden",
+    background: "var(--bg-surface)",
+    flexShrink: 0,
+    position: "relative",
+    borderRadius: "var(--radius-lg) var(--radius-lg) 0 0",
+    padding: "4px",  // ← margen interno
+  }}
+>
               {/* ESTRELLA FAVORITO */}
 <button
   onClick={(e) => {
@@ -112,11 +114,12 @@ export default function Grid({
   alt={item.titulo}
   loading="eager"
   style={{
-    width: "100%",
-    height: "100%",
-    objectFit: "contain",
-    display: "block",
-  }}
+  width: "100%",
+  height: "100%",
+  objectFit: "contain",
+  display: "block",
+  borderRadius: "calc(var(--radius-lg) - 2px) calc(var(--radius-lg) - 2px) 0 0", // ajuste fino
+}}
   onError={(e) => {
     // Primer fallo: reintentar una vez
     if (!e.target.dataset.retried) {
