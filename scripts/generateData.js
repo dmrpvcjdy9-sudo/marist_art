@@ -69,18 +69,22 @@ if (skipped > 0) {
 const temasSet = new Set();
 const tagsSet = new Set();
 const usosSet = new Set();
+const tintasSet = new Set();
 rows.forEach((row) => {
   parseArray(row.temas).forEach((t) => temasSet.add(t));
   parseArray(row.tags).forEach((t) => tagsSet.add(t));
   parseArray(row.usos).forEach((t) => usosSet.add(t));
+  parseArray(row.tintas).forEach((t) => tintasSet.add(t));
 });
 // Orden estable: alfabético
 const temasDict = Array.from(temasSet).sort();
 const tagsDict = Array.from(tagsSet).sort();
-const usosDict = Array.from(usosSet).sort(); 
+const usosDict = Array.from(usosSet).sort();
+const tintasDict = Array.from(tintasSet).sort(); 
 const temasIndex = Object.fromEntries(temasDict.map((v, i) => [v, i]));
 const tagsIndex = Object.fromEntries(tagsDict.map((v, i) => [v, i]));
 const usosIndex = Object.fromEntries(usosDict.map((v, i) => [v, i]));
+const tintasIndex = Object.fromEntries(tintasDict.map((v, i) => [v, i]));
  
 // =======================
 // 3. ITEMS
@@ -128,6 +132,7 @@ const items = rows.map((row) => {
       temas: temasArr.map((t) => temasIndex[t]).filter((i) => i !== undefined),
       tags:  tagsArr.map((t) =>  tagsIndex[t]).filter((i) => i !== undefined),
       usos:  usosArr.map((t) =>  usosIndex[t]).filter((i) => i !== undefined),
+      tintas: parseArray(row.color).map((t) => tintasIndex[t]).filter((i) => i !== undefined),
     },
     creditos: {
       origen:    clean(row.origen),
@@ -150,6 +155,7 @@ const output = {
     temas: temasDict,
     tags:  tagsDict,
     usos:  usosDict,
+    tintas: tintasDict,
   },
 };
 fs.writeFileSync(OUTPUT, JSON.stringify(output, null, 2));

@@ -3,7 +3,7 @@ import data from "../data/portfolio.json";
 
 export default function usePortfolio(favoritesRef = { current: [] }) {
   const { items: rawItems, dicts } = data;
-  const { temas, tags, usos } = dicts;
+  const { temas, tags, usos, tintas } = dicts;
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("todas");
   const [filters, setFilters] = useState([]);
@@ -37,8 +37,8 @@ useEffect(() => {
       const temasLabels = item.meta.temas.map((i) => temas[i]);
       const tagsLabels = item.meta.tags.map((i) => tags[i]);
       const usosLabels = item.meta.usos.map((i) => usos[i]);
-
-      const allFilters = [...temasLabels, ...tagsLabels, ...usosLabels];
+      const tintasLabels = item.meta.tintas.map((i) => tintas[i]);
+      const allFilters = [...temasLabels, ...tagsLabels, ...usosLabels, ...tintasLabels];
       const allFiltersLower = allFilters.map((f) => f.toLowerCase());
 
       let categoria = item.categoria;

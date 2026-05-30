@@ -1,13 +1,22 @@
 import React, { useEffect, useRef, useState } from "react";
 import data from "../../data/portfolio.json";
 
-const { temas, tags, usos } = data.dicts;
+const { temas, tags, usos, tintas } = data.dicts;
 
 const GROUPS = [
   { label: "Temas", items: temas, color: "#1e3a5f" },
   { label: "Tags", items: tags, color: "var(--accent)" },
   { label: "Usos", items: usos, color: "var(--bg-primary)" },
+  { label: "Tintas", items: tintas, color: "#6b5b3a" },
 ];
+
+const TINTAS_LABELS = {
+  monocolor: "1 Tinta",
+  bicolor: "2 Tintas",
+  blanco_negro: "B/N",
+  escala_grises: "Grises",
+  multicolor: "Multicolor",
+};
 
 export default function FilterDrawer({
   isOpen,
@@ -194,6 +203,7 @@ export default function FilterDrawer({
                 >
                   {group.items.map((item) => {
                     const active = activeFilters.includes(item);
+                    const label = group.label === "Tintas" ? (TINTAS_LABELS[item] || item) : item;
                     return (
                       <span
                         key={item}
@@ -224,7 +234,7 @@ export default function FilterDrawer({
                           }
                         }}
                       >
-                        {item}
+                        {label}
                       </span>
                     );
                   })}
