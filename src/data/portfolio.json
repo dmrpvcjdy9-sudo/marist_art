@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T07:58:55.606Z",
+  "generatedAt": "2026-05-30T07:55:10.455Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -7,7 +7,7 @@
       "descripcion": "Ilustraciones maristas",
       "categoria": "ilustracion",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0001",
         "ext": {
@@ -32,7 +32,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0001 marist-art ilustraciones maristas ilustracion texto original arturo_mp multicolor maristas violetas sin_fondo logo sticker",
+      "search": "ilu-0001 marist-art ilustraciones maristas ilustracion texto original arturo_mp bicolor maristas violetas sin_fondo logo sticker",
       "destacado": true
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "id": "ilu-0003",
-      "titulo": "M Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "San Marcelino - III",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -99,7 +99,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0003 m champagnat san marcelino - iii ilustracion retrato original arturo_mp multicolor champagnat maristas minimalista postal",
+      "search": "ilu-0003 m. champagnat san marcelino - iii ilustracion retrato original arturo_mp multicolor champagnat maristas minimalista postal",
       "destacado": true
     },
     {
@@ -135,7 +135,7 @@
     },
     {
       "id": "ilu-0005",
-      "titulo": "San Marcelino Champagnat BN",
+      "titulo": "San Marcelino Champagnat B/N",
       "descripcion": "San Marcelino - V",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -161,13 +161,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0005 san marcelino champagnat bn san marcelino - v ilustracion retrato original arturo_mp escala_grises champagnat maristas postal",
+      "search": "ilu-0005 san marcelino champagnat b/n san marcelino - v ilustracion retrato original arturo_mp escala_grises champagnat maristas postal",
       "destacado": true
     },
     {
       "id": "ilu-0006",
       "titulo": "Con Champagnat",
-      "descripcion": "Marcelino con niños (BN)",
+      "descripcion": "Marcelino con niños - I (BN)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "blanco_negro",
@@ -193,12 +193,12 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0006 con champagnat marcelino con ninos (bn) ilustracion escena adaptado c_towers blanco_negro champagnat maristas infantil colorear",
+      "search": "ilu-0006 con champagnat marcelino con ninos - i (bn) ilustracion escena adaptado c_towers blanco_negro champagnat maristas infantil colorear",
       "destacado": true
     },
     {
       "id": "ilu-0007",
-      "titulo": "Champagnat ¿Vamos?",
+      "titulo": "A todas las diócesis ¿Te apuntas?",
       "descripcion": "En Tríptico Vocacional",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -228,12 +228,12 @@
         "origen": "adaptado",
         "basado_en": "maristas_esp"
       },
-      "search": "ilu-0007 champagnat ¿vamos? en triptico vocacional ilustracion retrato adaptado maristas_esp multicolor champagnat maristas vocacional sin_fondo sticker triptico",
+      "search": "ilu-0007 a todas las diocesis ¿te apuntas? en triptico vocacional ilustracion retrato adaptado maristas_esp multicolor champagnat maristas vocacional sin_fondo sticker triptico",
       "destacado": true
     },
     {
       "id": "ilu-0008",
-      "titulo": "Champagnat Beatif.",
+      "titulo": "M. Champagnat (Beatif.)",
       "descripcion": "San Marcelino - VIII",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -261,12 +261,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0008 champagnat beatif. san marcelino - viii ilustracion retrato original arturo_mp escala_grises champagnat maristas minimalista postal",
+      "search": "ilu-0008 m. champagnat (beatif.) san marcelino - viii ilustracion retrato original arturo_mp escala_grises champagnat maristas minimalista postal",
       "destacado": true
     },
     {
       "id": "ilu-0009",
-      "titulo": "Marcelino Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "San Marcelino - IX",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -294,12 +294,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0009 marcelino champagnat san marcelino - ix ilustracion retrato original arturo_mp multicolor champagnat maristas minimalista postal",
+      "search": "ilu-0009 m. champagnat san marcelino - ix ilustracion retrato original arturo_mp multicolor champagnat maristas minimalista postal",
       "destacado": true
     },
     {
       "id": "ilu-0010",
-      "titulo": "M Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "San Marcelino - X",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -327,12 +327,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0010 m champagnat san marcelino - x ilustracion retrato original arturo_mp multicolor champagnat maristas firma postal",
+      "search": "ilu-0010 m. champagnat san marcelino - x ilustracion retrato original arturo_mp multicolor champagnat maristas firma postal",
       "destacado": true
     },
     {
       "id": "ilu-0011",
-      "titulo": "M Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "San Marcelino - XI",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -360,16 +360,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0011 m champagnat san marcelino - xi ilustracion retrato original arturo_mp multicolor champagnat maristas minimalista postal",
+      "search": "ilu-0011 m. champagnat san marcelino - xi ilustracion retrato original arturo_mp multicolor champagnat maristas minimalista postal",
       "destacado": true
     },
     {
       "id": "ilu-0012",
-      "titulo": "M Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "San Marcelino - XII",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
-      "color": "blanco_negro",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0012",
         "ext": {
@@ -393,12 +393,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0012 m champagnat san marcelino - xii ilustracion retrato original arturo_mp blanco_negro champagnat maristas minimalista textil",
+      "search": "ilu-0012 m. champagnat san marcelino - xii ilustracion retrato original arturo_mp monocolor champagnat maristas minimalista textil",
       "destacado": true
     },
     {
       "id": "ilu-0013",
-      "titulo": "M Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "San Marcelino - XIII",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -426,7 +426,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0013 m champagnat san marcelino - xiii ilustracion retrato original arturo_mp blanco_negro champagnat maristas firma colorear",
+      "search": "ilu-0013 m. champagnat san marcelino - xiii ilustracion retrato original arturo_mp blanco_negro champagnat maristas firma colorear",
       "destacado": true
     },
     {
@@ -465,7 +465,7 @@
     },
     {
       "id": "ilu-0015",
-      "titulo": "Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "San Marcelino - XV",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -493,7 +493,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "ilu-0015 champagnat san marcelino - xv ilustracion retrato original arturo_mp_rrss multicolor champagnat maristas firma postal",
+      "search": "ilu-0015 m. champagnat san marcelino - xv ilustracion retrato original arturo_mp_rrss multicolor champagnat maristas firma postal",
       "destacado": true
     },
     {
@@ -532,8 +532,8 @@
     },
     {
       "id": "ilu-0017",
-      "titulo": "Champagnat",
-      "descripcion": "Marcelino - Libro y Violetas",
+      "titulo": "Marcelino Champagnat",
+      "descripcion": "Con libro y violetas",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
       "color": "multicolor",
@@ -559,7 +559,7 @@
         "origen": "adaptado",
         "basado_en": "RRSSmaristas"
       },
-      "search": "ilu-0017 champagnat marcelino - libro y violetas ilustracion retrato adaptado rrssmaristas multicolor champagnat infantil violetas sticker",
+      "search": "ilu-0017 marcelino champagnat con libro y violetas ilustracion retrato adaptado rrssmaristas multicolor champagnat infantil violetas sticker",
       "destacado": true
     },
     {
@@ -597,7 +597,7 @@
     },
     {
       "id": "ilu-0019",
-      "titulo": "Champagnat - GVX",
+      "titulo": "Champagnat - GIX",
       "descripcion": "San Marcelino (de figura Maristas Huelva)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -625,12 +625,12 @@
         "origen": "adaptado",
         "basado_en": "maristas_huelva"
       },
-      "search": "ilu-0019 champagnat - gvx san marcelino (de figura maristas huelva) ilustracion escena adaptado maristas_huelva multicolor champagnat maristas infantil violetas postal",
+      "search": "ilu-0019 champagnat - gix san marcelino (de figura maristas huelva) ilustracion escena adaptado maristas_huelva multicolor champagnat maristas infantil violetas postal",
       "destacado": true
     },
     {
       "id": "ilu-0020",
-      "titulo": "Champagnat - GVX BN",
+      "titulo": "Champagnat - GIX BN",
       "descripcion": "San Marcelino (de figura Maristas Huelva)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -658,13 +658,13 @@
         "origen": "adaptado",
         "basado_en": "maristas_huelva"
       },
-      "search": "ilu-0020 champagnat - gvx bn san marcelino (de figura maristas huelva) ilustracion escena adaptado maristas_huelva blanco_negro champagnat maristas infantil violetas colorear",
+      "search": "ilu-0020 champagnat - gix bn san marcelino (de figura maristas huelva) ilustracion escena adaptado maristas_huelva blanco_negro champagnat maristas infantil violetas colorear",
       "destacado": true
     },
     {
       "id": "ilu-0021",
       "titulo": "Click Champagnat",
-      "descripcion": "San Marcelino playmobil",
+      "descripcion": "San Marcelino estilo playmobil",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "multicolor",
@@ -691,13 +691,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0021 click champagnat san marcelino playmobil ilustracion figura original arturo_mp multicolor champagnat sin_fondo sticker rrss",
+      "search": "ilu-0021 click champagnat san marcelino estilo playmobil ilustracion figura original arturo_mp multicolor champagnat sin_fondo sticker rrss",
       "destacado": true
     },
     {
       "id": "ilu-0022",
-      "titulo": "Champagnat",
-      "descripcion": "San Marcelino XXII",
+      "titulo": "Champagnat (Marist)",
+      "descripcion": "San Marcelino - XVII",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
       "color": "multicolor",
@@ -725,7 +725,7 @@
         "origen": "adaptado",
         "basado_en": "A_Gil"
       },
-      "search": "ilu-0022 champagnat san marcelino xxii ilustracion retrato adaptado a_gil multicolor champagnat maristas infantil sin_fondo sticker",
+      "search": "ilu-0022 champagnat (marist) san marcelino - xvii ilustracion retrato adaptado a_gil multicolor champagnat maristas infantil sin_fondo sticker",
       "destacado": true
     },
     {
@@ -761,8 +761,8 @@
     },
     {
       "id": "ilu-0024",
-      "titulo": "Nº Sª de Fourviere",
-      "descripcion": "Nuestra Señora de Fourviere",
+      "titulo": "Nº Sª de Fourvière B/N",
+      "descripcion": "Basada en imagen original",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "blanco_negro",
@@ -787,13 +787,13 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0024 nº sª de fourviere nuestra senora de fourviere ilustracion figura adaptado c_towers blanco_negro maria violetas colorear",
+      "search": "ilu-0024 nº sª de fourviere b/n basada en imagen original ilustracion figura adaptado c_towers blanco_negro maria violetas colorear",
       "destacado": true
     },
     {
       "id": "ilu-0025",
-      "titulo": "María II",
-      "descripcion": "Maria Niña (I love Jesus)",
+      "titulo": "María Niña - I",
+      "descripcion": "I love Jesus",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "multicolor",
@@ -818,13 +818,13 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0025 maria ii maria nina (i love jesus) ilustracion figura adaptado c_towers multicolor maria paz postal",
+      "search": "ilu-0025 maria nina - i i love jesus ilustracion figura adaptado c_towers multicolor maria paz postal",
       "destacado": true
     },
     {
       "id": "ilu-0026",
-      "titulo": "María, Buena Madre I",
-      "descripcion": "Buena Madre B/N",
+      "titulo": "María, Buena Madre - I B/N",
+      "descripcion": "",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "blanco_negro",
@@ -848,13 +848,13 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0026 maria, buena madre i buena madre b/n ilustracion figura adaptado c_towers blanco_negro maria colorear",
+      "search": "ilu-0026 maria, buena madre - i b/n ilustracion figura adaptado c_towers blanco_negro maria colorear",
       "destacado": true
     },
     {
       "id": "ilu-0027",
-      "titulo": "Nuestra Buena Madre",
-      "descripcion": "Buena Madre FR",
+      "titulo": "Nuestra Buena Madre (fra)",
+      "descripcion": "",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "blanco_negro",
@@ -881,12 +881,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0027 nuestra buena madre buena madre fr ilustracion figura original arturo_mp blanco_negro maria sin_fondo sticker colorear",
+      "search": "ilu-0027 nuestra buena madre (fra) ilustracion figura original arturo_mp blanco_negro maria sin_fondo sticker colorear",
       "destacado": true
     },
     {
       "id": "ilu-0028",
-      "titulo": "María III",
+      "titulo": "A María para Jesús",
       "descripcion": "A Jesús por María",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -914,12 +914,12 @@
         "origen": "adaptado",
         "basado_en": "maristas_esp"
       },
-      "search": "ilu-0028 maria iii a jesus por maria ilustracion escena adaptado maristas_esp blanco_negro maristas maria frase colorear",
+      "search": "ilu-0028 a maria para jesus a jesus por maria ilustracion escena adaptado maristas_esp blanco_negro maristas maria frase colorear",
       "destacado": true
     },
     {
       "id": "ilu-0029",
-      "titulo": "María, Buena Madre II",
+      "titulo": "María, Buena Madre - II",
       "descripcion": "Mi Buena Madre",
       "categoria": "ilustracion",
       "subcategoria": "figura",
@@ -944,12 +944,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP_C_Towers"
       },
-      "search": "ilu-0029 maria, buena madre ii mi buena madre ilustracion figura original arturo_mp_c_towers multicolor maria postal",
+      "search": "ilu-0029 maria, buena madre - ii mi buena madre ilustracion figura original arturo_mp_c_towers multicolor maria postal",
       "destacado": true
     },
     {
       "id": "ilu-0030",
-      "titulo": "María, Buena Madre III",
+      "titulo": "María, Buena Madre - III",
       "descripcion": "María, Buena Madre",
       "categoria": "ilustracion",
       "subcategoria": "figura",
@@ -974,13 +974,13 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0030 maria, buena madre iii maria, buena madre ilustracion figura adaptado c_towers multicolor maria postal",
+      "search": "ilu-0030 maria, buena madre - iii maria, buena madre ilustracion figura adaptado c_towers multicolor maria postal",
       "destacado": true
     },
     {
       "id": "ilu-0031",
-      "titulo": "Magnificat",
-      "descripcion": "María e Isabel",
+      "titulo": "María e Isabel",
+      "descripcion": "Saltos de alegría - Magnificat",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -1005,12 +1005,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0031 magnificat maria e isabel ilustracion escena original arturo_mp multicolor maria evangelio postal",
+      "search": "ilu-0031 maria e isabel saltos de alegria - magnificat ilustracion escena original arturo_mp multicolor maria evangelio postal",
       "destacado": true
     },
     {
       "id": "ilu-0032",
-      "titulo": "María, Buena Madre IV",
+      "titulo": "María, Buena Madre - IV",
       "descripcion": "María, Madre",
       "categoria": "ilustracion",
       "subcategoria": "figura",
@@ -1037,12 +1037,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0032 maria, buena madre iv maria, madre ilustracion figura original arturo_mp multicolor maria violetas paz postal",
+      "search": "ilu-0032 maria, buena madre - iv maria, madre ilustracion figura original arturo_mp multicolor maria violetas paz postal",
       "destacado": true
     },
     {
       "id": "ilu-0033",
-      "titulo": "3 Violetas",
+      "titulo": "Las tres Violetas - I",
       "descripcion": "Humildad, Sencillez y Modestia",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -1071,12 +1071,12 @@
         "origen": "adaptado",
         "basado_en": "maristas_esp"
       },
-      "search": "ilu-0033 3 violetas humildad, sencillez y modestia ilustracion escena adaptado maristas_esp multicolor maristas violetas sin_fondo logo sticker",
+      "search": "ilu-0033 las tres violetas - i humildad, sencillez y modestia ilustracion escena adaptado maristas_esp multicolor maristas violetas sin_fondo logo sticker",
       "destacado": true
     },
     {
       "id": "ilu-0034",
-      "titulo": "Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "Marcelino joven con violetas",
       "categoria": "ilustracion",
       "subcategoria": "retrato",
@@ -1103,7 +1103,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0034 champagnat marcelino joven con violetas ilustracion retrato original arturo_mp multicolor champagnat maristas violetas postal",
+      "search": "ilu-0034 m. champagnat marcelino joven con violetas ilustracion retrato original arturo_mp multicolor champagnat maristas violetas postal",
       "destacado": true
     },
     {
@@ -1311,7 +1311,7 @@
     },
     {
       "id": "ilu-0041",
-      "titulo": "3 Violetas II",
+      "titulo": "Las tres violetas - II",
       "descripcion": "Humildad, Sencillez y Modestia",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -1338,16 +1338,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0041 3 violetas ii humildad, sencillez y modestia ilustracion escena original arturo_mp multicolor violetas sin_fondo sticker",
+      "search": "ilu-0041 las tres violetas - ii humildad, sencillez y modestia ilustracion escena original arturo_mp multicolor violetas sin_fondo sticker",
       "destacado": true
     },
     {
       "id": "ilu-0042",
-      "titulo": "3 Violetas III BN",
+      "titulo": "Las tres violetas - III B/N",
       "descripcion": "Nuestras 3 violetas",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "escala_grises",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0042",
         "ext": {
@@ -1370,12 +1370,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0042 3 violetas iii bn nuestras 3 violetas ilustracion escena original arturo_mp escala_grises violetas sin_fondo sticker",
+      "search": "ilu-0042 las tres violetas - iii b/n nuestras 3 violetas ilustracion escena original arturo_mp monocolor violetas sin_fondo sticker",
       "destacado": true
     },
     {
       "id": "ilu-0043",
-      "titulo": "3 Violetas III color",
+      "titulo": "Las tres violetas - III",
       "descripcion": "Nuestras 3 violetas",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -1402,7 +1402,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0043 3 violetas iii color nuestras 3 violetas ilustracion escena original arturo_mp multicolor violetas sin_fondo sticker",
+      "search": "ilu-0043 las tres violetas - iii nuestras 3 violetas ilustracion escena original arturo_mp multicolor violetas sin_fondo sticker",
       "destacado": true
     },
     {
@@ -1509,7 +1509,7 @@
       "descripcion": "Viaje a Belén Navidad",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0047",
         "ext": {
@@ -1535,7 +1535,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0047 busco estrella viaje a belen navidad ilustracion escena original arturo_mp multicolor educacion evangelio minimalista sticker taza rrss",
+      "search": "ilu-0047 busco estrella viaje a belen navidad ilustracion escena original arturo_mp monocolor educacion evangelio minimalista sticker taza rrss",
       "destacado": true
     },
     {
@@ -1572,11 +1572,11 @@
     },
     {
       "id": "ilu-0049",
-      "titulo": "Cruz Espíritu I",
+      "titulo": "Cruz Espíritu - I",
       "descripcion": "Confirmación Sevilla",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0049",
         "ext": {
@@ -1599,16 +1599,16 @@
         "origen": "original",
         "basado_en": "jarts"
       },
-      "search": "ilu-0049 cruz espiritu i confirmacion sevilla ilustracion escena original jarts multicolor evangelio logo postal",
+      "search": "ilu-0049 cruz espiritu - i confirmacion sevilla ilustracion escena original jarts monocolor evangelio logo postal",
       "destacado": true
     },
     {
       "id": "ilu-0050",
-      "titulo": "Cruz Espíritu II",
+      "titulo": "Cruz Espíritu - II",
       "descripcion": "Confirmación Sevilla II",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0050",
         "ext": {
@@ -1631,7 +1631,7 @@
         "origen": "original",
         "basado_en": "jarts"
       },
-      "search": "ilu-0050 cruz espiritu ii confirmacion sevilla ii ilustracion escena original jarts multicolor evangelio logo postal",
+      "search": "ilu-0050 cruz espiritu - ii confirmacion sevilla ii ilustracion escena original jarts monocolor evangelio logo postal",
       "destacado": true
     },
     {
@@ -1640,7 +1640,7 @@
       "descripcion": "Para Asamblea Mediterránea 2018",
       "categoria": "ilustracion",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0051",
         "ext": {
@@ -1665,7 +1665,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ ProvMediterranea"
       },
-      "search": "ilu-0051 change < > chance para asamblea mediterranea 2018 ilustracion texto original arturo_mp_ provmediterranea multicolor maristas sin_fondo logo sticker taza",
+      "search": "ilu-0051 change < > chance para asamblea mediterranea 2018 ilustracion texto original arturo_mp_ provmediterranea bicolor maristas sin_fondo logo sticker taza",
       "destacado": true
     },
     {
@@ -1705,7 +1705,7 @@
     {
       "id": "ilu-0053",
       "titulo": "Panes y peces",
-      "descripcion": "Ilustración documentos",
+      "descripcion": "",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -1729,12 +1729,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0053 panes y peces ilustracion documentos ilustracion escena original arturo_mp multicolor evangelio postal",
+      "search": "ilu-0053 panes y peces ilustracion escena original arturo_mp multicolor evangelio postal",
       "destacado": true
     },
     {
       "id": "ilu-0054",
-      "titulo": "Sal y Luz I - Evangelío",
+      "titulo": "Evangelío - Sal y Luz",
       "descripcion": "Para Asamblea Mediterránea",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -1763,16 +1763,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "ilu-0054 sal y luz i - evangelio para asamblea mediterranea ilustracion escena original arturo_mp_provmediterranea multicolor maristas evangelio logo sticker postal",
+      "search": "ilu-0054 evangelio - sal y luz para asamblea mediterranea ilustracion escena original arturo_mp_provmediterranea multicolor maristas evangelio logo sticker postal",
       "destacado": true
     },
     {
       "id": "ilu-0055",
-      "titulo": "Marist Runners",
+      "titulo": "Marist Runners - I",
       "descripcion": "Camiseta carrera solidaria",
       "categoria": "ilustracion",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0055",
         "ext": {
@@ -1798,7 +1798,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0055 marist runners camiseta carrera solidaria ilustracion texto original arturo_mp multicolor maristas deporte sin_fondo logo sticker textil",
+      "search": "ilu-0055 marist runners - i camiseta carrera solidaria ilustracion texto original arturo_mp bicolor maristas deporte sin_fondo logo sticker textil",
       "destacado": true
     },
     {
@@ -1807,7 +1807,7 @@
       "descripcion": "Preparación Capítulo General",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0056",
         "ext": {
@@ -1828,13 +1828,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0056 un corazon, una mision preparacion capitulo general ilustracion escena original arturo_mp multicolor maristas postal",
+      "search": "ilu-0056 un corazon, una mision preparacion capitulo general ilustracion escena original arturo_mp monocolor maristas postal",
       "destacado": true
     },
     {
       "id": "ilu-0057",
-      "titulo": "JUMP",
-      "descripcion": "Jump Walk Dream",
+      "titulo": "Jump Walk Dream",
+      "descripcion": "Para Semana Vocacional",
       "categoria": "ilustracion",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -1863,7 +1863,7 @@
         "origen": "adaptado",
         "basado_en": "ProvMediterranea"
       },
-      "search": "ilu-0057 jump jump walk dream ilustracion texto adaptado provmediterranea multicolor educacion vocacional logo sin_fondo sticker rrss",
+      "search": "ilu-0057 jump walk dream para semana vocacional ilustracion texto adaptado provmediterranea multicolor educacion vocacional logo sin_fondo sticker rrss",
       "destacado": true
     },
     {
@@ -1899,8 +1899,8 @@
     },
     {
       "id": "ilu-0059",
-      "titulo": "San Marcelino Champagnat",
-      "descripcion": "Silueta Champagnat acuarela",
+      "titulo": "M. Champagnat",
+      "descripcion": "Silueta San Marcelino acuarela",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -1929,13 +1929,13 @@
         "origen": "adaptado",
         "basado_en": "J_Ramos"
       },
-      "search": "ilu-0059 san marcelino champagnat silueta champagnat acuarela ilustracion escena adaptado j_ramos multicolor maristas champagnat violetas minimalista cartel postal",
+      "search": "ilu-0059 m. champagnat silueta san marcelino acuarela ilustracion escena adaptado j_ramos multicolor maristas champagnat violetas minimalista cartel postal",
       "destacado": true
     },
     {
       "id": "ilu-0060",
       "titulo": "BuenaJente",
-      "descripcion": "Jesús, el BuenaJente",
+      "descripcion": "Jesús, el BuenaJente - GVX",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "multicolor",
@@ -1962,13 +1962,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "ilu-0060 buenajente jesus, el buenajente ilustracion figura original arturo_mp_provmediterranea multicolor gvx evangelio mural postal textil",
+      "search": "ilu-0060 buenajente jesus, el buenajente - gvx ilustracion figura original arturo_mp_provmediterranea multicolor gvx evangelio mural postal textil",
       "destacado": true
     },
     {
       "id": "ilu-0061",
       "titulo": "Atardece",
-      "descripcion": "Quédate con nosotros (de GVX Pascua 2026)",
+      "descripcion": "Quédate con nosotros (Pascua 2026)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -1996,13 +1996,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "ilu-0061 atardece quedate con nosotros (de gvx pascua 2026) ilustracion escena original arturo_mp_provmediterranea multicolor gvx evangelio frase sticker rrss",
+      "search": "ilu-0061 atardece quedate con nosotros (pascua 2026) ilustracion escena original arturo_mp_provmediterranea multicolor gvx evangelio frase sticker rrss",
       "destacado": true
     },
     {
       "id": "ilu-0062",
-      "titulo": "Da Vida",
-      "descripcion": "De GVX Verano 22",
+      "titulo": "Da Vida logo",
+      "descripcion": "De GVX Verano 2022",
       "categoria": "ilustracion",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -2030,7 +2030,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_Jorge_MR_ProvMediterranea"
       },
-      "search": "ilu-0062 da vida de gvx verano 22 ilustracion texto original arturo_mp_jorge_mr_provmediterranea multicolor gvx sin_fondo logo sticker textil",
+      "search": "ilu-0062 da vida logo de gvx verano 2022 ilustracion texto original arturo_mp_jorge_mr_provmediterranea multicolor gvx sin_fondo logo sticker textil",
       "destacado": true
     },
     {
@@ -2098,7 +2098,7 @@
     },
     {
       "id": "ilu-0065",
-      "titulo": "Violetas Marist II",
+      "titulo": "Las tres violetas - IV",
       "descripcion": "Los pequeños grandes detalles",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -2125,7 +2125,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_C_Towers"
       },
-      "search": "ilu-0065 violetas marist ii los pequenos grandes detalles ilustracion escena original arturo_mp_c_towers multicolor violetas sin_fondo sticker",
+      "search": "ilu-0065 las tres violetas - iv los pequenos grandes detalles ilustracion escena original arturo_mp_c_towers multicolor violetas sin_fondo sticker",
       "destacado": true
     },
     {
@@ -2166,7 +2166,7 @@
       "descripcion": "Para formación Mediterránea",
       "categoria": "ilustracion",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0067",
         "ext": {
@@ -2190,7 +2190,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0067 proteccion de la infancia para formacion mediterranea ilustracion texto original arturo_mp multicolor maristas educacion social sticker postal",
+      "search": "ilu-0067 proteccion de la infancia para formacion mediterranea ilustracion texto original arturo_mp monocolor maristas educacion social sticker postal",
       "destacado": true
     },
     {
@@ -2260,8 +2260,8 @@
     },
     {
       "id": "ilu-0070",
-      "titulo": "ChicaCora",
-      "descripcion": "Ama (os, te, les)",
+      "titulo": "Una chica con corazón",
+      "descripcion": "",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "multicolor",
@@ -2287,7 +2287,7 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0070 chicacora ama (os, te, les) ilustracion figura adaptado c_towers multicolor evangelio sin_fondo sticker",
+      "search": "ilu-0070 una chica con corazon ilustracion figura adaptado c_towers multicolor evangelio sin_fondo sticker",
       "destacado": true
     },
     {
@@ -2323,7 +2323,7 @@
     },
     {
       "id": "ilu-0072",
-      "titulo": "Atardece II",
+      "titulo": "Cae la tarde",
       "descripcion": "#accesoeducativo Todos con cole",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -2349,16 +2349,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0072 atardece ii #accesoeducativo todos con cole ilustracion escena original arturo_mp multicolor educacion social sticker",
+      "search": "ilu-0072 cae la tarde #accesoeducativo todos con cole ilustracion escena original arturo_mp multicolor educacion social sticker",
       "destacado": true
     },
     {
       "id": "ilu-0073",
-      "titulo": "Buena Madre II",
+      "titulo": "Buena Madre - V",
       "descripcion": "Silueta María, Buena Madre",
       "categoria": "ilustracion",
       "subcategoria": "figura",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0073",
         "ext": {
@@ -2382,7 +2382,7 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0073 buena madre ii silueta maria, buena madre ilustracion figura adaptado arturo_mp multicolor maria sin_fondo minimalista sticker",
+      "search": "ilu-0073 buena madre - v silueta maria, buena madre ilustracion figura adaptado arturo_mp monocolor maria sin_fondo minimalista sticker",
       "destacado": true
     },
     {
@@ -2391,7 +2391,7 @@
       "descripcion": "Basado en antiguo anagrama edificio",
       "categoria": "ilustracion",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0074",
         "ext": {
@@ -2415,7 +2415,7 @@
         "origen": "adaptado",
         "basado_en": "RRSS"
       },
-      "search": "ilu-0074 anagrama maria basado en antiguo anagrama edificio ilustracion texto adaptado rrss multicolor maria sin_fondo logo sticker",
+      "search": "ilu-0074 anagrama maria basado en antiguo anagrama edificio ilustracion texto adaptado rrss bicolor maria sin_fondo logo sticker",
       "destacado": true
     },
     {
@@ -2454,7 +2454,7 @@
     },
     {
       "id": "ilu-0076",
-      "titulo": "Escuchas?",
+      "titulo": "¿Escuchas?",
       "descripcion": "Hasta en la brisa",
       "categoria": "ilustracion",
       "subcategoria": "figura",
@@ -2482,7 +2482,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0076 escuchas? hasta en la brisa ilustracion figura original arturo_mp blanco_negro evangelio vocacional sin_fondo sticker",
+      "search": "ilu-0076 ¿escuchas? hasta en la brisa ilustracion figura original arturo_mp blanco_negro evangelio vocacional sin_fondo sticker",
       "destacado": true
     },
     {
@@ -2559,7 +2559,7 @@
       "descripcion": "La revolución de la Sencillez",
       "categoria": "ilustracion",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0079",
         "ext": {
@@ -2583,7 +2583,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0079 r-evolution la revolucion de la sencillez ilustracion texto original arturo_mp multicolor maristas social sin_fondo sticker",
+      "search": "ilu-0079 r-evolution la revolucion de la sencillez ilustracion texto original arturo_mp bicolor maristas social sin_fondo sticker",
       "destacado": true
     },
     {
@@ -2688,10 +2688,10 @@
     {
       "id": "ilu-0083",
       "titulo": "L´Hermitage",
-      "descripcion": "Silueta edificio actual NS L´Hermitage",
+      "descripcion": "Silueta edificio NS de L´Hermitage",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0083",
         "ext": {
@@ -2714,7 +2714,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0083 l´hermitage silueta edificio actual ns l´hermitage ilustracion escena original arturo_mp multicolor hermitage sin_fondo sticker",
+      "search": "ilu-0083 l´hermitage silueta edificio ns de l´hermitage ilustracion escena original arturo_mp bicolor hermitage sin_fondo sticker",
       "destacado": true
     },
     {
@@ -2723,7 +2723,7 @@
       "descripcion": "Para orientación profesional y vocacional",
       "categoria": "ilustracion",
       "subcategoria": "figura",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0084",
         "ext": {
@@ -2748,7 +2748,7 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "ilu-0084 elegir y compartir para orientacion profesional y vocacional ilustracion figura adaptado arturo_mp_rrss multicolor educacion vocacional sin_fondo sticker rrss",
+      "search": "ilu-0084 elegir y compartir para orientacion profesional y vocacional ilustracion figura adaptado arturo_mp_rrss monocolor educacion vocacional sin_fondo sticker rrss",
       "destacado": true
     },
     {
@@ -2955,7 +2955,7 @@
     },
     {
       "id": "ilu-0091",
-      "titulo": "La Chispa",
+      "titulo": "La Chispa - I",
       "descripcion": "Comedor de Fuenteheridos II",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -2980,12 +2980,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP_C_Towers"
       },
-      "search": "ilu-0091 la chispa comedor de fuenteheridos ii ilustracion escena original arturo_mp_c_towers multicolor gvx mural",
+      "search": "ilu-0091 la chispa - i comedor de fuenteheridos ii ilustracion escena original arturo_mp_c_towers multicolor gvx mural",
       "destacado": true
     },
     {
       "id": "ilu-0092",
-      "titulo": "Eucaristía II",
+      "titulo": "Eucaristía - II",
       "descripcion": "Trigo y pan",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -3012,16 +3012,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP_C_Towers"
       },
-      "search": "ilu-0092 eucaristia ii trigo y pan ilustracion escena original arturo_mp_c_towers multicolor evangelio sin_fondo sticker",
+      "search": "ilu-0092 eucaristia - ii trigo y pan ilustracion escena original arturo_mp_c_towers multicolor evangelio sin_fondo sticker",
       "destacado": true
     },
     {
       "id": "ilu-0093",
-      "titulo": "Chispa",
+      "titulo": "La Chispa - II",
       "descripcion": "Logo frontal camiseta GVX 2023",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0093",
         "ext": {
@@ -3045,7 +3045,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0093 chispa logo frontal camiseta gvx 2023 ilustracion escena original arturo_mp multicolor gvx sin_fondo sticker textil",
+      "search": "ilu-0093 la chispa - ii logo frontal camiseta gvx 2023 ilustracion escena original arturo_mp monocolor gvx sin_fondo sticker textil",
       "destacado": true
     },
     {
@@ -3082,7 +3082,7 @@
     },
     {
       "id": "ilu-0095",
-      "titulo": "La Chispa II",
+      "titulo": "La Chispa - III",
       "descripcion": "Luz. Presencia.",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -3110,7 +3110,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0095 la chispa ii luz. presencia. ilustracion escena original arturo_mp multicolor gvx evangelio sin_fondo sticker",
+      "search": "ilu-0095 la chispa - iii luz. presencia. ilustracion escena original arturo_mp multicolor gvx evangelio sin_fondo sticker",
       "destacado": true
     },
     {
@@ -3119,7 +3119,7 @@
       "descripcion": "Diseño para GVX",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0096",
         "ext": {
@@ -3144,7 +3144,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0096 be light diseno para gvx ilustracion escena original arturo_mp multicolor gvx evangelio frase sticker postal",
+      "search": "ilu-0096 be light diseno para gvx ilustracion escena original arturo_mp bicolor gvx evangelio frase sticker postal",
       "destacado": true
     },
     {
@@ -3486,7 +3486,7 @@
       "descripcion": "Logo moteros maristas",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0011",
         "ext": {
@@ -3509,7 +3509,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0011 moteros maristas logo moteros maristas diseno texto original arturo_mp multicolor maristas logo sticker",
+      "search": "dis-0011 moteros maristas logo moteros maristas diseno texto original arturo_mp bicolor maristas logo sticker",
       "destacado": true
     },
     {
@@ -3578,7 +3578,7 @@
       "descripcion": "Camiseta Da Vida 2014",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "blanco_negro",
       "imagenes": {
         "id": "dis-0012",
         "ext": {
@@ -3599,7 +3599,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0012 gvx verano 2014 camiseta da vida 2014 diseno texto original arturo_mp_provmediterranea multicolor gvx textil",
+      "search": "dis-0012 gvx verano 2014 camiseta da vida 2014 diseno texto original arturo_mp_provmediterranea blanco_negro gvx textil",
       "destacado": true
     },
     {
@@ -3608,7 +3608,7 @@
       "descripcion": "Camiseta Pascua 2015",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0013",
         "ext": {
@@ -3631,7 +3631,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0013 gvx pascua 2015 camiseta pascua 2015 diseno texto original arturo_mp_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0013 gvx pascua 2015 camiseta pascua 2015 diseno texto original arturo_mp_provmediterranea bicolor gvx frase textil",
       "destacado": true
     },
     {
@@ -3670,7 +3670,7 @@
       "descripcion": "Camiseta Pascua 2016",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0015",
         "ext": {
@@ -3693,7 +3693,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0015 gvx pascua 2016 camiseta pascua 2016 diseno texto original arturo_mp_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0015 gvx pascua 2016 camiseta pascua 2016 diseno texto original arturo_mp_provmediterranea bicolor gvx frase textil",
       "destacado": true
     },
     {
@@ -3702,7 +3702,7 @@
       "descripcion": "Camiseta a better World 2016",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0016",
         "ext": {
@@ -3725,7 +3725,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_Arturo_MR_ProvMediterranea"
       },
-      "search": "dis-0016 gvx verano 2016 camiseta a better world 2016 diseno texto original arturo_mp_arturo_mr_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0016 gvx verano 2016 camiseta a better world 2016 diseno texto original arturo_mp_arturo_mr_provmediterranea bicolor gvx frase textil",
       "destacado": true
     },
     {
@@ -3734,7 +3734,7 @@
       "descripcion": "Camiseta Pascua 2017 (frontal)",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0064",
         "ext": {
@@ -3755,7 +3755,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0064 gvx pascua 2017 camiseta pascua 2017 (frontal) diseno escena original arturo_mp_provmediterranea multicolor gvx textil",
+      "search": "dis-0064 gvx pascua 2017 camiseta pascua 2017 (frontal) diseno escena original arturo_mp_provmediterranea bicolor gvx textil",
       "destacado": true
     },
     {
@@ -3764,7 +3764,7 @@
       "descripcion": "Volver al origen para empezar de nuevo",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0050",
         "ext": {
@@ -3787,7 +3787,37 @@
         "origen": "adaptado",
         "basado_en": "C_Towers_ProvMediterranea"
       },
-      "search": "dis-0050 gvx verano 2017 volver al origen para empezar de nuevo diseno texto adaptado c_towers_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0050 gvx verano 2017 volver al origen para empezar de nuevo diseno texto adaptado c_towers_provmediterranea monocolor gvx frase textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0018",
+      "titulo": "GVX Pascua 2018",
+      "descripcion": "Camiseta Pascua 2018",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0018",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0018 gvx pascua 2018 camiseta pascua 2018 diseno escena original arturo_mp_provmediterranea multicolor gvx textil",
       "destacado": true
     },
     {
@@ -3854,42 +3884,12 @@
       "destacado": true
     },
     {
-      "id": "dis-0018",
-      "titulo": "GVX Pascua 2018",
-      "descripcion": "Camiseta Pascua 2018",
-      "categoria": "diseno",
-      "subcategoria": "escena",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "dis-0018",
-        "ext": {
-          "full": "png",
-          "thumb": "png"
-        }
-      },
-      "meta": {
-        "temas": [
-          4
-        ],
-        "tags": [],
-        "usos": [
-          7
-        ]
-      },
-      "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP_ProvMediterranea"
-      },
-      "search": "dis-0018 gvx pascua 2018 camiseta pascua 2018 diseno escena original arturo_mp_provmediterranea multicolor gvx textil",
-      "destacado": true
-    },
-    {
       "id": "dis-0063",
       "titulo": "GVX Verano 2019 (GA-Marcha)",
       "descripcion": "Camiseta GVX 2019 (ita)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0063",
         "ext": {
@@ -3912,7 +3912,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0063 gvx verano 2019 (ga-marcha) camiseta gvx 2019 (ita) diseno texto original arturo_mp_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0063 gvx verano 2019 (ga-marcha) camiseta gvx 2019 (ita) diseno texto original arturo_mp_provmediterranea bicolor gvx frase textil",
       "destacado": true
     },
     {
@@ -3921,7 +3921,7 @@
       "descripcion": "Camiseta Comunidad 2019 (espalda)",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0025",
         "ext": {
@@ -3942,7 +3942,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0025 gvx verano 2019 camiseta comunidad 2019 (espalda) diseno escena original arturo_mp_provmediterranea multicolor gvx textil",
+      "search": "dis-0025 gvx verano 2019 camiseta comunidad 2019 (espalda) diseno escena original arturo_mp_provmediterranea bicolor gvx textil",
       "destacado": true
     },
     {
@@ -3951,7 +3951,7 @@
       "descripcion": "Camiseta HERE WE ARE 2021 (frontal)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "blanco_negro",
       "imagenes": {
         "id": "dis-0027",
         "ext": {
@@ -3975,7 +3975,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0027 gvx verano 2021 camiseta here we are 2021 (frontal) diseno texto original arturo_mp_provmediterranea multicolor gvx evangelio frase textil",
+      "search": "dis-0027 gvx verano 2021 camiseta here we are 2021 (frontal) diseno texto original arturo_mp_provmediterranea blanco_negro gvx evangelio frase textil",
       "destacado": true
     },
     {
@@ -3984,7 +3984,7 @@
       "descripcion": "Camiseta Sal a ser sal 2022 (logo frontal)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0024",
         "ext": {
@@ -4010,16 +4010,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0024 gvx pascua 2022 camiseta sal a ser sal 2022 (logo frontal) diseno texto original arturo_mp_provmediterranea multicolor gvx evangelio frase logo sin_fondo textil",
+      "search": "dis-0024 gvx pascua 2022 camiseta sal a ser sal 2022 (logo frontal) diseno texto original arturo_mp_provmediterranea monocolor gvx evangelio frase logo sin_fondo textil",
       "destacado": true
     },
     {
       "id": "dis-0029",
       "titulo": "GVX Verano 2022",
-      "descripcion": "Camiseta Chispa Da Vida 2022",
+      "descripcion": "Camiseta Chispa Da Vida 2022 (espalda)",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0029",
         "ext": {
@@ -4038,9 +4038,9 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_Jorge_MR_ProvMediterranea"
+        "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0029 gvx verano 2022 camiseta chispa da vida 2022 diseno escena original arturo_mp_jorge_mr_provmediterranea multicolor gvx textil",
+      "search": "dis-0029 gvx verano 2022 camiseta chispa da vida 2022 (espalda) diseno escena original arturo_mp_provmediterranea monocolor gvx textil",
       "destacado": true
     },
     {
@@ -4049,7 +4049,7 @@
       "descripcion": "Camiseta Tanto va… 2023 (espalda)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0026",
         "ext": {
@@ -4072,16 +4072,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP_Fer_OR_ProvMediterranea"
       },
-      "search": "dis-0026 gvx pascua 2023 camiseta tanto va… 2023 (espalda) diseno texto original arturo_mp_fer_or_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0026 gvx pascua 2023 camiseta tanto va… 2023 (espalda) diseno texto original arturo_mp_fer_or_provmediterranea bicolor gvx frase textil",
       "destacado": true
     },
     {
       "id": "dis-0020",
       "titulo": "GVX Verano 2023",
-      "descripcion": "Camiseta Ser la Chispa… 2023 (espalda + logo delantero)",
+      "descripcion": "Camiseta Ser la Chispa… 2023 (espalda)",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0020",
         "ext": {
@@ -4104,7 +4104,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0020 gvx verano 2023 camiseta ser la chispa… 2023 (espalda + logo delantero) diseno escena original arturo_mp_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0020 gvx verano 2023 camiseta ser la chispa… 2023 (espalda) diseno escena original arturo_mp_provmediterranea bicolor gvx frase textil",
       "destacado": true
     },
     {
@@ -4113,7 +4113,7 @@
       "descripcion": "Polo GVX 2023",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0067",
         "ext": {
@@ -4137,7 +4137,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0067 gvx verano 2023 (bordado) polo gvx 2023 diseno escena original arturo_mp_provmediterranea multicolor gvx violetas sin_fondo textil",
+      "search": "dis-0067 gvx verano 2023 (bordado) polo gvx 2023 diseno escena original arturo_mp_provmediterranea monocolor gvx violetas sin_fondo textil",
       "destacado": true
     },
     {
@@ -4146,7 +4146,7 @@
       "descripcion": "Camiseta Elegir Vivir Ir (espalda)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0049",
         "ext": {
@@ -4168,7 +4168,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0049 gvx pascua 2024 camiseta elegir vivir ir (espalda) diseno texto original arturo_mp_provmediterranea multicolor gvx evangelio textil",
+      "search": "dis-0049 gvx pascua 2024 camiseta elegir vivir ir (espalda) diseno texto original arturo_mp_provmediterranea monocolor gvx evangelio textil",
       "destacado": true
     },
     {
@@ -4177,7 +4177,7 @@
       "descripcion": "Camisetas Ojos que ven… 2025 (espalda)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0019",
         "ext": {
@@ -4200,7 +4200,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0019 gvx pascua 2025 camisetas ojos que ven… 2025 (espalda) diseno texto original arturo_mp_provmediterranea multicolor gvx frase textil",
+      "search": "dis-0019 gvx pascua 2025 camisetas ojos que ven… 2025 (espalda) diseno texto original arturo_mp_provmediterranea monocolor gvx frase textil",
       "destacado": true
     },
     {
@@ -4209,7 +4209,7 @@
       "descripcion": "Portavela Pascua 2025",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0028",
         "ext": {
@@ -4231,7 +4231,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0028 gvx sticker pascua 2025 portavela pascua 2025 diseno escena original arturo_mp_provmediterranea multicolor gvx sticker taza",
+      "search": "dis-0028 gvx sticker pascua 2025 portavela pascua 2025 diseno escena original arturo_mp_provmediterranea monocolor gvx sticker taza",
       "destacado": true
     },
     {
@@ -4240,7 +4240,7 @@
       "descripcion": "Camiseta Da Vida 2025 (espalda)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0031",
         "ext": {
@@ -4261,7 +4261,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ Jorge_MR_ProvMediterranea"
       },
-      "search": "dis-0031 gvx verano 2025 camiseta da vida 2025 (espalda) diseno texto original arturo_mp_ jorge_mr_provmediterranea multicolor gvx textil",
+      "search": "dis-0031 gvx verano 2025 camiseta da vida 2025 (espalda) diseno texto original arturo_mp_ jorge_mr_provmediterranea bicolor gvx textil",
       "destacado": true
     },
     {
@@ -4270,7 +4270,7 @@
       "descripcion": "Be Marist Brother (punto) com",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0021",
         "ext": {
@@ -4296,13 +4296,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0021 bro mode be marist brother (punto) com diseno texto original arturo_mp multicolor maristas vocacional frase postal rrss sticker",
+      "search": "dis-0021 bro mode be marist brother (punto) com diseno texto original arturo_mp bicolor maristas vocacional frase postal rrss sticker",
       "destacado": true
     },
     {
       "id": "dis-0022",
       "titulo": "Estoy a la puerta y llamo",
-      "descripcion": "Convivencia vocacional GVX 2025",
+      "descripcion": "Para convivencia vocacional GVX 2025",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -4330,13 +4330,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0022 estoy a la puerta y llamo convivencia vocacional gvx 2025 diseno texto original arturo_mp_provmediterranea multicolor gvx vocacional logo sticker rrss",
+      "search": "dis-0022 estoy a la puerta y llamo para convivencia vocacional gvx 2025 diseno texto original arturo_mp_provmediterranea multicolor gvx vocacional logo sticker rrss",
       "destacado": true
     },
     {
       "id": "dis-0023",
       "titulo": "Cree en ti",
-      "descripcion": "Convivencia vocacional GVX 2024",
+      "descripcion": "Para convivencia vocacional GVX 2024",
       "categoria": "diseno",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -4363,7 +4363,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0023 cree en ti convivencia vocacional gvx 2024 diseno escena original arturo_mp_provmediterranea multicolor gvx vocacional frase rrss",
+      "search": "dis-0023 cree en ti para convivencia vocacional gvx 2024 diseno escena original arturo_mp_provmediterranea multicolor gvx vocacional frase rrss",
       "destacado": true
     },
     {
@@ -4404,7 +4404,7 @@
       "descripcion": "Camiseta GVX Sal",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "blanco_negro",
       "imagenes": {
         "id": "dis-0032",
         "ext": {
@@ -4426,7 +4426,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0032 gvx sevilla 2007 camiseta gvx sal diseno escena original arturo_mp multicolor gvx evangelio textil",
+      "search": "dis-0032 gvx sevilla 2007 camiseta gvx sal diseno escena original arturo_mp blanco_negro gvx evangelio textil",
       "destacado": true
     },
     {
@@ -4462,7 +4462,7 @@
     },
     {
       "id": "dis-0034",
-      "titulo": "Eucaristía",
+      "titulo": "Eucaristía - II",
       "descripcion": "Para GIX Sevilla 2017",
       "categoria": "diseno",
       "subcategoria": "escena",
@@ -4487,7 +4487,7 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "dis-0034 eucaristia para gix sevilla 2017 diseno escena adaptado c_towers multicolor evangelio cartel",
+      "search": "dis-0034 eucaristia - ii para gix sevilla 2017 diseno escena adaptado c_towers multicolor evangelio cartel",
       "destacado": true
     },
     {
@@ -4587,7 +4587,7 @@
     {
       "id": "dis-0038",
       "titulo": "Hagamos de la casa hogar",
-      "descripcion": "Para tiempo Cuaresma I Mediterránea (esp)",
+      "descripcion": "Para tiempo Cuaresma Mediterránea (esp)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -4616,7 +4616,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0038 hagamos de la casa hogar para tiempo cuaresma i mediterranea (esp) diseno texto original arturo_mp_provmediterranea multicolor maristas educacion evangelio frase cartel rrss",
+      "search": "dis-0038 hagamos de la casa hogar para tiempo cuaresma mediterranea (esp) diseno texto original arturo_mp_provmediterranea multicolor maristas educacion evangelio frase cartel rrss",
       "destacado": true
     },
     {
@@ -4625,7 +4625,7 @@
       "descripcion": "Para CB Maristas Sevilla",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0039",
         "ext": {
@@ -4648,13 +4648,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP_Arturo_MR"
       },
-      "search": "dis-0039 constancia para cb maristas sevilla diseno texto original arturo_mp_arturo_mr multicolor deporte frase textil",
+      "search": "dis-0039 constancia para cb maristas sevilla diseno texto original arturo_mp_arturo_mr monocolor deporte frase textil",
       "destacado": true
     },
     {
       "id": "dis-0040",
       "titulo": "La Valla",
-      "descripcion": "Cuadro mesa de La Valla",
+      "descripcion": "Mesa de La Valla",
       "categoria": "diseno",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -4679,7 +4679,7 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "dis-0040 la valla cuadro mesa de la valla diseno escena adaptado c_towers multicolor maristas hermitage postal",
+      "search": "dis-0040 la valla mesa de la valla diseno escena adaptado c_towers multicolor maristas hermitage postal",
       "destacado": true
     },
     {
@@ -4715,7 +4715,7 @@
     {
       "id": "dis-0042",
       "titulo": "…una casa acogliente",
-      "descripcion": "Para tiempo Cuaresma I Mediterránea (ita)",
+      "descripcion": "Para tiempo Cuaresma Mediterránea (ita)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -4743,7 +4743,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0042 …una casa acogliente para tiempo cuaresma i mediterranea (ita) diseno texto original arturo_mp_provmediterranea multicolor maristas educacion evangelio frase cartel",
+      "search": "dis-0042 …una casa acogliente para tiempo cuaresma mediterranea (ita) diseno texto original arturo_mp_provmediterranea multicolor maristas educacion evangelio frase cartel",
       "destacado": true
     },
     {
@@ -4752,7 +4752,7 @@
       "descripcion": "Camiseta campaña Sevilla 2015",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0043",
         "ext": {
@@ -4776,13 +4776,13 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP_maristas_USA"
       },
-      "search": "dis-0043 the home of mary camiseta campana sevilla 2015 diseno texto adaptado arturo_mp_maristas_usa multicolor maristas maria frase textil",
+      "search": "dis-0043 the home of mary camiseta campana sevilla 2015 diseno texto adaptado arturo_mp_maristas_usa monocolor maristas maria frase textil",
       "destacado": true
     },
     {
       "id": "dis-0044",
       "titulo": "Se escucha un latido",
-      "descripcion": "Para tiempo Adviento I Mediterránea (esp)",
+      "descripcion": "Para tiempo Adviento Mediterránea (esp)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -4809,13 +4809,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea_Fer_OR"
       },
-      "search": "dis-0044 se escucha un latido para tiempo adviento i mediterranea (esp) diseno texto original arturo_mp_provmediterranea_fer_or multicolor educacion evangelio frase cartel",
+      "search": "dis-0044 se escucha un latido para tiempo adviento mediterranea (esp) diseno texto original arturo_mp_provmediterranea_fer_or multicolor educacion evangelio frase cartel",
       "destacado": true
     },
     {
       "id": "dis-0045",
       "titulo": "Somos las manos de Dios",
-      "descripcion": "Para tiempo Cuaresma II Mediterránea (esp)",
+      "descripcion": "Para tiempo Cuaresma Mediterránea (esp)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -4842,13 +4842,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0045 somos las manos de dios para tiempo cuaresma ii mediterranea (esp) diseno texto original arturo_mp_provmediterranea multicolor educacion evangelio frase cartel",
+      "search": "dis-0045 somos las manos de dios para tiempo cuaresma mediterranea (esp) diseno texto original arturo_mp_provmediterranea multicolor educacion evangelio frase cartel",
       "destacado": true
     },
     {
       "id": "dis-0046",
       "titulo": "Siamo le mani di Dio",
-      "descripcion": "Para tiempo Cuaresma II Mediterránea (ita)",
+      "descripcion": "Para tiempo Cuaresma Mediterránea (ita)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -4875,7 +4875,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0046 siamo le mani di dio para tiempo cuaresma ii mediterranea (ita) diseno texto original arturo_mp_provmediterranea multicolor educacion evangelio frase cartel",
+      "search": "dis-0046 siamo le mani di dio para tiempo cuaresma mediterranea (ita) diseno texto original arturo_mp_provmediterranea multicolor educacion evangelio frase cartel",
       "destacado": true
     },
     {
@@ -4946,7 +4946,7 @@
     {
       "id": "dis-0052",
       "titulo": "Semana Vocacional",
-      "descripcion": "Para semana Vocacional Sevilla",
+      "descripcion": "",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -4971,12 +4971,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0052 semana vocacional para semana vocacional sevilla diseno texto original arturo_mp multicolor educacion vocacional postal",
+      "search": "dis-0052 semana vocacional diseno texto original arturo_mp multicolor educacion vocacional postal",
       "destacado": true
     },
     {
       "id": "dis-0053",
-      "titulo": "Qué te han contado los niños? (ita)",
+      "titulo": "¿Hoy qué te han contado los niños? (ita)",
       "descripcion": "Posibles camisetas #escuchaaunniño",
       "categoria": "diseno",
       "subcategoria": "texto",
@@ -5004,12 +5004,12 @@
         "origen": "original",
         "basado_en": "jarts"
       },
-      "search": "dis-0053 que te han contado los ninos? (ita) posibles camisetas #escuchaaunnino diseno texto original jarts multicolor educacion social frase textil",
+      "search": "dis-0053 ¿hoy que te han contado los ninos? (ita) posibles camisetas #escuchaaunnino diseno texto original jarts multicolor educacion social frase textil",
       "destacado": true
     },
     {
       "id": "dis-0054",
-      "titulo": "Excusas yo?",
+      "titulo": "¿Excusas yo?",
       "descripcion": "Recordando al Hno Boni FQ",
       "categoria": "diseno",
       "subcategoria": "texto",
@@ -5037,13 +5037,13 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0054 excusas yo? recordando al hno boni fq diseno texto original arturo_mp multicolor vocacional social frase postal",
+      "search": "dis-0054 ¿excusas yo? recordando al hno boni fq diseno texto original arturo_mp multicolor vocacional social frase postal",
       "destacado": true
     },
     {
       "id": "dis-0055",
-      "titulo": "Ceda el paso y sígalos",
-      "descripcion": "Para Viaje a Belén Maristas Jaén",
+      "titulo": "Sígalos",
+      "descripcion": "Para Viaje a Belén (Maristas Jaén)",
       "categoria": "diseno",
       "subcategoria": "escena",
       "color": "multicolor",
@@ -5069,7 +5069,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0055 ceda el paso y sigalos para viaje a belen maristas jaen diseno escena original arturo_mp multicolor evangelio educacion cartel rrss",
+      "search": "dis-0055 sigalos para viaje a belen (maristas jaen) diseno escena original arturo_mp multicolor evangelio educacion cartel rrss",
       "destacado": true
     },
     {
@@ -5205,7 +5205,7 @@
     },
     {
       "id": "dis-0060",
-      "titulo": "Feliz Navidad I",
+      "titulo": "Feliz Navidad - I",
       "descripcion": "Felicitación",
       "categoria": "diseno",
       "subcategoria": "escena",
@@ -5231,7 +5231,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0060 feliz navidad i felicitacion diseno escena original arturo_mp multicolor evangelio postal rrss",
+      "search": "dis-0060 feliz navidad - i felicitacion diseno escena original arturo_mp multicolor evangelio postal rrss",
       "destacado": true
     },
     {
@@ -5266,7 +5266,7 @@
     },
     {
       "id": "dis-0065",
-      "titulo": "Dónde Vives?",
+      "titulo": "¿Dónde Vives?",
       "descripcion": "Para convivencia Vocacional Marcha GVX",
       "categoria": "diseno",
       "subcategoria": "escena",
@@ -5294,7 +5294,7 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP_Luis_G"
       },
-      "search": "dis-0065 donde vives? para convivencia vocacional marcha gvx diseno escena adaptado arturo_mp_luis_g multicolor gvx vocacional frase mural",
+      "search": "dis-0065 ¿donde vives? para convivencia vocacional marcha gvx diseno escena adaptado arturo_mp_luis_g multicolor gvx vocacional frase mural",
       "destacado": true
     },
     {
@@ -5336,7 +5336,7 @@
       "descripcion": "Scegliere. Vivere. Andare",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0069",
         "ext": {
@@ -5357,7 +5357,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0069 gvx pascua 2024 (ita) scegliere. vivere. andare diseno texto original arturo_mp_provmediterranea multicolor gvx textil",
+      "search": "dis-0069 gvx pascua 2024 (ita) scegliere. vivere. andare diseno texto original arturo_mp_provmediterranea monocolor gvx textil",
       "destacado": true
     },
     {
@@ -5366,7 +5366,7 @@
       "descripcion": "Para sudadera Prov_Mediterranea",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0070",
         "ext": {
@@ -5391,7 +5391,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0070 choose marist brothers para sudadera prov_mediterranea diseno texto original arturo_mp multicolor educacion vocacional violetas frase textil",
+      "search": "dis-0070 choose marist brothers para sudadera prov_mediterranea diseno texto original arturo_mp bicolor educacion vocacional violetas frase textil",
       "destacado": true
     },
     {
@@ -5427,11 +5427,11 @@
     },
     {
       "id": "dis-0072",
-      "titulo": "Runners Maristas",
+      "titulo": "Runners Maristas - II",
       "descripcion": "Para camiseta deportiva Sevilla",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0072",
         "ext": {
@@ -5456,12 +5456,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0072 runners maristas para camiseta deportiva sevilla diseno texto original arturo_mp multicolor deporte sin_fondo textil sticker taza",
+      "search": "dis-0072 runners maristas - ii para camiseta deportiva sevilla diseno texto original arturo_mp monocolor deporte sin_fondo textil sticker taza",
       "destacado": true
     },
     {
       "id": "dis-0073",
-      "titulo": "20 años de Nuevo Horizonte, (1994)",
+      "titulo": "20 años Nuevo Horizonte, (1994)",
       "descripcion": "Fundación Marcelino Champagnat Huelva",
       "categoria": "diseno",
       "subcategoria": "texto",
@@ -5490,16 +5490,16 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0073 20 anos de nuevo horizonte, (1994) fundacion marcelino champagnat huelva diseno texto original arturo_mp multicolor social educacion frase textil postal",
+      "search": "dis-0073 20 anos nuevo horizonte, (1994) fundacion marcelino champagnat huelva diseno texto original arturo_mp multicolor social educacion frase textil postal",
       "destacado": true
     },
     {
       "id": "ilu-0097",
-      "titulo": "Marcelino Champagnat",
+      "titulo": "M. Champagnat",
       "descripcion": "De dibujos Goyo D",
       "categoria": "ilustracion",
       "subcategoria": "figura",
-      "color": "blanco_negro",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0097",
         "ext": {
@@ -5521,7 +5521,7 @@
         "origen": "adaptado",
         "basado_en": "Goyo_D"
       },
-      "search": "ilu-0097 marcelino champagnat de dibujos goyo d ilustracion figura adaptado goyo_d blanco_negro champagnat maristas sticker",
+      "search": "ilu-0097 m. champagnat de dibujos goyo d ilustracion figura adaptado goyo_d monocolor champagnat maristas sticker",
       "destacado": true
     },
     {
@@ -5530,7 +5530,7 @@
       "descripcion": "Para formación RRHH Mediterránea",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0098",
         "ext": {
@@ -5551,7 +5551,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "ilu-0098 nuevos educadores para formacion rrhh mediterranea ilustracion escena original arturo_mp_provmediterranea multicolor educacion sticker",
+      "search": "ilu-0098 nuevos educadores para formacion rrhh mediterranea ilustracion escena original arturo_mp_provmediterranea bicolor educacion sticker",
       "destacado": true
     },
     {
@@ -5590,7 +5590,7 @@
     {
       "id": "ilu-0100",
       "titulo": "GoOD People",
-      "descripcion": "Nueva versión de camiseta GVX Sevilla (1993)",
+      "descripcion": "Nueva versión camiseta GVX Sevilla (1993)",
       "categoria": "ilustracion",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -5618,7 +5618,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0100 good people nueva version de camiseta gvx sevilla (1993) ilustracion texto original arturo_mp multicolor gvx evangelio frase textil postal",
+      "search": "ilu-0100 good people nueva version camiseta gvx sevilla (1993) ilustracion texto original arturo_mp multicolor gvx evangelio frase textil postal",
       "destacado": true
     },
     {
@@ -5756,7 +5756,7 @@
       "descripcion": "El vino nuevo",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0105",
         "ext": {
@@ -5780,7 +5780,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0105 brindamos el vino nuevo ilustracion escena original arturo_mp multicolor violetas sin_fondo sticker taza",
+      "search": "ilu-0105 brindamos el vino nuevo ilustracion escena original arturo_mp monocolor violetas sin_fondo sticker taza",
       "destacado": true
     },
     {
@@ -5821,7 +5821,7 @@
     {
       "id": "dis-0075",
       "titulo": "No hay Amor más grande",
-      "descripcion": "Para tiempo Cuaresma III Mediterránea (esp)",
+      "descripcion": "Para tiempo Cuaresma Mediterránea (esp)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
@@ -5848,7 +5848,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0075 no hay amor mas grande para tiempo cuaresma iii mediterranea (esp) diseno texto original arturo_mp_provmediterranea multicolor evangelio educacion frase cartel",
+      "search": "dis-0075 no hay amor mas grande para tiempo cuaresma mediterranea (esp) diseno texto original arturo_mp_provmediterranea multicolor evangelio educacion frase cartel",
       "destacado": true
     },
     {
@@ -5857,7 +5857,7 @@
       "descripcion": "Camiseta (1993) con necesidad actual",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "dis-0076",
         "ext": {
@@ -5881,7 +5881,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0076 por favor, paz camiseta (1993) con necesidad actual diseno texto original arturo_mp multicolor social educacion frase textil",
+      "search": "dis-0076 por favor, paz camiseta (1993) con necesidad actual diseno texto original arturo_mp bicolor social educacion frase textil",
       "destacado": true
     },
     {
@@ -6042,7 +6042,7 @@
     },
     {
       "id": "dis-0082",
-      "titulo": "Maristas Innova 2017",
+      "titulo": "Maristas Innova",
       "descripcion": "Para Jornadas 2017 Mediterránea",
       "categoria": "diseno",
       "subcategoria": "escena",
@@ -6070,7 +6070,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0082 maristas innova 2017 para jornadas 2017 mediterranea diseno escena original arturo_mp multicolor maristas educacion logo taza",
+      "search": "dis-0082 maristas innova para jornadas 2017 mediterranea diseno escena original arturo_mp multicolor maristas educacion logo taza",
       "destacado": true
     },
     {
@@ -6170,10 +6170,10 @@
     {
       "id": "dis-0086",
       "titulo": "Buen Camino",
-      "descripcion": "Camiseta Camino Pastoral Sevilla 2018",
+      "descripcion": "Camiseta Pastoral Sevilla (2018)",
       "categoria": "diseno",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0086",
         "ext": {
@@ -6194,7 +6194,7 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "dis-0086 buen camino camiseta camino pastoral sevilla 2018 diseno escena adaptado arturo_mp_rrss multicolor evangelio textil",
+      "search": "dis-0086 buen camino camiseta pastoral sevilla (2018) diseno escena adaptado arturo_mp_rrss monocolor evangelio textil",
       "destacado": true
     },
     {
@@ -6228,10 +6228,10 @@
     {
       "id": "ilu-0107",
       "titulo": "Real wi-fi",
-      "descripcion": "También parte del cartel 'Sonríe de corazón' MRE",
+      "descripcion": "Parte del cartel 'Sonríe de corazón' MRE",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "ilu-0107",
         "ext": {
@@ -6252,7 +6252,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0107 real wi-fi tambien parte del cartel 'sonrie de corazon' mre ilustracion escena original arturo_mp multicolor sin_fondo sticker",
+      "search": "ilu-0107 real wi-fi parte del cartel 'sonrie de corazon' mre ilustracion escena original arturo_mp monocolor sin_fondo sticker",
       "destacado": true
     },
     {
@@ -6288,7 +6288,7 @@
     },
     {
       "id": "ilu-0109",
-      "titulo": "Maori Marist Pillars I",
+      "titulo": "Maori Marist Pillars - I",
       "descripcion": "Amor al trabajo (eng, mao)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -6314,7 +6314,7 @@
         "origen": "adaptado",
         "basado_en": "Marist_NewZealand"
       },
-      "search": "ilu-0109 maori marist pillars i amor al trabajo (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker postal",
+      "search": "ilu-0109 maori marist pillars - i amor al trabajo (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker postal",
       "destacado": true
     },
     {
@@ -6323,7 +6323,7 @@
       "descripcion": "",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "bicolor",
       "imagenes": {
         "id": "ilu-0110",
         "ext": {
@@ -6347,12 +6347,12 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0110 la chasca ilustracion escena original arturo_mp multicolor maristas educacion sin_fondo sticker",
+      "search": "ilu-0110 la chasca ilustracion escena original arturo_mp bicolor maristas educacion sin_fondo sticker",
       "destacado": true
     },
     {
       "id": "ilu-0111",
-      "titulo": "Maori Marist Pillars II",
+      "titulo": "Maori Marist Pillars - II",
       "descripcion": "Sencillez (eng, mao)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -6378,12 +6378,12 @@
         "origen": "adaptado",
         "basado_en": "Marist_NewZealand"
       },
-      "search": "ilu-0111 maori marist pillars ii sencillez (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker postal",
+      "search": "ilu-0111 maori marist pillars - ii sencillez (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker postal",
       "destacado": true
     },
     {
       "id": "ilu-0112",
-      "titulo": "Maori Marist Pillars III",
+      "titulo": "Maori Marist Pillars - III",
       "descripcion": "Al estilo de María (eng, mao)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -6410,12 +6410,12 @@
         "origen": "adaptado",
         "basado_en": "Marist_NewZealand"
       },
-      "search": "ilu-0112 maori marist pillars iii al estilo de maria (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas maria sticker postal",
+      "search": "ilu-0112 maori marist pillars - iii al estilo de maria (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas maria sticker postal",
       "destacado": true
     },
     {
       "id": "ilu-0113",
-      "titulo": "María, Buena Madre V",
+      "titulo": "María, Buena Madre - V",
       "descripcion": "Para capilla colegio S Pio XII Roma",
       "categoria": "ilustracion",
       "subcategoria": "figura",
@@ -6443,12 +6443,12 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0113 maria, buena madre v para capilla colegio s pio xii roma ilustracion figura adaptado arturo_mp multicolor maria sin_fondo minimalista mural",
+      "search": "ilu-0113 maria, buena madre - v para capilla colegio s pio xii roma ilustracion figura adaptado arturo_mp multicolor maria sin_fondo minimalista mural",
       "destacado": true
     },
     {
       "id": "ilu-0114",
-      "titulo": "Maori Marist Pillars IV",
+      "titulo": "Maori Marist Pillars - IV",
       "descripcion": "Presencia (eng, mao)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -6474,13 +6474,13 @@
         "origen": "adaptado",
         "basado_en": "Marist_NewZealand"
       },
-      "search": "ilu-0114 maori marist pillars iv presencia (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker postal",
+      "search": "ilu-0114 maori marist pillars - iv presencia (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker postal",
       "destacado": true
     },
     {
       "id": "ilu-0115",
       "titulo": "Pasión",
-      "descripcion": "",
+      "descripcion": "Para Semana Santa",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "multicolor",
@@ -6504,12 +6504,12 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0115 pasion ilustracion figura adaptado c_towers multicolor evangelio sticker",
+      "search": "ilu-0115 pasion para semana santa ilustracion figura adaptado c_towers multicolor evangelio sticker",
       "destacado": true
     },
     {
       "id": "ilu-0116",
-      "titulo": "Maori Marist Pillars V",
+      "titulo": "Maori Marist Pillars - V",
       "descripcion": "Espíritu de familia (eng, mao)",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -6534,7 +6534,7 @@
         "origen": "adaptado",
         "basado_en": "Marist_NewZealand"
       },
-      "search": "ilu-0116 maori marist pillars v espiritu de familia (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker",
+      "search": "ilu-0116 maori marist pillars - v espiritu de familia (eng, mao) ilustracion escena adaptado marist_newzealand multicolor maristas sticker",
       "destacado": true
     },
     {
@@ -6603,8 +6603,8 @@
     },
     {
       "id": "ilu-0119",
-      "titulo": "Champagnat",
-      "descripcion": "",
+      "titulo": "M. Champagnat",
+      "descripcion": "San Marcelino - XVIII",
       "categoria": "ilustracion",
       "subcategoria": "figura",
       "color": "multicolor",
@@ -6630,7 +6630,7 @@
         "origen": "adaptado",
         "basado_en": "Goyo_D"
       },
-      "search": "ilu-0119 champagnat ilustracion figura adaptado goyo_d multicolor champagnat sin_fondo sticker",
+      "search": "ilu-0119 m. champagnat san marcelino - xviii ilustracion figura adaptado goyo_d multicolor champagnat sin_fondo sticker",
       "destacado": true
     },
     {
@@ -6860,7 +6860,7 @@
     },
     {
       "id": "ilu-0127",
-      "titulo": "Coffee Break (Badajoz) sin fondo",
+      "titulo": "Coffee Break (Badajoz) / sin fondo",
       "descripcion": "Logo actividad con familias",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -6889,7 +6889,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "ilu-0127 coffee break (badajoz) sin fondo logo actividad con familias ilustracion escena original arturo_mp_rrss multicolor educacion logo sin_fondo sticker taza",
+      "search": "ilu-0127 coffee break (badajoz) / sin fondo logo actividad con familias ilustracion escena original arturo_mp_rrss multicolor educacion logo sin_fondo sticker taza",
       "destacado": true
     },
     {
@@ -6957,7 +6957,7 @@
     },
     {
       "id": "ilu-0130",
-      "titulo": "La Chispa III",
+      "titulo": "La Chispa - IV",
       "descripcion": "Comedor de Fuenteheridos III",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -6982,7 +6982,7 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0130 la chispa iii comedor de fuenteheridos iii ilustracion escena adaptado c_towers multicolor gvx mural",
+      "search": "ilu-0130 la chispa - iv comedor de fuenteheridos iii ilustracion escena adaptado c_towers multicolor gvx mural",
       "destacado": true
     },
     {
@@ -6991,7 +6991,7 @@
       "descripcion": "Camiseta para jornadas SED Sevilla (2013)",
       "categoria": "diseno",
       "subcategoria": "texto",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
         "id": "dis-0087",
         "ext": {
@@ -7013,7 +7013,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0087 partido a partido camiseta para jornadas sed sevilla (2013) diseno texto original arturo_mp multicolor deporte social textil",
+      "search": "dis-0087 partido a partido camiseta para jornadas sed sevilla (2013) diseno texto original arturo_mp monocolor deporte social textil",
       "destacado": true
     },
     {
@@ -7516,7 +7516,7 @@
     },
     {
       "id": "ilu-0142",
-      "titulo": "Nº Sª de Fourvière II",
+      "titulo": "Nº Sª de Fourvière - II",
       "descripcion": "",
       "categoria": "ilustracion",
       "subcategoria": "figura",
@@ -7543,12 +7543,12 @@
         "origen": "adaptado",
         "basado_en": "C_Towers"
       },
-      "search": "ilu-0142 nº sª de fourviere ii ilustracion figura adaptado c_towers multicolor maria champagnat sticker postal",
+      "search": "ilu-0142 nº sª de fourviere - ii ilustracion figura adaptado c_towers multicolor maria champagnat sticker postal",
       "destacado": true
     },
     {
       "id": "ilu-0143",
-      "titulo": "María Niña",
+      "titulo": "María Niña - II",
       "descripcion": "Acoger",
       "categoria": "ilustracion",
       "subcategoria": "figura",
@@ -7575,12 +7575,12 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "ilu-0143 maria nina acoger ilustracion figura adaptado arturo_mp_rrss multicolor maria sin_fondo sticker",
+      "search": "ilu-0143 maria nina - ii acoger ilustracion figura adaptado arturo_mp_rrss multicolor maria sin_fondo sticker",
       "destacado": true
     },
     {
       "id": "ilu-0144",
-      "titulo": "La Chispa IV",
+      "titulo": "La Chispa - V",
       "descripcion": "",
       "categoria": "ilustracion",
       "subcategoria": "escena",
@@ -7608,7 +7608,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0144 la chispa iv ilustracion escena original arturo_mp multicolor gvx sin_fondo sticker postal",
+      "search": "ilu-0144 la chispa - v ilustracion escena original arturo_mp multicolor gvx sin_fondo sticker postal",
       "destacado": true
     },
     {
@@ -7675,6 +7675,66 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "ilu-0146 caridad cuaresma ilustracion escena original arturo_mp_provmediterranea multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "dis-0093",
+      "titulo": "GVX Verano 2022",
+      "descripcion": "Camiseta Chispa Da Vida 2022 (frente)",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0093",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Jorge_MR_ProvMediterranea"
+      },
+      "search": "dis-0093 gvx verano 2022 camiseta chispa da vida 2022 (frente) diseno escena original arturo_mp_jorge_mr_provmediterranea multicolor gvx textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0094",
+      "titulo": "GVX Verano 2024",
+      "descripcion": "Camiseta Play (frente) - opción Comunidad",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0094",
+        "ext": {
+          "full": "png",
+          "thumb": "png"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0094 gvx verano 2024 camiseta play (frente) - opcion comunidad diseno texto original arturo_mp_provmediterranea multicolor gvx textil",
       "destacado": true
     }
   ],
