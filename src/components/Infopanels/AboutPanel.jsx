@@ -14,7 +14,7 @@ Además de mi tarea habitual (educador y catequista) a menudo suelo crear diseñ
 
 Este espacio tiene una finalidad sencilla: servir de repositorio de imágenes relacionadas con esas acciones, que se va actualizando. Son copias en PNG de los originales e incluye adaptaciones de ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá en el título y, si lo he localizado, citando el origen. Una mención especial merece C_Towers, amigo y artista nato de brocha y ceras.
 
-Todo es abierto (licencia CC BY-NC 4.0, ver Aviso Legal), sin marcas de agua y descargable, esperando que sirva para inspirar o ayudar en vuestras tareas. Compártelo cuanto veas.
+Todo el contenido se comparte bajo licencia Creative Commons BY-NC 4.0. (Consulta el aviso legal para más detalles), sin marcas de agua y descargable, esperando que sirva para inspirar o ayudar en vuestras tareas. Compártelo cuanto veas.
 
 Encantado de veros por aquí.
 `;
@@ -53,7 +53,7 @@ Encantado de veros por aquí.
           flexShrink: 0,
         }}
       >
-        Presentación y Nota Legal
+        Presentación
       </div>
 
       {/* CONTENIDO */}
@@ -79,42 +79,6 @@ Encantado de veros por aquí.
                 {p}
               </p>
             ))}
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                marginTop: "16px",
-              }}
-            >
-              <a
-                href="/data/notaslegales.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-                style={{
-                  padding: "8px 18px",
-                  borderRadius: "6px",
-                  border: "1px solid var(--accent)",
-                  background: "var(--bg-surface)",
-                  color: "var(--accent)",
-                  fontSize: "12px",
-                  fontWeight: "500",
-                  textDecoration: "none",
-                  cursor: "pointer",
-                  transition: "all 0.2s ease",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "var(--accent)";
-                  e.currentTarget.style.color = "var(--bg-surface)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.background = "var(--bg-surface)";
-                  e.currentTarget.style.color = "var(--accent)";
-                }}
-              >
-                Aviso Legal
-              </a>
-            </div>
           </>
         ) : (
           <div style={{ position: "relative" }}>

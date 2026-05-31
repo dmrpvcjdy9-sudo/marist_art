@@ -81,7 +81,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
           de marcar favoritos.
           {"\n"}
           Todo gratuito, descargable y libre para uso no comercial
-          <i> (Licencia CC BY-NC 4.0)</i>. Además, algunos enlaces interesantes abajo.
+          . Además, algunos enlaces interesantes abajo.
           {"\n"}
           Si quieres comentar algo, o tienes sugerencias, no dudes en escribir. <strong>Bienvenidos</strong> todos.
         </p>

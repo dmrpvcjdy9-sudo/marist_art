@@ -26,6 +26,9 @@ export default function Footer({ onLogoClick }) {
   <span>© AMP 2026</span>
   <span style={{ opacity: 0.4 }}>|</span>
   <span>CC BY-NC 4.0</span>
+  <a href="/data/notaslegales.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
+  Aviso legal
+</a>
 </div>
 
       <img
