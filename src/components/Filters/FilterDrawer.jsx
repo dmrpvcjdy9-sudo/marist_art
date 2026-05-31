@@ -26,7 +26,7 @@ export default function FilterDrawer({
   clearFilters,
   isMobile,
 }) {
-  const [openGroups, setOpenGroups] = useState(["Temas", "Tags", "Usos"]);
+  const [openGroups, setOpenGroups] = useState(["Temas", "Tags", "Usos", "Tintas"]);
   const drawerRef = useRef(null);
 
   // Cerrar con Escape

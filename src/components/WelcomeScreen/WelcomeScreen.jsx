@@ -75,15 +75,15 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
             whiteSpace: "pre-line",
           }}
         >
-          Esto es Marist-Art. Nada complicado (espero): 
-          un repositorio abierto de ilustraciones y diseños para la pastoral,
-          la educación y la comunidad. Tienes filtros, búsqueda, y la opción 
+          Esto es <strong>Marist-Art</strong>. Nada complicado (espero): 
+          un repositorio abierto de <strong>ilustraciones y diseños para la pastoral,
+          la educación y la comunidad</strong>. Tienes filtros, búsqueda, y la opción 
           de marcar favoritos.
           {"\n"}
           Todo gratuito, descargable y libre para uso no comercial
           <i> (Licencia CC BY-NC 4.0)</i>. Además, algunos enlaces interesantes abajo.
           {"\n"}
-          Si quieres comentar algo, o tienes sugerencias, no dudes en escribir. Bienvenidos todos.
+          Si quieres comentar algo, o tienes sugerencias, no dudes en escribir. <strong>Bienvenidos</strong> todos.
         </p>
 
         <div

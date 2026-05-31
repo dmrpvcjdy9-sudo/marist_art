@@ -130,6 +130,7 @@ const handleVerTodo = () => {
   }, 0);
 };
   const handleLogoClick = () => {
+  setOpenPanel(null);
   setQuery("");
   setCategory("todas");
   setFilters([]);

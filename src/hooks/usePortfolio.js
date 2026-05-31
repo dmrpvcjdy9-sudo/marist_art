@@ -54,7 +54,7 @@ useEffect(() => {
         allFiltersLower,
       };
     });
-  }, [rawItems, temas, tags, usos]);
+  }, [rawItems, temas, tags, usos, tintas]);
 
   // 🔍 FILTROS
   const normalizedFilters = useMemo(
@@ -81,11 +81,12 @@ useEffect(() => {
         return false;
 
       if (cleanFilters.length > 0) {
-  // Agrupar filtros por categoría (Temas, Tags, Usos)
+  // Agrupar filtros por categoría (Temas, Tags, Usos, Tintas)
   const filterCategories = {
     temas: cleanFilters.filter((f) => temas.map(t => t.toLowerCase()).includes(f)),
     tags: cleanFilters.filter((f) => tags.map(t => t.toLowerCase()).includes(f)),
     usos: cleanFilters.filter((f) => usos.map(t => t.toLowerCase()).includes(f)),
+    tintas: cleanFilters.filter((f) => tintas.map(t => t.toLowerCase()).includes(f)),
   };
 
   // Cada categoría con filtros activos debe cumplirse (AND entre categorías)
@@ -108,6 +109,13 @@ useEffect(() => {
       item.allFiltersLower.includes(f)
     );
     if (!matchesUsos) return false;
+  }
+
+  if (filterCategories.tintas.length > 0) {
+  const matchesTintas = filterCategories.tintas.some((f) =>
+    item.allFiltersLower.includes(f)
+  );
+  if (!matchesTintas) return false;
   }
 }
       return true;

@@ -74,7 +74,9 @@ rows.forEach((row) => {
   parseArray(row.temas).forEach((t) => temasSet.add(t));
   parseArray(row.tags).forEach((t) => tagsSet.add(t));
   parseArray(row.usos).forEach((t) => usosSet.add(t));
-  parseArray(row.tintas).forEach((t) => tintasSet.add(t));
+  if (row.color) {
+  tintasSet.add(normalize(row.color));
+}
 });
 // Orden estable: alfabético
 const temasDict = Array.from(temasSet).sort();
@@ -132,7 +134,9 @@ const items = rows.map((row) => {
       temas: temasArr.map((t) => temasIndex[t]).filter((i) => i !== undefined),
       tags:  tagsArr.map((t) =>  tagsIndex[t]).filter((i) => i !== undefined),
       usos:  usosArr.map((t) =>  usosIndex[t]).filter((i) => i !== undefined),
-      tintas: parseArray(row.color).map((t) => tintasIndex[t]).filter((i) => i !== undefined),
+      tintas: row.color
+  ? [tintasIndex[normalize(row.color)]].filter((i) => i !== undefined)
+  : [],
     },
     creditos: {
       origen:    clean(row.origen),

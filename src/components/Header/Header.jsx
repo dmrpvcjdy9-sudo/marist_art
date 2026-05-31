@@ -28,27 +28,20 @@ export default function Header({
   onVerTodo,
   onShowGrid,
 }) {
-  const navItems = [
-    { key: "todas", label: "Todo" },
-    { key: "ilustracion", label: "Ilustraciones" },
-    { key: "diseno", label: "Diseños" },
-  ];
-
   const searchRef = useRef(null);
-useClickOutside(searchRef, () => setSearchOpen(false));
+  useClickOutside(searchRef, () => setSearchOpen(false));
 
   const handleNavClick = (catKey) => {
-  setQuery("");
-  setFilters([]);
-  setOpenPanel(null);
-  
-  if (catKey === "todas") {
-    onVerTodo();
-  } else {
-    setCategory(catKey);
-    if (onShowGrid) onShowGrid();
-  }
-};
+    setQuery("");
+    setFilters([]);
+    setOpenPanel(null);
+    if (catKey === "todas") {
+      onVerTodo();
+    } else {
+      setCategory(catKey);
+      if (onShowGrid) onShowGrid();
+    }
+  };
 
   return (
     <div
@@ -60,11 +53,11 @@ useClickOutside(searchRef, () => setSearchOpen(false));
         alignItems: "center",
         position: "relative",
         zIndex: 100,
-        borderBottom: "1px solid #e5e5e5",
+        borderBottom: "1px solid var(--border)",
       }}
     >
       {/* IZQUIERDA: LOGO + LEMA (solo escritorio) */}
-      <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+      <div style={{ display: "flex", alignItems: "flex-end", gap: "16px" }}>
         <img
           src="/logo.png"
           alt="Marist-Art"
@@ -87,12 +80,12 @@ useClickOutside(searchRef, () => setSearchOpen(false));
               fontWeight: "300",
               fontStyle: "italic",
               color: "var(--accent)",
-              lineHeight: 1.3,
+              lineHeight: 1,
               whiteSpace: "nowrap",
-              paddingTop: "2px",
+              paddingBottom: "2px",
             }}
           >
-            Recursos gráficos con identidad marista
+            ...con identidad marista
           </span>
         )}
       </div>
@@ -108,37 +101,29 @@ useClickOutside(searchRef, () => setSearchOpen(false));
             justifyContent: "center",
           }}
         >
-          {navItems.map((cat, i) => {
-            const active = category === cat.key;
-            return (
-              <React.Fragment key={cat.key}>
-                <span
-                  onClick={() => handleNavClick(cat.key)}
-                  style={{
-                    cursor: "pointer",
-                    fontStyle: "italic",
-                    color: active ? "var(--text-primary)" : "var(--text-muted)",
-                    fontWeight: active ? "600" : "400",
-                    fontSize: "13px",
-                    transition: "color 0.2s ease",
-                  }}
-                >
-                  {cat.label}
-                </span>
-                {i === navItems.length - 1 && (
-                  <span
-                    style={{
-                      width: "3px",
-                      height: "3px",
-                      borderRadius: "50%",
-                      background: "var(--text-muted)",
-                      margin: "0 2px",
-                    }}
-                  />
-                )}
-              </React.Fragment>
-            );
-          })}
+          <span
+            onClick={() => handleNavClick("todas")}
+            style={{
+              cursor: "pointer",
+              fontStyle: "italic",
+              color: category === "todas" ? "var(--text-primary)" : "var(--text-muted)",
+              fontWeight: category === "todas" ? "600" : "400",
+              fontSize: "13px",
+              transition: "color 0.2s ease",
+            }}
+          >
+            Recursos
+          </span>
+
+          <span
+            style={{
+              width: "3px",
+              height: "3px",
+              borderRadius: "50%",
+              background: "var(--text-muted)",
+              margin: "0 2px",
+            }}
+          />
 
           <span
             onClick={onContactClick}
@@ -160,31 +145,29 @@ useClickOutside(searchRef, () => setSearchOpen(false));
       <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
         {isMobile ? (
           <>
-            {/* LUPA */}
+            {/* LUPA (atajo directo) */}
             <button
-  onClick={() => {
-    if (query) {
-      // Si hay búsqueda activa, limpiar y cerrar
-      setQuery("");
-      setSearchOpen(false);
-    } else {
-      // Si no, abrir/cerrar buscador
-      setSearchOpen(!searchOpen);
-      setOpenPanel(null);
-    }
-  }}
-  style={{
-    border: "none",
-    background: "transparent",
-    fontSize: "18px",
-    cursor: "pointer",
-    color: searchOpen || query ? "var(--accent)" : "var(--text-muted)",
-    padding: "4px",
-  }}
-  title={query ? "Limpiar búsqueda" : "Buscar"}
->
-  {query ? "✕" : "🔍"}
-</button>
+              onClick={() => {
+                if (query) {
+                  setQuery("");
+                  setSearchOpen(false);
+                } else {
+                  setSearchOpen(!searchOpen);
+                  setOpenPanel(null);
+                }
+              }}
+              style={{
+                border: "none",
+                background: "transparent",
+                fontSize: "18px",
+                cursor: "pointer",
+                color: searchOpen || query ? "var(--accent)" : "var(--text-muted)",
+                padding: "4px",
+              }}
+              title={query ? "Limpiar búsqueda" : "Buscar"}
+            >
+              {query ? "✕" : "🔍"}
+            </button>
 
             {/* HAMBURGUESA */}
             <button
@@ -206,152 +189,145 @@ useClickOutside(searchRef, () => setSearchOpen(false));
         ) : (
           /* BUSCADOR ESCRITORIO */
           <div
-  ref={searchRef}
-  style={{
-    display: "flex",
-    alignItems: "center",
-    gap: "6px",
-    border: "1px solid #e5e5e5",
-    borderRadius: "999px",
-    padding: "6px 10px",
-    background: "var(--bg-surface)",
-    width: searchOpen ? "180px" : "auto",
-    maxWidth: "50vw",
-    transition: "width 0.25s ease",
-    overflow: "hidden",
-  }}
->
-  {/* X para limpiar (siempre visible si hay query) */}
-  {query && (
-    <span
-      onClick={(e) => {
-        e.preventDefault();
-        setQuery("");
-      }}
-      style={{
-        cursor: "pointer",
-        color: "var(--text-muted)",
-        fontSize: "13px",
-        flexShrink: 0,
-        order: 1,
-      }}
-    >
-      ✕
-    </span>
-  )}
+            ref={searchRef}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              border: "1px solid var(--border)",
+              borderRadius: "999px",
+              padding: "6px 10px",
+              background: "var(--bg-surface)",
+              width: searchOpen ? "180px" : "auto",
+              maxWidth: "50vw",
+              transition: "width 0.25s ease",
+              overflow: "hidden",
+            }}
+          >
+            {query && (
+              <span
+                onClick={(e) => {
+                  e.preventDefault();
+                  setQuery("");
+                }}
+                style={{
+                  cursor: "pointer",
+                  color: "var(--text-muted)",
+                  fontSize: "13px",
+                  flexShrink: 0,
+                  order: 1,
+                }}
+              >
+                ✕
+              </span>
+            )}
 
-  {/* LUPA */}
-  <span
-    onClick={() => setSearchOpen(!searchOpen)}
-    style={{
-      color: "var(--text-muted)",
-      cursor: "pointer",
-      flexShrink: 0,
-      fontSize: "14px",
-      order: 2,
-    }}
-  >
-    🔍
-  </span>
+            <span
+              onClick={() => setSearchOpen(!searchOpen)}
+              style={{
+                color: "var(--text-muted)",
+                cursor: "pointer",
+                flexShrink: 0,
+                fontSize: "14px",
+                order: 2,
+              }}
+            >
+              🔍
+            </span>
 
-  {/* INPUT (solo si expandido) */}
-  {searchOpen && (
-    <input
-      value={query}
-      onChange={(e) => setQuery(e.target.value)}
-      onFocus={() => setSearchOpen(true)}
-      placeholder=""
-      aria-label="Buscar ilustraciones"
-      style={{
-        border: "none",
-        outline: "none",
-        fontSize: "13px",
-        width: "100%",
-        background: "transparent",
-        color: "var(--text-primary)",
-        fontFamily: "var(--font-primary)",
-        order: 3,
-      }}
-    />
-  )}
-</div>
+            {searchOpen && (
+              <input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onFocus={() => setSearchOpen(true)}
+                placeholder=""
+                aria-label="Buscar ilustraciones"
+                style={{
+                  border: "none",
+                  outline: "none",
+                  fontSize: "13px",
+                  width: "100%",
+                  background: "transparent",
+                  color: "var(--text-primary)",
+                  fontFamily: "var(--font-primary)",
+                  order: 3,
+                }}
+              />
+            )}
+          </div>
         )}
       </div>
 
       {/* BUSCADOR MÓVIL CON OVERLAY */}
-{isMobile && searchOpen && (
-  <>
-    {/* Overlay que cierra al pulsar fuera */}
-    <div
-      onClick={() => setSearchOpen(false)}
-      style={{
-        position: "fixed",
-        inset: 0,
-        background: "rgba(0,0,0,0.3)",
-        zIndex: 98,
-      }}
-    />
+      {isMobile && searchOpen && (
+        <>
+          <div
+            onClick={() => setSearchOpen(false)}
+            style={{
+              position: "fixed",
+              inset: 0,
+              background: "rgba(0,0,0,0.3)",
+              zIndex: 98,
+            }}
+          />
 
-    {/* Barra de búsqueda */}
-    <div
-      style={{
-        position: "absolute",
-        top: "100%",
-        left: 0,
-        right: 0,
-        background: "var(--bg-surface)",
-        padding: "12px 16px",
-        borderBottom: "1px solid #e5e5e5",
-        zIndex: 99,
-        boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-        display: "flex",
-        alignItems: "center",
-        gap: "8px",
-      }}
-    >
-      {/* LUPA pequeña a la izquierda */}
-      <span style={{ color: "var(--text-muted)", fontSize: "14px", flexShrink: 0 }}>🔍</span>
+          <div
+            style={{
+              position: "absolute",
+              top: "100%",
+              left: 0,
+              right: 0,
+              background: "var(--bg-surface)",
+              padding: "12px 16px",
+              borderBottom: "1px solid var(--border)",
+              zIndex: 99,
+              boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+            }}
+          >
+            <span style={{ color: "var(--text-muted)", fontSize: "14px", flexShrink: 0 }}>🔍</span>
 
-      <input
-        autoFocus
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Buscar ilustraciones..."
-        style={{
-          flex: 1,
-          border: "1px solid #e5e5e5",
-          borderRadius: "8px",
-          padding: "10px 12px",
-          fontSize: "14px",
-          outline: "none",
-          fontFamily: "var(--font-primary)",
-          color: "var(--text-primary)",
-          minWidth: 0,
-        }}
-      />
+            <input
+              autoFocus
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Buscar ilustraciones..."
+              style={{
+                flex: 1,
+                border: "1px solid var(--border)",
+                borderRadius: "8px",
+                padding: "10px 12px",
+                fontSize: "14px",
+                outline: "none",
+                fontFamily: "var(--font-primary)",
+                color: "var(--text-primary)",
+                minWidth: 0,
+              }}
+            />
 
-      {/* X para limpiar y cerrar */}
-      {query && (
-        <span
-          onClick={() => {
-            setQuery("");
-            setSearchOpen(false);
-          }}
-          style={{
-            cursor: "pointer",
-            color: "var(--text-muted)",
-            fontSize: "14px",
-            flexShrink: 0,
-          }}
-        >
-          ✕
-        </span>
+            {query && (
+              <span
+                onClick={() => {
+                  setQuery("");
+                  setSearchOpen(false);
+                }}
+                style={{
+                  cursor: "pointer",
+                  color: "var(--text-muted)",
+                  fontSize: "14px",
+                  flexShrink: 0,
+                }}
+              >
+                ✕
+              </span>
+            )}
+          </div>
+        </>
       )}
-    </div>
-  </>
-)}
 
-      {/* MENÚ DESPLEGABLE MÓVIL */}
+      {/* MENÚ HAMBURGUESA MÓVIL UNIFICADO */}
       {isMobile && openPanel === "menu" && (
         <div
           style={{
@@ -366,29 +342,75 @@ useClickOutside(searchRef, () => setSearchOpen(false));
             gap: "4px",
             zIndex: 99,
             boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-            borderBottom: "1px solid #e5e5e5",
+            borderBottom: "1px solid var(--border)",
           }}
         >
-          {navItems.map((cat) => {
-            const active = category === cat.key;
-            return (
-              <span
-                key={cat.key}
-                onClick={() => handleNavClick(cat.key)}
-                style={{
-                  cursor: "pointer",
-                  color: active ? "var(--text-primary)" : "var(--text-secondary)",
-                  fontWeight: active ? "600" : "400",
-                  fontSize: "14px",
-                  fontStyle: "italic",
-                  padding: "6px 0",
-                }}
-              >
-                {cat.label}
-              </span>
-            );
-          })}
+          {/* Recursos */}
+          <span
+            onClick={() => handleNavClick("todas")}
+            style={{
+              cursor: "pointer",
+              color: "var(--text-secondary)",
+              fontSize: "14px",
+              fontStyle: "italic",
+              padding: "6px 0",
+            }}
+          >
+            Recursos
+          </span>
 
+          {/* Filtros */}
+          <span
+            onClick={() => {
+              setOpenPanel(null);
+              if (onShowGrid) onShowGrid();
+            }}
+            style={{
+              cursor: "pointer",
+              color: "var(--text-secondary)",
+              fontSize: "14px",
+              fontStyle: "italic",
+              padding: "6px 0",
+            }}
+          >
+            Filtros
+          </span>
+
+          {/* Favoritos */}
+          <span
+            onClick={() => {
+              setOpenPanel(null);
+              if (onShowGrid) onShowGrid();
+            }}
+            style={{
+              cursor: "pointer",
+              color: "var(--text-secondary)",
+              fontSize: "14px",
+              fontStyle: "italic",
+              padding: "6px 0",
+            }}
+          >
+            ⭐ Favoritos
+          </span>
+
+          {/* Presentación */}
+          <span
+            onClick={() => {
+              onContactClick();
+              setOpenPanel(null);
+            }}
+            style={{
+              cursor: "pointer",
+              color: "var(--text-secondary)",
+              fontSize: "14px",
+              fontStyle: "italic",
+              padding: "6px 0",
+            }}
+          >
+            Presentación
+          </span>
+
+          {/* Contacto */}
           <span
             onClick={() => {
               onContactClick();

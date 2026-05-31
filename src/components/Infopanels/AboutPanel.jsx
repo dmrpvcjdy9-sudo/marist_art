@@ -8,13 +8,13 @@ export default function AboutPanel({
   onLeave,
 }) {
   const leftText = `
-Me llamo Arturo Morales Pérez, soy laico marista de Champagnat, y formo parte de la Provincia Marista Mediterránea.
+Me llamo Arturo Morales, laico marista de Champagnat, y formo parte de la Provincia Marista Mediterránea.
 
 Además de mi tarea habitual (educador y catequista) a menudo suelo crear diseños e ilustraciones, o adaptarlos a formato digital, para lo propio de nuestras acciones pastorales, educativas, vocacionales, sociales y comunitarias. Trabajo con archivos vectoriales por su versatilidad.
 
-Este espacio tiene una finalidad sencilla: servir de repositorio de imágenes que he podido ir creando o vectorizando, relacionadas con esas acciones. Son copias de los originales y se incluyen adaptaciones de ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá "adaptada" en el título y, si lo he localizado, citando el origen de la imagen o fragmento adaptado. Una mención especial merece C_Towers, amigo y artista nato de brocha y ceras.
+Este espacio tiene una finalidad sencilla: servir de repositorio de imágenes relacionadas con esas acciones, que se va actualizando. Son copias en PNG de los originales e incluye adaptaciones de ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá en el título y, si lo he localizado, citando el origen. Una mención especial merece C_Towers, amigo y artista nato de brocha y ceras.
 
-Todo es abierto (licencia CC BY-NC 4.0, ver Nota Legal), y descargable, esperando que sirva para inspirar o ayudar en vuestras tareas.
+Todo es abierto (licencia CC BY-NC 4.0, ver Aviso Legal), sin marcas de agua y descargable, esperando que sirva para inspirar o ayudar en vuestras tareas. Compártelo cuanto veas.
 
 Encantado de veros por aquí.
 `;
