@@ -2,10 +2,11 @@
   "name": "Marist-Art",
   "short_name": "MaristArt",
   "id": "/",
-  "start_url": "/",
+  "start_url": "https://marist-art.org",
+  "scope": "https://marist-art.org",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#6b46c1",
+  "theme_color": "#2c3e50",
   "icons": [
     {
       "src": "/icon-192.png",

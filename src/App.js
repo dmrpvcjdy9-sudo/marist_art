@@ -164,8 +164,8 @@ const handleVerTodo = () => {
     content="Repositorio de ilustraciones maristas gratuitas"
   />
   <meta property="og:title" content={lightboxSelected?.titulo || "Marist-Art"} />
-  <meta property="og:image" content={lightboxSelected?.imagenes?.thumb || "/logo.png"} />
-  <meta name="theme-color" content="#4f677d" />
+  <meta name="theme-color" content="#2c3e50" />
+  <meta property="og:image" content={lightboxSelected ? `https://marist-art.org/${lightboxSelected.categoria}/full/${lightboxSelected.id}.png` : "https://marist-art.org/logo.png"} />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </Helmet>
         <Header
