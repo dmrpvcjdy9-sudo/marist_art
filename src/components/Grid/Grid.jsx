@@ -8,6 +8,7 @@ export default function Grid({
   hoveredId,
   setHovered,
   isSingle,
+  isMobile,
   toggleFavorite,   // ← nueva
   isFavorite,
 }) {
@@ -17,7 +18,9 @@ export default function Grid({
         display: "grid",
         gridTemplateColumns: isSingle
           ? "1fr"
-          : "repeat(auto-fill, minmax(190px, 1fr))",
+          : isMobile
+    ? "repeat(2, 1fr)"
+    : "repeat(auto-fill, minmax(190px, 1fr))",
         gap: "16px",
         gridAutoRows: "1fr",
         alignItems: "stretch",

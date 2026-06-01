@@ -245,6 +245,7 @@ const handleVerTodo = () => {
               isSingle={isSingle}
               toggleFavorite={toggleFavorite}
               isFavorite={isFavorite}
+              isMobile={isMobile}
             />
 
             <Pagination
