@@ -63,7 +63,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, t }) {
           {t("welcome.title")}
         </h2>
 
-        {/* TEXTO COMPLETO TRADUCIDO */}
+        {/* TEXTO COMPLETO TRADUCIDO CON NEGRITAS */}
         <p
           style={{
             fontSize: "14px",
@@ -72,11 +72,9 @@ export default function WelcomeScreen({ isMobile, onVerTodas, t }) {
             opacity: 0.7,
             fontWeight: "300",
             whiteSpace: "pre-line",
-  }}
-  dangerouslySetInnerHTML={{ __html: t("welcome.p3") }}
-/>
-          {t("welcome.p3")}
-        </p>
+          }}
+          dangerouslySetInnerHTML={{ __html: t("welcome.p3") }}
+        />
 
         <div
           style={{
