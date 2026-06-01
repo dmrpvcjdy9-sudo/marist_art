@@ -17,9 +17,9 @@ export default {
     title: "Recursos gráficos con identidad marista",
     p1: "Un repositorio abierto de ilustraciones y diseños para la pastoral, la educación y la comunidad.",
     p2: "Todo gratuito, descargable y libre de usar.",
-    p3: "Esto es **Marist-Art**. Nada complicado (espero): un repositorio abierto de **ilustraciones y diseños para la pastoral, la educación y la comunidad**. Tienes filtros, búsqueda, y la opción de marcar favoritos.\n\nTodo gratuito, descargable y libre para uso no comercial. Además, algunos enlaces interesantes abajo.\n\nSi quieres comentar algo, o tienes sugerencias, no dudes en escribir. **Bienvenidos** todos.",
-    button: "Ver recursos",
-  },
+  p3: "Esto es <strong>Marist-Art</strong>. Nada complicado (espero): un repositorio abierto de <strong>ilustraciones y diseños para la pastoral, la educación y la comunidad</strong>. Tienes filtros, búsqueda, y la opción de marcar favoritos.\n\nTodo gratuito, descargable y libre para uso no comercial. Además, algunos enlaces interesantes abajo.\n\nSi quieres comentar algo, o tienes sugerencias, no dudes en escribir. <strong>Bienvenidos</strong> todos.",
+  button: "Ver recursos",
+},
   filtros: {
     label: "Filtros",
     allFilters: "+ Todos los filtros",

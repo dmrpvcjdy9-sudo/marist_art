@@ -72,8 +72,9 @@ export default function WelcomeScreen({ isMobile, onVerTodas, t }) {
             opacity: 0.7,
             fontWeight: "300",
             whiteSpace: "pre-line",
-          }}
-        >
+  }}
+  dangerouslySetInnerHTML={{ __html: t("welcome.p3") }}
+/>
           {t("welcome.p3")}
         </p>
 
