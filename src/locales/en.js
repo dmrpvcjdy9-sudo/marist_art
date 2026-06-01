@@ -17,6 +17,7 @@ export default {
     title: "Graphic resources with Marist identity",
     p1: "An open repository of illustrations and designs for pastoral, education, and community.",
     p2: "All free, downloadable, and free to use.",
+    p3: "This is **Marist-Art**. Nothing complicated (I hope): an open repository of **illustrations and designs for pastoral care, education and community**. You have filters, search, and the option to bookmark favorites.\n\nAll free, downloadable and free for non-commercial use. Also some interesting links below.\n\nIf you want to comment or have suggestions, feel free to write. **Welcome** everyone.",
     button: "Browse resources",
   },
   filtros: {

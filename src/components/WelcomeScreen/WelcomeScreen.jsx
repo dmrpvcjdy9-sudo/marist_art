@@ -63,6 +63,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, t }) {
           {t("welcome.title")}
         </h2>
 
+        {/* TEXTO COMPLETO TRADUCIDO */}
         <p
           style={{
             fontSize: "14px",
@@ -73,9 +74,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, t }) {
             whiteSpace: "pre-line",
           }}
         >
-          {t("welcome.p1")}
-          {"\n\n"}
-          {t("welcome.p2")}
+          {t("welcome.p3")}
         </p>
 
         <div
