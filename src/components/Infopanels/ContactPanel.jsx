@@ -6,14 +6,15 @@ export default function ContactPanel({
   hovered,
   onHover,
   onLeave,
+  t,
 }) {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     if (sent) {
-      const t = setTimeout(() => setSent(false), 4000);
-      return () => clearTimeout(t);
+      const timeout = setTimeout(() => setSent(false), 4000);
+      return () => clearTimeout(timeout);
     }
   }, [sent]);
 
@@ -61,7 +62,6 @@ export default function ContactPanel({
         flexDirection: "column",
       }}
     >
-      {/* TÍTULO */}
       <div
         style={{
           padding: "18px 20px 6px",
@@ -73,10 +73,9 @@ export default function ContactPanel({
           flexShrink: 0,
         }}
       >
-        Consulta y Contacto
+        {t("infopanels.contactTitle")}
       </div>
 
-      {/* CONTENIDO */}
       <div
         style={{
           padding: "0 20px 20px",
@@ -90,10 +89,9 @@ export default function ContactPanel({
         {isOpen ? (
           <>
             <p style={{ margin: "12px 0 16px" }}>
-              Si tienes cualquier duda, consulta o aportación, puedes hacerlo desde aquí. Tus datos sólo se usarán para este fin.
+              {t("infopanels.contactText")}
             </p>
 
-            {/* FORMULARIO */}
             <form
               onSubmit={handleSubmit}
               onClick={(e) => e.stopPropagation()}
@@ -107,7 +105,7 @@ export default function ContactPanel({
               <input
                 type="email"
                 name="email"
-                placeholder="Tu email"
+                placeholder={t("infopanels.emailPlaceholder")}
                 required
                 style={inputStyle}
                 onFocus={(e) => (e.target.style.borderColor = "var(--accent)")}
@@ -115,7 +113,7 @@ export default function ContactPanel({
               />
               <textarea
                 name="message"
-                placeholder="Mensaje"
+                placeholder={t("infopanels.messagePlaceholder")}
                 required
                 rows={4}
                 style={{ ...inputStyle, resize: "vertical", minHeight: "80px" }}
@@ -145,7 +143,7 @@ export default function ContactPanel({
                   e.currentTarget.style.color = "var(--accent)";
                 }}
               >
-                {loading ? "Enviando..." : "Enviar"}
+                {loading ? t("infopanels.sending") : t("infopanels.send")}
               </button>
               {sent && (
                 <div
@@ -158,7 +156,7 @@ export default function ContactPanel({
                     fontStyle: "italic",
                   }}
                 >
-                  ✔ Mensaje enviado correctamente
+                  {t("infopanels.sent")}
                 </div>
               )}
             </form>
@@ -166,7 +164,7 @@ export default function ContactPanel({
         ) : (
           <div style={{ position: "relative" }}>
             <span style={{ display: "block" }}>
-              Si tienes cualquier duda, consulta o aportación, puedes hacerlo desde aquí. Tus datos sólo se usarán para este fin.
+              {t("infopanels.contactText")}
             </span>
             <div
               style={{

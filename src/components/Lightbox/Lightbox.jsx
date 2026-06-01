@@ -8,6 +8,8 @@ export default function Lightbox({
   onNext,
   onPrev,
   isMobile,
+  t,     // ← para los botones (Cerrar, Descargar, etc.)
+  lang,  // ← para título/descripción
 }) {
   const lightboxRef = useRef(null);
   const touchStartX = useRef(0);
@@ -35,7 +37,6 @@ export default function Lightbox({
     const diffX = Math.abs(touchStartX.current - touchEndX.current);
     const diffY = Math.abs(touchStartY.current - touchEndY.current);
     
-    // Solo considerar swipe si es más horizontal que vertical
     if (diffX > 10 && diffX > diffY) {
       isSwiping.current = true;
     }
@@ -62,12 +63,16 @@ export default function Lightbox({
 
   if (!isOpen || !selected) return null;
 
+  // 👇 TÍTULO Y DESCRIPCIÓN SEGÚN IDIOMA
+  const displayTitle = lang === "en" && selected.titulo_en ? selected.titulo_en : selected.titulo;
+  const displayDesc = lang === "en" && selected.descripcion_en ? selected.descripcion_en : selected.descripcion;
+
   return (
     <div
       ref={lightboxRef}
       role="dialog"
       aria-modal="true"
-      aria-label={`Vista ampliada de ${selected.titulo}`}
+      aria-label={`${t("lightbox.cerrar")} ${displayTitle}`}
       tabIndex={-1}
       onClick={onClose}
       onTouchStart={handleTouchStart}
@@ -85,39 +90,39 @@ export default function Lightbox({
         touchAction: "pan-y",
       }}
     >
-        {/* BOTÓN CERRAR (siempre visible) */}
-  <button
-    onClick={onClose}
-    style={{
-      position: "absolute",
-      top: isMobile ? "10px" : "16px",
-      right: isMobile ? "10px" : "16px",
-      zIndex: 20,
-      border: "none",
-      background: "rgba(255,255,255,0.15)",
-      color: "rgba(255,255,255,0.8)",
-      fontSize: isMobile ? "16px" : "20px",
-      width: isMobile ? "32px" : "40px",
-      height: isMobile ? "32px" : "40px",
-      borderRadius: "50%",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      cursor: "pointer",
-      fontFamily: "var(--font-primary)",
-      transition: "background 0.2s ease",
-    }}
-    onMouseEnter={(e) => {
-      e.currentTarget.style.background = "var(--border)";
-    }}
-    onMouseLeave={(e) => {
-      e.currentTarget.style.background = "rgba(255,255,255,0.15)";
-    }}
-    aria-label="Cerrar"
-  >
-    ✕
-  </button>
-  
+      {/* BOTÓN CERRAR */}
+      <button
+        onClick={onClose}
+        style={{
+          position: "absolute",
+          top: isMobile ? "10px" : "16px",
+          right: isMobile ? "10px" : "16px",
+          zIndex: 20,
+          border: "none",
+          background: "rgba(255,255,255,0.15)",
+          color: "rgba(255,255,255,0.8)",
+          fontSize: isMobile ? "16px" : "20px",
+          width: isMobile ? "32px" : "40px",
+          height: isMobile ? "32px" : "40px",
+          borderRadius: "50%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          cursor: "pointer",
+          fontFamily: "var(--font-primary)",
+          transition: "background 0.2s ease",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = "var(--border)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = "rgba(255,255,255,0.15)";
+        }}
+        aria-label={t("lightbox.cerrar")}
+      >
+        ✕
+      </button>
+      
       {/* CONTENEDOR IMAGEN */}
       <div
         style={{
@@ -140,7 +145,7 @@ export default function Lightbox({
                 onPrev();
               }}
               style={arrowStyle("left")}
-              aria-label="Anterior"
+              aria-label={t("lightbox.anterior")}
             >
               ‹
             </button>
@@ -150,7 +155,7 @@ export default function Lightbox({
                 onNext();
               }}
               style={arrowStyle("right")}
-              aria-label="Siguiente"
+              aria-label={t("lightbox.siguiente")}
             >
               ›
             </button>
@@ -160,7 +165,7 @@ export default function Lightbox({
         {/* IMAGEN */}
         <img
           src={getImage(selected, "full")}
-          alt={selected.titulo}
+          alt={displayTitle}
           onClick={(e) => e.stopPropagation()}
           draggable={false}
           style={{
@@ -193,20 +198,20 @@ export default function Lightbox({
         }}
       >
         <h3 style={{ margin: "0 0 4px", fontSize: isMobile ? "14px" : "16px", fontWeight: "600", lineHeight: 1.2 }}>
-          {selected.titulo}
+          {displayTitle}
         </h3>
 
-        {selected.descripcion && (
+        {displayDesc && (
           <p style={{ margin: "0 0 2px", fontSize: isMobile ? "11px" : "13px", fontWeight: "300", opacity: 0.7, lineHeight: 1.3 }}>
-            {selected.descripcion}
+            {displayDesc}
           </p>
         )}
 
         {(selected.creditos?.origen || selected.creditos?.basado_en) && (
           <p style={{ margin: "0 0 10px", fontSize: "10px", fontWeight: "300", fontStyle: "italic", opacity: 0.5, lineHeight: 1.3 }}>
-            {selected.creditos?.origen === "original" ? "Original" : selected.creditos?.origen === "adaptado" ? "Adaptado" : selected.creditos?.origen}
+            {selected.creditos?.origen === "original" ? t("lightbox.original") : selected.creditos?.origen === "adaptado" ? t("lightbox.adaptado") : selected.creditos?.origen}
             {selected.creditos?.origen && selected.creditos?.basado_en && " · "}
-            {selected.creditos?.basado_en && `De: ${selected.creditos.basado_en}`}
+            {selected.creditos?.basado_en && `${t("lightbox.de")} ${selected.creditos.basado_en}`}
           </p>
         )}
 
@@ -215,7 +220,7 @@ export default function Lightbox({
             e.stopPropagation();
             const link = document.createElement("a");
             link.href = getImage(selected, "full");
-            link.download = `${selected.titulo}.png`;
+            link.download = `${displayTitle}.png`;
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -243,7 +248,7 @@ export default function Lightbox({
             e.currentTarget.style.borderColor = "var(--border)";
           }}
         >
-          Descargar
+          {t("lightbox.descargar")}
         </button>
       </div>
     </div>

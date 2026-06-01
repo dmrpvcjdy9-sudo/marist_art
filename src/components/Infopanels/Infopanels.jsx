@@ -12,7 +12,7 @@ function useClickOutside(ref, callback) {
   }, [ref, callback]);
 }
 
-export default function Infopanels() {
+export default function Infopanels({ t }) {
   const [openPanel, setOpenPanel] = useState(null);
   const [hoveredPanel, setHoveredPanel] = useState(null);
   const panelsRef = useRef(null);
@@ -40,26 +40,22 @@ export default function Infopanels() {
           margin: "0 auto",
         }}
       >
-        {/* PANEL IZQUIERDO: Presentación */}
         <AboutPanel
           isOpen={openPanel === "left"}
-          onToggle={() =>
-            setOpenPanel(openPanel === "left" ? null : "left")
-          }
+          onToggle={() => setOpenPanel(openPanel === "left" ? null : "left")}
           hovered={hoveredPanel}
           onHover={setHoveredPanel}
           onLeave={() => setHoveredPanel(null)}
+          t={t}
         />
 
-        {/* PANEL DERECHO: Contacto */}
         <ContactPanel
           isOpen={openPanel === "right"}
-          onToggle={() =>
-            setOpenPanel(openPanel === "right" ? null : "right")
-          }
+          onToggle={() => setOpenPanel(openPanel === "right" ? null : "right")}
           hovered={hoveredPanel}
           onHover={setHoveredPanel}
           onLeave={() => setHoveredPanel(null)}
+          t={t}
         />
       </div>
     </div>

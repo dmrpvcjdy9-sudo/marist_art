@@ -19,6 +19,7 @@ import useIsMobile from "./hooks/useIsMobile";
 import WelcomeScreen from "./components/WelcomeScreen/WelcomeScreen";
 import useFavorites from "./hooks/useFavorites";
 import data from "./data/portfolio.json";
+import useLanguage from "./hooks/useLanguage";
 
 /* =========================
    DATA PREPARATION
@@ -55,6 +56,7 @@ export default function Portfolio() {
   /* UI STATE */
   const [hovered, setHovered] = useState(null);
   const isMobile = useIsMobile();
+  const { lang, t, toggleLang } = useLanguage();
   const { favorites, toggleFavorite, isFavorite, clearFavorites } = useFavorites();
   const favoritesRef = useRef(favorites);
 useEffect(() => {
@@ -185,6 +187,9 @@ const handleVerTodo = () => {
           onContactClick={handleContactClick}
           onShowGrid={forceShowGrid}
           onVerTodo={handleVerTodo}
+          t={t}
+          lang={lang}
+          toggleLang={toggleLang}
         />
         {effectiveHasActiveSearch && (
         <FilterPanel
@@ -194,6 +199,7 @@ const handleVerTodo = () => {
   lightboxOpen={lightboxOpen}
   favoritesCount={favorites.length}
   clearFavorites={clearFavorites}
+  t={t}
 />
         )}
 
@@ -202,6 +208,7 @@ const handleVerTodo = () => {
           <WelcomeScreen
             isMobile={isMobile}
             onVerTodas={handleVerTodo}
+            t={t}
           />
         )}
 
@@ -226,7 +233,7 @@ const handleVerTodo = () => {
                   fontFamily: "var(--font-primary)",
                 }}
               >
-                Sin resultados. Prueba a modificar filtros o búsqueda.
+                {t("grid.noResults")}
               </div>
             )}
             <Pagination
@@ -246,6 +253,7 @@ const handleVerTodo = () => {
               toggleFavorite={toggleFavorite}
               isFavorite={isFavorite}
               isMobile={isMobile}
+              lang={lang}
             />
 
             <Pagination
@@ -263,9 +271,11 @@ const handleVerTodo = () => {
   onNext={goNext}
   onPrev={goPrev}
   isMobile={isMobile}
+  lang={lang}
+  t={t}
 />
       {/* INFOPANELS */}
-        <Infopanels />
+        <Infopanels t={t}/>
       {/* LINKS */}
         <LinksPanel />
         {/* FOOTER */}
@@ -277,6 +287,7 @@ const handleVerTodo = () => {
     setSelected(null);
     setShowGrid(false);   // ← vuelve a Welcome
   }}
+  t={t}
 />
       </div>
     </HelmetProvider>

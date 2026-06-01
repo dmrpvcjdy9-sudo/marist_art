@@ -27,6 +27,9 @@ export default function Header({
   onContactClick,
   onVerTodo,
   onShowGrid,
+  t,
+  lang,
+  toggleLang,
 }) {
   const searchRef = useRef(null);
   useClickOutside(searchRef, () => setSearchOpen(false));
@@ -85,12 +88,12 @@ export default function Header({
               paddingBottom: "2px",
             }}
           >
-            ...con identidad marista
+            {t("header.lema")}
           </span>
         )}
       </div>
 
-      {/* CENTRO: menú escritorio */}
+      {/* CENTRO: menú escritorio + Language Switcher */}
       {!isMobile && (
         <div
           style={{
@@ -112,7 +115,7 @@ export default function Header({
               transition: "color 0.2s ease",
             }}
           >
-            Recursos
+            {t("header.recursos")}
           </span>
 
           <span
@@ -136,8 +139,26 @@ export default function Header({
               transition: "color 0.2s ease",
             }}
           >
-            Contacto
+            {t("header.contacto")}
           </span>
+
+          {/* Language Switcher */}
+          <button
+            onClick={toggleLang}
+            style={{
+              background: "transparent",
+              border: "1px solid var(--border)",
+              borderRadius: "20px",
+              padding: "4px 10px",
+              fontSize: "11px",
+              cursor: "pointer",
+              color: "var(--text-muted)",
+              fontFamily: "var(--font-primary)",
+              marginLeft: "8px",
+            }}
+          >
+            {lang === "es" ? "EN" : "ES"}
+          </button>
         </div>
       )}
 
@@ -145,7 +166,7 @@ export default function Header({
       <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
         {isMobile ? (
           <>
-            {/* LUPA (atajo directo) */}
+            {/* LUPA */}
             <button
               onClick={() => {
                 if (query) {
@@ -164,16 +185,30 @@ export default function Header({
                 color: searchOpen || query ? "var(--accent)" : "var(--text-muted)",
                 padding: "4px",
               }}
-              title={query ? "Limpiar búsqueda" : "Buscar"}
+              title={query ? t("header.limpiar") : t("header.buscar")}
             >
               {query ? "✕" : "🔍"}
             </button>
 
+            {/* Language Switcher móvil */}
+            <button
+              onClick={toggleLang}
+              style={{
+                border: "1px solid var(--border)",
+                background: "transparent",
+                borderRadius: "16px",
+                padding: "4px 8px",
+                fontSize: "10px",
+                cursor: "pointer",
+                color: "var(--text-muted)",
+              }}
+            >
+              {lang === "es" ? "EN" : "ES"}
+            </button>
+
             {/* HAMBURGUESA */}
             <button
-              onClick={() =>
-                setOpenPanel(openPanel === "menu" ? null : "menu")
-              }
+              onClick={() => setOpenPanel(openPanel === "menu" ? null : "menu")}
               style={{
                 border: "none",
                 background: "transparent",
@@ -187,7 +222,6 @@ export default function Header({
             </button>
           </>
         ) : (
-          /* BUSCADOR ESCRITORIO */
           <div
             ref={searchRef}
             style={{
@@ -240,8 +274,8 @@ export default function Header({
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onFocus={() => setSearchOpen(true)}
-                placeholder=""
-                aria-label="Buscar ilustraciones"
+                placeholder={t("header.buscar")}
+                aria-label={t("header.buscar")}
                 style={{
                   border: "none",
                   outline: "none",
@@ -293,7 +327,7 @@ export default function Header({
               autoFocus
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Buscar ilustraciones..."
+              placeholder={t("header.buscar")}
               style={{
                 flex: 1,
                 border: "1px solid var(--border)",
@@ -327,7 +361,7 @@ export default function Header({
         </>
       )}
 
-      {/* MENÚ HAMBURGUESA MÓVIL UNIFICADO */}
+      {/* MENÚ HAMBURGUESA MÓVIL */}
       {isMobile && openPanel === "menu" && (
         <div
           style={{
@@ -345,7 +379,6 @@ export default function Header({
             borderBottom: "1px solid var(--border)",
           }}
         >
-          {/* Recursos */}
           <span
             onClick={() => handleNavClick("todas")}
             style={{
@@ -356,10 +389,9 @@ export default function Header({
               padding: "6px 0",
             }}
           >
-            Recursos
+            {t("hamburguesa.recursos")}
           </span>
 
-          {/* Filtros */}
           <span
             onClick={() => {
               setOpenPanel(null);
@@ -373,10 +405,9 @@ export default function Header({
               padding: "6px 0",
             }}
           >
-            Filtros
+            {t("hamburguesa.filtros")}
           </span>
 
-          {/* Favoritos */}
           <span
             onClick={() => {
               setOpenPanel(null);
@@ -390,10 +421,9 @@ export default function Header({
               padding: "6px 0",
             }}
           >
-            ⭐ Favoritos
+            ⭐ {t("hamburguesa.favoritos")}
           </span>
 
-          {/* Presentación */}
           <span
             onClick={() => {
               onContactClick();
@@ -407,10 +437,9 @@ export default function Header({
               padding: "6px 0",
             }}
           >
-            Presentación
+            {t("hamburguesa.presentacion")}
           </span>
 
-          {/* Contacto */}
           <span
             onClick={() => {
               onContactClick();
@@ -424,7 +453,7 @@ export default function Header({
               padding: "6px 0",
             }}
           >
-            Contacto
+            {t("hamburguesa.contacto")}
           </span>
         </div>
       )}

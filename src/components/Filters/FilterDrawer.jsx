@@ -3,21 +3,6 @@ import data from "../../data/portfolio.json";
 
 const { temas, tags, usos, tintas } = data.dicts;
 
-const GROUPS = [
-  { label: "Temas", items: temas, color: "#1e3a5f" },
-  { label: "Tags", items: tags, color: "var(--accent)" },
-  { label: "Usos", items: usos, color: "var(--bg-primary)" },
-  { label: "Tintas", items: tintas, color: "#6b5b3a" },
-];
-
-const TINTAS_LABELS = {
-  monocolor: "1 Tinta",
-  bicolor: "2 Tintas",
-  blanco_negro: "B/N",
-  escala_grises: "Grises",
-  multicolor: "Multicolor",
-};
-
 export default function FilterDrawer({
   isOpen,
   onClose,
@@ -25,11 +10,18 @@ export default function FilterDrawer({
   toggleFilter,
   clearFilters,
   isMobile,
+  t,
 }) {
-  const [openGroups, setOpenGroups] = useState(["Temas", "Tags", "Usos", "Tintas"]);
+  const GROUPS = [
+    { label: t("filtros.temas"), items: temas, color: "#1e3a5f", key: "temas" },
+    { label: t("filtros.tags"), items: tags, color: "var(--accent)", key: "tags" },
+    { label: t("filtros.usos"), items: usos, color: "var(--bg-primary)", key: "usos" },
+    { label: t("filtros.tintas"), items: tintas, color: "#6b5b3a", key: "tintas" },
+  ];
+
+  const [openGroups, setOpenGroups] = useState(["temas", "tags", "usos", "tintas"]);
   const drawerRef = useRef(null);
 
-  // Cerrar con Escape
   useEffect(() => {
     if (!isOpen) return;
     const handleKey = (e) => {
@@ -39,7 +31,6 @@ export default function FilterDrawer({
     return () => window.removeEventListener("keydown", handleKey);
   }, [isOpen, onClose]);
 
-  // Evitar scroll del body cuando está abierto en móvil
   useEffect(() => {
     if (isOpen && isMobile) {
       document.body.style.overflow = "hidden";
@@ -54,6 +45,13 @@ export default function FilterDrawer({
   if (!isOpen && !isMobile) return null;
 
   const activeCount = activeFilters.length;
+
+  const getItemLabel = (groupKey, item) => {
+    if (groupKey === "tintas") {
+      return t(`tintas.${item}`) || item;
+    }
+    return item;
+  };
 
   const content = (
     <div
@@ -77,43 +75,43 @@ export default function FilterDrawer({
         }}
       >
         <h3 style={{ margin: 0, fontSize: "16px", fontWeight: "600", color: "var(--text-primary)", display: "flex", alignItems: "center", gap: "8px" }}>
-  Filtros
-  {activeCount > 0 && (
-    <span style={{ fontSize: "12px", color: "var(--accent)", fontWeight: "500" }}>
-      ({activeCount})
-    </span>
-  )}
-  {activeCount > 0 && (
-    <button
-      onClick={clearFilters}
-      title="Quitar todos los filtros"
-      style={{
-        border: "none",
-        background: "transparent",
-        color: "var(--text-muted)",
-        fontSize: "14px",
-        cursor: "pointer",
-        padding: "2px 4px",
-        borderRadius: "4px",
-        transition: "all 0.15s ease",
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.color = "#e74c3c";
-        e.currentTarget.style.background = "#fef0f0";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.color = "var(--text-secondary)";
-        e.currentTarget.style.background = "transparent";
-      }}
-    >
-      🗑
-    </button>
-  )}
-</h3>
+          {t("filtros.label")}
+          {activeCount > 0 && (
+            <span style={{ fontSize: "12px", color: "var(--accent)", fontWeight: "500" }}>
+              ({activeCount})
+            </span>
+          )}
+          {activeCount > 0 && (
+            <button
+              onClick={clearFilters}
+              title={t("filtros.limpiar")}
+              style={{
+                border: "none",
+                background: "transparent",
+                color: "var(--text-muted)",
+                fontSize: "14px",
+                cursor: "pointer",
+                padding: "2px 4px",
+                borderRadius: "4px",
+                transition: "all 0.15s ease",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = "#e74c3c";
+                e.currentTarget.style.background = "#fef0f0";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = "var(--text-secondary)";
+                e.currentTarget.style.background = "transparent";
+              }}
+            >
+              🗑
+            </button>
+          )}
+        </h3>
 
-<button onClick={onClose} style={{ border: "none", background: "transparent", fontSize: "20px", cursor: "pointer", color: "var(--text-secondary)", padding: "4px" }}>
-  ✕
-</button>
+        <button onClick={onClose} style={{ border: "none", background: "transparent", fontSize: "20px", cursor: "pointer", color: "var(--text-secondary)", padding: "4px" }}>
+          ✕
+        </button>
       </div>
 
       {/* GRUPOS */}
@@ -125,20 +123,19 @@ export default function FilterDrawer({
         }}
       >
         {GROUPS.map((group) => {
-          const isGroupOpen = openGroups.includes(group.label);
+          const isGroupOpen = openGroups.includes(group.key);
           const activeInGroup = group.items.filter((item) =>
             activeFilters.includes(item)
           ).length;
 
           return (
-            <div key={group.label} style={{ marginBottom: "20px" }}>
-              {/* Título del grupo */}
+            <div key={group.key} style={{ marginBottom: "20px" }}>
               <button
                 onClick={() =>
                   setOpenGroups((prev) =>
-                    prev.includes(group.label)
-                      ? prev.filter((g) => g !== group.label)
-                      : [...prev, group.label]
+                    prev.includes(group.key)
+                      ? prev.filter((g) => g !== group.key)
+                      : [...prev, group.key]
                   )
                 }
                 style={{
@@ -184,7 +181,6 @@ export default function FilterDrawer({
                 </span>
               </button>
 
-              {/* Items del grupo */}
               <div
                 style={{
                   maxHeight: isGroupOpen ? "600px" : "0px",
@@ -203,7 +199,7 @@ export default function FilterDrawer({
                 >
                   {group.items.map((item) => {
                     const active = activeFilters.includes(item);
-                    const label = group.label === "Tintas" ? (TINTAS_LABELS[item] || item) : item;
+                    const label = getItemLabel(group.key, item);
                     return (
                       <span
                         key={item}
@@ -251,7 +247,6 @@ export default function FilterDrawer({
   if (isMobile) {
     return (
       <>
-        {/* Overlay */}
         {isOpen && (
           <div
             onClick={onClose}
@@ -265,7 +260,6 @@ export default function FilterDrawer({
           />
         )}
 
-        {/* Sheet */}
         <div
           style={{
             position: "fixed",
@@ -282,7 +276,6 @@ export default function FilterDrawer({
             boxShadow: "0 -8px 30px rgba(0,0,0,0.2)",
           }}
         >
-          {/* Handle */}
           <div
             style={{
               width: "36px",
@@ -301,7 +294,6 @@ export default function FilterDrawer({
   // ESCRITORIO: Drawer lateral
   return (
     <>
-      {/* Overlay */}
       {isOpen && (
         <div
           onClick={onClose}
@@ -314,7 +306,6 @@ export default function FilterDrawer({
         />
       )}
 
-      {/* Drawer */}
       <div
         style={{
           position: "fixed",

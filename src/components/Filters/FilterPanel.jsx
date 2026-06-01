@@ -10,6 +10,7 @@ export default function FilterPanel({
   lightboxOpen,
   favoritesCount,
   clearFavorites,
+  t,
 }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const isMobile = useIsMobile();
@@ -37,8 +38,6 @@ export default function FilterPanel({
         borderBottom: "1px solid #e5e5e5",
       }}
     >
-      
-      {/* Chips (solo Favoritos) */}
       <ChipsBar
         activeFilters={activeFilters}
         toggleFilter={toggleFilter}
@@ -48,9 +47,9 @@ export default function FilterPanel({
         favoritesCount={favoritesCount}
         filteredCount={filteredCount}
         onOpenDrawer={() => setDrawerOpen(true)}
+        t={t}
       />
 
-      {/* Drawer con todos los filtros */}
       <FilterDrawer
         isOpen={drawerOpen}
         onClose={() => setDrawerOpen(false)}
@@ -58,6 +57,7 @@ export default function FilterPanel({
         toggleFilter={toggleFilter}
         clearFilters={clearFilters}
         isMobile={isMobile}
+        t={t}
       />
     </div>
   );

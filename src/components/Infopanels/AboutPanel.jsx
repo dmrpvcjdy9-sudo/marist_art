@@ -6,18 +6,9 @@ export default function AboutPanel({
   hovered,
   onHover,
   onLeave,
+  t,
 }) {
-  const leftText = `
-Me llamo Arturo Morales, laico marista de Champagnat, y formo parte de la Provincia Marista Mediterránea.
-
-Además de mi tarea habitual (educador y catequista) a menudo suelo crear diseños e ilustraciones, o adaptarlos a formato digital, para lo propio de nuestras acciones pastorales, educativas, vocacionales, sociales y comunitarias. Trabajo con archivos vectoriales por su versatilidad.
-
-Este espacio tiene una finalidad sencilla: servir de repositorio de imágenes relacionadas con esas acciones, que se va actualizando. Son copias en PNG de los originales e incluye adaptaciones de ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá en el título y, si lo he localizado, citando el origen. Una mención especial merece C_Towers, amigo y artista nato de brocha y ceras.
-
-Todo el contenido se comparte bajo licencia Creative Commons BY-NC 4.0. (Consulta el aviso legal para más detalles), sin marcas de agua y descargable, esperando que sirva para inspirar o ayudar en vuestras tareas. Compártelo cuanto veas.
-
-Encantado de veros por aquí.
-`;
+  const aboutText = t("infopanels.aboutText");
 
   return (
     <div
@@ -41,7 +32,6 @@ Encantado de veros por aquí.
         flexDirection: "column",
       }}
     >
-      {/* TÍTULO */}
       <div
         style={{
           padding: "18px 20px 6px",
@@ -53,10 +43,9 @@ Encantado de veros por aquí.
           flexShrink: 0,
         }}
       >
-        Presentación
+        {t("infopanels.aboutTitle")}
       </div>
 
-      {/* CONTENIDO */}
       <div
         style={{
           padding: "0 20px 20px",
@@ -73,16 +62,14 @@ Encantado de veros por aquí.
         }}
       >
         {isOpen ? (
-          <>
-            {leftText.split("\n\n").map((p, i) => (
-              <p key={i} style={{ margin: "0 0 12px" }}>
-                {p}
-              </p>
-            ))}
-          </>
+          aboutText.split("\n\n").map((p, i) => (
+            <p key={i} style={{ margin: "0 0 12px" }}>
+              {p}
+            </p>
+          ))
         ) : (
           <div style={{ position: "relative" }}>
-            <span style={{ display: "block" }}>{leftText}</span>
+            <span style={{ display: "block" }}>{aboutText}</span>
             <div
               style={{
                 position: "absolute",

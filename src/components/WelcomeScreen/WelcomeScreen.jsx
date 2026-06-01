@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) {
+export default function WelcomeScreen({ isMobile, onVerTodas, t }) {
   return (
     <div
       style={{
@@ -16,7 +16,6 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
         color: "rgba(255,255,255,0.9)",
       }}
     >
-      {/* Imagen decorativa */}
       <div
         style={{
           flexShrink: 0,
@@ -32,7 +31,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
         }}
       >
         <img
-          src="/AMP.png"
+          src="/port.png"
           alt="Marist-Art"
           style={{
             width: "90%",
@@ -43,7 +42,6 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
         />
       </div>
 
-      {/* Texto y botones */}
       <div
         style={{
           display: "flex",
@@ -62,7 +60,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
             color: "var(--text-light)",
           }}
         >
-          Recursos gráficos con identidad marista
+          {t("welcome.title")}
         </h2>
 
         <p
@@ -75,15 +73,9 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
             whiteSpace: "pre-line",
           }}
         >
-          Esto es <strong>Marist-Art</strong>. Nada complicado (espero): 
-          un repositorio abierto de <strong>ilustraciones y diseños para la pastoral,
-          la educación y la comunidad</strong>. Tienes filtros, búsqueda, y la opción 
-          de marcar favoritos.
-          {"\n"}
-          Todo gratuito, descargable y libre para uso no comercial
-          . Además, algunos enlaces interesantes abajo.
-          {"\n"}
-          Si quieres comentar algo, o tienes sugerencias, no dudes en escribir. <strong>Bienvenidos</strong> todos.
+          {t("welcome.p1")}
+          {"\n\n"}
+          {t("welcome.p2")}
         </p>
 
         <div
@@ -115,7 +107,7 @@ export default function WelcomeScreen({ isMobile, onVerTodas, onAbrirFiltros }) 
               e.currentTarget.style.background = "rgba(255,255,255,0.1)";
             }}
           >
-            Ver todo
+            {t("welcome.button")}
           </button>
         </div>
       </div>
