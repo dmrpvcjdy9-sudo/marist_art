@@ -286,7 +286,7 @@ export default function Header({
                   fontSize: "13px",
                   width: "100%",
                   background: "transparent",
-                  color: "var(--text-primary)",
+                  color: query ? "var(--bg-surface)" : "var(--text-primary)",
                   fontFamily: "var(--font-primary)",
                   order: 3,
                 }}
