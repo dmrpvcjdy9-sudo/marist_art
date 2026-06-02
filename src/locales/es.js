@@ -59,7 +59,7 @@ export default {
 
 Además de mi tarea habitual (educador y catequista) a menudo suelo crear diseños e ilustraciones, o adaptarlos a formato digital, para lo propio de nuestras acciones pastorales, educativas, vocacionales, sociales y comunitarias.
 
-Esta web/app tiene una finalidad sencilla: servir de repositorio de imágenes que he podido ir creando o vectorizando, relacionadas con esos fines. Se incluyen adaptaciones de dibujos o ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá "adaptada" en el título y, siempre que lo haya encontrado, citando el autor de la imagen o fragmento adaptado. Una mención especial merece C_Towers, amigo y artista nato de brocha y ceras.
+Esta web/app tiene una finalidad sencilla: servir de repositorio de imágenes que he podido ir creando o vectorizando, relacionadas con esas finalidades. Se incluyen adaptaciones de dibujos o ilustraciones encontradas por la red o que han compartido conmigo. En esos casos, aparecerá "adaptada" en el título y, siempre que lo haya encontrado, citando el autor de la imagen o fragmento adaptado. Una mención especial merece C_Towers, amigo y artista nato de brocha y ceras.
 
 No es por tanto un estudio de diseño online ni una web de compras o marketing, ni siquiera una página personal como artista. Todo el contenido se comparte bajo licencia Creative Commons BY-NC 4.0. Consulta el aviso legal para más detalles.
 

@@ -15,13 +15,11 @@ export default function useLightbox(filtered, setSelected) {
 
   // Cerrar lightbox
   const closeLightbox = useCallback(() => {
-    setLightboxOpen(false);
-    setSelectedLocal(null);
-    setSelected(null);
-    setTimeout(() => {
-      window.scrollTo({ top: gridScrollRef.current });
-    }, 50);
-  }, [setSelected]);
+  setLightboxOpen(false);
+  setTimeout(() => {
+    window.scrollTo({ top: gridScrollRef.current });
+  }, 50);
+}, []);
 
   // Navegación
   const goNext = useCallback(() => {
