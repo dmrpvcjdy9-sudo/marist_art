@@ -1,33 +1,33 @@
-# Dependencias (NO subir)
+# Dependencias
 node_modules/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Archivos de sistema (NO subir)
+# Archivos de sistema
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# IDE (NO subir)
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Variables de entorno (NO subir - secretos)
+# Variables de entorno
 .env
 .env.local
-.env.production
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Logs (NO subir)
+# Logs
 logs/
 *.log
 
-# Build temporal (NO subir)
+# Build temporal
 dist/
 build/
 .cache/
-
-# Pero SÍ subir esto (lo que Git ya tenía antes)
-# Nota: Estos archivos ya están en el repo, no se pierden

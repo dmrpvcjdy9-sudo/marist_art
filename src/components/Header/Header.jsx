@@ -223,51 +223,55 @@ export default function Header({
           </>
         ) : (
           <div
-            ref={searchRef}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "6px",
-              border: "1px solid var(--border)",
-              borderRadius: "999px",
-              padding: "6px 10px",
-              background: "var(--bg-surface)",
-              width: searchOpen ? "180px" : "auto",
-              maxWidth: "50vw",
-              transition: "width 0.25s ease",
-              overflow: "hidden",
-            }}
-          >
+  ref={searchRef}
+  style={{
+    display: "flex",
+    alignItems: "center",
+    gap: "6px",
+    border: query
+      ? "1px solid var(--accent)"
+      : "1px solid var(--border)",
+    borderRadius: "999px",
+    padding: "6px 10px",
+    background: query
+      ? "var(--accent)"
+      : "var(--bg-surface)",
+    width: searchOpen ? "180px" : "auto",
+    maxWidth: "50vw",
+    transition: "width 0.25s ease, background 0.2s ease, border-color 0.2s ease",
+    overflow: "hidden",
+  }}
+>
             {query && (
-              <span
-                onClick={(e) => {
-                  e.preventDefault();
-                  setQuery("");
-                }}
-                style={{
-                  cursor: "pointer",
-                  color: "var(--text-muted)",
-                  fontSize: "13px",
-                  flexShrink: 0,
-                  order: 1,
-                }}
-              >
-                ✕
-              </span>
-            )}
+  <span
+    onClick={(e) => {
+      e.preventDefault();
+      setQuery("");
+    }}
+    style={{
+      cursor: "pointer",
+      color: query ? "var(--bg-surface)" : "var(--text-muted)",
+      fontSize: "13px",
+      flexShrink: 0,
+      order: 1,
+    }}
+  >
+    ✕
+  </span>
+)}
 
-            <span
-              onClick={() => setSearchOpen(!searchOpen)}
-              style={{
-                color: "var(--text-muted)",
-                cursor: "pointer",
-                flexShrink: 0,
-                fontSize: "14px",
-                order: 2,
-              }}
-            >
-              🔍
-            </span>
+<span
+  onClick={() => setSearchOpen(!searchOpen)}
+  style={{
+    color: query ? "var(--bg-surface)" : "var(--text-muted)",
+    cursor: "pointer",
+    flexShrink: 0,
+    fontSize: "14px",
+    order: 2,
+  }}
+>
+  🔍
+</span>
 
             {searchOpen && (
               <input

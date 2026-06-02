@@ -267,7 +267,7 @@ const handleVerTodo = () => {
         <Lightbox
   selected={lightboxSelected}
   isOpen={lightboxOpen}
-  onClose={closeLightbox}
+  onClose={() => setLightboxOpen(false)}
   onNext={goNext}
   onPrev={goPrev}
   isMobile={isMobile}
