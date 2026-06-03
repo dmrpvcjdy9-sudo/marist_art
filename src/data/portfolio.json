@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T22:23:12.469Z",
+  "generatedAt": "2026-06-03T15:01:20.214Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -1246,6 +1246,80 @@
       "destacado": true
     },
     {
+      "id": "ilu-0159",
+      "titulo": "Champagnat",
+      "titulo_en": "Champagnat",
+      "descripcion": "Estilo rotulador",
+      "descripcion_en": "Marker style",
+      "categoria": "ilustracion",
+      "subcategoria": "retrato",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0159",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          0
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Goyo_D"
+      },
+      "search": "ilu-0159 champagnat champagnat estilo rotulador marker style ilustracion retrato adaptado goyo_d monocolor champagnat sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0160",
+      "titulo": "M. Champagnat",
+      "titulo_en": "M. Champagnat",
+      "descripcion": "San Marcelino - XVI",
+      "descripcion_en": "Saint Marcellin - XVI",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0160",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          0
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Goyo_D"
+      },
+      "search": "ilu-0160 m. champagnat m. champagnat san marcelino - xvi saint marcellin - xvi ilustracion figura adaptado goyo_d monocolor champagnat sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0007",
       "titulo": "Tus raíces",
       "titulo_en": "Your roots",
@@ -1281,6 +1355,43 @@
         "basado_en": "Arturo_MP_Goyo_D"
       },
       "search": "dis-0007 tus raices your roots camiseta viaje a l´hermitage trip t-shirt to l’hermitage diseno texto original arturo_mp_goyo_d multicolor champagnat hermitage frase textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0100",
+      "titulo": "Tus raíces II",
+      "titulo_en": "Remember your Roots",
+      "descripcion": "Camiseta viaje a L´Hermitage",
+      "descripcion_en": "Trip t-shirt to L’Hermitage",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0100",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_Goyo_D"
+      },
+      "search": "dis-0100 tus raices ii remember your roots camiseta viaje a l´hermitage trip t-shirt to l’hermitage diseno texto adaptado arturo_mp_goyo_d multicolor maristas frase textil",
       "destacado": true
     },
     {
@@ -2476,6 +2587,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0162",
+      "titulo": "Las tres violetas - V",
+      "titulo_en": "The three violets - V",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0162",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0162 las tres violetas - v the three violets - v ilustracion escena adaptado c_towers multicolor violetas sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0105",
       "titulo": "Brindamos",
       "titulo_en": "We toast",
@@ -2511,6 +2659,43 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0105 brindamos we toast el vino nuevo the new wine ilustracion escena original arturo_mp monocolor violetas sin_fondo sticker taza",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0164",
+      "titulo": "Violeta con corazón",
+      "titulo_en": "Violet with heart",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0164",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_Arturo_MP"
+      },
+      "search": "ilu-0164 violeta con corazon violet with heart ilustracion escena adaptado c_towers_arturo_mp multicolor violetas sin_fondo sticker",
       "destacado": true
     },
     {
@@ -6965,6 +7150,82 @@
       "destacado": true
     },
     {
+      "id": "ilu-0157",
+      "titulo": "Haced vosotros lo mismo II",
+      "titulo_en": "Do the same yourselves II",
+      "descripcion": "Para cartel Cuaresma",
+      "descripcion_en": "For Lent poster",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0157",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4,
+          3
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0157 haced vosotros lo mismo ii do the same yourselves ii para cartel cuaresma for lent poster ilustracion escena adaptado arturo_mp_rrss monocolor evangelio sin_fondo minimalista sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0158",
+      "titulo": "Tiempo de Cuaresma",
+      "titulo_en": "Lent Season",
+      "descripcion": "Logo",
+      "descripcion_en": "Logo",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0158",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0158 tiempo de cuaresma lent season logo logo ilustracion escena original arturo_mp multicolor evangelio sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0115",
       "titulo": "Pasión",
       "titulo_en": "Passion",
@@ -8651,6 +8912,81 @@
       "destacado": true
     },
     {
+      "id": "ilu-0161",
+      "titulo": "Maristas TIC",
+      "titulo_en": "ICT Marists",
+      "descripcion": "Posible logo",
+      "descripcion_en": "Logo",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "bicolor",
+      "imagenes": {
+        "id": "ilu-0161",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Chano_GM"
+      },
+      "search": "ilu-0161 maristas tic ict marists posible logo logo ilustracion escena adaptado chano_gm bicolor educacion sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "dis-0099",
+      "titulo": "Gente con clase",
+      "titulo_en": "Class People",
+      "descripcion": "Estilo y misión",
+      "descripcion_en": "Style & Mission",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "bicolor",
+      "imagenes": {
+        "id": "dis-0099",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0099 gente con clase class people estilo y mision style & mission diseno texto original arturo_mp bicolor educacion frase textil",
+      "destacado": true
+    },
+    {
       "id": "ilu-0087",
       "titulo": "Piratilla",
       "titulo_en": "Little pirate",
@@ -9072,7 +9408,8 @@
       },
       "meta": {
         "temas": [
-          10
+          10,
+          2
         ],
         "tags": [],
         "usos": [
@@ -9086,7 +9423,45 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0090 campamento urbano huelva 2016 urban camp huelva 2016 camiseta nuevo horizonte 2026 (fmch) nuevo horizonte t-shirt 2026 (fmch) diseno escena original arturo_mp blanco_negro social textil",
+      "search": "dis-0090 campamento urbano huelva 2016 urban camp huelva 2016 camiseta nuevo horizonte 2026 (fmch) nuevo horizonte t-shirt 2026 (fmch) diseno escena original arturo_mp blanco_negro social educacion textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0101",
+      "titulo": "La felicidad",
+      "titulo_en": "Happiness",
+      "descripcion": "Para camiseta campaña SED Sevilla",
+      "descripcion_en": "For T-shirt  SED Seville",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0101",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10,
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0101 la felicidad happiness para camiseta campana sed sevilla for t-shirt  sed seville diseno texto original arturo_mp multicolor social educacion frase textil",
       "destacado": true
     },
     {
@@ -9233,6 +9608,43 @@
         "basado_en": "C_Towers"
       },
       "search": "dis-0097 dios en la ciudad god in the city poster poster diseno escena adaptado c_towers multicolor evangelio postal",
+      "destacado": true
+    },
+    {
+      "id": "dis-0098",
+      "titulo": "Cambio 200 años",
+      "titulo_en": "Change 200 years (spa)",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0098",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "dis-0098 cambio 200 anos change 200 years (spa) diseno texto original jarts multicolor maristas frase postal",
       "destacado": true
     },
     {
@@ -9406,6 +9818,41 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0148 olivo olive tree ilustracion escena original arturo_mp multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0163",
+      "titulo": "Un corazón, una misión II",
+      "titulo_en": "One heart, one mission II",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0163",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0163 un corazon, una mision ii one heart, one mission ii ilustracion escena original arturo_mp multicolor maristas postal",
       "destacado": true
     }
   ],
