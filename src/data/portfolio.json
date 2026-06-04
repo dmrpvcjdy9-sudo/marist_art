@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T09:33:04.264Z",
+  "generatedAt": "2026-06-04T19:46:17.075Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -252,8 +252,7 @@
           4
         ],
         "usos": [
-          5,
-          8
+          5
         ],
         "tintas": [
           4
@@ -263,7 +262,7 @@
         "origen": "adaptado",
         "basado_en": "maristas_esp"
       },
-      "search": "ilu-0007 a todas las diocesis ¿te apuntas? to all dioceses, will you join? en triptico vocacional in vocational triptych ilustracion retrato adaptado maristas_esp multicolor champagnat maristas vocacional sin_fondo sticker triptico",
+      "search": "ilu-0007 a todas las diocesis ¿te apuntas? to all dioceses, will you join? en triptico vocacional in vocational triptych ilustracion retrato adaptado maristas_esp multicolor champagnat maristas vocacional sin_fondo sticker",
       "destacado": true
     },
     {
@@ -4006,43 +4005,6 @@
       "destacado": true
     },
     {
-      "id": "ilu-0070",
-      "titulo": "Una chica con corazón",
-      "titulo_en": "A girl with heart",
-      "descripcion": "",
-      "descripcion_en": "",
-      "categoria": "ilustracion",
-      "subcategoria": "figura",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0070",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          3
-        ],
-        "tags": [
-          4
-        ],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "C_Towers"
-      },
-      "search": "ilu-0070 una chica con corazon a girl with heart ilustracion figura adaptado c_towers multicolor evangelio sin_fondo sticker",
-      "destacado": true
-    },
-    {
       "id": "ilu-0075",
       "titulo": "Quien no ama…",
       "titulo_en": "Who does not love…",
@@ -4120,6 +4082,45 @@
       "destacado": true
     },
     {
+      "id": "ilu-0084",
+      "titulo": "Elegir y compartir",
+      "titulo_en": "Choose and share",
+      "descripcion": "Para orientación profesional y vocacional",
+      "descripcion_en": "For professional and vocational guidance",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0084",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          12
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          4
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0084 elegir y compartir choose and share para orientacion profesional y vocacional for professional and vocational guidance ilustracion figura adaptado arturo_mp_rrss monocolor educacion vocacional sin_fondo sticker rrss",
+      "destacado": true
+    },
+    {
       "id": "ilu-0077",
       "titulo": "Tras sus pasos",
       "titulo_en": "In his footsteps",
@@ -4155,6 +4156,43 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0077 tras sus pasos in his footsteps seguimiento follow-up ilustracion escena original arturo_mp multicolor evangelio vocacional sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0070",
+      "titulo": "Una chica con corazón",
+      "titulo_en": "A girl with heart",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0070",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0070 una chica con corazon a girl with heart ilustracion figura adaptado c_towers multicolor evangelio sin_fondo sticker",
       "destacado": true
     },
     {
@@ -6138,6 +6176,156 @@
       "destacado": true
     },
     {
+      "id": "ilu-0183",
+      "titulo": "GVX Verano 2025 (frontal)",
+      "titulo_en": "GVX Summer 2025 (front)",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0183",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          7
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0183 gvx verano 2025 (frontal) gvx summer 2025 (front) ilustracion escena original arturo_mp_provmediterranea multicolor gvx sin_fondo sticker textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0184",
+      "titulo": "GVX Verano 2025",
+      "titulo_en": "GVX Summer 2025",
+      "descripcion": "Camiseta Da Vida 2025 (espalda)",
+      "descripcion_en": "Give Life t-shirt 2025 (back)",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0184",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          7
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Prov_Mediterranea"
+      },
+      "search": "ilu-0184 gvx verano 2025 gvx summer 2025 camiseta da vida 2025 (espalda) give life t-shirt 2025 (back) ilustracion texto original arturo_mp_prov_mediterranea multicolor gvx sin_fondo sticker textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0104",
+      "titulo": "GVX Pascua 2026 (frontal)",
+      "titulo_en": "GVX Easter 2026 (front)",
+      "descripcion": "Camiseta Quédate…",
+      "descripcion_en": "Stay with us T-shirt",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "dis-0104",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0104 gvx pascua 2026 (frontal) gvx easter 2026 (front) camiseta quedate… stay with us t-shirt diseno escena original arturo_mp_provmediterranea monocolor gvx logo textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0105",
+      "titulo": "GVX Pascua 2026 (espalda)",
+      "titulo_en": "GVX Easter 2026 (back)",
+      "descripcion": "Camiseta Quédate…",
+      "descripcion_en": "Stay with us T-shirt",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "dis-0105",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0105 gvx pascua 2026 (espalda) gvx easter 2026 (back) camiseta quedate… stay with us t-shirt diseno texto original arturo_mp_provmediterranea monocolor gvx frase textil",
+      "destacado": true
+    },
+    {
       "id": "ilu-0061",
       "titulo": "Atardece",
       "titulo_en": "Night falls",
@@ -6327,6 +6515,42 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0046 vayamos al fondo let us go deeper para convivencia marcha gvx ii for fraternal gatherings ii (marcha gvx) ilustracion escena original arturo_mp multicolor gvx sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "dis-0102",
+      "titulo": "Carta Marist´s Up",
+      "titulo_en": "Marist´s Up Card",
+      "descripcion": "Para juego",
+      "descripcion_en": "For a game",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0102",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Pichi"
+      },
+      "search": "dis-0102 carta marist´s up marist´s up card para juego for a game diseno texto original arturo_mp_pichi multicolor social maristas postal",
       "destacado": true
     },
     {
@@ -8155,45 +8379,6 @@
       "destacado": true
     },
     {
-      "id": "ilu-0084",
-      "titulo": "Elegir y compartir",
-      "titulo_en": "Choose and share",
-      "descripcion": "Para orientación profesional y vocacional",
-      "descripcion_en": "For professional and vocational guidance",
-      "categoria": "ilustracion",
-      "subcategoria": "figura",
-      "color": "monocolor",
-      "imagenes": {
-        "id": "ilu-0084",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          2,
-          12
-        ],
-        "tags": [
-          4
-        ],
-        "usos": [
-          5,
-          4
-        ],
-        "tintas": [
-          3
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "Arturo_MP_RRSS"
-      },
-      "search": "ilu-0084 elegir y compartir choose and share para orientacion profesional y vocacional for professional and vocational guidance ilustracion figura adaptado arturo_mp_rrss monocolor educacion vocacional sin_fondo sticker rrss",
-      "destacado": true
-    },
-    {
       "id": "ilu-0085",
       "titulo": "Diálogo",
       "titulo_en": "Dialogue",
@@ -8379,42 +8564,6 @@
         "basado_en": "C_Towers_Arturo_MP"
       },
       "search": "ilu-0175 paloma de la paz ii peace dove ii ilustracion escena adaptado c_towers_arturo_mp multicolor paz sin_fondo sticker",
-      "destacado": true
-    },
-    {
-      "id": "dis-0079",
-      "titulo": "Maristas Champions",
-      "titulo_en": "Marists Champions",
-      "descripcion": "Camiseta Voluntarios",
-      "descripcion_en": "Volunteer t-shirt",
-      "categoria": "diseno",
-      "subcategoria": "texto",
-      "color": "blanco_negro",
-      "imagenes": {
-        "id": "dis-0079",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          2,
-          10
-        ],
-        "tags": [],
-        "usos": [
-          7
-        ],
-        "tintas": [
-          1
-        ]
-      },
-      "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP"
-      },
-      "search": "dis-0079 maristas champions marists champions camiseta voluntarios volunteer t-shirt diseno texto original arturo_mp blanco_negro educacion social textil",
       "destacado": true
     },
     {
@@ -9127,6 +9276,41 @@
       "destacado": true
     },
     {
+      "id": "ilu-0182",
+      "titulo": "Avión de papel II",
+      "titulo_en": "Paper airplane II",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0182",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0182 avion de papel ii paper airplane ii ilustracion escena original arturo_mp multicolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0081",
       "titulo": "Barco de papel",
       "titulo_en": "Paper boat",
@@ -9532,6 +9716,42 @@
         "basado_en": "Arturo_MP"
       },
       "search": "dis-0089 piensa y actua think and act camiseta sed sed t-shirt diseno escena original arturo_mp blanco_negro educacion social textil sticker",
+      "destacado": true
+    },
+    {
+      "id": "dis-0079",
+      "titulo": "Maristas Champions",
+      "titulo_en": "Marists Champions",
+      "descripcion": "Camiseta Voluntarios",
+      "descripcion_en": "Volunteer t-shirt",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "dis-0079",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0079 maristas champions marists champions camiseta voluntarios volunteer t-shirt diseno texto original arturo_mp blanco_negro educacion social textil",
       "destacado": true
     },
     {
@@ -10296,42 +10516,6 @@
       "destacado": true
     },
     {
-      "id": "dis-0102",
-      "titulo": "Carta Marist´s Up",
-      "titulo_en": "Marist´s Up Card",
-      "descripcion": "Para juego",
-      "descripcion_en": "For a game",
-      "categoria": "diseno",
-      "subcategoria": "texto",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "dis-0102",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          10,
-          8
-        ],
-        "tags": [],
-        "usos": [
-          3
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP_Pichi"
-      },
-      "search": "dis-0102 carta marist´s up marist´s up card para juego for a game diseno texto original arturo_mp_pichi multicolor social maristas postal",
-      "destacado": true
-    },
-    {
       "id": "dis-0056",
       "titulo": "Marcha Toledo",
       "titulo_en": "MarCha Toledo",
@@ -10472,6 +10656,77 @@
       },
       "search": "dis-0037 ¿que tal tu amor? how is your love? vineta cartoon diseno escena original arturo_mp blanco_negro evangelio postal",
       "destacado": true
+    },
+    {
+      "id": "ilu-0180",
+      "titulo": "On?",
+      "titulo_en": "On?",
+      "descripcion": "Enciende el corazón",
+      "descripcion_en": "Heart On",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0180",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0180 on? on? enciende el corazon heart on ilustracion escena original arturo_mp multicolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0181",
+      "titulo": "Comunicando",
+      "titulo_en": "Comunication",
+      "descripcion": "Diálogo mediado",
+      "descripcion_en": "Dialogue",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0181",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          3
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0181 comunicando comunication dialogo mediado dialogue ilustracion figura adaptado arturo_mp_rrss monocolor educacion evangelio sticker",
+      "destacado": true
     }
   ],
   "dicts": {
@@ -10505,8 +10760,7 @@
       "rrss",
       "sticker",
       "taza",
-      "textil",
-      "triptico"
+      "textil"
     ],
     "tintas": [
       "bicolor",
