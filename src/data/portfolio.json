@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T15:01:20.214Z",
+  "generatedAt": "2026-06-04T09:00:00.685Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -2291,6 +2291,191 @@
       "destacado": true
     },
     {
+      "id": "ilu-0172",
+      "titulo": "Silueta Buena Madre",
+      "titulo_en": "Good Mother",
+      "descripcion": "Estilo rotulador",
+      "descripcion_en": "Marker style",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0172",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          7
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "A_Gil"
+      },
+      "search": "ilu-0172 silueta buena madre good mother estilo rotulador marker style ilustracion figura adaptado a_gil multicolor maria sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0167",
+      "titulo": "María Buena Madre",
+      "titulo_en": "Mary, Good Mother",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0167",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          7
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0167 maria buena madre mary, good mother ilustracion figura original arturo_mp monocolor maria sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0174",
+      "titulo": "María madre",
+      "titulo_en": "Mother Mary",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0174",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          7
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0174 maria madre mother mary ilustracion figura original arturo_mp multicolor maria sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0170",
+      "titulo": "San José",
+      "titulo_en": "Saint Joseph",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0170",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0170 san jose saint joseph ilustracion figura adaptado arturo_mp_rrss multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0171",
+      "titulo": "Las 3 violetas",
+      "titulo_en": "The 3 violets",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "ilu-0171",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "FMS"
+      },
+      "search": "ilu-0171 las 3 violetas the 3 violets ilustracion escena adaptado fms blanco_negro violetas sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0033",
       "titulo": "Las tres Violetas - I",
       "titulo_en": "The three Violets - I",
@@ -3062,6 +3247,43 @@
         "basado_en": "Arturo_MP_maristas_USA"
       },
       "search": "dis-0043 the home of mary the home of mary camiseta campana sevilla 2015 seville campaign t-shirt 2015 diseno texto adaptado arturo_mp_maristas_usa monocolor maristas maria frase textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0173",
+      "titulo": "Maristes",
+      "titulo_en": "Maristes",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0173",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0173 maristes maristes ilustracion texto original arturo_mp multicolor maristas sin_fondo sticker",
       "destacado": true
     },
     {
@@ -5070,6 +5292,41 @@
       "destacado": true
     },
     {
+      "id": "ilu-0179",
+      "titulo": "35 años GVX",
+      "titulo_en": "GVX 35 years",
+      "descripcion": "Volver al origen para empezar de nuevo",
+      "descripcion_en": "Return to the origin to start again",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0179",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0179 35 anos gvx gvx 35 years volver al origen para empezar de nuevo return to the origin to start again ilustracion texto adaptado c_towers multicolor gvx postal",
+      "destacado": true
+    },
+    {
       "id": "dis-0050",
       "titulo": "GVX Verano 2017",
       "titulo_en": "GVX Summer 2017",
@@ -6432,6 +6689,42 @@
         "basado_en": "Arturo_MP"
       },
       "search": "dis-0085 occupiamo il futuro let’s occupy the future para asamblea zona italia for italy zone assembly diseno escena original arturo_mp multicolor maristas educacion logo textil sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0165",
+      "titulo": "Atención a la Diversidad",
+      "titulo_en": "Diversity Care",
+      "descripcion": "Para formación RRHH Mediterránea",
+      "descripcion_en": "For HR Mediterranean training",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0165",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10,
+          2
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0165 atencion a la diversidad diversity care para formacion rrhh mediterranea for hr mediterranean training ilustracion texto original arturo_mp multicolor social educacion postal",
       "destacado": true
     },
     {
@@ -8353,6 +8646,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0175",
+      "titulo": "Paloma de la paz II",
+      "titulo_en": "Peace Dove II",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0175",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          9
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_Arturo_MP"
+      },
+      "search": "ilu-0175 paloma de la paz ii peace dove ii ilustracion escena adaptado c_towers_arturo_mp multicolor paz sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0077",
       "titulo": "En lo secreto",
       "titulo_en": "In secret",
@@ -8984,6 +9314,42 @@
         "basado_en": "Arturo_MP"
       },
       "search": "dis-0099 gente con clase class people estilo y mision style & mission diseno texto original arturo_mp bicolor educacion frase textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0178",
+      "titulo": "Fuerte",
+      "titulo_en": "Strong",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0178",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0178 fuerte strong ilustracion escena original arturo_mp multicolor educacion social postal",
       "destacado": true
     },
     {
@@ -9648,6 +10014,42 @@
       "destacado": true
     },
     {
+      "id": "ilu-0166",
+      "titulo": "Educar para la Solidaridad",
+      "titulo_en": "Solidarity Education",
+      "descripcion": "Para formación RRHH Mediterránea",
+      "descripcion_en": "For HR Mediterranean training",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0166",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10,
+          2
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0166 educar para la solidaridad solidarity education para formacion rrhh mediterranea for hr mediterranean training ilustracion texto original arturo_mp multicolor social educacion postal",
+      "destacado": true
+    },
+    {
       "id": "dis-0056",
       "titulo": "Marcha Toledo",
       "titulo_en": "MarCha Toledo",
@@ -9853,6 +10255,222 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0163 un corazon, una mision ii one heart, one mission ii ilustracion escena original arturo_mp multicolor maristas postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0168",
+      "titulo": "Black Power",
+      "titulo_en": "Black Power",
+      "descripcion": "#Soy la 100 III",
+      "descripcion_en": "#IAmThe100 III",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0168",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0168 black power black power #soy la 100 iii #iamthe100 iii ilustracion texto original arturo_mp multicolor evangelio postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0169",
+      "titulo": "Ta zón",
+      "titulo_en": "Ta zón",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0169",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "RRSS"
+      },
+      "search": "ilu-0169 ta zon ta zon ilustracion escena adaptado rrss multicolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0176",
+      "titulo": "Radio Marista FM",
+      "titulo_en": "Marist Radio FM",
+      "descripcion": "Posible logo",
+      "descripcion_en": "Possible Logo",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0176",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0176 radio marista fm marist radio fm posible logo possible logo ilustracion texto original arturo_mp multicolor maristas postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0177",
+      "titulo": "A Emaús",
+      "titulo_en": "To Emaus",
+      "descripcion": "El camino",
+      "descripcion_en": "The path",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "ilu-0177",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "RRSS"
+      },
+      "search": "ilu-0177 a emaus to emaus el camino the path ilustracion figura adaptado rrss blanco_negro evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "dis-0102",
+      "titulo": "Carta Marist´s Up",
+      "titulo_en": "Marist´s Up Card",
+      "descripcion": "Para juego",
+      "descripcion_en": "For a game",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0102",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10,
+          8
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Pichi"
+      },
+      "search": "dis-0102 carta marist´s up marist´s up card para juego for a game diseno texto original arturo_mp_pichi multicolor social maristas postal",
+      "destacado": true
+    },
+    {
+      "id": "dis-0103",
+      "titulo": "GIX",
+      "titulo_en": "GIX",
+      "descripcion": "Grupos de Iniciación Cristiana",
+      "descripcion_en": "First Announce Groups",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0103",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4,
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "A_Gil_Arturo_MP"
+      },
+      "search": "dis-0103 gix gix grupos de iniciacion cristiana first announce groups diseno texto original a_gil_arturo_mp multicolor gvx evangelio sin_fondo sticker",
       "destacado": true
     }
   ],
