@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import ChipsBar from "./ChipsBar";
 import FilterDrawer from "./FilterDrawer";
 import useIsMobile from "../../hooks/useIsMobile";
@@ -10,14 +10,15 @@ export default function FilterPanel({
   lightboxOpen,
   favoritesCount,
   clearFavorites,
+  drawerOpen,
+  setDrawerOpen,
   t,
 }) {
-  const [drawerOpen, setDrawerOpen] = useState(false);
   const isMobile = useIsMobile();
 
   useEffect(() => {
     if (lightboxOpen) setDrawerOpen(false);
-  }, [lightboxOpen]);
+  }, [lightboxOpen, setDrawerOpen]);
 
   const toggleFilter = (filter) => {
     setActiveFilters((prev) =>

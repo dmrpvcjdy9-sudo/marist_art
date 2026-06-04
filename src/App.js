@@ -55,6 +55,7 @@ const items = rawItems.map((item) => {
 export default function Portfolio() {
   /* UI STATE */
   const [hovered, setHovered] = useState(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const isMobile = useIsMobile();
   const { lang, t, toggleLang } = useLanguage();
   const { favorites, toggleFavorite, isFavorite, clearFavorites } = useFavorites();
@@ -189,8 +190,12 @@ const handleVerTodo = () => {
           onVerTodo={handleVerTodo}
           t={t}
           lang={lang}
-          toggleLang={toggleLang}
-        />
+          toggleLang={toggleLang}onOpenDrawer={() => setDrawerOpen(true)}
+          onShowFavorites={() => {
+          setFilters(["__favoritos__"]);
+          setShowGrid(true);
+     }}
+       />
         {effectiveHasActiveSearch && (
         <FilterPanel
   activeFilters={filters}
@@ -199,6 +204,8 @@ const handleVerTodo = () => {
   lightboxOpen={lightboxOpen}
   favoritesCount={favorites.length}
   clearFavorites={clearFavorites}
+  drawerOpen={drawerOpen}
+  setDrawerOpen={setDrawerOpen}
   t={t}
 />
         )}
