@@ -299,6 +299,7 @@ const handleVerTodo = () => {
   t={t}
 />
       </div>
+      <Analytics />
     </HelmetProvider>
   );
 }
