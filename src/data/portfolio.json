@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T08:50:46.416Z",
+  "generatedAt": "2026-06-05T08:54:57.892Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -77,6 +77,157 @@
         "basado_en": "FMS"
       },
       "search": "ilu-0002 firmado champagnat signed: champagnat firma de champagnat champagnat signature ilustracion texto original fms blanco_negro champagnat maristas sin_fondo firma sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0034",
+      "titulo": "M. Champagnat",
+      "titulo_en": "M. Champagnat",
+      "descripcion": "Marcelino joven con violetas",
+      "descripcion_en": "Young Marcellin with violets",
+      "categoria": "ilustracion",
+      "subcategoria": "retrato",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0034",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          11
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0034 m. champagnat m. champagnat marcelino joven con violetas young marcellin with violets ilustracion retrato original arturo_mp multicolor champagnat maristas violetas postal",
+      "destacado": true
+    },
+    {
+      "id": "dis-0008",
+      "titulo": "Centenario",
+      "titulo_en": "Centenary Spain",
+      "descripcion": "Parte cartel 100 años ESP vectorizado",
+      "descripcion_en": "Part poster 100 years ESP vectorized",
+      "categoria": "diseno",
+      "subcategoria": "retrato",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0008",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          0,
+          8
+        ],
+        "tags": [
+          0
+        ],
+        "usos": [
+          0,
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Goyo_D"
+      },
+      "search": "dis-0008 centenario centenary spain parte cartel 100 anos esp vectorizado part poster 100 years esp vectorized diseno retrato adaptado goyo_d multicolor champagnat maristas firma cartel postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0117",
+      "titulo": "San Marcelino Champagnat",
+      "titulo_en": "Saint Marcellin Champagnat",
+      "descripcion": "Marcelino con niños (Color)",
+      "descripcion_en": "Marcellin with children (Color)",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0117",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          0,
+          5
+        ],
+        "tags": [],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0117 san marcelino champagnat saint marcellin champagnat marcelino con ninos (color) marcellin with children (color) ilustracion figura adaptado c_towers multicolor champagnat hermitage sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0007",
+      "titulo": "A todas las diócesis ¿Te apuntas?",
+      "titulo_en": "To all dioceses, will you join?",
+      "descripcion": "En Tríptico Vocacional",
+      "descripcion_en": "In Vocational Triptych",
+      "categoria": "ilustracion",
+      "subcategoria": "retrato",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0007",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          0,
+          8,
+          12
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "maristas_esp"
+      },
+      "search": "ilu-0007 a todas las diocesis ¿te apuntas? to all dioceses, will you join? en triptico vocacional in vocational triptych ilustracion retrato adaptado maristas_esp multicolor champagnat maristas vocacional sin_fondo sticker",
       "destacado": true
     },
     {
@@ -224,45 +375,6 @@
         "basado_en": "C_Towers"
       },
       "search": "ilu-0006 con champagnat with champagnat marcelino con ninos - i (bn) marcellin with children - i (bn) ilustracion escena adaptado c_towers blanco_negro champagnat maristas infantil colorear",
-      "destacado": true
-    },
-    {
-      "id": "ilu-0007",
-      "titulo": "A todas las diócesis ¿Te apuntas?",
-      "titulo_en": "To all dioceses, will you join?",
-      "descripcion": "En Tríptico Vocacional",
-      "descripcion_en": "In Vocational Triptych",
-      "categoria": "ilustracion",
-      "subcategoria": "retrato",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0007",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          0,
-          8,
-          12
-        ],
-        "tags": [
-          4
-        ],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "maristas_esp"
-      },
-      "search": "ilu-0007 a todas las diocesis ¿te apuntas? to all dioceses, will you join? en triptico vocacional in vocational triptych ilustracion retrato adaptado maristas_esp multicolor champagnat maristas vocacional sin_fondo sticker",
       "destacado": true
     },
     {
@@ -874,43 +986,6 @@
       "destacado": true
     },
     {
-      "id": "ilu-0034",
-      "titulo": "M. Champagnat",
-      "titulo_en": "M. Champagnat",
-      "descripcion": "Marcelino joven con violetas",
-      "descripcion_en": "Young Marcellin with violets",
-      "categoria": "ilustracion",
-      "subcategoria": "retrato",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0034",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          0,
-          8,
-          11
-        ],
-        "tags": [],
-        "usos": [
-          3
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP"
-      },
-      "search": "ilu-0034 m. champagnat m. champagnat marcelino joven con violetas young marcellin with violets ilustracion retrato original arturo_mp multicolor champagnat maristas violetas postal",
-      "destacado": true
-    },
-    {
       "id": "ilu-0058",
       "titulo": "Champagnat 2000+",
       "titulo_en": "Champagnat 2000+",
@@ -1024,45 +1099,6 @@
       "destacado": true
     },
     {
-      "id": "dis-0008",
-      "titulo": "Centenario",
-      "titulo_en": "Centenary Spain",
-      "descripcion": "Parte cartel 100 años ESP vectorizado",
-      "descripcion_en": "Part poster 100 years ESP vectorized",
-      "categoria": "diseno",
-      "subcategoria": "retrato",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "dis-0008",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          0,
-          8
-        ],
-        "tags": [
-          0
-        ],
-        "usos": [
-          0,
-          3
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "Goyo_D"
-      },
-      "search": "dis-0008 centenario centenary spain parte cartel 100 anos esp vectorizado part poster 100 years esp vectorized diseno retrato adaptado goyo_d multicolor champagnat maristas firma cartel postal",
-      "destacado": true
-    },
-    {
       "id": "ilu-0097",
       "titulo": "M. Champagnat",
       "titulo_en": "M. Champagnat",
@@ -1096,42 +1132,6 @@
         "basado_en": "Goyo_D"
       },
       "search": "ilu-0097 m. champagnat m. champagnat de dibujos goyo d from goyo d drawings ilustracion figura adaptado goyo_d monocolor champagnat maristas sticker",
-      "destacado": true
-    },
-    {
-      "id": "ilu-0117",
-      "titulo": "San Marcelino Champagnat",
-      "titulo_en": "Saint Marcellin Champagnat",
-      "descripcion": "Marcelino con niños (Color)",
-      "descripcion_en": "Marcellin with children (Color)",
-      "categoria": "ilustracion",
-      "subcategoria": "figura",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0117",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          0,
-          5
-        ],
-        "tags": [],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "C_Towers"
-      },
-      "search": "ilu-0117 san marcelino champagnat saint marcellin champagnat marcelino con ninos (color) marcellin with children (color) ilustracion figura adaptado c_towers multicolor champagnat hermitage sticker",
       "destacado": true
     },
     {
