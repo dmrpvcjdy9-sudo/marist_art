@@ -46,13 +46,6 @@ export default function FilterDrawer({
 
   const activeCount = activeFilters.length;
 
-  const getItemLabel = (groupKey, item) => {
-    if (groupKey === "tintas") {
-      return t(`tintas.${item}`) || item;
-    }
-    return item;
-  };
-
   const content = (
     <div
       ref={drawerRef}
@@ -198,11 +191,9 @@ export default function FilterDrawer({
                   }}
                 >
                   {group.items.map((item) => {
-                    const active = activeFilters.includes(item);
-                    const getItemLabel = (groupKey, item) => {
-  return t(`filtros.labels.${groupKey}.${item}`) || item;
-};
-                    return (
+  const active = activeFilters.includes(item);
+  const label = t(`filtros.labels.${group.key}.${item}`) || item;
+  return (
                       <span
                         key={item}
                         onClick={() => toggleFilter(item)}
