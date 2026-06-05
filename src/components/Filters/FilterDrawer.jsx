@@ -199,7 +199,9 @@ export default function FilterDrawer({
                 >
                   {group.items.map((item) => {
                     const active = activeFilters.includes(item);
-                    const label = getItemLabel(group.key, item);
+                    const getItemLabel = (groupKey, item) => {
+  return t(`filtros.labels.${groupKey}.${item}`) || item;
+};
                     return (
                       <span
                         key={item}
