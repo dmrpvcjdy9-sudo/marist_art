@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T19:46:17.075Z",
+  "generatedAt": "2026-06-05T08:50:46.416Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -497,10 +497,10 @@
       "id": "ilu-0014",
       "titulo": "Champagnat y L´Hermitage",
       "titulo_en": "Champagnat and L’Hermitage",
-      "descripcion": "Marcelino Fundador (pastoral Chile)",
-      "descripcion_en": "Marcellin Founder (Chile pastoral)",
+      "descripcion": "Marcelino Fundador (America Central)",
+      "descripcion_en": "Marcellin Founder (America Central)",
       "categoria": "ilustracion",
-      "subcategoria": "escena",
+      "subcategoria": "figura",
       "color": "multicolor",
       "imagenes": {
         "id": "ilu-0014",
@@ -527,9 +527,9 @@
       },
       "creditos": {
         "origen": "adaptado",
-        "basado_en": "PxM_maristas_chile"
+        "basado_en": "PxMolina_maristas_AmericaCentral"
       },
-      "search": "ilu-0014 champagnat y l´hermitage champagnat and l’hermitage marcelino fundador (pastoral chile) marcellin founder (chile pastoral) ilustracion escena adaptado pxm_maristas_chile multicolor champagnat vocacional hermitage firma cartel",
+      "search": "ilu-0014 champagnat y l´hermitage champagnat and l’hermitage marcelino fundador (america central) marcellin founder (america central) ilustracion figura adaptado pxmolina_maristas_americacentral multicolor champagnat vocacional hermitage firma cartel",
       "destacado": true
     },
     {

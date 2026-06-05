@@ -20,6 +20,7 @@ import WelcomeScreen from "./components/WelcomeScreen/WelcomeScreen";
 import useFavorites from "./hooks/useFavorites";
 import data from "./data/portfolio.json";
 import useLanguage from "./hooks/useLanguage";
+import { Analytics } from "@vercel/analytics/react";
 
 /* =========================
    DATA PREPARATION
