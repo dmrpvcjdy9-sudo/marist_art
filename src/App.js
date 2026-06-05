@@ -191,7 +191,8 @@ const handleVerTodo = () => {
           onVerTodo={handleVerTodo}
           t={t}
           lang={lang}
-          toggleLang={toggleLang}onOpenDrawer={() => setDrawerOpen(true)}
+          toggleLang={toggleLang}
+          onOpenDrawer={() => setDrawerOpen(true)}
           onShowFavorites={() => {
           setFilters(["__favoritos__"]);
           setShowGrid(true);
