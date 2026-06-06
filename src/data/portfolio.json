@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T08:54:57.892Z",
+  "generatedAt": "2026-06-06T13:47:33.083Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -1316,6 +1316,43 @@
         "basado_en": "Goyo_D"
       },
       "search": "ilu-0160 m. champagnat m. champagnat san marcelino - xvi saint marcellin - xvi ilustracion figura adaptado goyo_d monocolor champagnat sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0196",
+      "titulo": "Sticker Champagnat",
+      "titulo_en": "Champagnat sticker",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0196",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          0
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_ RRSS"
+      },
+      "search": "ilu-0196 sticker champagnat champagnat sticker ilustracion figura adaptado arturo_mp_ rrss multicolor champagnat sin_fondo sticker",
       "destacado": true
     },
     {
@@ -4976,6 +5013,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0190",
+      "titulo": "Verano GVX 1988",
+      "titulo_en": "GVX Summer 1988",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "ilu-0190",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "A_Arroyo"
+      },
+      "search": "ilu-0190 verano gvx 1988 gvx summer 1988 ilustracion texto adaptado a_arroyo blanco_negro gvx sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0066",
       "titulo": "GVX 25 aniversario 2007",
       "titulo_en": "GVX 25th anniversary 2007",
@@ -5044,6 +5118,43 @@
         "basado_en": "Arturo_MP"
       },
       "search": "dis-0032 gvx sevilla 2007 gvx seville 2007 camiseta gvx sal salt  t-shirt gvx diseno escena original arturo_mp blanco_negro gvx evangelio textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0191",
+      "titulo": "Ser sal GVX",
+      "titulo_en": "To be salt GVX",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "escala_grises",
+      "imagenes": {
+        "id": "ilu-0191",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          2
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0191 ser sal gvx to be salt gvx ilustracion escena original arturo_mp escala_grises gvx sin_fondo sticker",
       "destacado": true
     },
     {
@@ -5157,6 +5268,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0194",
+      "titulo": "Da Vita (ita)",
+      "titulo_en": "Da Vita",
+      "descripcion": "Para camiseta GVX verano 2014",
+      "descripcion_en": "For GVX t-shirt summer 2014",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0194",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0194 da vita (ita) da vita para camiseta gvx verano 2014 for gvx t-shirt summer 2014 ilustracion texto original arturo_mp_ provmediterranea monocolor gvx sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0013",
       "titulo": "GVX Pascua 2015",
       "titulo_en": "GVX Easter 2015",
@@ -5194,10 +5342,47 @@
       "destacado": true
     },
     {
+      "id": "ilu-0188",
+      "titulo": "Triunfa la Vida",
+      "titulo_en": "Life wins",
+      "descripcion": "Para camiseta Pascua GVX 2015",
+      "descripcion_en": "For Easter t-shirt GVX 2015",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0188",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0188 triunfa la vida life wins para camiseta pascua gvx 2015 for easter t-shirt gvx 2015 ilustracion texto original arturo_mp_ provmediterranea monocolor gvx sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0014",
       "titulo": "GVX Verano 2015",
       "titulo_en": "GVX Summer 2015",
-      "descripcion": "Camiseta de grupos 2015",
+      "descripcion": "Camiseta degrupos 2015",
       "descripcion_en": "Group t-shirt 2015",
       "categoria": "diseno",
       "subcategoria": "texto",
@@ -5225,7 +5410,42 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
-      "search": "dis-0014 gvx verano 2015 gvx summer 2015 camiseta de grupos 2015 group t-shirt 2015 diseno texto original arturo_mp_provmediterranea multicolor gvx textil",
+      "search": "dis-0014 gvx verano 2015 gvx summer 2015 camiseta degrupos 2015 group t-shirt 2015 diseno texto original arturo_mp_provmediterranea multicolor gvx textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0185",
+      "titulo": "degrupos",
+      "titulo_en": "Group People",
+      "descripcion": "Para camiseta GVX verano 2015",
+      "descripcion_en": "For GVX t-shirt summer 2015",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "ilu-0185",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0185 degrupos group people para camiseta gvx verano 2015 for gvx t-shirt summer 2015 ilustracion texto original arturo_mp_ provmediterranea blanco_negro gvx postal",
       "destacado": true
     },
     {
@@ -5703,6 +5923,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0187",
+      "titulo": "Sal a ser sal",
+      "titulo_en": "Go out and be salt",
+      "descripcion": "Para camiseta Pascua GVX 2022",
+      "descripcion_en": "For Easter t-shirt GVX 2022",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0187",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0187 sal a ser sal go out and be salt para camiseta pascua gvx 2022 for easter t-shirt gvx 2022 ilustracion texto original arturo_mp_ provmediterranea monocolor gvx sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0029",
       "titulo": "GVX Verano 2022",
       "titulo_en": "GVX Summer 2022",
@@ -5846,6 +6103,43 @@
         "basado_en": "Arturo_MP_Fer_OR_ProvMediterranea"
       },
       "search": "dis-0026 gvx pascua 2023 gvx easter 2023 camiseta tanto va… 2023 (espalda) so much goes… t-shirt 2023 (back) diseno texto original arturo_mp_fer_or_provmediterranea bicolor gvx frase textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0192",
+      "titulo": "Tanto va que se llena",
+      "titulo_en": "So much goes…",
+      "descripcion": "Para camiseta Pascua GVX",
+      "descripcion_en": "For Easter t-shirt GVX",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0192",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0192 tanto va que se llena so much goes… para camiseta pascua gvx for easter t-shirt gvx ilustracion texto original arturo_mp_ provmediterranea multicolor gvx sin_fondo sticker",
       "destacado": true
     },
     {
@@ -6105,6 +6399,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0186",
+      "titulo": "Ojos que ven…",
+      "titulo_en": "Open eyes & Heart",
+      "descripcion": "Para camiseta Pascua GVX 2025",
+      "descripcion_en": "For Easter t-shirt GVX 2025",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0186",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0186 ojos que ven… open eyes & heart para camiseta pascua gvx 2025 for easter t-shirt gvx 2025 ilustracion texto original arturo_mp_ provmediterranea monocolor gvx sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0028",
       "titulo": "GVX Sticker Pascua 2025",
       "titulo_en": "GVX Easter 2025 Sticker",
@@ -6138,6 +6469,43 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "dis-0028 gvx sticker pascua 2025 gvx easter 2025 sticker portavela pascua 2025 easter candle holder 2025 diseno escena original arturo_mp_provmediterranea monocolor gvx sticker taza",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0189",
+      "titulo": "Doble G - Corazón GVX",
+      "titulo_en": "Double G - Heart GVX",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0189",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0189 doble g - corazon gvx double g - heart gvx ilustracion escena original arturo_mp_ provmediterranea monocolor gvx sin_fondo sticker",
       "destacado": true
     },
     {
@@ -6323,6 +6691,80 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "dis-0105 gvx pascua 2026 (espalda) gvx easter 2026 (back) camiseta quedate… stay with us t-shirt diseno texto original arturo_mp_provmediterranea monocolor gvx frase textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0197",
+      "titulo": "Pascua 2026 Atardece",
+      "titulo_en": "Easter 2026 Awakening",
+      "descripcion": "Logo frontal Camiseta GVX",
+      "descripcion_en": "Front logo GVX t-shirt",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0197",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0197 pascua 2026 atardece easter 2026 awakening logo frontal camiseta gvx front logo gvx t-shirt ilustracion escena original arturo_mp_ provmediterranea monocolor gvx sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0193",
+      "titulo": "Pascua 2026 Quédate",
+      "titulo_en": "Easter 2026 Stay with us",
+      "descripcion": "Camiseta GVX (espalda)",
+      "descripcion_en": "GVX t-shirt (back)",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0193",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ ProvMediterranea"
+      },
+      "search": "ilu-0193 pascua 2026 quedate easter 2026 stay with us camiseta gvx (espalda) gvx t-shirt (back) ilustracion texto original arturo_mp_ provmediterranea monocolor gvx sin_fondo sticker",
       "destacado": true
     },
     {
@@ -10726,6 +11168,41 @@
         "basado_en": "Arturo_MP_RRSS"
       },
       "search": "ilu-0181 comunicando comunication dialogo mediado dialogue ilustracion figura adaptado arturo_mp_rrss monocolor educacion evangelio sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0195",
+      "titulo": "Clavel",
+      "titulo_en": "Clavel",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0195",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0195 clavel clavel ilustracion escena original arturo_mp multicolor sin_fondo sticker",
       "destacado": true
     }
   ],
