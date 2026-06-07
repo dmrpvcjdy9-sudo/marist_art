@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T10:16:41.121Z",
+  "generatedAt": "2026-06-07T20:16:34.708Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -7628,16 +7628,16 @@
       "destacado": true
     },
     {
-      "id": "dis-0044",
-      "titulo": "Se escucha un latido",
-      "titulo_en": "A heartbeat is heard",
-      "descripcion": "Para tiempo Adviento Mediterránea (esp)",
-      "descripcion_en": "For Advent season Mediterranean (esp)",
+      "id": "dis-0106",
+      "titulo": "En voz alta",
+      "titulo_en": "Aloud",
+      "descripcion": "Para tiempo Cuaresma Mediterránea (esp)",
+      "descripcion_en": "For Lent season Mediterranean (esp)",
       "categoria": "diseno",
       "subcategoria": "texto",
       "color": "multicolor",
       "imagenes": {
-        "id": "dis-0044",
+        "id": "dis-0106",
         "ext": {
           "full": "png",
           "thumb": "webp"
@@ -7662,7 +7662,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP_ProvMediterranea_Fer_OR"
       },
-      "search": "dis-0044 se escucha un latido a heartbeat is heard para tiempo adviento mediterranea (esp) for advent season mediterranean (esp) diseno texto original arturo_mp_provmediterranea_fer_or multicolor educacion evangelio frase cartel",
+      "search": "dis-0106 en voz alta aloud para tiempo cuaresma mediterranea (esp) for lent season mediterranean (esp) diseno texto original arturo_mp_provmediterranea_fer_or multicolor educacion evangelio frase cartel",
       "destacado": true
     },
     {
@@ -7701,6 +7701,45 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "dis-0075 no hay amor mas grande there is no greater love para tiempo cuaresma mediterranea (esp) for lent season mediterranean (esp) diseno texto original arturo_mp_provmediterranea multicolor evangelio educacion frase cartel",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0134",
+      "titulo": "Fuertes de Corazón",
+      "titulo_en": "Strong of Heart",
+      "descripcion": "Para lema Cuaresma Mediterránea",
+      "descripcion_en": "For Mediterranean Lent motto",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0134",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          3
+        ],
+        "tags": [
+          2,
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "ilu-0134 fuertes de corazon strong of heart para lema cuaresma mediterranea for mediterranean lent motto ilustracion texto original arturo_mp_provmediterranea multicolor educacion evangelio logo sin_fondo sticker",
       "destacado": true
     },
     {
@@ -7777,45 +7816,6 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "dis-0046 siamo le mani di dio we are the hands of god (ita) para tiempo cuaresma mediterranea (ita) for lent season mediterranean (ita) diseno texto original arturo_mp_provmediterranea multicolor educacion evangelio frase cartel",
-      "destacado": true
-    },
-    {
-      "id": "ilu-0134",
-      "titulo": "Fuertes de Corazón",
-      "titulo_en": "Strong of Heart",
-      "descripcion": "Para lema Cuaresma Mediterránea",
-      "descripcion_en": "For Mediterranean Lent motto",
-      "categoria": "ilustracion",
-      "subcategoria": "texto",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0134",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          2,
-          3
-        ],
-        "tags": [
-          2,
-          4
-        ],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP_ProvMediterranea"
-      },
-      "search": "ilu-0134 fuertes de corazon strong of heart para lema cuaresma mediterranea for mediterranean lent motto ilustracion texto original arturo_mp_provmediterranea multicolor educacion evangelio logo sin_fondo sticker",
       "destacado": true
     },
     {
@@ -8005,6 +8005,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0104",
+      "titulo": "Haced vosotros lo mismo",
+      "titulo_en": "Do the same yourselves",
+      "descripcion": "Parte cuadro lavatorio Jueves Santo",
+      "descripcion_en": "Part of foot washing Holy Thursday artwork",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0104",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Claretianos"
+      },
+      "search": "ilu-0104 haced vosotros lo mismo do the same yourselves parte cuadro lavatorio jueves santo part of foot washing holy thursday artwork ilustracion escena adaptado claretianos multicolor evangelio frase sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0157",
       "titulo": "Haced vosotros lo mismo II",
       "titulo_en": "Do the same yourselves II",
@@ -8116,43 +8153,6 @@
       "destacado": true
     },
     {
-      "id": "ilu-0104",
-      "titulo": "Haced vosotros lo mismo",
-      "titulo_en": "Do the same yourselves",
-      "descripcion": "Parte cuadro lavatorio Jueves Santo",
-      "descripcion_en": "Part of foot washing Holy Thursday artwork",
-      "categoria": "ilustracion",
-      "subcategoria": "escena",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0104",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          3
-        ],
-        "tags": [
-          1
-        ],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "Claretianos"
-      },
-      "search": "ilu-0104 haced vosotros lo mismo do the same yourselves parte cuadro lavatorio jueves santo part of foot washing holy thursday artwork ilustracion escena adaptado claretianos multicolor evangelio frase sticker",
-      "destacado": true
-    },
-    {
       "id": "ilu-0122",
       "titulo": "Dar Vida",
       "titulo_en": "Give Life",
@@ -8260,6 +8260,111 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0151 tu mano your hand para cartel cuaresma for lent poster ilustracion escena original arturo_mp multicolor social sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0198",
+      "titulo": "Tu mano II",
+      "titulo_en": "Your hand II",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0198",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0198 tu mano ii your hand ii ilustracion escena adaptado arturo_mp_rrss multicolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0199",
+      "titulo": "Tu mano III",
+      "titulo_en": "Your hand III",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0199",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0199 tu mano iii your hand iii ilustracion escena adaptado arturo_mp_rrss multicolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0200",
+      "titulo": "Tu mano IV",
+      "titulo_en": "Your hand IV",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0200",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0200 tu mano iv your hand iv ilustracion escena adaptado arturo_mp_rrss multicolor sin_fondo sticker",
       "destacado": true
     },
     {
@@ -8440,6 +8545,82 @@
         "basado_en": "jarts"
       },
       "search": "dis-0053 ¿hoy que te han contado los ninos? (ita) what have the children told you today? (ita) posibles camisetas #escuchaaunnino possible t-shirts #listentoachild diseno texto original jarts multicolor educacion social frase textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0044",
+      "titulo": "Se escucha un latido",
+      "titulo_en": "A heartbeat is heard",
+      "descripcion": "Para tiempo Adviento Mediterránea (esp)",
+      "descripcion_en": "For Advent season Mediterranean (esp)",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0044",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea_Fer_OR"
+      },
+      "search": "dis-0044 se escucha un latido a heartbeat is heard para tiempo adviento mediterranea (esp) for advent season mediterranean (esp) diseno texto original arturo_mp_provmediterranea_fer_or multicolor educacion evangelio frase cartel",
+      "destacado": true
+    },
+    {
+      "id": "dis-0107",
+      "titulo": "¿Estás en casa?",
+      "titulo_en": "Are you at home?",
+      "descripcion": "Para tiempo Adviento Mediterránea (esp)",
+      "descripcion_en": "For Advent season Mediterranean (esp)",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0107",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          3
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_ProvMediterranea"
+      },
+      "search": "dis-0107 ¿estas en casa? are you at home? para tiempo adviento mediterranea (esp) for advent season mediterranean (esp) diseno texto original arturo_mp_provmediterranea multicolor educacion evangelio frase cartel",
       "destacado": true
     },
     {
@@ -8744,6 +8925,43 @@
         "basado_en": "C_Towers"
       },
       "search": "ilu-0094 en el pesebre in the manger navidad christmas ilustracion escena adaptado c_towers multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0202",
+      "titulo": "Estrella de Belén",
+      "titulo_en": "Bethleem Star",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0202",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0202 estrella de belen bethleem star ilustracion escena adaptado arturo_mp_rrss multicolor evangelio sin_fondo sticker",
       "destacado": true
     },
     {
@@ -10888,6 +11106,41 @@
       "destacado": true
     },
     {
+      "id": "ilu-0195",
+      "titulo": "Clavel",
+      "titulo_en": "Clavel",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0195",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0195 clavel clavel ilustracion escena original arturo_mp multicolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0169",
       "titulo": "Ta zón",
       "titulo_en": "Ta zón",
@@ -11155,7 +11408,9 @@
           2,
           3
         ],
-        "tags": [],
+        "tags": [
+          4
+        ],
         "usos": [
           5
         ],
@@ -11167,27 +11422,29 @@
         "origen": "adaptado",
         "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "ilu-0181 comunicando comunication dialogo mediado dialogue ilustracion figura adaptado arturo_mp_rrss monocolor educacion evangelio sticker",
+      "search": "ilu-0181 comunicando comunication dialogo mediado dialogue ilustracion figura adaptado arturo_mp_rrss monocolor educacion evangelio sin_fondo sticker",
       "destacado": true
     },
     {
-      "id": "ilu-0195",
-      "titulo": "Clavel",
-      "titulo_en": "Clavel",
-      "descripcion": "",
-      "descripcion_en": "",
+      "id": "ilu-0201",
+      "titulo": "3 cruces",
+      "titulo_en": "3 cross",
+      "descripcion": "Sal + luz",
+      "descripcion_en": "Salt + Light",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
       "imagenes": {
-        "id": "ilu-0195",
+        "id": "ilu-0201",
         "ext": {
           "full": "png",
           "thumb": "webp"
         }
       },
       "meta": {
-        "temas": [],
+        "temas": [
+          3
+        ],
         "tags": [
           4
         ],
@@ -11199,10 +11456,10 @@
         ]
       },
       "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP"
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
       },
-      "search": "ilu-0195 clavel clavel ilustracion escena original arturo_mp multicolor sin_fondo sticker",
+      "search": "ilu-0201 3 cruces 3 cross sal + luz salt + light ilustracion escena adaptado arturo_mp_rrss multicolor evangelio sin_fondo sticker",
       "destacado": true
     }
   ],
