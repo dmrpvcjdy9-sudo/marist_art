@@ -188,6 +188,7 @@ export default function Lightbox({
         style={{
           width: "100%",
           maxHeight: "30vh",
+          minHeight: "90px",
           overflowY: "auto",
           padding: isMobile ? "12px 14px" : "14px 20px",
           background: "var(--bg-footer)",

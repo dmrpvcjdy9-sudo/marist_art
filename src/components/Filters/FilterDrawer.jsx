@@ -74,32 +74,6 @@ export default function FilterDrawer({
               ({activeCount})
             </span>
           )}
-          {activeCount > 0 && (
-            <button
-              onClick={clearFilters}
-              title={t("filtros.limpiar")}
-              style={{
-                border: "none",
-                background: "transparent",
-                color: "var(--text-muted)",
-                fontSize: "14px",
-                cursor: "pointer",
-                padding: "2px 4px",
-                borderRadius: "4px",
-                transition: "all 0.15s ease",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = "#e74c3c";
-                e.currentTarget.style.background = "#fef0f0";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = "var(--text-secondary)";
-                e.currentTarget.style.background = "transparent";
-              }}
-            >
-              🗑
-            </button>
-          )}
         </h3>
 
         <button onClick={onClose} style={{ border: "none", background: "transparent", fontSize: "20px", cursor: "pointer", color: "var(--text-secondary)", padding: "4px" }}>

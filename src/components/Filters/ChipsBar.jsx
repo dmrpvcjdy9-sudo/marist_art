@@ -155,13 +155,42 @@ export default function ChipsBar({
         {filteredCount} {filteredCount === 1 ? t("filtros.results") : t("filtros.results_plural")}
       </span>
 
+      {/* PAPELERA DE FILTROS (fuera del drawer) */}
+      {nonFavoriteFilters.length > 0 && (
+        <button
+          onClick={clearFilters}
+          title={t("filtros.limpiar")}
+          style={{
+            border: "none",
+            background: "transparent",
+            color: "var(--text-muted)",
+            fontSize: "15px",
+            cursor: "pointer",
+            padding: "4px 8px",
+            borderRadius: "6px",
+            flexShrink: 0,
+            transition: "all 0.15s ease",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.color = "#e74c3c";
+            e.currentTarget.style.background = "#fef0f0";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.color = "var(--text-muted)";
+            e.currentTarget.style.background = "transparent";
+          }}
+        >
+          🗑
+        </button>
+      )}
+
       {/* Botón filtros */}
       <button
         onClick={onOpenDrawer}
         style={{
           padding: "6px 14px",
           borderRadius: "999px",
-          border: nonFavoriteFilters.length > 0 ? "1px solid #7b5ea7" : "1px solid #7b5ea7",
+          border: "1px solid var(--accent)",
           background: nonFavoriteFilters.length > 0 ? "var(--accent)" : "var(--bg-surface)",
           color: nonFavoriteFilters.length > 0 ? "var(--bg-surface)" : "var(--accent)",
           fontSize: "11px",
@@ -181,7 +210,7 @@ export default function ChipsBar({
         onMouseLeave={(e) => {
           if (nonFavoriteFilters.length === 0) {
             e.currentTarget.style.background = "var(--bg-surface)";
-            e.currentTarget.style.color = "var(--text-primary)";
+            e.currentTarget.style.color = "var(--accent)";
           }
         }}
       >
