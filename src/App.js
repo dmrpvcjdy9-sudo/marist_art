@@ -165,12 +165,15 @@ const handleVerTodo = () => {
   <link rel="manifest" href="/manifest.json" />
   <meta
     name="description"
-    content="Repositorio de ilustraciones maristas gratuitas"
-  />
+    content="Repositorio gratuito de ilustraciones maristas. Recursos gráficos con identidad marista para pastoral y educación. Champagnat, María, GVX, violetas. CC BY-NC 4.0."
+/>
   <meta property="og:title" content={lightboxSelected?.titulo || "Marist-Art"} />
   <meta name="theme-color" content="#2c3e50" />
   <meta property="og:image" content={lightboxSelected ? `https://marist-art.org/${lightboxSelected.categoria}/full/${lightboxSelected.id}.png` : "https://marist-art.org/logo.png"} />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="maristas, marist, champagnat, ilustraciones, pastoral, educación, ministry, recursos gráficos, violetas, GVX, María, Marist-Art" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://marist-art.org" />
 </Helmet>
         <Header
           query={query}
