@@ -263,7 +263,13 @@ export default function Header({
             )}
 
             <span
-              onClick={() => setSearchOpen(!searchOpen)}
+              onClick={() => {
+    setSearchOpen(true);
+    setTimeout(() => {
+      const input = searchRef.current?.querySelector("input");
+      if (input) input.focus();
+    }, 100);
+  }}
               style={{
                 color: query ? "var(--bg-surface)" : "var(--text-muted)",
                 cursor: "pointer",
