@@ -94,7 +94,7 @@ In addition to my usual work (educator and catechist), I often create designs an
 
 This website/pwa has a simple purpose: to serve as a repository of images I have created or vectorized, related to those purposes. It includes adaptations of drawings or illustrations found online or shared with me. In those cases, "adapted" will appear in the title and, whenever possible, the author of the original image or fragment will be credited. C_Towers deserves a special mention; he is a friend and a natural-born artist with a brush and crayons.
 
-It is therefore not an online design studio, a shopping or marketing website, nor a personal artist page. All content is shared under a Creative Commons BY-NC 4.0 license. See the legal notice for more details.
+It is therefore not an online design studio, or marketing website, nor a personal artist page. All content is shared under a Creative Commons BY-NC 4.0 license. See the legal notice for more details.
 
 Glad to have you here.`,
     contactTitle: "Inquiries & Contact",
