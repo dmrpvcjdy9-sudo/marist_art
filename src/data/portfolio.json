@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T15:00:30.035Z",
+  "generatedAt": "2026-06-09T17:50:31.698Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -2959,6 +2959,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0205",
+      "titulo": "Violetas clásicas B/N",
+      "titulo_en": "Classic violets B/W",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0205",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_FMS"
+      },
+      "search": "ilu-0205 violetas clasicas b/n classic violets b/w ilustracion escena adaptado arturo_mp_fms monocolor violetas sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0141",
       "titulo": "Con un solo corazón",
       "titulo_en": "With one heart",
@@ -2991,6 +3028,41 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0141 con un solo corazon with one heart literal literal ilustracion escena original arturo_mp multicolor maristas sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0206",
+      "titulo": "No pisar violetas",
+      "titulo_en": "Don't step on the violets",
+      "descripcion": "Atentos",
+      "descripcion_en": "Please note",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0206",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0206 no pisar violetas don't step on the violets atentos please note ilustracion texto original arturo_mp multicolor sin_fondo sticker",
       "destacado": true
     },
     {
@@ -5702,6 +5774,46 @@
       "destacado": true
     },
     {
+      "id": "ilu-0207",
+      "titulo": "Para GVX Verano 2018",
+      "titulo_en": "For GVX Summer 2018",
+      "descripcion": "Camiseta GA. DA VIDA",
+      "descripcion_en": "GIVE LIFE t-shirt (GA)",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0207",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4,
+          0,
+          11
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          7
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Texeira_ProvMediterranea"
+      },
+      "search": "ilu-0207 para gvx verano 2018 for gvx summer 2018 camiseta ga. da vida give life t-shirt (ga) diseno escena original arturo_mp_texeira_provmediterranea multicolor gvx champagnat violetas sin_fondo sticker textil",
+      "destacado": true
+    },
+    {
       "id": "dis-0017",
       "titulo": "GVX Verano 2018 Comunidad",
       "titulo_en": "GVX Summer 2018 Community",
@@ -5735,6 +5847,44 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "dis-0017 gvx verano 2018 comunidad gvx summer 2018 community camiseta da vida 2018 give life t-shirt 2018 diseno escena original arturo_mp_provmediterranea multicolor gvx violetas textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0203",
+      "titulo": "Buen Camino B/N",
+      "titulo_en": "Good Way B/W",
+      "descripcion": "Para camiseta Pastoral Sevilla (2018)",
+      "descripcion_en": "For pastoral Seville t-shirt (2018)",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0203",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          7
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0203 buen camino b/n good way b/w para camiseta pastoral sevilla (2018) for pastoral seville t-shirt (2018) ilustracion texto original arturo_mp monocolor evangelio sin_fondo sticker textil",
       "destacado": true
     },
     {
@@ -6881,6 +7031,44 @@
         "basado_en": "A_Gil_Arturo_MP"
       },
       "search": "dis-0103 gix gix grupos de iniciacion cristiana first announce groups diseno texto original a_gil_arturo_mp multicolor gvx evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0204",
+      "titulo": "Los Grupos",
+      "titulo_en": "The Groups",
+      "descripcion": "GoOD People",
+      "descripcion_en": "GoOD People",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0204",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0204 los grupos the groups good people good people ilustracion texto original arturo_mp monocolor gvx sin_fondo logo sticker",
       "destacado": true
     },
     {
@@ -9748,6 +9936,43 @@
         "basado_en": "Arturo_MP_RRSS"
       },
       "search": "dis-0084 agenda escolar sevilla 2011-2012 school agenda seville 2011-2012 portada y contraportada (con escudos maristas) front and back cover (with marist crests) diseno texto adaptado arturo_mp_rrss multicolor educacion postal",
+      "destacado": true
+    },
+    {
+      "id": "dis-0108",
+      "titulo": "Diploma Escolar Dibujo B/N",
+      "titulo_en": "School Drawing Diploma B/W",
+      "descripcion": "Para felicitación Infantil-Primaria",
+      "descripcion_en": "For Early Childhood-Primary greeting",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "dis-0108",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "dis-0108 diploma escolar dibujo b/n school drawing diploma b/w para felicitacion infantil-primaria for early childhood-primary greeting diseno texto adaptado c_towers blanco_negro educacion frase postal",
       "destacado": true
     },
     {
