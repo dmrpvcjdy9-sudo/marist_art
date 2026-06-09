@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T17:50:31.698Z",
+  "generatedAt": "2026-06-09T20:36:41.967Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -3472,7 +3472,7 @@
       "id": "dis-0070",
       "titulo": "Choose Marist Brothers",
       "titulo_en": "Choose Marist Brothers",
-      "descripcion": "Para sudadera Prov_Mediterranea",
+      "descripcion": "Para sudadera Prov Mediterránea",
       "descripcion_en": "For Mediterranean Province hoodie",
       "categoria": "diseno",
       "subcategoria": "texto",
@@ -3504,7 +3504,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0070 choose marist brothers choose marist brothers para sudadera prov_mediterranea for mediterranean province hoodie diseno texto original arturo_mp bicolor educacion vocacional violetas frase textil",
+      "search": "dis-0070 choose marist brothers choose marist brothers para sudadera prov mediterranea for mediterranean province hoodie diseno texto original arturo_mp bicolor educacion vocacional violetas frase textil",
       "destacado": true
     },
     {
@@ -3545,7 +3545,7 @@
     {
       "id": "ilu-0048",
       "titulo": "Vocacción",
-      "titulo_en": "Vocation",
+      "titulo_en": "Vocaction",
       "descripcion": "No haremos 3 tiendas",
       "descripcion_en": "We will not make 3 tents",
       "categoria": "ilustracion",
@@ -3576,7 +3576,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0048 vocaccion vocation no haremos 3 tiendas we will not make 3 tents ilustracion texto original arturo_mp multicolor vocacional logo sticker",
+      "search": "ilu-0048 vocaccion vocaction no haremos 3 tiendas we will not make 3 tents ilustracion texto original arturo_mp multicolor vocacional logo sticker",
       "destacado": true
     },
     {
@@ -5630,41 +5630,6 @@
       "destacado": true
     },
     {
-      "id": "ilu-0179",
-      "titulo": "35 años GVX",
-      "titulo_en": "GVX 35 years",
-      "descripcion": "Volver al origen para empezar de nuevo",
-      "descripcion_en": "Return to the origin to start again",
-      "categoria": "ilustracion",
-      "subcategoria": "texto",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0179",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          4
-        ],
-        "tags": [],
-        "usos": [
-          3
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "C_Towers"
-      },
-      "search": "ilu-0179 35 anos gvx gvx 35 years volver al origen para empezar de nuevo return to the origin to start again ilustracion texto adaptado c_towers multicolor gvx postal",
-      "destacado": true
-    },
-    {
       "id": "dis-0050",
       "titulo": "GVX Verano 2017",
       "titulo_en": "GVX Summer 2017",
@@ -5699,6 +5664,41 @@
         "basado_en": "C_Towers_ProvMediterranea"
       },
       "search": "dis-0050 gvx verano 2017 gvx summer 2017 volver al origen para empezar de nuevo return to the origin to start again diseno texto adaptado c_towers_provmediterranea monocolor gvx frase textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0179",
+      "titulo": "35 años GVX",
+      "titulo_en": "GVX 35 years",
+      "descripcion": "Volver al origen para empezar de nuevo",
+      "descripcion_en": "Return to the origin to start again",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0179",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [],
+        "usos": [
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers"
+      },
+      "search": "ilu-0179 35 anos gvx gvx 35 years volver al origen para empezar de nuevo return to the origin to start again ilustracion texto adaptado c_towers multicolor gvx postal",
       "destacado": true
     },
     {
@@ -5850,6 +5850,41 @@
       "destacado": true
     },
     {
+      "id": "dis-0086",
+      "titulo": "Buen Camino",
+      "titulo_en": "Good Way",
+      "descripcion": "Camiseta Pastoral Sevilla (2018)",
+      "descripcion_en": "Pastoral Seville t-shirt (2018)",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "dis-0086",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "dis-0086 buen camino good way camiseta pastoral sevilla (2018) pastoral seville t-shirt (2018) diseno escena adaptado arturo_mp_rrss monocolor evangelio textil",
+      "destacado": true
+    },
+    {
       "id": "ilu-0203",
       "titulo": "Buen Camino B/N",
       "titulo_en": "Good Way B/W",
@@ -5885,41 +5920,6 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0203 buen camino b/n good way b/w para camiseta pastoral sevilla (2018) for pastoral seville t-shirt (2018) ilustracion texto original arturo_mp monocolor evangelio sin_fondo sticker textil",
-      "destacado": true
-    },
-    {
-      "id": "dis-0086",
-      "titulo": "Buen Camino",
-      "titulo_en": "Good Way",
-      "descripcion": "Camiseta Pastoral Sevilla (2018)",
-      "descripcion_en": "Pastoral Seville t-shirt (2018)",
-      "categoria": "diseno",
-      "subcategoria": "escena",
-      "color": "monocolor",
-      "imagenes": {
-        "id": "dis-0086",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          3
-        ],
-        "tags": [],
-        "usos": [
-          7
-        ],
-        "tintas": [
-          3
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "Arturo_MP_RRSS"
-      },
-      "search": "dis-0086 buen camino good way camiseta pastoral sevilla (2018) pastoral seville t-shirt (2018) diseno escena adaptado arturo_mp_rrss monocolor evangelio textil",
       "destacado": true
     },
     {
@@ -8378,115 +8378,6 @@
       "destacado": true
     },
     {
-      "id": "ilu-0201",
-      "titulo": "3 cruces",
-      "titulo_en": "3 cross",
-      "descripcion": "Sal + luz",
-      "descripcion_en": "Salt + Light",
-      "categoria": "ilustracion",
-      "subcategoria": "escena",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0201",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          3
-        ],
-        "tags": [
-          4
-        ],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "Arturo_MP_RRSS"
-      },
-      "search": "ilu-0201 3 cruces 3 cross sal + luz salt + light ilustracion escena adaptado arturo_mp_rrss multicolor evangelio sin_fondo sticker",
-      "destacado": true
-    },
-    {
-      "id": "dis-0095",
-      "titulo": "Vive!",
-      "titulo_en": "Live!!",
-      "descripcion": "Pascua",
-      "descripcion_en": "Easter",
-      "categoria": "diseno",
-      "subcategoria": "escena",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "dis-0095",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          3
-        ],
-        "tags": [],
-        "usos": [
-          0
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "C_Towers_Arturo_MP"
-      },
-      "search": "dis-0095 vive! live!! pascua easter diseno escena adaptado c_towers_arturo_mp multicolor evangelio cartel",
-      "destacado": true
-    },
-    {
-      "id": "ilu-0177",
-      "titulo": "A Emaús",
-      "titulo_en": "To Emaus",
-      "descripcion": "El camino",
-      "descripcion_en": "The path",
-      "categoria": "ilustracion",
-      "subcategoria": "figura",
-      "color": "blanco_negro",
-      "imagenes": {
-        "id": "ilu-0177",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          3
-        ],
-        "tags": [
-          4
-        ],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          1
-        ]
-      },
-      "creditos": {
-        "origen": "adaptado",
-        "basado_en": "RRSS"
-      },
-      "search": "ilu-0177 a emaus to emaus el camino the path ilustracion figura adaptado rrss blanco_negro evangelio sin_fondo sticker",
-      "destacado": true
-    },
-    {
       "id": "ilu-0151",
       "titulo": "Tu mano",
       "titulo_en": "Your hand",
@@ -8629,6 +8520,115 @@
       "destacado": true
     },
     {
+      "id": "ilu-0201",
+      "titulo": "3 cruces",
+      "titulo_en": "3 cross",
+      "descripcion": "Sal + luz",
+      "descripcion_en": "Salt + Light",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0201",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0201 3 cruces 3 cross sal + luz salt + light ilustracion escena adaptado arturo_mp_rrss multicolor evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "dis-0095",
+      "titulo": "Vive!",
+      "titulo_en": "Live!!",
+      "descripcion": "Pascua",
+      "descripcion_en": "Easter",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0095",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [],
+        "usos": [
+          0
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "C_Towers_Arturo_MP"
+      },
+      "search": "dis-0095 vive! live!! pascua easter diseno escena adaptado c_towers_arturo_mp multicolor evangelio cartel",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0177",
+      "titulo": "A Emaús",
+      "titulo_en": "To Emaus",
+      "descripcion": "El camino",
+      "descripcion_en": "The path",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "blanco_negro",
+      "imagenes": {
+        "id": "ilu-0177",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          1
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "RRSS"
+      },
+      "search": "ilu-0177 a emaus to emaus el camino the path ilustracion figura adaptado rrss blanco_negro evangelio sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0056",
       "titulo": "Un corazón, una misión",
       "titulo_en": "One heart, one mission",
@@ -8696,44 +8696,6 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0163 un corazon, una mision ii one heart, one mission ii ilustracion escena original arturo_mp multicolor maristas postal",
-      "destacado": true
-    },
-    {
-      "id": "dis-0053",
-      "titulo": "¿Hoy qué te han contado los niños? (ita)",
-      "titulo_en": "What have the children told you today? (ita)",
-      "descripcion": "Posibles camisetas #escuchaaunniño",
-      "descripcion_en": "Possible t-shirts #listentoachild",
-      "categoria": "diseno",
-      "subcategoria": "texto",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "dis-0053",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          2,
-          10
-        ],
-        "tags": [
-          1
-        ],
-        "usos": [
-          7
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "original",
-        "basado_en": "jarts"
-      },
-      "search": "dis-0053 ¿hoy que te han contado los ninos? (ita) what have the children told you today? (ita) posibles camisetas #escuchaaunnino possible t-shirts #listentoachild diseno texto original jarts multicolor educacion social frase textil",
       "destacado": true
     },
     {
@@ -9189,6 +9151,44 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "dis-0058 camina, reza, ama walk, pray, love para formacion comunidad gvx for gvx community training diseno texto original arturo_mp_provmediterranea multicolor evangelio gvx frase postal",
+      "destacado": true
+    },
+    {
+      "id": "dis-0053",
+      "titulo": "¿Hoy qué te han contado los niños? (ita)",
+      "titulo_en": "What have the children told you today? (ita)",
+      "descripcion": "Posibles camisetas #escuchaaunniño",
+      "descripcion_en": "Possible t-shirts #listentoachild",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0053",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "jarts"
+      },
+      "search": "dis-0053 ¿hoy que te han contado los ninos? (ita) what have the children told you today? (ita) posibles camisetas #escuchaaunnino possible t-shirts #listentoachild diseno texto original jarts multicolor educacion social frase textil",
       "destacado": true
     },
     {
