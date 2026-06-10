@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T20:36:41.967Z",
+  "generatedAt": "2026-06-10T16:38:48.701Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -3143,6 +3143,84 @@
       "destacado": true
     },
     {
+      "id": "ilu-0208",
+      "titulo": "Maristi",
+      "titulo_en": "Marists (ita)",
+      "descripcion": "Dal 1817",
+      "descripcion_en": "Since 1817",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0208",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0208 maristi marists (ita) dal 1817 since 1817 ilustracion texto original arturo_mp multicolor maristas educacion sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0209",
+      "titulo": "Maristas (eng)",
+      "titulo_en": "Marists",
+      "descripcion": "Since 1817",
+      "descripcion_en": "Since 1817",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0209",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0209 maristas (eng) marists since 1817 since 1817 ilustracion texto original arturo_mp multicolor maristas educacion sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0153",
       "titulo": "Maristas 1817",
       "titulo_en": "Marists 1817",
@@ -3505,6 +3583,45 @@
         "basado_en": "Arturo_MP"
       },
       "search": "dis-0070 choose marist brothers choose marist brothers para sudadera prov mediterranea for mediterranean province hoodie diseno texto original arturo_mp bicolor educacion vocacional violetas frase textil",
+      "destacado": true
+    },
+    {
+      "id": "dis-0109",
+      "titulo": "Choose Marist Brothers (eusk)",
+      "titulo_en": "Choose Marist Brothers",
+      "descripcion": "Para sudadera Prov Ibérica",
+      "descripcion_en": "For Iberica Province hoodie",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "bicolor",
+      "imagenes": {
+        "id": "dis-0109",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          12,
+          11
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          7
+        ],
+        "tintas": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0109 choose marist brothers (eusk) choose marist brothers para sudadera prov iberica for iberica province hoodie diseno texto original arturo_mp bicolor educacion vocacional violetas frase textil",
       "destacado": true
     },
     {
@@ -10791,11 +10908,50 @@
       "destacado": true
     },
     {
+      "id": "ilu-0212",
+      "titulo": "Para 20 años Nuevo Horizonte, (1994)",
+      "titulo_en": "For 20 years Nuevo Horizonte (1994)",
+      "descripcion": "Fundación Marcelino Champagnat Huelva",
+      "descripcion_en": "Marcelino Champagnat Foundation Huelva",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0212",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          7
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0212 para 20 anos nuevo horizonte, (1994) for 20 years nuevo horizonte (1994) fundacion marcelino champagnat huelva marcelino champagnat foundation huelva ilustracion texto original arturo_mp monocolor educacion social sin_fondo sticker textil",
+      "destacado": true
+    },
+    {
       "id": "dis-0090",
       "titulo": "Campamento Urbano Huelva 2016",
       "titulo_en": "Urban Camp Huelva 2016",
-      "descripcion": "Camiseta Nuevo Horizonte 2026 (FMCH)",
-      "descripcion_en": "Nuevo Horizonte t-shirt 2026 (FMCH)",
+      "descripcion": "Camiseta Nuevo Horizonte 2016 (FMCH)",
+      "descripcion_en": "Nuevo Horizonte t-shirt 2016 (FMCH)",
       "categoria": "diseno",
       "subcategoria": "escena",
       "color": "blanco_negro",
@@ -10823,7 +10979,46 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "dis-0090 campamento urbano huelva 2016 urban camp huelva 2016 camiseta nuevo horizonte 2026 (fmch) nuevo horizonte t-shirt 2026 (fmch) diseno escena original arturo_mp blanco_negro social educacion textil",
+      "search": "dis-0090 campamento urbano huelva 2016 urban camp huelva 2016 camiseta nuevo horizonte 2016 (fmch) nuevo horizonte t-shirt 2016 (fmch) diseno escena original arturo_mp blanco_negro social educacion textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0211",
+      "titulo": "Para Campamento Urbano Huelva 2016",
+      "titulo_en": "For Urban Camp Huelva 2016",
+      "descripcion": "Camiseta Nuevo Horizonte 2016 (FMCH)",
+      "descripcion_en": "Nuevo Horizonte t-shirt 2016 (FMCH)",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0211",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2,
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          7
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0211 para campamento urbano huelva 2016 for urban camp huelva 2016 camiseta nuevo horizonte 2016 (fmch) nuevo horizonte t-shirt 2016 (fmch) ilustracion texto original arturo_mp monocolor educacion social sin_fondo sticker textil",
       "destacado": true
     },
     {
@@ -11685,6 +11880,45 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0180 on? on? enciende el corazon heart on ilustracion escena original arturo_mp multicolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0210",
+      "titulo": "Libre",
+      "titulo_en": "Free",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0210",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10,
+          9
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5,
+          7
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0210 libre free ilustracion escena original arturo_mp monocolor social paz sin_fondo sticker textil",
       "destacado": true
     }
   ],
