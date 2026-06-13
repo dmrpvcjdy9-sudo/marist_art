@@ -303,6 +303,7 @@ const handleVerTodo = () => {
 />
       <Analytics />
       </div>
+      <Analytics />
     </HelmetProvider>
   );
 }
