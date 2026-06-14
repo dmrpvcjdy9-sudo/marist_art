@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T16:38:48.701Z",
+  "generatedAt": "2026-06-14T00:33:59.929Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -7339,6 +7339,44 @@
       "destacado": true
     },
     {
+      "id": "ilu-0215",
+      "titulo": "Vive Maristas",
+      "titulo_en": "Live!!",
+      "descripcion": "Variación de logo",
+      "descripcion_en": "Logo alternative",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0215",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0215 vive maristas live!! variacion de logo logo alternative ilustracion escena adaptado arturo_mp_rrss monocolor maristas educacion sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0080",
       "titulo": "II Jornadas Educadores Maristas",
       "titulo_en": "II Marist Educators Conference",
@@ -7597,6 +7635,44 @@
       "destacado": true
     },
     {
+      "id": "ilu-0216",
+      "titulo": "Occupiamo il futuro logo",
+      "titulo_en": "Let’s occupy the future logo",
+      "descripcion": "Para asamblea zona Italia",
+      "descripcion_en": "For Italy zone assembly",
+      "categoria": "diseno",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0216",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8,
+          2
+        ],
+        "tags": [
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0216 occupiamo il futuro logo let’s occupy the future logo para asamblea zona italia for italy zone assembly diseno escena original arturo_mp multicolor maristas educacion logo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0041",
       "titulo": "Faros de Esperanza",
       "titulo_en": "Beacons of Hope",
@@ -7629,6 +7705,43 @@
         "basado_en": "Arturo_MP_ProvMediterranea"
       },
       "search": "dis-0041 faros de esperanza beacons of hope para capitulo prov mediterranea 2021 for provincial chapter mediterranean 2021 diseno texto original arturo_mp_provmediterranea multicolor maristas postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0213",
+      "titulo": "Faros de Esperanza II",
+      "titulo_en": "Beacons of Hope",
+      "descripcion": "Para Asamblea Prov Mediterránea 2021",
+      "descripcion_en": "For Provincial Assembly Mediterranea 2021",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0213",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0213 faros de esperanza ii beacons of hope para asamblea prov mediterranea 2021 for provincial assembly mediterranea 2021 ilustracion escena original arturo_mp multicolor maristas sin_fondo sticker",
       "destacado": true
     },
     {
@@ -7776,6 +7889,41 @@
         "basado_en": "Arturo_MP"
       },
       "search": "dis-0047 cb maristas (anterior logo) cb marists (previous logo) para taza cb maristas sevilla for cb maristas seville mug diseno escena original arturo_mp multicolor deporte logo taza",
+      "destacado": true
+    },
+    {
+      "id": "dis-0110",
+      "titulo": "Pancarta CB Maristas (anterior logo)",
+      "titulo_en": "BC Marists Banner (previous logo)",
+      "descripcion": "Para CB Maristas Sevilla",
+      "descripcion_en": "For BC Maristas Seville",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0110",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          1
+        ],
+        "tags": [],
+        "usos": [
+          0
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "dis-0110 pancarta cb maristas (anterior logo) bc marists banner (previous logo) para cb maristas sevilla for bc maristas seville diseno texto original arturo_mp multicolor deporte cartel",
       "destacado": true
     },
     {
@@ -11919,6 +12067,79 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0210 libre free ilustracion escena original arturo_mp monocolor social paz sin_fondo sticker textil",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0214",
+      "titulo": "Sueña 200+",
+      "titulo_en": "Dream 200+",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0214",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [],
+        "usos": [
+          5,
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP"
+      },
+      "search": "ilu-0214 suena 200+ dream 200+ ilustracion escena original arturo_mp multicolor maristas sticker postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0217",
+      "titulo": "Gente (buena)",
+      "titulo_en": "People (good)",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0217",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0217 gente (buena) people (good) ilustracion escena adaptado arturo_mp_rrss multicolor social sin_fondo sticker",
       "destacado": true
     }
   ],
