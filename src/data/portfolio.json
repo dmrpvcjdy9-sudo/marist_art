@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T00:33:59.929Z",
+  "generatedAt": "2026-06-14T10:48:02.432Z",
   "items": [
     {
       "id": "ilu-0001",
@@ -7641,7 +7641,7 @@
       "descripcion": "Para asamblea zona Italia",
       "descripcion_en": "For Italy zone assembly",
       "categoria": "diseno",
-      "subcategoria": "escena",
+      "subcategoria": "figura",
       "color": "multicolor",
       "imagenes": {
         "id": "ilu-0216",
@@ -7669,7 +7669,7 @@
         "origen": "original",
         "basado_en": "Arturo_MP"
       },
-      "search": "ilu-0216 occupiamo il futuro logo let’s occupy the future logo para asamblea zona italia for italy zone assembly diseno escena original arturo_mp multicolor maristas educacion logo sticker",
+      "search": "ilu-0216 occupiamo il futuro logo let’s occupy the future logo para asamblea zona italia for italy zone assembly diseno figura original arturo_mp multicolor maristas educacion logo sticker",
       "destacado": true
     },
     {
