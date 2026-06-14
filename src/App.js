@@ -101,12 +101,8 @@ const {
 
 const { gridTransition } = useGrid(filtered, setPage, page, pageSize, effectiveHasActiveSearch);
 
-const gridRef = useRef(null);
-
 useEffect(() => {
-  if (gridRef.current) {
-    gridRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }, [page]);
 
   /* DERIVED */
@@ -227,7 +223,6 @@ const handleVerTodo = () => {
         {/* GRID (solo si hay búsqueda o filtros activos) */}
         {effectiveHasActiveSearch && (
           <div
-            ref={gridRef}
             style={{
               padding: "12px 20px",
               opacity: gridTransition ? 1 : 0,
