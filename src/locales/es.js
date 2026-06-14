@@ -38,6 +38,7 @@ export default {
   jesus: "Jesús",
   educacion: "educación",
   social: "social",
+  deporte: "deporte",
   tiempos_liturgicos: "tiempos litúrgicos",
   evangelio: "evangelio",
   paz: "paz",
