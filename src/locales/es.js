@@ -39,6 +39,7 @@ export default {
   educacion: "educación",
   social: "social",
   deporte: "deporte",
+  naturaleza: "naturaleza",
   tiempos_liturgicos: "tiempos litúrgicos",
   evangelio: "evangelio",
   paz: "paz",
