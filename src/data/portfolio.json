@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T18:36:39.806Z",
+  "generatedAt": "2026-06-16T16:04:00.522Z",
   "items": [
     {
       "id": "ilu-0002",
@@ -7543,6 +7543,45 @@
       "destacado": true
     },
     {
+      "id": "dis-0111",
+      "titulo": "Cartel lema MRE 22-23",
+      "titulo_en": "Anual slogan poster MRE 22-23",
+      "descripcion": "Sonríe de corazón",
+      "descripcion_en": "Smile from heart",
+      "categoria": "diseno",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "dis-0111",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          9,
+          2
+        ],
+        "tags": [
+          1
+        ],
+        "usos": [
+          0,
+          3
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "dis-0111 cartel lema mre 22-23 anual slogan poster mre 22-23 sonrie de corazon smile from heart diseno texto original arturo_mp_mre multicolor maristas educacion frase cartel postal",
+      "destacado": true
+    },
+    {
       "id": "ilu-0051",
       "titulo": "Change < > Chance",
       "titulo_en": "Change < > Chance",
@@ -11797,6 +11836,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0220",
+      "titulo": "Nubes",
+      "titulo_en": "Clouds",
+      "descripcion": "En cartel lema MRE",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "bicolor",
+      "imagenes": {
+        "id": "ilu-0220",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          10
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0220 nubes clouds en cartel lema mre in anual slogan poster mre ilustracion escena original arturo_mp_mre bicolor naturaleza sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0169",
       "titulo": "Ta zón",
       "titulo_en": "Smug",
@@ -12306,6 +12382,193 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0218 the good place the good place desde el corazon from heart ilustracion texto original arturo_mp multicolor social educacion paz sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0221",
+      "titulo": "Lápices de colores",
+      "titulo_en": "Color pencils",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0221",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0221 lapices de colores color pencils en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor educacion sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0222",
+      "titulo": "Corazón mandala",
+      "titulo_en": "Mandala Heart",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0222",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0222 corazon mandala mandala heart en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre monocolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0223",
+      "titulo": "Goma (ita)",
+      "titulo_en": "Eraser (it)",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0223",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          9,
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0223 goma (ita) eraser (it) en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor maristas educacion sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0224",
+      "titulo": "Libros y manzana (mundo)",
+      "titulo_en": "Apple and books",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0224",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          9,
+          2,
+          10
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0224 libros y manzana (mundo) apple and books en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor maristas educacion naturaleza sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0225",
+      "titulo": "Sacapuntas",
+      "titulo_en": "Pencil sharpener",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "escala_grises",
+      "imagenes": {
+        "id": "ilu-0225",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          2
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0225 sacapuntas pencil sharpener en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre escala_grises educacion sin_fondo sticker",
       "destacado": true
     }
   ],
