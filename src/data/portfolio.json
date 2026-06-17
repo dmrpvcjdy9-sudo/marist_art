@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T16:04:00.522Z",
+  "generatedAt": "2026-06-17T17:47:55.267Z",
   "items": [
     {
       "id": "ilu-0002",
@@ -4017,6 +4017,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0228",
+      "titulo": "Héroe cotidiano",
+      "titulo_en": "Ordinary hero",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0228",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          15
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0228 heroe cotidiano ordinary hero ilustracion figura adaptado arturo_mp_rrss monocolor vocacional sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "dis-0065",
       "titulo": "¿Dónde Vives?",
       "titulo_en": "Where do you live?",
@@ -4164,6 +4201,44 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0125 reinz: marist mustard reinz: marist mustard como granos de mostaza like mustard seeds ilustracion escena original arturo_mp multicolor evangelio sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0226",
+      "titulo": "Mi Bro",
+      "titulo_en": "Minion Bro",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0226",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          15,
+          6
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0226 mi bro minion bro ilustracion figura adaptado arturo_mp_rrss multicolor vocacional infantil sin_fondo sticker",
       "destacado": true
     },
     {
@@ -9896,6 +9971,43 @@
         "basado_en": "Arturo_MP"
       },
       "search": "ilu-0067 proteccion de la infancia child protection para formacion mediterranea for mediterranean training ilustracion texto original arturo_mp monocolor maristas educacion social infantil sticker postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0227",
+      "titulo": "Sonrisa",
+      "titulo_en": "Smile",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "figura",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0227",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          12
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Goyo_D"
+      },
+      "search": "ilu-0227 sonrisa smile ilustracion figura adaptado goyo_d monocolor social sin_fondo sticker",
       "destacado": true
     },
     {
