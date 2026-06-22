@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T17:47:55.267Z",
+  "generatedAt": "2026-06-22T11:20:04.347Z",
   "items": [
     {
       "id": "ilu-0002",
@@ -2401,6 +2401,43 @@
       "destacado": true
     },
     {
+      "id": "ilu-0236",
+      "titulo": "M de María",
+      "titulo_en": "M of Mary",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "bicolor",
+      "imagenes": {
+        "id": "ilu-0236",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          8
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          0
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Jorge_MR"
+      },
+      "search": "ilu-0236 m de maria m of mary ilustracion texto original arturo_mp_jorge_mr bicolor maria sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0086",
       "titulo": "Como María",
       "titulo_en": "Like Mary",
@@ -2886,6 +2923,43 @@
         "basado_en": "C_Towers"
       },
       "search": "ilu-0162 las tres violetas - v the three violets - v ilustracion escena adaptado c_towers multicolor violetas sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0229",
+      "titulo": "3 Violetas VI",
+      "titulo_en": "3 Violets VI",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0229",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          14
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Jorge_MR"
+      },
+      "search": "ilu-0229 3 violetas vi 3 violets vi ilustracion escena original arturo_mp_jorge_mr multicolor violetas sin_fondo sticker",
       "destacado": true
     },
     {
@@ -4990,6 +5064,43 @@
         "basado_en": "C_Towers"
       },
       "search": "ilu-0144 la chispa - v the spark - v ilustracion escena adaptado c_towers multicolor gvx sin_fondo sticker postal",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0234",
+      "titulo": "La Chispa - VI",
+      "titulo_en": "The spark VI",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0234",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          4
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "Arturo_MP_RRSS"
+      },
+      "search": "ilu-0234 la chispa - vi the spark vi ilustracion escena adaptado arturo_mp_rrss multicolor gvx sin_fondo sticker",
       "destacado": true
     },
     {
@@ -11985,6 +12096,158 @@
       "destacado": true
     },
     {
+      "id": "ilu-0221",
+      "titulo": "Lápices de colores",
+      "titulo_en": "Color pencils",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0221",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0221 lapices de colores color pencils en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor educacion sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0223",
+      "titulo": "Goma (ita)",
+      "titulo_en": "Eraser (it)",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0223",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          9,
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0223 goma (ita) eraser (it) en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor maristas educacion sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0224",
+      "titulo": "Libros y manzana (mundo)",
+      "titulo_en": "Apple and books",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0224",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          9,
+          2,
+          10
+        ],
+        "tags": [
+          4,
+          2
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0224 libros y manzana (mundo) apple and books en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor maristas educacion naturaleza sin_fondo logo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0225",
+      "titulo": "Sacapuntas",
+      "titulo_en": "Pencil sharpener",
+      "descripcion": "En cartel lema MRE 22-23",
+      "descripcion_en": "In Anual Slogan poster MRE",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "escala_grises",
+      "imagenes": {
+        "id": "ilu-0225",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          2
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          2
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_MRE"
+      },
+      "search": "ilu-0225 sacapuntas pencil sharpener en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre escala_grises educacion sin_fondo sticker",
+      "destacado": true
+    },
+    {
       "id": "ilu-0169",
       "titulo": "Ta zón",
       "titulo_en": "Smug",
@@ -12497,43 +12760,6 @@
       "destacado": true
     },
     {
-      "id": "ilu-0221",
-      "titulo": "Lápices de colores",
-      "titulo_en": "Color pencils",
-      "descripcion": "En cartel lema MRE 22-23",
-      "descripcion_en": "In Anual Slogan poster MRE",
-      "categoria": "ilustracion",
-      "subcategoria": "escena",
-      "color": "multicolor",
-      "imagenes": {
-        "id": "ilu-0221",
-        "ext": {
-          "full": "png",
-          "thumb": "webp"
-        }
-      },
-      "meta": {
-        "temas": [
-          2
-        ],
-        "tags": [
-          4
-        ],
-        "usos": [
-          5
-        ],
-        "tintas": [
-          4
-        ]
-      },
-      "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP_MRE"
-      },
-      "search": "ilu-0221 lapices de colores color pencils en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor educacion sin_fondo sticker",
-      "destacado": true
-    },
-    {
       "id": "ilu-0222",
       "titulo": "Corazón mandala",
       "titulo_en": "Mandala Heart",
@@ -12569,26 +12795,23 @@
       "destacado": true
     },
     {
-      "id": "ilu-0223",
-      "titulo": "Goma (ita)",
-      "titulo_en": "Eraser (it)",
-      "descripcion": "En cartel lema MRE 22-23",
-      "descripcion_en": "In Anual Slogan poster MRE",
+      "id": "ilu-0230",
+      "titulo": "Adorno",
+      "titulo_en": "Graphic Ornament",
+      "descripcion": "Glifo I",
+      "descripcion_en": "Glifo I",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "multicolor",
+      "color": "monocolor",
       "imagenes": {
-        "id": "ilu-0223",
+        "id": "ilu-0230",
         "ext": {
           "full": "png",
           "thumb": "webp"
         }
       },
       "meta": {
-        "temas": [
-          9,
-          2
-        ],
+        "temas": [],
         "tags": [
           4
         ],
@@ -12596,27 +12819,62 @@
           5
         ],
         "tintas": [
-          4
+          3
         ]
       },
       "creditos": {
-        "origen": "original",
-        "basado_en": "Arturo_MP_MRE"
+        "origen": "adaptado",
+        "basado_en": "RRSS"
       },
-      "search": "ilu-0223 goma (ita) eraser (it) en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor maristas educacion sin_fondo sticker",
+      "search": "ilu-0230 adorno graphic ornament glifo i glifo i ilustracion escena adaptado rrss monocolor sin_fondo sticker",
       "destacado": true
     },
     {
-      "id": "ilu-0224",
-      "titulo": "Libros y manzana (mundo)",
-      "titulo_en": "Apple and books",
-      "descripcion": "En cartel lema MRE 22-23",
-      "descripcion_en": "In Anual Slogan poster MRE",
+      "id": "ilu-0235",
+      "titulo": "Adorno II",
+      "titulo_en": "Graphic Ornament II",
+      "descripcion": "Glifo II",
+      "descripcion_en": "Glifo II",
+      "categoria": "ilustracion",
+      "subcategoria": "escena",
+      "color": "monocolor",
+      "imagenes": {
+        "id": "ilu-0235",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          3
+        ]
+      },
+      "creditos": {
+        "origen": "adaptado",
+        "basado_en": "RRSS"
+      },
+      "search": "ilu-0235 adorno ii graphic ornament ii glifo ii glifo ii ilustracion escena adaptado rrss monocolor sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0231",
+      "titulo": "Mi grupo",
+      "titulo_en": "My group",
+      "descripcion": "",
+      "descripcion_en": "",
       "categoria": "ilustracion",
       "subcategoria": "escena",
       "color": "multicolor",
       "imagenes": {
-        "id": "ilu-0224",
+        "id": "ilu-0231",
         "ext": {
           "full": "png",
           "thumb": "webp"
@@ -12624,13 +12882,12 @@
       },
       "meta": {
         "temas": [
-          9,
           2,
-          10
+          12,
+          4
         ],
         "tags": [
-          4,
-          2
+          4
         ],
         "usos": [
           5
@@ -12641,22 +12898,22 @@
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_MRE"
+        "basado_en": "Arturo_MP_Jorge_MR"
       },
-      "search": "ilu-0224 libros y manzana (mundo) apple and books en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre multicolor maristas educacion naturaleza sin_fondo logo sticker",
+      "search": "ilu-0231 mi grupo my group ilustracion escena original arturo_mp_jorge_mr multicolor educacion social gvx sin_fondo sticker",
       "destacado": true
     },
     {
-      "id": "ilu-0225",
-      "titulo": "Sacapuntas",
-      "titulo_en": "Pencil sharpener",
-      "descripcion": "En cartel lema MRE 22-23",
-      "descripcion_en": "In Anual Slogan poster MRE",
+      "id": "ilu-0232",
+      "titulo": "Jesús",
+      "titulo_en": "Jesus",
+      "descripcion": "Cruz",
+      "descripcion_en": "Cross",
       "categoria": "ilustracion",
       "subcategoria": "escena",
-      "color": "escala_grises",
+      "color": "multicolor",
       "imagenes": {
-        "id": "ilu-0225",
+        "id": "ilu-0232",
         "ext": {
           "full": "png",
           "thumb": "webp"
@@ -12664,7 +12921,8 @@
       },
       "meta": {
         "temas": [
-          2
+          3,
+          7
         ],
         "tags": [
           4
@@ -12673,14 +12931,51 @@
           5
         ],
         "tintas": [
-          2
+          4
         ]
       },
       "creditos": {
         "origen": "original",
-        "basado_en": "Arturo_MP_MRE"
+        "basado_en": "Arturo_MP_Jorge_MR"
       },
-      "search": "ilu-0225 sacapuntas pencil sharpener en cartel lema mre 22-23 in anual slogan poster mre ilustracion escena original arturo_mp_mre escala_grises educacion sin_fondo sticker",
+      "search": "ilu-0232 jesus jesus cruz cross ilustracion escena original arturo_mp_jorge_mr multicolor evangelio jesus sin_fondo sticker",
+      "destacado": true
+    },
+    {
+      "id": "ilu-0233",
+      "titulo": "Evangelio",
+      "titulo_en": "Gospel",
+      "descripcion": "",
+      "descripcion_en": "",
+      "categoria": "ilustracion",
+      "subcategoria": "texto",
+      "color": "multicolor",
+      "imagenes": {
+        "id": "ilu-0233",
+        "ext": {
+          "full": "png",
+          "thumb": "webp"
+        }
+      },
+      "meta": {
+        "temas": [
+          3
+        ],
+        "tags": [
+          4
+        ],
+        "usos": [
+          5
+        ],
+        "tintas": [
+          4
+        ]
+      },
+      "creditos": {
+        "origen": "original",
+        "basado_en": "Arturo_MP_Jorge_MR"
+      },
+      "search": "ilu-0233 evangelio gospel ilustracion texto original arturo_mp_jorge_mr multicolor evangelio sin_fondo sticker",
       "destacado": true
     }
   ],
